@@ -16,10 +16,225 @@ const Symbol945: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
         {
           "parts": [
             {
               ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol936,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol936,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol936,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol936,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol936,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol936,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol936,
               "transform": {
                 "tx": 9.5,
                 "ty": -37.4
@@ -52,7 +267,326 @@ const Symbol945: Symbol = {
         {
           "parts": [
             {
+              ...Symbol937,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol937,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol937,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol937,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol937,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
               ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol938,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol939,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol939,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol939,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol939,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol939,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol939,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol939,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol939,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol939,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol939,
               "transform": {
                 "tx": 9.5,
                 "ty": -37.4
@@ -85,7 +619,194 @@ const Symbol945: Symbol = {
         {
           "parts": [
             {
+              ...Symbol940,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol940,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol940,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol940,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
               ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol941,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol941,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol941,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol941,
               "transform": {
                 "tx": 9.5,
                 "ty": -37.4
@@ -118,7 +839,447 @@ const Symbol945: Symbol = {
         {
           "parts": [
             {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
               ...Symbol942,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol942,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol942,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol942,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol942,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol942,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
               "transform": {
                 "tx": 9.5,
                 "ty": -37.4
@@ -151,6 +1312,105 @@ const Symbol945: Symbol = {
         {
           "parts": [
             {
+              ...Symbol943,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol943,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol943,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol943,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol943,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
               ...Symbol935,
               "transform": {
                 "tx": 9.5,
@@ -163,6 +1423,215 @@ const Symbol945: Symbol = {
           "parts": [
             {
               ...Symbol944,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol944,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol944,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol944,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol944,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
+              "transform": {
+                "tx": 9.5,
+                "ty": -37.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol935,
               "transform": {
                 "tx": 9.5,
                 "ty": -37.4

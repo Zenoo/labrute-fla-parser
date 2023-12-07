@@ -4,13 +4,14 @@
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol677|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -1.7,
                 "ty": 9.5
@@ -33,6 +34,18 @@
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ]
         }
       ]
     },
@@ -44,7 +57,21 @@
               "type": "symbol",
               "name": "REPLACE|Symbol674|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol674|REPLACE",
+              "layers": [],
+              "colorIdx": 2,
               "transform": {
                 "tx": 0,
                 "ty": 0

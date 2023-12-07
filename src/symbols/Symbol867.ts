@@ -25,6 +25,12 @@ const Symbol867: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
         {
           "parts": [
             {

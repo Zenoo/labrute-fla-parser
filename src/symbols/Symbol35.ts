@@ -7,11 +7,12 @@ const Symbol35: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol34,
-              "partIdx": 2,
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -16,
                 "g": -50,

@@ -21,7 +21,8 @@ const Symbol562: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
@@ -30,14 +31,15 @@ const Symbol562: Symbol = {
           "parts": [
             {
               ...Symbol556,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -76.9,
                 "ty": -71.45
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
@@ -46,7 +48,7 @@ const Symbol562: Symbol = {
           "parts": [
             {
               ...Symbol554,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -67.1,
                 "ty": -44.6
@@ -58,7 +60,7 @@ const Symbol562: Symbol = {
           "parts": [
             {
               ...Symbol559,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -84.4,
                 "ty": -11.6
@@ -70,14 +72,15 @@ const Symbol562: Symbol = {
           "parts": [
             {
               ...Symbol561,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -71.4,
                 "ty": -82.6
               }
             }
           ]
-        }
+        },
+        null
       ]
     }
   ]

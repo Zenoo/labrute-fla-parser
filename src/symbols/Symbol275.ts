@@ -20,6 +20,18 @@ const Symbol275: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol274,
+              "partIdx": 7,
+              "transform": {
+                "tx": 3.9,
+                "ty": 7.1
+              }
+            }
+          ]
         }
       ]
     },
@@ -29,7 +41,7 @@ const Symbol275: Symbol = {
           "parts": [
             {
               ...Symbol244,
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -46,7 +58,7 @@ const Symbol275: Symbol = {
           "parts": [
             {
               ...Symbol267,
-              "partIdx": 4,
+              "colorIdx": 4,
               "colorOffset": {
                 "r": -110,
                 "g": -90,

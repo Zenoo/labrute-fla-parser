@@ -4,13 +4,14 @@
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol684|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": 0.3,
                 "ty": -8.3
@@ -24,7 +25,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol686|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": 0.3,
                 "ty": -8.3
@@ -32,13 +33,14 @@
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol686|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": 0.3,
                 "ty": -8.3
@@ -46,13 +48,14 @@
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol688|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": 0.3,
                 "ty": -8.3

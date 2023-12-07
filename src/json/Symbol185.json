@@ -4,6 +4,7 @@
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -21,13 +22,14 @@
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol183|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -0.1,
                 "ty": 4.35,
@@ -41,6 +43,7 @@
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {

@@ -9,6 +9,7 @@ const Symbol328: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -25,11 +26,12 @@ const Symbol328: Symbol = {
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol326,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -2.95,
                 "ty": 0.3,
@@ -56,16 +58,18 @@ const Symbol328: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol324,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -19.1,
                 "ty": 0.55
@@ -81,7 +85,7 @@ const Symbol328: Symbol = {
           "parts": [
             {
               ...Symbol320,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -2.95,
                 "ty": 0.3,

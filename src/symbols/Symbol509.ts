@@ -24,6 +24,12 @@ const Symbol509: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
         {
           "parts": [
             {

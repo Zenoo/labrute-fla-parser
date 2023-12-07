@@ -4,13 +4,14 @@
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol100|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -3.05,
                 "ty": 0.5
@@ -22,13 +23,14 @@
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol98|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": 0.95,
                 "ty": -1.05

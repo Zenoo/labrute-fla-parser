@@ -10,7 +10,21 @@
               "type": "symbol",
               "name": "REPLACE|Symbol748|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
+              "transform": {
+                "tx": 33.95,
+                "ty": 8.2
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol748|REPLACE",
+              "layers": [],
+              "colorIdx": 3,
               "transform": {
                 "tx": 33.95,
                 "ty": 8.2
@@ -28,7 +42,21 @@
               "type": "symbol",
               "name": "REPLACE|Symbol746|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
+              "transform": {
+                "tx": 35.2,
+                "ty": 13.8
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol746|REPLACE",
+              "layers": [],
+              "colorIdx": 2,
               "transform": {
                 "tx": 35.2,
                 "ty": 13.8

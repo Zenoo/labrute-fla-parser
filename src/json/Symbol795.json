@@ -10,7 +10,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol783|REPLACE",
               "layers": [],
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 3.2,
                 "ty": 0,
@@ -26,7 +26,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol785|REPLACE",
               "layers": [],
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 3.2,
                 "ty": 0

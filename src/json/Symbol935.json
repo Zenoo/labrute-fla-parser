@@ -1112,6 +1112,32 @@
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
               "transform": {
+                "tx": -48.7,
+                "ty": 1.25
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -48.75,
+                "ty": 1.2
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
                 "tx": -48.75,
                 "ty": 1.2
               }
@@ -1153,6 +1179,32 @@
               "transform": {
                 "tx": -48.85,
                 "ty": 1.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -48.85,
+                "ty": 1.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -48.9,
+                "ty": 1.1
               }
             }
           ]
@@ -1333,6 +1385,19 @@
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
               "transform": {
+                "tx": -47.05,
+                "ty": 2.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
                 "tx": -47,
                 "ty": 2.35
               }
@@ -1359,6 +1424,19 @@
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
               "transform": {
+                "tx": -47,
+                "ty": 2.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
                 "tx": -46.95,
                 "ty": 2.4
               }
@@ -1373,6 +1451,45 @@
               "layers": [],
               "transform": {
                 "tx": -46.95,
+                "ty": 2.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -46.95,
+                "ty": 2.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -46.95,
+                "ty": 2.45
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -46.9,
                 "ty": 2.45
               }
             }
@@ -2541,6 +2658,21 @@
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
               "transform": {
+                "tx": 23,
+                "ty": -15.05,
+                "a": -0.9026031494140625,
+                "d": 0.9026031494140625
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
                 "tx": 23.05,
                 "ty": -15.05,
                 "a": -0.9026031494140625,
@@ -2586,6 +2718,21 @@
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
               "transform": {
+                "tx": 23.1,
+                "ty": -15.1,
+                "a": -0.9026031494140625,
+                "d": 0.9026031494140625
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
                 "tx": 23.15,
                 "ty": -15.1,
                 "a": -0.9026031494140625,
@@ -2602,6 +2749,21 @@
               "layers": [],
               "transform": {
                 "tx": 23.15,
+                "ty": -15.15,
+                "a": -0.9026031494140625,
+                "d": 0.9026031494140625
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 23.2,
                 "ty": -15.15,
                 "a": -0.9026031494140625,
                 "d": 0.9026031494140625
@@ -2811,6 +2973,21 @@
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
               "transform": {
+                "tx": 21.65,
+                "ty": -14.15,
+                "a": -0.9026031494140625,
+                "d": 0.9026031494140625
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
                 "tx": 21.6,
                 "ty": -14.15,
                 "a": -0.9026031494140625,
@@ -2841,6 +3018,36 @@
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
               "transform": {
+                "tx": 21.6,
+                "ty": -14.1,
+                "a": -0.9026031494140625,
+                "d": 0.9026031494140625
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 21.6,
+                "ty": -14.1,
+                "a": -0.9026031494140625,
+                "d": 0.9026031494140625
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
                 "tx": 21.55,
                 "ty": -14.1,
                 "a": -0.9026031494140625,
@@ -2857,6 +3064,36 @@
               "layers": [],
               "transform": {
                 "tx": 21.55,
+                "ty": -14.1,
+                "a": -0.9026031494140625,
+                "d": 0.9026031494140625
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 21.55,
+                "ty": -14.05,
+                "a": -0.9026031494140625,
+                "d": 0.9026031494140625
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol932|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 21.5,
                 "ty": -14.05,
                 "a": -0.9026031494140625,
                 "d": 0.9026031494140625
@@ -2979,6 +3216,23 @@
                 "ty": 38.1,
                 "a": 0.9991302490234375,
                 "d": 0.9991302490234375,
+                "b": -0.0350341796875,
+                "c": 0.0350341796875
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol930|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -33.45,
+                "ty": 38.1,
+                "a": 0.9991302490234375,
+                "d": 0.9991302490234375,
                 "b": -0.0350189208984375,
                 "c": 0.0350189208984375
               }
@@ -3062,6 +3316,23 @@
               "transform": {
                 "tx": -33.45,
                 "ty": 38.15,
+                "a": 0.99908447265625,
+                "d": 0.99908447265625,
+                "b": -0.0349884033203125,
+                "c": 0.0349884033203125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol930|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -33.45,
+                "ty": 38.15,
                 "a": 0.9990692138671875,
                 "d": 0.9990692138671875,
                 "b": -0.0349884033203125,
@@ -3083,6 +3354,40 @@
                 "d": 0.9990692138671875,
                 "b": -0.03497314453125,
                 "c": 0.03497314453125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol930|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -33.45,
+                "ty": 38.15,
+                "a": 0.9990692138671875,
+                "d": 0.9990692138671875,
+                "b": -0.03497314453125,
+                "c": 0.03497314453125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol930|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -33.45,
+                "ty": 38.15,
+                "a": 0.999053955078125,
+                "d": 0.999053955078125,
+                "b": -0.0349578857421875,
+                "c": 0.0349578857421875
               }
             }
           ]
@@ -3440,6 +3745,23 @@
                 "d": 0.9990692138671875,
                 "b": -0.03497314453125,
                 "c": 0.03497314453125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol930|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -33.45,
+                "ty": 38.15,
+                "a": 0.999053955078125,
+                "d": 0.999053955078125,
+                "b": -0.0349578857421875,
+                "c": 0.0349578857421875
               }
             }
           ]

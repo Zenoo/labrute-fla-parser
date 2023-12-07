@@ -22,6 +22,7 @@
             }
           ]
         },
+        null,
         {
           "parts": [
             {
@@ -64,13 +65,14 @@
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol82|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -110,
                 "g": -90,
@@ -95,7 +97,121 @@
               "type": "symbol",
               "name": "REPLACE|Symbol82|REPLACE",
               "layers": [],
-              "partIdx": 0,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol82|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol82|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol82|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol82|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol82|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol82|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,

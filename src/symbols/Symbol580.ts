@@ -18,6 +18,90 @@ const Symbol580: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol579,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol579,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol579,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol579,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol579,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol579,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol579,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
         }
       ]
     }

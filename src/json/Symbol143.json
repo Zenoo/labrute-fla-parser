@@ -4,6 +4,7 @@
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -16,6 +17,7 @@
             }
           ]
         },
+        null,
         {
           "parts": [
             {
@@ -34,7 +36,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol142|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -0.6,
                 "ty": -1.55,
@@ -54,7 +56,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol19|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -11.3,
                 "ty": -12.25,
@@ -72,7 +74,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol126|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -1.6,
                 "ty": 0.9
@@ -99,7 +101,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol130|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -4.1,
                 "ty": 6.5
@@ -127,7 +129,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol139|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -0.85,
                 "ty": 4.1
@@ -141,7 +143,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol124|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -110,
                 "g": -90,

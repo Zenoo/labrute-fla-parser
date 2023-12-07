@@ -22,6 +22,7 @@
             }
           ]
         },
+        null,
         {
           "parts": [
             {
@@ -84,7 +85,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol448|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -110,
                 "g": -90,

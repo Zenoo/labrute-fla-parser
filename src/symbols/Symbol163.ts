@@ -8,6 +8,7 @@ const Symbol163: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -24,11 +25,12 @@ const Symbol163: Symbol = {
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol161,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -3.45,
                 "ty": -2.95,
@@ -60,7 +62,7 @@ const Symbol163: Symbol = {
           "parts": [
             {
               ...Symbol161,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -4.2,
                 "ty": 2.85,
@@ -80,7 +82,7 @@ const Symbol163: Symbol = {
           "parts": [
             {
               ...Symbol158,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": 0,
                 "ty": 0,
@@ -94,7 +96,7 @@ const Symbol163: Symbol = {
           "parts": [
             {
               ...Symbol158,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": 0,
                 "ty": 0

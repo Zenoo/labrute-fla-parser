@@ -17,6 +17,20 @@
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol274|REPLACE",
+              "layers": [],
+              "partIdx": 7,
+              "transform": {
+                "tx": 3.9,
+                "ty": 7.1
+              }
+            }
+          ]
         }
       ]
     },
@@ -28,7 +42,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol244|REPLACE",
               "layers": [],
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -47,7 +61,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol267|REPLACE",
               "layers": [],
-              "partIdx": 4,
+              "colorIdx": 4,
               "colorOffset": {
                 "r": -110,
                 "g": -90,

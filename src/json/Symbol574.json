@@ -10,7 +10,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol566|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -9.4,
                 "ty": 3.25,
@@ -22,6 +22,7 @@
             }
           ]
         },
+        null,
         {
           "parts": [
             {
@@ -36,6 +37,7 @@
             }
           ]
         },
+        null,
         {
           "parts": [
             {
@@ -50,6 +52,7 @@
             }
           ]
         },
+        null,
         {
           "parts": [
             {

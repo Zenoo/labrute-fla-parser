@@ -17,6 +17,62 @@
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol605|REPLACE",
+              "layers": [],
+              "partIdx": 7,
+              "transform": {
+                "tx": 5.2,
+                "ty": 0.75
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol605|REPLACE",
+              "layers": [],
+              "partIdx": 7,
+              "transform": {
+                "tx": 5.2,
+                "ty": 0.75
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol605|REPLACE",
+              "layers": [],
+              "partIdx": 7,
+              "transform": {
+                "tx": 5.2,
+                "ty": 0.75
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol605|REPLACE",
+              "layers": [],
+              "partIdx": 7,
+              "transform": {
+                "tx": 5.2,
+                "ty": 0.75
+              }
+            }
+          ]
         }
       ]
     },
@@ -28,7 +84,83 @@
               "type": "symbol",
               "name": "REPLACE|Symbol597|REPLACE",
               "layers": [],
-              "partIdx": 0,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 4.3,
+                "ty": -0.3
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol597|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 4.3,
+                "ty": -0.3
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol597|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 4.3,
+                "ty": -0.3
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol597|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 4.3,
+                "ty": -0.3
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol597|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -45,6 +177,62 @@
     },
     {
       "frames": [
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol595|REPLACE",
+              "layers": [],
+              "partIdx": 7,
+              "transform": {
+                "tx": 4.95,
+                "ty": 17.85
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol595|REPLACE",
+              "layers": [],
+              "partIdx": 7,
+              "transform": {
+                "tx": 4.95,
+                "ty": 17.85
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol595|REPLACE",
+              "layers": [],
+              "partIdx": 7,
+              "transform": {
+                "tx": 4.95,
+                "ty": 17.85
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol595|REPLACE",
+              "layers": [],
+              "partIdx": 7,
+              "transform": {
+                "tx": 4.95,
+                "ty": 17.85
+              }
+            }
+          ]
+        },
         {
           "parts": [
             {

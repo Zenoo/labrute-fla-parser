@@ -1,4 +1,4 @@
-import { Svg, Symbol } from './common';
+import { Frame, Svg, Symbol } from './common';
 import fs from 'fs';
 
 type Json = {
@@ -250,11 +250,16 @@ const parseSymbol = (symbolInstance: DOMSymbolInstance, symbolItem?: DOMSymbolIt
   const colors = symbolInstance.elements?.find((element) => element.name === 'color')?.elements?.[0] as Color | undefined;
   const matrix = symbolInstance.elements?.find((element) => element.name === 'matrix')?.elements?.[0] as Matrix | undefined;
   
+  const customIndex = symbolInstance.attributes?.name;
+  const partIdx = customIndex ? customIndex.startsWith('_p') ? +customIndex.replace(/\D/g, '') : undefined : undefined;
+  const colorIdx = customIndex ? customIndex.startsWith('_col') ? +customIndex.replace(/\D/g, '') : undefined : undefined;
+
   const result: Symbol = {
     type: 'symbol',
     name: (symbolInstance.attributes?.libraryItemName || '').split(' ').join(''),
     layers: [],
-    partIdx: symbolInstance.attributes?.name ? +symbolInstance.attributes.name.replace(/\D/g, '') : undefined,
+    partIdx,
+    colorIdx,
     colorOffset: colors ? {
       r: +(colors.attributes?.redOffset || 0),
       g: +(colors.attributes?.greenOffset || 0),
@@ -281,21 +286,40 @@ const parseSymbol = (symbolInstance: DOMSymbolInstance, symbolItem?: DOMSymbolIt
   // Go through all layers
   result.layers = (layers?.map((layer) => {
     const frames = layer.elements?.[0].elements;
+    const parsedFrames: (Frame |null)[] = [];
+
+    for (const currentFrame of frames || []) {
+      const elements = currentFrame.elements?.find((element) => element.name === 'elements')?.elements as (DOMShape | DOMSymbolInstance)[] | undefined;
+
+      // Empty frame
+      if (!elements?.length) {
+        parsedFrames.push(null);
+        continue;
+      }
+
+      const parsedFrame = {
+        parts: elements?.map((element) => {
+          if (element.name === 'DOMSymbolInstance') {
+            return parseSymbol(element);
+          }
+
+          return getSvg(symbolInstance.attributes?.libraryItemName || '');
+        }) || [],
+      };
+
+      // Add the frame to the list
+      parsedFrames.push(parsedFrame);
+
+      // Duplicate it X times for the duration of the frame
+      if (currentFrame.attributes?.duration) {
+        for (let i = 1; i < +currentFrame.attributes.duration; i++) {
+          parsedFrames.push(parsedFrame);
+        }
+      }
+    }
 
     return {
-      frames: (frames?.map((frame) => {
-        const elements = frame.elements?.find((element) => element.name === 'elements')?.elements as (DOMShape | DOMSymbolInstance)[] | undefined;
-
-        return {
-          parts: elements?.map((element) => {
-            if (element.name === 'DOMSymbolInstance') {
-              return parseSymbol(element);
-            }
-
-            return getSvg(symbolInstance.attributes?.libraryItemName || '');
-          }) || [],
-        };
-      }) || []).filter((frame) => frame.parts.length > 0),
+      frames: parsedFrames,
     };
   }) || []).filter((layer) => layer.frames.length > 0);
   

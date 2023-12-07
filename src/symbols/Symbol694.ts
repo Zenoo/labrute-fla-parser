@@ -12,7 +12,7 @@ const Symbol694: Symbol = {
           "parts": [
             {
               ...Symbol632,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": 0.15,
                 "ty": 3.9
@@ -24,7 +24,7 @@ const Symbol694: Symbol = {
           "parts": [
             {
               ...Symbol630,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": 0.1,
                 "ty": 3.8,

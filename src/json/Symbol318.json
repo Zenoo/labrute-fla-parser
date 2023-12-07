@@ -15,6 +15,18 @@
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ]
         }
       ]
     },
@@ -26,7 +38,21 @@
               "type": "symbol",
               "name": "REPLACE|Symbol316|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
+              "transform": {
+                "tx": -3.45,
+                "ty": 1.65
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol316|REPLACE",
+              "layers": [],
+              "colorIdx": 2,
               "transform": {
                 "tx": -3.45,
                 "ty": 1.65
@@ -44,7 +70,21 @@
               "type": "symbol",
               "name": "REPLACE|Symbol314|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
+              "transform": {
+                "tx": 0.3,
+                "ty": -1.8
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol314|REPLACE",
+              "layers": [],
+              "colorIdx": 3,
               "transform": {
                 "tx": 0.3,
                 "ty": -1.8

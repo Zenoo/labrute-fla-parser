@@ -4,13 +4,14 @@
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol603|REPLACE",
               "layers": [],
-              "partIdx": 4,
+              "colorIdx": 4,
               "transform": {
                 "tx": 48.8,
                 "ty": 14.95
@@ -22,13 +23,14 @@
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol601|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -40,13 +42,14 @@
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol599|REPLACE",
               "layers": [],
-              "partIdx": 4,
+              "colorIdx": 4,
               "transform": {
                 "tx": 45,
                 "ty": 14.5

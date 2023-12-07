@@ -20,6 +20,18 @@ const Symbol717: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ]
         }
       ]
     },
@@ -40,11 +52,28 @@ const Symbol717: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol713,
+              "colorOffset": {
+                "r": -87,
+                "g": -148,
+                "b": -159
+              },
+              "transform": {
+                "tx": -32.85,
+                "ty": -12.05
+              }
+            }
+          ]
         }
       ]
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -64,7 +93,19 @@ const Symbol717: Symbol = {
           "parts": [
             {
               ...Symbol711,
-              "partIdx": 2,
+              "colorIdx": 2,
+              "transform": {
+                "tx": 2.75,
+                "ty": 0.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol711,
+              "colorIdx": 2,
               "transform": {
                 "tx": 2.75,
                 "ty": 0.15

@@ -38,11 +38,145 @@ const Symbol547: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
         {
           "parts": [
             {
               ...Symbol475,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol475,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol475,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol475,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol475,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol475,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol475,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -54,7 +188,72 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol476,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol476,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol476,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol476,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol476,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol476,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol476,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -66,7 +265,72 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol477,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol477,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol477,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol477,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol477,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol477,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol477,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -78,7 +342,72 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol478,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol478,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol478,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol478,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol478,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol478,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol478,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -90,7 +419,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol479,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -102,7 +485,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol488,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": -20
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol488,
+              "transform": {
+                "tx": 0,
+                "ty": -20
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol488,
+              "transform": {
+                "tx": 0,
+                "ty": -20
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol488,
+              "transform": {
+                "tx": 0,
+                "ty": -20
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol488,
+              "transform": {
+                "tx": 0,
+                "ty": -20
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol488,
               "transform": {
                 "tx": 0,
                 "ty": -20
@@ -114,7 +551,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol489,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol489,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol489,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol489,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol489,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol489,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -126,7 +617,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol490,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol490,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol490,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol490,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol490,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol490,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -138,7 +683,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol491,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol491,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol491,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol491,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol491,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol491,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -150,7 +749,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol493,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol493,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol493,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol493,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol493,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol493,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -162,7 +815,50 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol494,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol494,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol494,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol494,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol494,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -174,7 +870,50 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol495,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol495,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol495,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol495,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol495,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -186,7 +925,50 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol496,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol496,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol496,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol496,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol496,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -198,7 +980,50 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol497,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol497,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol497,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol497,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol497,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -210,7 +1035,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol498,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol498,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol498,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol498,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol498,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol498,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -222,7 +1101,50 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol503,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol503,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol503,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol503,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol503,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -234,7 +1156,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol504,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol504,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol504,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol504,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol504,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol504,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -246,7 +1222,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol505,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol505,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol505,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol505,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol505,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol505,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -258,7 +1288,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol506,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol506,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol506,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol506,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol506,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol506,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -270,7 +1354,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol507,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol507,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol507,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol507,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol507,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol507,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -282,7 +1420,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol508,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol508,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol508,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol508,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol508,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol508,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -294,7 +1486,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol509,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol509,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol509,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol509,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol509,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol509,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -306,7 +1552,50 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol510,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol510,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol510,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol510,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol510,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -318,7 +1607,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol513,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol513,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol513,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol513,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol513,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol513,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -330,7 +1673,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol516,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol516,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol516,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol516,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol516,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol516,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -342,7 +1739,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol517,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol517,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol517,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol517,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol517,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol517,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -354,7 +1805,50 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol541,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol541,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol541,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol541,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol541,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -366,7 +1860,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol542,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol542,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol542,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol542,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol542,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol542,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -378,7 +1926,72 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol543,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol543,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol543,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol543,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol543,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol543,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol543,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -390,7 +2003,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol544,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol544,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol544,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol544,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol544,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol544,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -402,7 +2069,61 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol545,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol545,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol545,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol545,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol545,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol545,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -414,7 +2135,83 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol546,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol546,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol546,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol546,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol546,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol546,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol546,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol546,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -426,7 +2223,204 @@ const Symbol547: Symbol = {
           "parts": [
             {
               ...Symbol479,
-              "partIdx": 0,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
+              "transform": {
+                "tx": -1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol479,
               "transform": {
                 "tx": -1,
                 "ty": 0

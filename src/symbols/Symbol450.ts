@@ -20,6 +20,18 @@ const Symbol450: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol449,
+              "partIdx": 7,
+              "transform": {
+                "tx": 1.9,
+                "ty": -0.5
+              }
+            }
+          ]
         }
       ]
     },
@@ -29,7 +41,7 @@ const Symbol450: Symbol = {
           "parts": [
             {
               ...Symbol82,
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -46,7 +58,7 @@ const Symbol450: Symbol = {
           "parts": [
             {
               ...Symbol448,
-              "partIdx": 4,
+              "colorIdx": 4,
               "colorOffset": {
                 "r": -16,
                 "g": -50,

@@ -27,6 +27,7 @@ const Symbol102: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
@@ -63,11 +64,12 @@ const Symbol102: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               ...Symbol82,
-              "partIdx": 2,
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -110,
                 "g": -90,
@@ -90,7 +92,109 @@ const Symbol102: Symbol = {
           "parts": [
             {
               ...Symbol82,
-              "partIdx": 0,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol82,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol82,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol82,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol82,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol82,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol82,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,

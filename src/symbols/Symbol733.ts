@@ -7,11 +7,12 @@ const Symbol733: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol279,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": 1.55,
                 "ty": 0,

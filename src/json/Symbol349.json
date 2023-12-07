@@ -4,20 +4,26 @@
   "layers": [
     {
       "frames": [
+        null
+      ]
+    },
+    {
+      "frames": [
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol347|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -0.6,
                 "ty": -0.1
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {

@@ -7,6 +7,7 @@ const Symbol285: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -18,7 +19,8 @@ const Symbol285: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     }
   ]

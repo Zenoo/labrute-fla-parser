@@ -11,7 +11,26 @@ const Symbol214: Symbol = {
           "parts": [
             {
               ...Symbol211,
-              "partIdx": 2,
+              "colorIdx": 2,
+              "colorOffset": {
+                "r": -110,
+                "g": -90,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0,
+                "a": 1.0137481689453125,
+                "d": 1.0137481689453125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol211,
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -110,
                 "g": -90,

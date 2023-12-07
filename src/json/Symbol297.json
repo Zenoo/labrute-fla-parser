@@ -4,13 +4,14 @@
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol296|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -6.15,
                 "ty": 5.7
@@ -28,7 +29,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol292|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -0.85,
                 "ty": -0.05,
@@ -44,7 +45,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol294|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -0.85,
                 "ty": -0.05,

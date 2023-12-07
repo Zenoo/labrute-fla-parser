@@ -21,6 +21,7 @@ const Symbol605: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
@@ -43,7 +44,8 @@ const Symbol605: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     }
   ]

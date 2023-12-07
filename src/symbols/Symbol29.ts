@@ -126,7 +126,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -147,7 +147,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -168,7 +168,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -189,7 +189,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -210,7 +210,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -231,7 +231,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -252,7 +252,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -273,7 +273,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,

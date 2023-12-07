@@ -18,6 +18,90 @@ const Symbol731: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol730,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol730,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol730,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol730,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol730,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol730,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol730,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.1,
+                "ty": 0
+              }
+            }
+          ]
         }
       ]
     }

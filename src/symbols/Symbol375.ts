@@ -14,7 +14,7 @@ const Symbol375: Symbol = {
           "parts": [
             {
               ...Symbol367,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 2.35,
                 "ty": -6.8
@@ -38,7 +38,7 @@ const Symbol375: Symbol = {
           "parts": [
             {
               ...Symbol370,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -12,
                 "ty": 12.35
@@ -50,7 +50,7 @@ const Symbol375: Symbol = {
           "parts": [
             {
               ...Symbol372,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -12,
                 "ty": 12.35
@@ -62,14 +62,15 @@ const Symbol375: Symbol = {
           "parts": [
             {
               ...Symbol374,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -12,
                 "ty": 12.35
               }
             }
           ]
-        }
+        },
+        null
       ]
     }
   ]

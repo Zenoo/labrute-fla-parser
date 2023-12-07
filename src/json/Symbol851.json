@@ -4,6 +4,12 @@
   "layers": [
     {
       "frames": [
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
         {
           "parts": [
             {
@@ -106,7 +112,8 @@
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {

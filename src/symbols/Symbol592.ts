@@ -18,6 +18,18 @@ const Symbol592: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol591,
+              "partIdx": 7,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
         }
       ]
     }

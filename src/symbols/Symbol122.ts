@@ -18,6 +18,138 @@ const Symbol122: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol121,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol121,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol121,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol121,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol121,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol121,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol121,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol121,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol121,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol121,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol121,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
         }
       ]
     }

@@ -21,6 +21,7 @@ const Symbol120: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
@@ -32,18 +33,20 @@ const Symbol120: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               ...Symbol119,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -1.65,
                 "ty": -0.6
               }
             }
           ]
-        }
+        },
+        null
       ]
     }
   ]

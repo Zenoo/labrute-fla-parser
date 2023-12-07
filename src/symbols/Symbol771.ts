@@ -20,6 +20,18 @@ const Symbol771: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol770,
+              "partIdx": 7,
+              "transform": {
+                "tx": 16.6,
+                "ty": 15.15
+              }
+            }
+          ]
         }
       ]
     },
@@ -29,7 +41,26 @@ const Symbol771: Symbol = {
           "parts": [
             {
               ...Symbol736,
-              "partIdx": 0,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 18,
+                "ty": 15.9,
+                "a": 0.9076690673828125,
+                "d": 0.9076690673828125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol736,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -48,6 +79,18 @@ const Symbol771: Symbol = {
     },
     {
       "frames": [
+        {
+          "parts": [
+            {
+              ...Symbol734,
+              "partIdx": 7,
+              "transform": {
+                "tx": 13.35,
+                "ty": 15.15
+              }
+            }
+          ]
+        },
         {
           "parts": [
             {

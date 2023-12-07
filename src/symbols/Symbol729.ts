@@ -13,22 +13,25 @@ const Symbol729: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol709,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -2.1,
                 "ty": -10.55
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -40,23 +43,26 @@ const Symbol729: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol707,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": 3.45,
                 "ty": -8.6
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
@@ -73,6 +79,7 @@ const Symbol729: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
@@ -101,7 +108,7 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol719,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -3.9,
                 "ty": -7
@@ -125,7 +132,7 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol728,
-              "partIdx": 4,
+              "colorIdx": 4,
               "transform": {
                 "tx": -10.55,
                 "ty": -14.1

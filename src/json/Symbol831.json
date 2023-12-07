@@ -4,6 +4,7 @@
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -15,7 +16,8 @@
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
@@ -38,13 +40,14 @@
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol583|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -1.95,
                 "ty": 0.6,
@@ -67,7 +70,8 @@
               }
             }
           ]
-        }
+        },
+        null
       ]
     }
   ]

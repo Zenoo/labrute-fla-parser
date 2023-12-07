@@ -7,6 +7,7 @@ const Symbol650: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -17,7 +18,8 @@ const Symbol650: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     }
   ]

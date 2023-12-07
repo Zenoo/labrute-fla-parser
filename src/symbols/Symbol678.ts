@@ -8,11 +8,12 @@ const Symbol678: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol677,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -1.7,
                 "ty": 9.5
@@ -35,6 +36,18 @@ const Symbol678: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ]
         }
       ]
     },
@@ -44,7 +57,19 @@ const Symbol678: Symbol = {
           "parts": [
             {
               ...Symbol674,
-              "partIdx": 2,
+              "colorIdx": 2,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol674,
+              "colorIdx": 2,
               "transform": {
                 "tx": 0,
                 "ty": 0

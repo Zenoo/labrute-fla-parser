@@ -13,7 +13,23 @@ const Symbol830: Symbol = {
           "parts": [
             {
               ...Symbol826,
-              "partIdx": 3,
+              "colorIdx": 3,
+              "transform": {
+                "tx": 0,
+                "ty": 0,
+                "a": 0.961578369140625,
+                "d": 1.0099334716796875,
+                "b": -0.1221160888671875,
+                "c": 0.2364501953125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol826,
+              "colorIdx": 3,
               "transform": {
                 "tx": 0,
                 "ty": 0,
@@ -33,7 +49,23 @@ const Symbol830: Symbol = {
           "parts": [
             {
               ...Symbol824,
-              "partIdx": 2,
+              "colorIdx": 2,
+              "transform": {
+                "tx": -1.25,
+                "ty": -3.7,
+                "a": 0.961578369140625,
+                "d": 1.0099334716796875,
+                "b": -0.1221160888671875,
+                "c": 0.2364501953125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol824,
+              "colorIdx": 2,
               "transform": {
                 "tx": -1.25,
                 "ty": -3.7,
@@ -49,6 +81,7 @@ const Symbol830: Symbol = {
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -65,11 +98,12 @@ const Symbol830: Symbol = {
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol828,
-              "partIdx": 4,
+              "colorIdx": 4,
               "transform": {
                 "tx": -1.15,
                 "ty": 7.1

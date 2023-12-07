@@ -32,6 +32,12 @@ const Symbol851: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
         {
           "parts": [
             {
@@ -120,7 +126,8 @@ const Symbol851: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {

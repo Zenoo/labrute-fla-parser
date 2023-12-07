@@ -17,6 +17,20 @@
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol206|REPLACE",
+              "layers": [],
+              "partIdx": 7,
+              "transform": {
+                "tx": 0.55,
+                "ty": 1.55
+              }
+            }
+          ]
         }
       ]
     },
@@ -28,7 +42,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol124|REPLACE",
               "layers": [],
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -47,7 +61,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol145|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "colorOffset": {
                 "r": -16,
                 "g": -50,

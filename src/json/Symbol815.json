@@ -16,6 +16,19 @@
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol814|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
         }
       ]
     }

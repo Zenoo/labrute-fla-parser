@@ -7,6 +7,7 @@ const Symbol619: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -23,11 +24,12 @@ const Symbol619: Symbol = {
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol608,
-              "partIdx": 2,
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -16,
                 "g": -50,

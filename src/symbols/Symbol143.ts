@@ -14,6 +14,7 @@ const Symbol143: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -26,6 +27,7 @@ const Symbol143: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
@@ -42,7 +44,7 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol142,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -0.6,
                 "ty": -1.55,
@@ -60,7 +62,7 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol19,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -11.3,
                 "ty": -12.25,
@@ -76,7 +78,7 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol126,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -1.6,
                 "ty": 0.9
@@ -99,7 +101,7 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol130,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -4.1,
                 "ty": 6.5
@@ -123,7 +125,7 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol139,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -0.85,
                 "ty": 4.1
@@ -135,7 +137,7 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol124,
-              "partIdx": 2,
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -110,
                 "g": -90,

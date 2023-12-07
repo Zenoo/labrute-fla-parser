@@ -26,6 +26,62 @@
               "layers": [],
               "partIdx": 6,
               "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol216|REPLACE",
+              "layers": [],
+              "partIdx": 6,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol216|REPLACE",
+              "layers": [],
+              "partIdx": 6,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol216|REPLACE",
+              "layers": [],
+              "partIdx": 6,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol216|REPLACE",
+              "layers": [],
+              "partIdx": 6,
+              "transform": {
                 "tx": -0.2,
                 "ty": 0,
                 "a": 1.1678619384765625,

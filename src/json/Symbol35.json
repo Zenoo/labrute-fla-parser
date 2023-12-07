@@ -4,13 +4,14 @@
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol34|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -16,
                 "g": -50,

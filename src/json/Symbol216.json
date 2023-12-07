@@ -17,6 +17,20 @@
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol215|REPLACE",
+              "layers": [],
+              "partIdx": 7,
+              "transform": {
+                "tx": 2.35,
+                "ty": 2.4
+              }
+            }
+          ]
         }
       ]
     },
@@ -28,7 +42,21 @@
               "type": "symbol",
               "name": "REPLACE|Symbol211|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
+              "transform": {
+                "tx": 2.65,
+                "ty": -5.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol211|REPLACE",
+              "layers": [],
+              "colorIdx": 3,
               "transform": {
                 "tx": 2.65,
                 "ty": -5.9

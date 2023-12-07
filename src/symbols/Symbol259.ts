@@ -22,11 +22,26 @@ const Symbol259: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol256,
+              "partIdx": 1,
+              "transform": {
+                "tx": -1.25,
+                "ty": -6.65,
+                "b": 0.1340179443359375,
+                "c": 0
+              }
+            }
+          ]
         }
       ]
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -56,6 +71,18 @@ const Symbol259: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ]
         }
       ]
     },
@@ -65,7 +92,23 @@ const Symbol259: Symbol = {
           "parts": [
             {
               ...Symbol253,
-              "partIdx": 2,
+              "colorIdx": 2,
+              "transform": {
+                "tx": 1.1,
+                "ty": -0.65,
+                "a": 0.99102783203125,
+                "d": 1,
+                "b": 0.2448577880859375,
+                "c": -0.0366363525390625
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol253,
+              "colorIdx": 2,
               "transform": {
                 "tx": 1.1,
                 "ty": -0.65,

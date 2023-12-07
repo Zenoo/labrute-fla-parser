@@ -73,7 +73,7 @@ for (const file of files) {
     // For each frame
     layer.frames.forEach((frame, j) => {
       // For each part
-      frame.parts.forEach((part) => {
+      frame?.parts.forEach((part) => {
         // If the part is a symbol
         if (part.type === 'symbol') {
           // Check if the symbol has to be replaced

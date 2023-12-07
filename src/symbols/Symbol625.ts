@@ -16,7 +16,7 @@ const Symbol625: Symbol = {
           "parts": [
             {
               ...Symbol566,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -8.25,
                 "ty": 0.45,
@@ -32,7 +32,7 @@ const Symbol625: Symbol = {
           "parts": [
             {
               ...Symbol609,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -1.6,
                 "ty": 0.9
@@ -91,7 +91,8 @@ const Symbol625: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     }
   ]

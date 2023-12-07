@@ -7,6 +7,7 @@ const Symbol595: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -17,11 +18,13 @@ const Symbol595: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -32,7 +35,8 @@ const Symbol595: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     }
   ]

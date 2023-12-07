@@ -17,6 +17,17 @@ const Symbol815: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol814,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
         }
       ]
     }

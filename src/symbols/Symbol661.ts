@@ -29,7 +29,7 @@ const Symbol661: Symbol = {
           "parts": [
             {
               ...Symbol652,
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,

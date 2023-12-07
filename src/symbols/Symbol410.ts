@@ -26,11 +26,12 @@ const Symbol410: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol388,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -2.9,
                 "ty": 2.4,
@@ -42,18 +43,20 @@ const Symbol410: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               ...Symbol405,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 1.05,
                 "ty": -4.35
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
@@ -62,7 +65,194 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol377,
-              "partIdx": 0,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol377,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol377,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol377,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol377,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol377,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol377,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol377,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol377,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol377,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol377,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol377,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -92,6 +282,160 @@ const Symbol410: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol375,
+              "partIdx": 4,
+              "transform": {
+                "tx": -5.8,
+                "ty": 24.85,
+                "a": 0.9999847412109375,
+                "d": 0.9999847412109375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol375,
+              "partIdx": 4,
+              "transform": {
+                "tx": -5.8,
+                "ty": 24.85,
+                "a": 0.9999847412109375,
+                "d": 0.9999847412109375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol375,
+              "partIdx": 4,
+              "transform": {
+                "tx": -5.8,
+                "ty": 24.85,
+                "a": 0.9999847412109375,
+                "d": 0.9999847412109375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol375,
+              "partIdx": 4,
+              "transform": {
+                "tx": -5.8,
+                "ty": 24.85,
+                "a": 0.9999847412109375,
+                "d": 0.9999847412109375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol375,
+              "partIdx": 4,
+              "transform": {
+                "tx": -5.8,
+                "ty": 24.85,
+                "a": 0.9999847412109375,
+                "d": 0.9999847412109375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol375,
+              "partIdx": 4,
+              "transform": {
+                "tx": -5.8,
+                "ty": 24.85,
+                "a": 0.9999847412109375,
+                "d": 0.9999847412109375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol375,
+              "partIdx": 4,
+              "transform": {
+                "tx": -5.8,
+                "ty": 24.85,
+                "a": 0.9999847412109375,
+                "d": 0.9999847412109375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol375,
+              "partIdx": 4,
+              "transform": {
+                "tx": -5.8,
+                "ty": 24.85,
+                "a": 0.9999847412109375,
+                "d": 0.9999847412109375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol375,
+              "partIdx": 4,
+              "transform": {
+                "tx": -5.8,
+                "ty": 24.85,
+                "a": 0.9999847412109375,
+                "d": 0.9999847412109375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol375,
+              "partIdx": 4,
+              "transform": {
+                "tx": -5.8,
+                "ty": 24.85,
+                "a": 0.9999847412109375,
+                "d": 0.9999847412109375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol375,
+              "partIdx": 4,
+              "transform": {
+                "tx": -5.8,
+                "ty": 24.85,
+                "a": 0.9999847412109375,
+                "d": 0.9999847412109375
+              }
+            }
+          ]
         }
       ]
     },
@@ -101,7 +445,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol365,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -113,7 +457,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol382,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -10.6,
                 "ty": -11.7
@@ -121,11 +465,12 @@ const Symbol410: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               ...Symbol396,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -1.65,
                 "ty": -1.85
@@ -133,18 +478,20 @@ const Symbol410: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               ...Symbol401,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -8.2,
                 "ty": 0.75
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
@@ -177,7 +524,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol384,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 0.65,
                 "ty": 0.15
@@ -185,11 +532,12 @@ const Symbol410: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               ...Symbol390,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 5.25,
                 "ty": -2
@@ -201,7 +549,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol393,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -0.25,
                 "ty": -0.2
@@ -225,7 +573,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol398,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -5.45,
                 "ty": -8.35
@@ -245,11 +593,12 @@ const Symbol410: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               ...Symbol407,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 10.05,
                 "ty": -0.4
@@ -261,7 +610,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol409,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 6.55,
                 "ty": -0.4
@@ -277,7 +626,139 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol362,
-              "partIdx": 1,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -12.7,
+                "ty": 12.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol362,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -12.7,
+                "ty": 12.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol362,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -12.7,
+                "ty": 12.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol362,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -12.7,
+                "ty": 12.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol362,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -12.7,
+                "ty": 12.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol362,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -12.7,
+                "ty": 12.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol362,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -12.7,
+                "ty": 12.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol362,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -12.7,
+                "ty": 12.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol362,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -12.7,
+                "ty": 12.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol362,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -12.7,
+                "ty": 12.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol362,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -12.7,
+                "ty": 12.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol362,
+              "colorIdx": 1,
               "transform": {
                 "tx": -12.7,
                 "ty": 12.15
@@ -303,6 +784,171 @@ const Symbol410: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol360,
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol360,
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol360,
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol360,
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol360,
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol360,
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol360,
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol360,
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol360,
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol360,
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol360,
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
         }
       ]
     },
@@ -312,7 +958,194 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol344,
-              "partIdx": 0,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol344,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol344,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol344,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol344,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol344,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol344,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol344,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol344,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol344,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol344,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol344,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -329,11 +1162,12 @@ const Symbol410: Symbol = {
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol379,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 23.55,
                 "ty": 2.3
@@ -341,11 +1175,12 @@ const Symbol410: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               ...Symbol386,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 3.25,
                 "ty": 36.75,
@@ -357,18 +1192,20 @@ const Symbol410: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               ...Symbol403,
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 0.8,
                 "ty": 15.2
               }
             }
           ]
-        }
+        },
+        null
       ]
     }
   ]

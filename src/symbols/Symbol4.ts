@@ -11,7 +11,6 @@ const Symbol4: Symbol = {
           "parts": [
             {
               ...Symbol3,
-              "partIdx": 0,
               "colorOffset": {
                 "r": 45,
                 "g": -16,

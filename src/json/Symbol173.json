@@ -4,6 +4,7 @@
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -18,6 +19,7 @@
             }
           ]
         },
+        null,
         {
           "parts": [
             {
@@ -42,7 +44,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol165|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -5.85,
                 "ty": -10.65
@@ -70,7 +72,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol149|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -110,
                 "g": -90,

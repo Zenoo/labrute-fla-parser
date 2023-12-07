@@ -18,11 +18,154 @@ const Symbol918: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
         {
           "parts": [
             {
               ...Symbol894,
-              "partIdx": 0,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
               "transform": {
                 "tx": 2.6,
                 "ty": -1.9
@@ -34,7 +177,83 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol903,
-              "partIdx": 0,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol903,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol903,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol903,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol903,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol903,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol903,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol903,
               "transform": {
                 "tx": 2.6,
                 "ty": -1.9
@@ -46,7 +265,61 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol904,
-              "partIdx": 0,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol904,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol904,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol904,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol904,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol904,
               "transform": {
                 "tx": 2.6,
                 "ty": -1.9
@@ -58,7 +331,160 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol905,
-              "partIdx": 0,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol905,
               "transform": {
                 "tx": 2.6,
                 "ty": -1.9
@@ -70,7 +496,116 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol906,
-              "partIdx": 0,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol906,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol906,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol906,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol906,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol906,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol906,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol906,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol906,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol906,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol906,
               "transform": {
                 "tx": 1.6,
                 "ty": -1.9
@@ -82,7 +617,160 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol907,
-              "partIdx": 0,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol907,
               "transform": {
                 "tx": 1.6,
                 "ty": -1.9
@@ -94,7 +782,72 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol910,
-              "partIdx": 0,
+              "transform": {
+                "tx": -11.6,
+                "ty": -2.5
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol910,
+              "transform": {
+                "tx": -11.6,
+                "ty": -2.5
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol910,
+              "transform": {
+                "tx": -11.6,
+                "ty": -2.5
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol910,
+              "transform": {
+                "tx": -11.6,
+                "ty": -2.5
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol910,
+              "transform": {
+                "tx": -11.6,
+                "ty": -2.5
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol910,
+              "transform": {
+                "tx": -11.6,
+                "ty": -2.5
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol910,
               "transform": {
                 "tx": -11.6,
                 "ty": -2.5
@@ -106,7 +859,83 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol911,
-              "partIdx": 0,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol911,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol911,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol911,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol911,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol911,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol911,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol911,
               "transform": {
                 "tx": 2.6,
                 "ty": -1.9
@@ -118,7 +947,358 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol894,
-              "partIdx": 0,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
               "transform": {
                 "tx": 2.6,
                 "ty": -1.9
@@ -130,7 +1310,61 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol912,
-              "partIdx": 0,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol912,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol912,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol912,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol912,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol912,
               "transform": {
                 "tx": 2.6,
                 "ty": -1.9
@@ -142,7 +1376,61 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol894,
-              "partIdx": 0,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
               "transform": {
                 "tx": 2.6,
                 "ty": -1.9
@@ -154,7 +1442,204 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol913,
-              "partIdx": 0,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol913,
               "transform": {
                 "tx": 2.6,
                 "ty": -1.9
@@ -166,7 +1651,61 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol894,
-              "partIdx": 0,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol894,
               "transform": {
                 "tx": 2.6,
                 "ty": -1.9
@@ -178,7 +1717,105 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol914,
-              "partIdx": 0,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol914,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol914,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol914,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol914,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol914,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol914,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol914,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol914,
+              "transform": {
+                "tx": 1.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol914,
               "transform": {
                 "tx": 1.6,
                 "ty": -1
@@ -190,7 +1827,391 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol917,
-              "partIdx": 0,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
+              "transform": {
+                "tx": 2.6,
+                "ty": -1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol917,
               "transform": {
                 "tx": 2.6,
                 "ty": -1

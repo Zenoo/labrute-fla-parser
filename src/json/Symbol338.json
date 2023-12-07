@@ -4,6 +4,7 @@
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -30,13 +31,14 @@
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol335|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -0.05,
                 "ty": 1,
@@ -58,7 +60,25 @@
               "type": "symbol",
               "name": "REPLACE|Symbol333|REPLACE",
               "layers": [],
-              "partIdx": 4,
+              "colorIdx": 4,
+              "transform": {
+                "tx": -4.8,
+                "ty": 16.45,
+                "a": 0.998138427734375,
+                "d": 0.998138427734375,
+                "b": 0.0577392578125,
+                "c": -0.0577392578125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol333|REPLACE",
+              "layers": [],
+              "colorIdx": 4,
               "transform": {
                 "tx": -4.8,
                 "ty": 16.45,
@@ -80,7 +100,28 @@
               "type": "symbol",
               "name": "REPLACE|Symbol331|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
+              "colorOffset": {
+                "r": -110,
+                "g": -90,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0.9,
+                "ty": -0.8,
+                "a": 0.9076690673828125,
+                "d": 0.9076690673828125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol331|REPLACE",
+              "layers": [],
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -110,
                 "g": -90,

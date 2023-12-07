@@ -11,7 +11,6 @@ const Symbol548: Symbol = {
           "parts": [
             {
               ...Symbol547,
-              "partIdx": 0,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -23,7 +22,6 @@ const Symbol548: Symbol = {
           "parts": [
             {
               ...Symbol547,
-              "partIdx": 0,
               "transform": {
                 "tx": 0,
                 "ty": 0,
@@ -37,7 +35,6 @@ const Symbol548: Symbol = {
           "parts": [
             {
               ...Symbol547,
-              "partIdx": 0,
               "transform": {
                 "tx": 0,
                 "ty": 0,
@@ -51,7 +48,32 @@ const Symbol548: Symbol = {
           "parts": [
             {
               ...Symbol547,
-              "partIdx": 0,
+              "transform": {
+                "tx": 0,
+                "ty": 0,
+                "a": 0.6580963134765625,
+                "d": 0.6580963134765625
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol547,
+              "transform": {
+                "tx": 0,
+                "ty": 0,
+                "a": 0.6580963134765625,
+                "d": 0.6580963134765625
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol547,
               "transform": {
                 "tx": 0,
                 "ty": 0,

@@ -12,7 +12,19 @@ const Symbol590: Symbol = {
           "parts": [
             {
               ...Symbol589,
-              "partIdx": 3,
+              "colorIdx": 3,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol589,
+              "colorIdx": 3,
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -28,7 +40,19 @@ const Symbol590: Symbol = {
           "parts": [
             {
               ...Symbol587,
-              "partIdx": 4,
+              "colorIdx": 4,
+              "transform": {
+                "tx": -3.1,
+                "ty": 9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol587,
+              "colorIdx": 4,
               "transform": {
                 "tx": -3.1,
                 "ty": 9

@@ -8,6 +8,7 @@ const Symbol419: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -20,6 +21,7 @@ const Symbol419: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {

@@ -46,11 +46,7 @@ const Symbol15: Symbol = {
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "frames": [
+        },
         {
           "parts": [
             {
@@ -78,11 +74,63 @@ const Symbol15: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ]
         }
       ]
     },
     {
       "frames": [
+        {
+          "parts": [
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ]
+        },
         {
           "parts": [
             {

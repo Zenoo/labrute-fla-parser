@@ -8,6 +8,7 @@ const Symbol637: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -28,7 +29,7 @@ const Symbol637: Symbol = {
           "parts": [
             {
               ...Symbol632,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": 0.15,
                 "ty": 3.9
@@ -40,7 +41,7 @@ const Symbol637: Symbol = {
           "parts": [
             {
               ...Symbol630,
-              "partIdx": 2,
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -16,
                 "g": -50,

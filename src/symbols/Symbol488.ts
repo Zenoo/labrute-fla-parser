@@ -31,6 +31,12 @@ const Symbol488: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
         {
           "parts": [
             {
@@ -119,7 +125,8 @@ const Symbol488: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {

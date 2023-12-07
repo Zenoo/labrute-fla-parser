@@ -20,19 +20,15 @@ const Symbol174: Symbol = {
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "frames": [
+        },
         {
           "parts": [
             {
-              ...Symbol151,
-              "partIdx": 3,
+              ...Symbol173,
+              "partIdx": 7,
               "transform": {
-                "tx": 0,
-                "ty": 0
+                "tx": -0.05,
+                "ty": 12.75
               }
             }
           ]
@@ -44,8 +40,25 @@ const Symbol174: Symbol = {
         {
           "parts": [
             {
+              ...Symbol151,
+              "colorIdx": 3,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        null
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
               ...Symbol149,
-              "partIdx": 0,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -62,7 +75,7 @@ const Symbol174: Symbol = {
           "parts": [
             {
               ...Symbol149,
-              "partIdx": 3,
+              "colorIdx": 3,
               "colorOffset": {
                 "r": -16,
                 "g": -50,

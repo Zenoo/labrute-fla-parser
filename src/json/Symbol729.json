@@ -4,24 +4,27 @@
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol709|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -2.1,
                 "ty": -10.55
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -33,25 +36,28 @@
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol707|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": 3.45,
                 "ty": -8.6
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
@@ -70,6 +76,7 @@
             }
           ]
         },
+        null,
         {
           "parts": [
             {
@@ -102,7 +109,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol719|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -3.9,
                 "ty": -7
@@ -130,7 +137,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol728|REPLACE",
               "layers": [],
-              "partIdx": 4,
+              "colorIdx": 4,
               "transform": {
                 "tx": -10.55,
                 "ty": -14.1

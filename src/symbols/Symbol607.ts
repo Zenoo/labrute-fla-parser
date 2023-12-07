@@ -18,6 +18,138 @@ const Symbol607: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol606,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol606,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol606,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol606,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol606,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol606,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol606,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol606,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol606,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol606,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol606,
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
         }
       ]
     }

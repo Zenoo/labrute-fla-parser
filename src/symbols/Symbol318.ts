@@ -19,6 +19,18 @@ const Symbol318: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ]
         }
       ]
     },
@@ -28,7 +40,19 @@ const Symbol318: Symbol = {
           "parts": [
             {
               ...Symbol316,
-              "partIdx": 2,
+              "colorIdx": 2,
+              "transform": {
+                "tx": -3.45,
+                "ty": 1.65
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol316,
+              "colorIdx": 2,
               "transform": {
                 "tx": -3.45,
                 "ty": 1.65
@@ -44,7 +68,19 @@ const Symbol318: Symbol = {
           "parts": [
             {
               ...Symbol314,
-              "partIdx": 3,
+              "colorIdx": 3,
+              "transform": {
+                "tx": 0.3,
+                "ty": -1.8
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol314,
+              "colorIdx": 3,
               "transform": {
                 "tx": 0.3,
                 "ty": -1.8

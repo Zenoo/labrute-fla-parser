@@ -7,6 +7,11 @@ const Symbol354: Symbol = {
   "layers": [
     {
       "frames": [
+        null
+      ]
+    },
+    {
+      "frames": [
         {
           "parts": [
             {

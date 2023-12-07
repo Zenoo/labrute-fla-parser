@@ -8,6 +8,11 @@ const Symbol359: Symbol = {
   "layers": [
     {
       "frames": [
+        null
+      ]
+    },
+    {
+      "frames": [
         {
           "parts": [
             {

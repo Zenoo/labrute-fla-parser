@@ -9,6 +9,7 @@ const Symbol831: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -20,7 +21,8 @@ const Symbol831: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
@@ -41,11 +43,12 @@ const Symbol831: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
               ...Symbol583,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -1.95,
                 "ty": 0.6,
@@ -66,7 +69,8 @@ const Symbol831: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     }
   ]

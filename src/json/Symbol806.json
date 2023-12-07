@@ -4,13 +4,14 @@
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol554|REPLACE",
               "layers": [],
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 43.1,
                 "ty": 16.3,
@@ -21,11 +22,13 @@
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -38,7 +41,8 @@
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
@@ -61,9 +65,52 @@
           "parts": [
             {
               "type": "symbol",
+              "name": "REPLACE|Symbol788|REPLACE",
+              "layers": [],
+              "partIdx": 4,
+              "transform": {
+                "tx": -11.25,
+                "ty": 4.65
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol788|REPLACE",
+              "layers": [],
+              "partIdx": 4,
+              "transform": {
+                "tx": -11.25,
+                "ty": 4.65
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol788|REPLACE",
+              "layers": [],
+              "partIdx": 4,
+              "transform": {
+                "tx": -11.25,
+                "ty": 4.65
+              }
+            }
+          ]
+        },
+        null,
+        {
+          "parts": [
+            {
+              "type": "symbol",
               "name": "REPLACE|Symbol797|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": -7.95,
                 "ty": -3.3,
@@ -79,7 +126,93 @@
               "type": "symbol",
               "name": "REPLACE|Symbol797|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
+              "transform": {
+                "tx": -7.95,
+                "ty": -3.3,
+                "a": 0.896453857421875,
+                "d": 1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol797|REPLACE",
+              "layers": [],
+              "colorIdx": 2,
+              "transform": {
+                "tx": -7.95,
+                "ty": -3.3,
+                "a": 0.896453857421875,
+                "d": 1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol797|REPLACE",
+              "layers": [],
+              "colorIdx": 2,
+              "transform": {
+                "tx": -9.9,
+                "ty": -4.35,
+                "a": 1.00653076171875,
+                "d": 1,
+                "b": 0.0472259521484375,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol797|REPLACE",
+              "layers": [],
+              "colorIdx": 2,
+              "transform": {
+                "tx": -9.9,
+                "ty": -4.35,
+                "a": 1.00653076171875,
+                "d": 1,
+                "b": 0.0472259521484375,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol797|REPLACE",
+              "layers": [],
+              "colorIdx": 2,
+              "transform": {
+                "tx": -9.9,
+                "ty": -4.35,
+                "a": 1.00653076171875,
+                "d": 1,
+                "b": 0.0472259521484375,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol797|REPLACE",
+              "layers": [],
+              "colorIdx": 2,
               "transform": {
                 "tx": -9.9,
                 "ty": -4.35,
@@ -95,16 +228,46 @@
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol556|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": 27.2,
                 "ty": -10.85
+              }
+            }
+          ]
+        },
+        null,
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol795|REPLACE",
+              "layers": [],
+              "partIdx": 4,
+              "transform": {
+                "tx": -11.25,
+                "ty": 4.65
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol795|REPLACE",
+              "layers": [],
+              "partIdx": 4,
+              "transform": {
+                "tx": -11.25,
+                "ty": 4.65
               }
             }
           ]
@@ -136,6 +299,48 @@
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol795|REPLACE",
+              "layers": [],
+              "partIdx": 4,
+              "transform": {
+                "tx": -14.85,
+                "ty": 4.65
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol795|REPLACE",
+              "layers": [],
+              "partIdx": 4,
+              "transform": {
+                "tx": -14.85,
+                "ty": 4.65
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol795|REPLACE",
+              "layers": [],
+              "partIdx": 4,
+              "transform": {
+                "tx": -14.85,
+                "ty": 4.65
+              }
+            }
+          ]
         }
       ]
     },
@@ -147,7 +352,216 @@
               "type": "symbol",
               "name": "REPLACE|Symbol781|REPLACE",
               "layers": [],
-              "partIdx": 0,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol781|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol781|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol781|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol781|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol781|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol781|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol781|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol781|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol781|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol781|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 21.5,
+                "ty": 21.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol781|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -170,7 +584,49 @@
               "type": "symbol",
               "name": "REPLACE|Symbol779|REPLACE",
               "layers": [],
-              "partIdx": 1,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -1.85,
+                "ty": -2.5
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol779|REPLACE",
+              "layers": [],
+              "colorIdx": 1,
+              "transform": {
+                "tx": -1.85,
+                "ty": -2.5
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol779|REPLACE",
+              "layers": [],
+              "colorIdx": 1,
+              "transform": {
+                "tx": -1.85,
+                "ty": -2.5
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol779|REPLACE",
+              "layers": [],
+              "colorIdx": 1,
               "transform": {
                 "tx": -1.85,
                 "ty": -2.5
@@ -184,7 +640,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol792|REPLACE",
               "layers": [],
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -14.5,
                 "ty": -5.15,
@@ -200,7 +656,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol794|REPLACE",
               "layers": [],
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -1.85,
                 "ty": -2.5
@@ -214,7 +670,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol799|REPLACE",
               "layers": [],
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -1.85,
                 "ty": -2.5
@@ -228,7 +684,7 @@
               "type": "symbol",
               "name": "REPLACE|Symbol801|REPLACE",
               "layers": [],
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -1.85,
                 "ty": -2.5
@@ -242,7 +698,49 @@
               "type": "symbol",
               "name": "REPLACE|Symbol805|REPLACE",
               "layers": [],
-              "partIdx": 1,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -5.4,
+                "ty": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol805|REPLACE",
+              "layers": [],
+              "colorIdx": 1,
+              "transform": {
+                "tx": -5.4,
+                "ty": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol805|REPLACE",
+              "layers": [],
+              "colorIdx": 1,
+              "transform": {
+                "tx": -5.4,
+                "ty": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol805|REPLACE",
+              "layers": [],
+              "colorIdx": 1,
               "transform": {
                 "tx": -5.4,
                 "ty": 0.3
@@ -254,6 +752,193 @@
     },
     {
       "frames": [
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol777|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol777|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol777|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol777|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol777|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol777|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol777|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol777|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol777|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol777|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol777|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -11.85,
+                "ty": 26.65,
+                "a": 0.995819091796875,
+                "d": 0.9999847412109375,
+                "b": 0.088043212890625,
+                "c": 0
+              }
+            }
+          ]
+        },
         {
           "parts": [
             {
@@ -292,6 +977,204 @@
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol775|REPLACE",
+              "layers": [],
+              "colorOffset": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "transform": {
+                "tx": -13.95,
+                "ty": 29
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol775|REPLACE",
+              "layers": [],
+              "colorOffset": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "transform": {
+                "tx": -13.95,
+                "ty": 29
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol775|REPLACE",
+              "layers": [],
+              "colorOffset": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "transform": {
+                "tx": -13.95,
+                "ty": 29
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol775|REPLACE",
+              "layers": [],
+              "colorOffset": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "transform": {
+                "tx": -13.95,
+                "ty": 29
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol775|REPLACE",
+              "layers": [],
+              "colorOffset": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "transform": {
+                "tx": -13.95,
+                "ty": 29
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol775|REPLACE",
+              "layers": [],
+              "colorOffset": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "transform": {
+                "tx": -13.95,
+                "ty": 29
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol775|REPLACE",
+              "layers": [],
+              "colorOffset": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "transform": {
+                "tx": -13.95,
+                "ty": 29
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol775|REPLACE",
+              "layers": [],
+              "colorOffset": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "transform": {
+                "tx": -13.95,
+                "ty": 29
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol775|REPLACE",
+              "layers": [],
+              "colorOffset": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "transform": {
+                "tx": -13.95,
+                "ty": 29
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol775|REPLACE",
+              "layers": [],
+              "colorOffset": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "transform": {
+                "tx": -13.95,
+                "ty": 29
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol775|REPLACE",
+              "layers": [],
+              "colorOffset": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "transform": {
+                "tx": -13.95,
+                "ty": 29
+              }
+            }
+          ]
         }
       ]
     },
@@ -303,7 +1186,216 @@
               "type": "symbol",
               "name": "REPLACE|Symbol344|REPLACE",
               "layers": [],
-              "partIdx": 0,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol344|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol344|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol344|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol344|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol344|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol344|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol344|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol344|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol344|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol344|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 6.05
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol344|REPLACE",
+              "layers": [],
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -320,31 +1412,34 @@
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol556|REPLACE",
               "layers": [],
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -12.15,
                 "ty": -19.3
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               "type": "symbol",
               "name": "REPLACE|Symbol554|REPLACE",
               "layers": [],
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": -12.7,
                 "ty": -6.95,
@@ -360,10 +1455,25 @@
               "type": "symbol",
               "name": "REPLACE|Symbol790|REPLACE",
               "layers": [],
-              "partIdx": 1,
+              "colorIdx": 1,
               "transform": {
                 "tx": 35.5,
                 "ty": 1.55
+              }
+            }
+          ]
+        },
+        null,
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol803|REPLACE",
+              "layers": [],
+              "colorIdx": 1,
+              "transform": {
+                "tx": -7.8,
+                "ty": 28.25
               }
             }
           ]
@@ -374,7 +1484,35 @@
               "type": "symbol",
               "name": "REPLACE|Symbol803|REPLACE",
               "layers": [],
-              "partIdx": 1,
+              "colorIdx": 1,
+              "transform": {
+                "tx": -7.8,
+                "ty": 28.25
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol803|REPLACE",
+              "layers": [],
+              "colorIdx": 1,
+              "transform": {
+                "tx": -7.8,
+                "ty": 28.25
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol803|REPLACE",
+              "layers": [],
+              "colorIdx": 1,
               "transform": {
                 "tx": -7.8,
                 "ty": 28.25

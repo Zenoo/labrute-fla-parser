@@ -27,6 +27,62 @@
               "partIdx": 6,
               "transform": {
                 "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol207|REPLACE",
+              "layers": [],
+              "partIdx": 6,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol207|REPLACE",
+              "layers": [],
+              "partIdx": 6,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol207|REPLACE",
+              "layers": [],
+              "partIdx": 6,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol207|REPLACE",
+              "layers": [],
+              "partIdx": 6,
+              "transform": {
+                "tx": 0,
                 "ty": 0,
                 "a": 1.08135986328125,
                 "d": 1

@@ -4,6 +4,12 @@
   "layers": [
     {
       "frames": [
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
         {
           "parts": [
             {
@@ -1665,6 +1671,23 @@
               "layers": [],
               "transform": {
                 "tx": -14.75,
+                "ty": -1.85,
+                "a": -0.397369384765625,
+                "d": 0.397369384765625,
+                "b": -0.0261077880859375,
+                "c": -0.0261077880859375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol191|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -14.75,
                 "ty": -1.9,
                 "a": -0.397369384765625,
                 "d": 0.397369384765625,
@@ -2026,6 +2049,126 @@
     },
     {
       "frames": [
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol122|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 14,
+                "ty": -7.95,
+                "a": 0.3983001708984375,
+                "d": 0.3983001708984375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol122|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 14,
+                "ty": -7.95,
+                "a": 0.3983001708984375,
+                "d": 0.3983001708984375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol122|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 14,
+                "ty": -7.95,
+                "a": 0.3983001708984375,
+                "d": 0.3983001708984375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol122|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 14,
+                "ty": -7.95,
+                "a": 0.3983001708984375,
+                "d": 0.3983001708984375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol122|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 14,
+                "ty": -7.95,
+                "a": 0.3983001708984375,
+                "d": 0.3983001708984375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol122|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 14,
+                "ty": -7.95,
+                "a": 0.3983001708984375,
+                "d": 0.3983001708984375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol122|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 14,
+                "ty": -7.95,
+                "a": 0.3983001708984375,
+                "d": 0.3983001708984375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol122|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 14,
+                "ty": -7.95,
+                "a": 0.3983001708984375,
+                "d": 0.3983001708984375
+              }
+            }
+          ]
+        },
         {
           "parts": [
             {
@@ -2611,7 +2754,8 @@
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {

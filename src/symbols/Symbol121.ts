@@ -20,6 +20,54 @@ const Symbol121: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol120,
+              "partIdx": 7,
+              "transform": {
+                "tx": 5.2,
+                "ty": 0.75
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol120,
+              "partIdx": 7,
+              "transform": {
+                "tx": 5.2,
+                "ty": 0.75
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol120,
+              "partIdx": 7,
+              "transform": {
+                "tx": 5.2,
+                "ty": 0.75
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol120,
+              "partIdx": 7,
+              "transform": {
+                "tx": 5.2,
+                "ty": 0.75
+              }
+            }
+          ]
         }
       ]
     },
@@ -29,7 +77,75 @@ const Symbol121: Symbol = {
           "parts": [
             {
               ...Symbol110,
-              "partIdx": 0,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 4.3,
+                "ty": -0.3
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol110,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 4.3,
+                "ty": -0.3
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol110,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 4.3,
+                "ty": -0.3
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol110,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 4.3,
+                "ty": -0.3
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol110,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,
@@ -46,6 +162,54 @@ const Symbol121: Symbol = {
     },
     {
       "frames": [
+        {
+          "parts": [
+            {
+              ...Symbol108,
+              "partIdx": 7,
+              "transform": {
+                "tx": 4.95,
+                "ty": 17.85
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol108,
+              "partIdx": 7,
+              "transform": {
+                "tx": 4.95,
+                "ty": 17.85
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol108,
+              "partIdx": 7,
+              "transform": {
+                "tx": 4.95,
+                "ty": 17.85
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol108,
+              "partIdx": 7,
+              "transform": {
+                "tx": 4.95,
+                "ty": 17.85
+              }
+            }
+          ]
+        },
         {
           "parts": [
             {

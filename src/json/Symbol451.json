@@ -108,6 +108,22 @@
               "transform": {
                 "tx": 7,
                 "ty": 8.7,
+                "a": 1.3049774169921875,
+                "d": 1.3049774169921875
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol450|REPLACE",
+              "layers": [],
+              "partIdx": 5,
+              "transform": {
+                "tx": 7,
+                "ty": 8.7,
                 "a": 1.304962158203125,
                 "d": 1.304962158203125
               }

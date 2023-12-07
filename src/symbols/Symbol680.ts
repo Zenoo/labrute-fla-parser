@@ -19,6 +19,18 @@ const Symbol680: Symbol = {
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol679,
+              "partIdx": 7,
+              "transform": {
+                "tx": 0.55,
+                "ty": 1.55
+              }
+            }
+          ]
         }
       ]
     },
@@ -28,7 +40,24 @@ const Symbol680: Symbol = {
           "parts": [
             {
               ...Symbol608,
-              "partIdx": 0,
+              "colorIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol608,
+              "colorIdx": 0,
               "colorOffset": {
                 "r": -16,
                 "g": -50,

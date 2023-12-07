@@ -40,7 +40,19 @@ const Symbol172: Symbol = {
           "parts": [
             {
               ...Symbol167,
-              "partIdx": 2,
+              "colorIdx": 2,
+              "transform": {
+                "tx": 7.2,
+                "ty": 32.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol167,
+              "colorIdx": 2,
               "transform": {
                 "tx": 7.2,
                 "ty": 32.35
@@ -52,11 +64,12 @@ const Symbol172: Symbol = {
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol170,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": 7.25,
                 "ty": 24.05,

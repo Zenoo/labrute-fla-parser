@@ -11,7 +11,6 @@ const Symbol3: Symbol = {
           "parts": [
             {
               ...Symbol2,
-              "partIdx": 0,
               "transform": {
                 "tx": 0,
                 "ty": 0

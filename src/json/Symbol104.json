@@ -81,6 +81,54 @@
               }
             }
           ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol103|REPLACE",
+              "layers": [],
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.05,
+                "ty": 0.1,
+                "a": 1.1857147216796875,
+                "d": 1.1857147216796875
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol103|REPLACE",
+              "layers": [],
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.05,
+                "ty": 0.1,
+                "a": 1.1857147216796875,
+                "d": 1.1857147216796875
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol103|REPLACE",
+              "layers": [],
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.05,
+                "ty": 0.1,
+                "a": 1.1857147216796875,
+                "d": 1.1857147216796875
+              }
+            }
+          ]
         }
       ]
     }

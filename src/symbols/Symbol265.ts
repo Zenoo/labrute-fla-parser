@@ -8,6 +8,7 @@ const Symbol265: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -24,11 +25,12 @@ const Symbol265: Symbol = {
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol263,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": -3.8,
                 "ty": -0.1
@@ -40,11 +42,12 @@ const Symbol265: Symbol = {
     },
     {
       "frames": [
+        null,
         {
           "parts": [
             {
               ...Symbol261,
-              "partIdx": 2,
+              "colorIdx": 2,
               "transform": {
                 "tx": 0,
                 "ty": 0

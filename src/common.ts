@@ -12,13 +12,14 @@ export type Frame = {
 };
 
 export type Layer = {
-  frames: Frame[];
+  frames: (Frame | null)[];
 };
 
 export type Symbol = {
   type: 'symbol';
   name: string;
   partIdx?: number;
+  colorIdx?: number;
   layers: Layer[];
   transform?: {
     tx?: number;

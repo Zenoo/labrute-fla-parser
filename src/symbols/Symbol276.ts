@@ -25,6 +25,54 @@ const Symbol276: Symbol = {
               ...Symbol275,
               "partIdx": 5,
               "transform": {
+                "tx": 0.1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol275,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol275,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol275,
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.1,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol275,
+              "partIdx": 5,
+              "transform": {
                 "tx": 0.05,
                 "ty": 0,
                 "a": 1.17816162109375,

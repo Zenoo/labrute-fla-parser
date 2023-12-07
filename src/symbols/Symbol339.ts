@@ -13,6 +13,7 @@ const Symbol339: Symbol = {
   "layers": [
     {
       "frames": [
+        null,
         {
           "parts": [
             {
@@ -24,7 +25,8 @@ const Symbol339: Symbol = {
               }
             }
           ]
-        }
+        },
+        null
       ]
     },
     {

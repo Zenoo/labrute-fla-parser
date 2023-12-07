@@ -27,7 +27,7 @@ const Symbol456: Symbol = {
           "parts": [
             {
               ...Symbol454,
-              "partIdx": 3,
+              "colorIdx": 3,
               "transform": {
                 "tx": 0.05,
                 "ty": 0

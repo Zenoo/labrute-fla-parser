@@ -4,6 +4,12 @@
   "layers": [
     {
       "frames": [
+        null,
+        null
+      ]
+    },
+    {
+      "frames": [
         {
           "parts": [
             {
@@ -1663,6 +1669,23 @@
               "transform": {
                 "tx": -16,
                 "ty": -2.95,
+                "a": -0.3348541259765625,
+                "d": 0.3348541259765625,
+                "b": -0.0234222412109375,
+                "c": -0.0234222412109375
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol662|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -16,
+                "ty": -2.95,
                 "a": -0.334869384765625,
                 "d": 0.334869384765625,
                 "b": -0.0234222412109375,
@@ -2006,6 +2029,126 @@
     },
     {
       "frames": [
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol607|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 12.6,
+                "ty": -8.75,
+                "a": 0.3357696533203125,
+                "d": 0.3357696533203125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol607|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 12.6,
+                "ty": -8.75,
+                "a": 0.3357696533203125,
+                "d": 0.3357696533203125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol607|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 12.6,
+                "ty": -8.75,
+                "a": 0.3357696533203125,
+                "d": 0.3357696533203125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol607|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 12.6,
+                "ty": -8.75,
+                "a": 0.3357696533203125,
+                "d": 0.3357696533203125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol607|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 12.6,
+                "ty": -8.75,
+                "a": 0.3357696533203125,
+                "d": 0.3357696533203125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol607|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 12.6,
+                "ty": -8.75,
+                "a": 0.3357696533203125,
+                "d": 0.3357696533203125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol607|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 12.6,
+                "ty": -8.75,
+                "a": 0.3357696533203125,
+                "d": 0.3357696533203125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol607|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 12.6,
+                "ty": -8.75,
+                "a": 0.3357696533203125,
+                "d": 0.3357696533203125
+              }
+            }
+          ]
+        },
         {
           "parts": [
             {

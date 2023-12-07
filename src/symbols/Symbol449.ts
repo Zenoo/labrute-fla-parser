@@ -28,6 +28,7 @@ const Symbol449: Symbol = {
             }
           ]
         },
+        null,
         {
           "parts": [
             {
@@ -80,7 +81,7 @@ const Symbol449: Symbol = {
           "parts": [
             {
               ...Symbol448,
-              "partIdx": 2,
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -110,
                 "g": -90,

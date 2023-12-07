@@ -10,7 +10,28 @@
               "type": "symbol",
               "name": "REPLACE|Symbol211|REPLACE",
               "layers": [],
-              "partIdx": 2,
+              "colorIdx": 2,
+              "colorOffset": {
+                "r": -110,
+                "g": -90,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": 0,
+                "a": 1.0137481689453125,
+                "d": 1.0137481689453125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "type": "symbol",
+              "name": "REPLACE|Symbol211|REPLACE",
+              "layers": [],
+              "colorIdx": 2,
               "colorOffset": {
                 "r": -110,
                 "g": -90,
