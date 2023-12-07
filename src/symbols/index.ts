@@ -1266,4 +1266,4 @@ export default {
   Symbol95,
   Symbol96,
   Symbol98,
-} as const;
+};

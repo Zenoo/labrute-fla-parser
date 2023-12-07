@@ -215,13 +215,14 @@ type Color = {
 };
 
 const getSvg = (symbolName: string): Svg => {
+  const name = symbolName.split(' ').join('');
   try {
     // Get the svg file
-    const svg = fs.readFileSync(`./src/svg/${symbolName}.svg`, 'utf8');
+    const svg = fs.readFileSync(`./src/svg/${name}.svg`, 'utf8');
 
     return svg;
   } catch (error) {
-    console.log(`No SVG found for ${symbolName}. Export it and rerun the script.`);
+    console.log(`No SVG found for ${name}. Export it and rerun the script.`);
     return '';
   }
 };
