@@ -5,4 +5,4 @@ const rootDiv = document.createElement('div');
 rootDiv.id = 'root';
 document.body.appendChild(rootDiv);
 
-jsonview.renderJSON(Symbols, rootDiv);
+jsonview.renderJSON(Symbols.Symbol545, rootDiv);
