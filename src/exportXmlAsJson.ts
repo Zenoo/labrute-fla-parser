@@ -75,7 +75,7 @@ for (const file of files) {
       // For each part
       frame.parts.forEach((part) => {
         // If the part is a symbol
-        if (typeof part !== 'string') {
+        if (part.type === 'symbol') {
           // Check if the symbol has to be replaced
           if (part.name.startsWith('REPLACE|')) {
             const name = part.name.split('|')[1];
@@ -83,7 +83,8 @@ for (const file of files) {
             // Add the symbolItem to the dependencies
             dependencies.add(name);
 
-            // Replace the part with its name
+            // Replace the part with its name temporarily
+            // @ts-expect-error Only deviates from the type definition temporarily
             part = part.name;
           }
         }

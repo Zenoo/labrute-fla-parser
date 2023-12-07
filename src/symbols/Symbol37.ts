@@ -10,6 +10,7 @@ const Symbol37: Symbol = {
           "parts": [
             {
               ...Symbol35,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0,
@@ -20,12 +21,20 @@ const Symbol37: Symbol = {
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol37;

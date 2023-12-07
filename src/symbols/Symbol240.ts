@@ -12,6 +12,7 @@ const Symbol240: Symbol = {
           "parts": [
             {
               ...Symbol239,
+              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": -0.05,
@@ -28,6 +29,7 @@ const Symbol240: Symbol = {
           "parts": [
             {
               ...Symbol220,
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": 0.1,
@@ -44,6 +46,7 @@ const Symbol240: Symbol = {
           "parts": [
             {
               ...Symbol149,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -61,6 +64,7 @@ const Symbol240: Symbol = {
           "parts": [
             {
               ...Symbol149,
+              "type": "symbol",
               "partIdx": 3,
               "colorOffset": {
                 "r": -16,
@@ -76,7 +80,8 @@ const Symbol240: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol240;

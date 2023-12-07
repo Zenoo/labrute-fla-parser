@@ -12,6 +12,7 @@ const Symbol606: Symbol = {
           "parts": [
             {
               ...Symbol605,
+              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 5.2,
@@ -28,6 +29,7 @@ const Symbol606: Symbol = {
           "parts": [
             {
               ...Symbol597,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -49,6 +51,7 @@ const Symbol606: Symbol = {
           "parts": [
             {
               ...Symbol595,
+              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 4.95,
@@ -59,7 +62,8 @@ const Symbol606: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol606;

@@ -15,6 +15,7 @@ const Symbol449: Symbol = {
           "parts": [
             {
               ...Symbol87,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0,
@@ -31,6 +32,7 @@ const Symbol449: Symbol = {
           "parts": [
             {
               ...Symbol430,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -5,
@@ -43,6 +45,7 @@ const Symbol449: Symbol = {
           "parts": [
             {
               ...Symbol436,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 2.5,
@@ -55,6 +58,7 @@ const Symbol449: Symbol = {
           "parts": [
             {
               ...Symbol442,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 5.2,
@@ -67,6 +71,7 @@ const Symbol449: Symbol = {
           "parts": [
             {
               ...Symbol446,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.6,
@@ -79,6 +84,7 @@ const Symbol449: Symbol = {
           "parts": [
             {
               ...Symbol448,
+              "type": "symbol",
               "partIdx": 2,
               "colorOffset": {
                 "r": -110,
@@ -96,7 +102,8 @@ const Symbol449: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol449;

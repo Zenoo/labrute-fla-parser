@@ -14,6 +14,7 @@ const Symbol102: Symbol = {
           "parts": [
             {
               ...Symbol87,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -3.8,
@@ -30,6 +31,7 @@ const Symbol102: Symbol = {
           "parts": [
             {
               ...Symbol91,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -3.5,
@@ -42,6 +44,7 @@ const Symbol102: Symbol = {
           "parts": [
             {
               ...Symbol96,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -8.55,
@@ -54,6 +57,7 @@ const Symbol102: Symbol = {
           "parts": [
             {
               ...Symbol101,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -11.55,
@@ -66,6 +70,7 @@ const Symbol102: Symbol = {
           "parts": [
             {
               ...Symbol82,
+              "type": "symbol",
               "partIdx": 2,
               "colorOffset": {
                 "r": -110,
@@ -89,6 +94,7 @@ const Symbol102: Symbol = {
           "parts": [
             {
               ...Symbol82,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -104,7 +110,8 @@ const Symbol102: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol102;

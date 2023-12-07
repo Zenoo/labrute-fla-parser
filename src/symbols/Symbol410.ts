@@ -29,6 +29,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol388,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -2.9,
@@ -45,6 +46,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol405,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 1.05,
@@ -61,6 +63,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol377,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -82,6 +85,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol375,
+              "type": "symbol",
               "partIdx": 4,
               "transform": {
                 "tx": -5.8,
@@ -100,6 +104,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol365,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0,
@@ -112,6 +117,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol382,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -10.6,
@@ -124,6 +130,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol396,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -1.65,
@@ -136,6 +143,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol401,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -8.2,
@@ -150,18 +158,33 @@ const Symbol410: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
             {
               ...Symbol384,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0.65,
@@ -174,6 +197,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol390,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 5.25,
@@ -186,6 +210,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol393,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.25,
@@ -196,13 +221,21 @@ const Symbol410: Symbol = {
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
             {
               ...Symbol398,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -5.45,
@@ -213,13 +246,21 @@ const Symbol410: Symbol = {
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
             {
               ...Symbol407,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 10.05,
@@ -232,6 +273,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol409,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 6.55,
@@ -248,6 +290,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol362,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -12.7,
@@ -264,6 +307,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol360,
+              "type": "symbol",
               "transform": {
                 "tx": -11.85,
                 "ty": 26.65,
@@ -283,6 +327,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol344,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -304,6 +349,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol379,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 23.55,
@@ -316,6 +362,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol386,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 3.25,
@@ -332,6 +379,7 @@ const Symbol410: Symbol = {
           "parts": [
             {
               ...Symbol403,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0.8,
@@ -342,7 +390,8 @@ const Symbol410: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol410;

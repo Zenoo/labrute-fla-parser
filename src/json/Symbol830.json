@@ -8,6 +8,7 @@
             {
               "name": "REPLACE|Symbol826|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": 0,
@@ -29,6 +30,7 @@
             {
               "name": "REPLACE|Symbol824|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -1.25,
@@ -47,7 +49,14 @@
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -59,6 +68,7 @@
             {
               "name": "REPLACE|Symbol828|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 4,
               "transform": {
                 "tx": -1.15,
@@ -69,5 +79,6 @@
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 }

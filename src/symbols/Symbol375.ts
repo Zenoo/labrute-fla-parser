@@ -13,6 +13,7 @@ const Symbol375: Symbol = {
           "parts": [
             {
               ...Symbol367,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 2.35,
@@ -23,13 +24,21 @@ const Symbol375: Symbol = {
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
             {
               ...Symbol370,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -12,
@@ -42,6 +51,7 @@ const Symbol375: Symbol = {
           "parts": [
             {
               ...Symbol372,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -12,
@@ -54,6 +64,7 @@ const Symbol375: Symbol = {
           "parts": [
             {
               ...Symbol374,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -12,
@@ -64,7 +75,8 @@ const Symbol375: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol375;

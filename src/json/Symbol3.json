@@ -8,6 +8,7 @@
             {
               "name": "REPLACE|Symbol2|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 0,
@@ -18,5 +19,6 @@
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 }

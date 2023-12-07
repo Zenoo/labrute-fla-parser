@@ -8,6 +8,7 @@
             {
               "name": "REPLACE|Symbol934|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": -11.25,
                 "ty": -61.75,
@@ -28,6 +29,7 @@
             {
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": -68.8,
                 "ty": -68.85,
@@ -48,6 +50,7 @@
             {
               "name": "REPLACE|Symbol920|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": -47.35,
                 "ty": -63.35,
@@ -68,6 +71,7 @@
             {
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 17.25,
                 "ty": -67.75,
@@ -88,6 +92,7 @@
             {
               "name": "REPLACE|Symbol930|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": -8.75,
                 "ty": 21.15,
@@ -108,6 +113,7 @@
             {
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": -15.5,
                 "ty": -2.6,
@@ -128,6 +134,7 @@
             {
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": -17.5,
                 "ty": -6.25,
@@ -148,6 +155,7 @@
             {
               "name": "REPLACE|Symbol928|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": -18.15,
                 "ty": -32.15,
@@ -168,6 +176,7 @@
             {
               "name": "REPLACE|Symbol926|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": -11.4,
                 "ty": -31.15,
@@ -188,6 +197,7 @@
             {
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 15.75,
                 "ty": -14.85,
@@ -208,6 +218,7 @@
             {
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 3.25,
                 "ty": -17.3,
@@ -228,6 +239,7 @@
             {
               "name": "REPLACE|Symbol922|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 22.2,
                 "ty": 8.15,
@@ -248,6 +260,7 @@
             {
               "name": "REPLACE|Symbol920|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 1.8,
                 "ty": -57,
@@ -261,5 +274,6 @@
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 }

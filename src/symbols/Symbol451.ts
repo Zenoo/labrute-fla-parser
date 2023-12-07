@@ -10,6 +10,7 @@ const Symbol451: Symbol = {
           "parts": [
             {
               ...Symbol450,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 7,
@@ -22,6 +23,7 @@ const Symbol451: Symbol = {
           "parts": [
             {
               ...Symbol450,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 7,
@@ -36,6 +38,7 @@ const Symbol451: Symbol = {
           "parts": [
             {
               ...Symbol450,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 7,
@@ -50,6 +53,7 @@ const Symbol451: Symbol = {
           "parts": [
             {
               ...Symbol450,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 7,
@@ -64,6 +68,7 @@ const Symbol451: Symbol = {
           "parts": [
             {
               ...Symbol450,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 7,
@@ -78,6 +83,7 @@ const Symbol451: Symbol = {
           "parts": [
             {
               ...Symbol450,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 7,
@@ -92,6 +98,7 @@ const Symbol451: Symbol = {
           "parts": [
             {
               ...Symbol450,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 7,
@@ -104,7 +111,8 @@ const Symbol451: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol451;

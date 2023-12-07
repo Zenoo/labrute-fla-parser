@@ -13,7 +13,14 @@ const Symbol469: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -22,7 +29,14 @@ const Symbol469: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -33,6 +47,7 @@ const Symbol469: Symbol = {
           "parts": [
             {
               ...Symbol19,
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -10.3,
@@ -49,6 +64,7 @@ const Symbol469: Symbol = {
           "parts": [
             {
               ...Symbol73,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.1,
@@ -61,6 +77,7 @@ const Symbol469: Symbol = {
           "parts": [
             {
               ...Symbol456,
+              "type": "symbol",
               "transform": {
                 "tx": 1.25,
                 "ty": 1.75
@@ -72,6 +89,7 @@ const Symbol469: Symbol = {
           "parts": [
             {
               ...Symbol458,
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": 2.15,
@@ -84,6 +102,7 @@ const Symbol469: Symbol = {
           "parts": [
             {
               ...Symbol464,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 10.8,
@@ -96,6 +115,7 @@ const Symbol469: Symbol = {
           "parts": [
             {
               ...Symbol468,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.55,
@@ -106,7 +126,8 @@ const Symbol469: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol469;

@@ -14,6 +14,7 @@ const Symbol173: Symbol = {
           "parts": [
             {
               ...Symbol156,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.35,
@@ -26,6 +27,7 @@ const Symbol173: Symbol = {
           "parts": [
             {
               ...Symbol163,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -4.9,
@@ -42,6 +44,7 @@ const Symbol173: Symbol = {
           "parts": [
             {
               ...Symbol165,
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -5.85,
@@ -54,6 +57,7 @@ const Symbol173: Symbol = {
           "parts": [
             {
               ...Symbol172,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -13.35,
@@ -66,6 +70,7 @@ const Symbol173: Symbol = {
           "parts": [
             {
               ...Symbol149,
+              "type": "symbol",
               "partIdx": 2,
               "colorOffset": {
                 "r": -110,
@@ -83,7 +88,8 @@ const Symbol173: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol173;

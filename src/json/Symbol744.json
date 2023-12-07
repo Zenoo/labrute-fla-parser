@@ -8,6 +8,7 @@
             {
               "name": "REPLACE|Symbol292|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": 6.7,
@@ -27,6 +28,7 @@
             {
               "name": "REPLACE|Symbol743|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 4,
               "transform": {
                 "tx": 1.55,
@@ -39,5 +41,6 @@
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 }

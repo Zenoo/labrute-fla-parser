@@ -8,7 +8,14 @@ const Symbol25: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -19,6 +26,7 @@ const Symbol25: Symbol = {
           "parts": [
             {
               ...Symbol23,
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -1.5,
@@ -29,7 +37,8 @@ const Symbol25: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol25;

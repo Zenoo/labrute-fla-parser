@@ -10,6 +10,7 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
+              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -22,6 +23,7 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
+              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -36,6 +38,7 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
+              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -50,6 +53,7 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
+              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -64,6 +68,7 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
+              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -78,6 +83,7 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
+              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -92,6 +98,7 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
+              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -106,6 +113,7 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
+              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -118,7 +126,8 @@ const Symbol241: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol241;

@@ -13,6 +13,7 @@ const Symbol338: Symbol = {
           "parts": [
             {
               ...Symbol337,
+              "type": "symbol",
               "colorOffset": {
                 "r": -108,
                 "g": -113,
@@ -37,6 +38,7 @@ const Symbol338: Symbol = {
           "parts": [
             {
               ...Symbol335,
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -0.05,
@@ -57,6 +59,7 @@ const Symbol338: Symbol = {
           "parts": [
             {
               ...Symbol333,
+              "type": "symbol",
               "partIdx": 4,
               "transform": {
                 "tx": -4.8,
@@ -77,6 +80,7 @@ const Symbol338: Symbol = {
           "parts": [
             {
               ...Symbol331,
+              "type": "symbol",
               "partIdx": 2,
               "colorOffset": {
                 "r": -110,
@@ -94,7 +98,8 @@ const Symbol338: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol338;

@@ -14,7 +14,14 @@ const Symbol339: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -25,6 +32,7 @@ const Symbol339: Symbol = {
           "parts": [
             {
               ...Symbol290,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0,
@@ -37,6 +45,7 @@ const Symbol339: Symbol = {
           "parts": [
             {
               ...Symbol297,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 8,
@@ -49,6 +58,7 @@ const Symbol339: Symbol = {
           "parts": [
             {
               ...Symbol304,
+              "type": "symbol",
               "transform": {
                 "tx": -0.75,
                 "ty": 2.8
@@ -60,6 +70,7 @@ const Symbol339: Symbol = {
           "parts": [
             {
               ...Symbol312,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 1.05,
@@ -72,6 +83,7 @@ const Symbol339: Symbol = {
           "parts": [
             {
               ...Symbol318,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0.7,
@@ -84,6 +96,7 @@ const Symbol339: Symbol = {
           "parts": [
             {
               ...Symbol328,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0.7,
@@ -96,6 +109,7 @@ const Symbol339: Symbol = {
           "parts": [
             {
               ...Symbol338,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0.45,
@@ -106,7 +120,8 @@ const Symbol339: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol339;

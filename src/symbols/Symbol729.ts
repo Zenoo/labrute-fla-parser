@@ -16,6 +16,7 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol709,
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -2.1,
@@ -30,7 +31,14 @@ const Symbol729: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -41,6 +49,7 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol707,
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": 3.45,
@@ -57,6 +66,7 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol704,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 4.75,
@@ -67,13 +77,21 @@ const Symbol729: Symbol = {
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
             {
               ...Symbol717,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 7.1,
@@ -86,6 +104,7 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol719,
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -3.9,
@@ -98,6 +117,7 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol726,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 7.1,
@@ -110,6 +130,7 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol728,
+              "type": "symbol",
               "partIdx": 4,
               "transform": {
                 "tx": -10.55,
@@ -120,7 +141,8 @@ const Symbol729: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol729;

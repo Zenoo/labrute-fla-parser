@@ -220,10 +220,29 @@ const getSvg = (symbolName: string): Svg => {
     // Get the svg file
     const svg = fs.readFileSync(`./src/svg/${name}.svg`, 'utf8');
 
-    return svg;
+    // Get the offset values from the svg file
+    const offset = svg.match(/<g transform="matrix\(1.0, 0.0, 0.0, 1.0, (.*), (.*)\)">/);
+
+
+    return {
+      type: 'svg',
+      svg,
+      offset: {
+        x: offset ? +offset[1] : 0,
+        y: offset ? +offset[2] : 0,
+      },
+    
+    };
   } catch (error) {
     console.log(`No SVG found for ${name}. Export it and rerun the script.`);
-    return '';
+    return {
+      type: 'svg',
+      svg: 'MISSING',
+      offset: {
+        x: 0,
+        y: 0,
+      },
+    };
   }
 };
 
@@ -234,6 +253,7 @@ const parseSymbol = (symbolInstance: DOMSymbolInstance, symbolItem?: DOMSymbolIt
   const result: Symbol = {
     name: (symbolInstance.attributes?.libraryItemName || '').split(' ').join(''),
     layers: [],
+    type: 'symbol',
     partIdx: symbolInstance.attributes?.name ? +symbolInstance.attributes.name.replace(/\D/g, '') : undefined,
     colorOffset: colors ? {
       r: +(colors.attributes?.redOffset || 0),

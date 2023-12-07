@@ -5,7 +5,14 @@
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -17,6 +24,7 @@
             {
               "name": "REPLACE|Symbol444|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": 0,
@@ -27,5 +35,6 @@
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 }

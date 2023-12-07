@@ -11,6 +11,7 @@ const Symbol349: Symbol = {
           "parts": [
             {
               ...Symbol347,
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -0.6,
@@ -25,13 +26,21 @@ const Symbol349: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
             {
               ...Symbol348,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -41,7 +50,8 @@ const Symbol349: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol349;

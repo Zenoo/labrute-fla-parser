@@ -16,7 +16,14 @@ const Symbol770: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -27,6 +34,7 @@ const Symbol770: Symbol = {
           "parts": [
             {
               ...Symbol769,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -4.9,
@@ -43,6 +51,7 @@ const Symbol770: Symbol = {
           "parts": [
             {
               ...Symbol761,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -4.9,
@@ -53,7 +62,14 @@ const Symbol770: Symbol = {
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -64,6 +80,7 @@ const Symbol770: Symbol = {
           "parts": [
             {
               ...Symbol756,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -79,6 +96,7 @@ const Symbol770: Symbol = {
           "parts": [
             {
               ...Symbol741,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0,
@@ -91,6 +109,7 @@ const Symbol770: Symbol = {
           "parts": [
             {
               ...Symbol744,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.15,
@@ -103,6 +122,7 @@ const Symbol770: Symbol = {
           "parts": [
             {
               ...Symbol749,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -39.35,
@@ -115,6 +135,7 @@ const Symbol770: Symbol = {
           "parts": [
             {
               ...Symbol752,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.15,
@@ -127,6 +148,7 @@ const Symbol770: Symbol = {
           "parts": [
             {
               ...Symbol754,
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": 1.3,
@@ -141,6 +163,7 @@ const Symbol770: Symbol = {
           "parts": [
             {
               ...Symbol763,
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": 1.35,
@@ -151,7 +174,8 @@ const Symbol770: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol770;

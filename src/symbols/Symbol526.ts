@@ -19,7 +19,14 @@ const Symbol526: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -30,6 +37,7 @@ const Symbol526: Symbol = {
           "parts": [
             {
               ...Symbol525,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -45,6 +53,7 @@ const Symbol526: Symbol = {
           "parts": [
             {
               ...Symbol522,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -56,6 +65,7 @@ const Symbol526: Symbol = {
           "parts": [
             {
               ...Symbol524,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -69,13 +79,21 @@ const Symbol526: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
             {
               ...Symbol41,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -85,18 +103,33 @@ const Symbol526: Symbol = {
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
             {
               ...Symbol44,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -108,6 +141,7 @@ const Symbol526: Symbol = {
           "parts": [
             {
               ...Symbol46,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -119,6 +153,7 @@ const Symbol526: Symbol = {
           "parts": [
             {
               ...Symbol47,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -130,6 +165,7 @@ const Symbol526: Symbol = {
           "parts": [
             {
               ...Symbol48,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -141,6 +177,7 @@ const Symbol526: Symbol = {
           "parts": [
             {
               ...Symbol49,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -150,13 +187,21 @@ const Symbol526: Symbol = {
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
             {
               ...Symbol51,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -168,6 +213,7 @@ const Symbol526: Symbol = {
           "parts": [
             {
               ...Symbol55,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -183,6 +229,7 @@ const Symbol526: Symbol = {
           "parts": [
             {
               ...Symbol38,
+              "type": "symbol",
               "transform": {
                 "tx": 0.05,
                 "ty": 2.65
@@ -192,7 +239,8 @@ const Symbol526: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol526;

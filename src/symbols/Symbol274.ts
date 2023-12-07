@@ -14,7 +14,14 @@ const Symbol274: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -25,6 +32,7 @@ const Symbol274: Symbol = {
           "parts": [
             {
               ...Symbol250,
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -0.85,
@@ -39,6 +47,7 @@ const Symbol274: Symbol = {
           "parts": [
             {
               ...Symbol273,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.65,
@@ -55,6 +64,7 @@ const Symbol274: Symbol = {
           "parts": [
             {
               ...Symbol246,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0,
@@ -67,6 +77,7 @@ const Symbol274: Symbol = {
           "parts": [
             {
               ...Symbol248,
+              "type": "symbol",
               "colorOffset": {
                 "r": -77,
                 "g": -102,
@@ -85,6 +96,7 @@ const Symbol274: Symbol = {
           "parts": [
             {
               ...Symbol259,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0.7,
@@ -97,6 +109,7 @@ const Symbol274: Symbol = {
           "parts": [
             {
               ...Symbol265,
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 1.05,
@@ -109,6 +122,7 @@ const Symbol274: Symbol = {
           "parts": [
             {
               ...Symbol267,
+              "type": "symbol",
               "partIdx": 2,
               "colorOffset": {
                 "r": -110,
@@ -126,7 +140,8 @@ const Symbol274: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol274;

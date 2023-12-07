@@ -8,6 +8,7 @@
             {
               "name": "REPLACE|Symbol3|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": 45,
@@ -25,5 +26,6 @@
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 }

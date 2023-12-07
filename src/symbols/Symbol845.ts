@@ -11,6 +11,7 @@ const Symbol845: Symbol = {
           "parts": [
             {
               ...Symbol473,
+              "type": "symbol",
               "transform": {
                 "tx": -2.9,
                 "ty": -31.25,
@@ -30,6 +31,7 @@ const Symbol845: Symbol = {
           "parts": [
             {
               ...Symbol844,
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": 0,
@@ -40,7 +42,8 @@ const Symbol845: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol845;

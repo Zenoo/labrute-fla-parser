@@ -8,7 +8,14 @@ const Symbol642: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -19,6 +26,7 @@ const Symbol642: Symbol = {
           "parts": [
             {
               ...Symbol640,
+              "type": "symbol",
               "partIdx": 4,
               "transform": {
                 "tx": -0.6,
@@ -33,7 +41,8 @@ const Symbol642: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol642;

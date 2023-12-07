@@ -26,6 +26,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol421,
+              "type": "symbol",
               "transform": {
                 "tx": -0.4,
                 "ty": -33.1,
@@ -45,6 +46,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol452,
+              "type": "symbol",
               "transform": {
                 "tx": 10.8,
                 "ty": -35.85,
@@ -64,6 +66,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol421,
+              "type": "symbol",
               "transform": {
                 "tx": 27.3,
                 "ty": -24.6,
@@ -83,6 +86,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol474,
+              "type": "symbol",
               "transform": {
                 "tx": 3.45,
                 "ty": -33.1,
@@ -102,6 +106,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol426,
+              "type": "symbol",
               "transform": {
                 "tx": 7.15,
                 "ty": -34.35,
@@ -121,6 +126,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol411,
+              "type": "symbol",
               "transform": {
                 "tx": 25.15,
                 "ty": -46.95,
@@ -140,6 +146,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol342,
+              "type": "symbol",
               "transform": {
                 "tx": 17.15,
                 "ty": -31.9,
@@ -159,6 +166,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol277,
+              "type": "symbol",
               "transform": {
                 "tx": 13.65,
                 "ty": -26.3,
@@ -178,6 +186,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol242,
+              "type": "symbol",
               "transform": {
                 "tx": 8.55,
                 "ty": -23.8,
@@ -197,6 +206,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol148,
+              "type": "symbol",
               "transform": {
                 "tx": 26.05,
                 "ty": -21.3,
@@ -216,6 +226,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol122,
+              "type": "symbol",
               "transform": {
                 "tx": 14.1,
                 "ty": -12.15,
@@ -235,6 +246,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol218,
+              "type": "symbol",
               "transform": {
                 "tx": 11.7,
                 "ty": -24.05,
@@ -254,6 +266,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol209,
+              "type": "symbol",
               "transform": {
                 "tx": -0.2,
                 "ty": -19.75,
@@ -273,6 +286,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol191,
+              "type": "symbol",
               "transform": {
                 "tx": -18.8,
                 "ty": -11.3,
@@ -292,6 +306,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol30,
+              "type": "symbol",
               "transform": {
                 "tx": 30.1,
                 "ty": -26.55,
@@ -311,6 +326,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol176,
+              "type": "symbol",
               "transform": {
                 "tx": 12.85,
                 "ty": -22.4,
@@ -330,6 +346,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol80,
+              "type": "symbol",
               "transform": {
                 "tx": 28.7,
                 "ty": -27.95,
@@ -349,6 +366,7 @@ const Symbol552: Symbol = {
           "parts": [
             {
               ...Symbol105,
+              "type": "symbol",
               "transform": {
                 "tx": 24.6,
                 "ty": -31.15,
@@ -366,22 +384,44 @@ const Symbol552: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol552;

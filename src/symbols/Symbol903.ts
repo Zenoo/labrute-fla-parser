@@ -19,6 +19,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol898,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -37,6 +38,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol900,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -55,6 +57,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol902,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -77,6 +80,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol896,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -95,6 +99,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -115,6 +120,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -139,6 +145,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol883,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -159,6 +166,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol883,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -179,6 +187,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol883,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -203,6 +212,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -223,6 +233,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -243,6 +254,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -267,6 +279,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol889,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -287,6 +300,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol889,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -307,6 +321,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol889,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -331,6 +346,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -351,6 +367,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -371,6 +388,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -395,6 +413,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol893,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -415,6 +434,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol893,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -435,6 +455,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol893,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -459,6 +480,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol883,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -477,6 +499,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol883,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -497,6 +520,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol883,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -521,6 +545,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol891,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -539,6 +564,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol891,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -557,6 +583,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol891,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -579,6 +606,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol891,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -599,6 +627,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol891,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -619,6 +648,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol891,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -643,6 +673,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -663,6 +694,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -683,6 +715,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -707,6 +740,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol889,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -727,6 +761,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol889,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -747,6 +782,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol889,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -771,6 +807,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol883,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -791,6 +828,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol883,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -811,6 +849,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol883,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -835,6 +874,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol887,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -855,6 +895,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol887,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -875,6 +916,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol887,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -899,6 +941,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -919,6 +962,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -939,6 +983,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -963,6 +1008,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -983,6 +1029,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -1003,6 +1050,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol885,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -1027,6 +1075,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol883,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -1047,6 +1096,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol883,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -1067,6 +1117,7 @@ const Symbol903: Symbol = {
           "parts": [
             {
               ...Symbol883,
+              "type": "symbol",
               "colorOffset": {
                 "r": -72,
                 "g": -148,
@@ -1085,7 +1136,8 @@ const Symbol903: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol903;

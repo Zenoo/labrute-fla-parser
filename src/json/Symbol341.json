@@ -8,6 +8,7 @@
             {
               "name": "REPLACE|Symbol340|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -21,6 +22,7 @@
             {
               "name": "REPLACE|Symbol340|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -1.7,
@@ -38,6 +40,7 @@
             {
               "name": "REPLACE|Symbol340|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -3.35,
@@ -55,6 +58,7 @@
             {
               "name": "REPLACE|Symbol340|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -5.15,
@@ -72,6 +76,7 @@
             {
               "name": "REPLACE|Symbol340|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -6.9,
@@ -89,6 +94,7 @@
             {
               "name": "REPLACE|Symbol340|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -7.45,
@@ -106,6 +112,7 @@
             {
               "name": "REPLACE|Symbol340|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -8.1,
@@ -123,6 +130,7 @@
             {
               "name": "REPLACE|Symbol340|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -8.75,
@@ -137,5 +145,6 @@
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 }

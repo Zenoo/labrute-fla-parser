@@ -8,6 +8,7 @@
             {
               "name": "REPLACE|Symbol677|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -1.7,
@@ -22,7 +23,14 @@
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -34,6 +42,7 @@
             {
               "name": "REPLACE|Symbol674|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": 0,
@@ -44,5 +53,6 @@
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 }

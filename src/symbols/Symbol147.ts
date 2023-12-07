@@ -10,6 +10,7 @@ const Symbol147: Symbol = {
           "parts": [
             {
               ...Symbol146,
+              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -22,6 +23,7 @@ const Symbol147: Symbol = {
           "parts": [
             {
               ...Symbol146,
+              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -36,6 +38,7 @@ const Symbol147: Symbol = {
           "parts": [
             {
               ...Symbol146,
+              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -50,6 +53,7 @@ const Symbol147: Symbol = {
           "parts": [
             {
               ...Symbol146,
+              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -62,7 +66,8 @@ const Symbol147: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol147;

@@ -11,6 +11,7 @@ const Symbol185: Symbol = {
           "parts": [
             {
               ...Symbol184,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -26,6 +27,7 @@ const Symbol185: Symbol = {
           "parts": [
             {
               ...Symbol183,
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -0.1,
@@ -42,12 +44,20 @@ const Symbol185: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol185;

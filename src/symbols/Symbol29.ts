@@ -11,6 +11,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol28,
+              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 0,
@@ -23,6 +24,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol28,
+              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 0,
@@ -37,6 +39,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol28,
+              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 0,
@@ -51,6 +54,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol28,
+              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 0,
@@ -65,6 +69,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol28,
+              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 0,
@@ -79,6 +84,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol28,
+              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 0,
@@ -93,6 +99,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol28,
+              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 0,
@@ -107,6 +114,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol28,
+              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 0,
@@ -125,6 +133,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -146,6 +155,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -167,6 +177,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -188,6 +199,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -209,6 +221,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -230,6 +243,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -251,6 +265,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -272,6 +287,7 @@ const Symbol29: Symbol = {
           "parts": [
             {
               ...Symbol17,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -291,7 +307,8 @@ const Symbol29: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol29;

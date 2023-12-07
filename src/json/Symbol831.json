@@ -5,7 +5,14 @@
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -17,6 +24,7 @@
             {
               "name": "REPLACE|Symbol585|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0,
@@ -34,6 +42,7 @@
             {
               "name": "REPLACE|Symbol583|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -1.95,
@@ -49,6 +58,7 @@
             {
               "name": "REPLACE|Symbol830|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 2,
@@ -59,5 +69,6 @@
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 }

@@ -10,6 +10,7 @@ const Symbol74: Symbol = {
           "parts": [
             {
               ...Symbol70,
+              "type": "symbol",
               "partIdx": 2,
               "colorOffset": {
                 "r": -110,
@@ -29,7 +30,8 @@ const Symbol74: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol74;

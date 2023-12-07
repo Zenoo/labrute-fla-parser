@@ -8,7 +8,14 @@ const Symbol672: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -19,6 +26,7 @@ const Symbol672: Symbol = {
           "parts": [
             {
               ...Symbol608,
+              "type": "symbol",
               "partIdx": 2,
               "colorOffset": {
                 "r": -16,
@@ -36,7 +44,8 @@ const Symbol672: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol672;

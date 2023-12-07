@@ -9,7 +9,14 @@ const Symbol163: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -20,6 +27,7 @@ const Symbol163: Symbol = {
           "parts": [
             {
               ...Symbol161,
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -3.45,
@@ -38,13 +46,21 @@ const Symbol163: Symbol = {
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
             {
               ...Symbol161,
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -4.2,
@@ -65,6 +81,7 @@ const Symbol163: Symbol = {
           "parts": [
             {
               ...Symbol158,
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": 0,
@@ -79,6 +96,7 @@ const Symbol163: Symbol = {
           "parts": [
             {
               ...Symbol158,
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": 0,
@@ -89,7 +107,8 @@ const Symbol163: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol163;

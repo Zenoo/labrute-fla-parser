@@ -5,7 +5,14 @@
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -17,6 +24,7 @@
             {
               "name": "REPLACE|Symbol525|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -33,6 +41,7 @@
             {
               "name": "REPLACE|Symbol522|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -45,6 +54,7 @@
             {
               "name": "REPLACE|Symbol524|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -58,7 +68,14 @@
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
@@ -66,6 +83,7 @@
             {
               "name": "REPLACE|Symbol41|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -75,12 +93,26 @@
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
@@ -88,6 +120,7 @@
             {
               "name": "REPLACE|Symbol44|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -100,6 +133,7 @@
             {
               "name": "REPLACE|Symbol46|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -112,6 +146,7 @@
             {
               "name": "REPLACE|Symbol47|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -124,6 +159,7 @@
             {
               "name": "REPLACE|Symbol48|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -136,6 +172,7 @@
             {
               "name": "REPLACE|Symbol49|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -145,7 +182,14 @@
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
@@ -153,6 +197,7 @@
             {
               "name": "REPLACE|Symbol51|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -165,6 +210,7 @@
             {
               "name": "REPLACE|Symbol55|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -181,6 +227,7 @@
             {
               "name": "REPLACE|Symbol38|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 0.05,
                 "ty": 2.65
@@ -190,5 +237,6 @@
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 }

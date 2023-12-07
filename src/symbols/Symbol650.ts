@@ -10,6 +10,7 @@ const Symbol650: Symbol = {
           "parts": [
             {
               ...Symbol649,
+              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -19,7 +20,8 @@ const Symbol650: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol650;

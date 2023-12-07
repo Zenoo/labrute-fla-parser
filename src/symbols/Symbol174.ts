@@ -12,6 +12,7 @@ const Symbol174: Symbol = {
           "parts": [
             {
               ...Symbol173,
+              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": -0.05,
@@ -28,6 +29,7 @@ const Symbol174: Symbol = {
           "parts": [
             {
               ...Symbol151,
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": 0,
@@ -44,6 +46,7 @@ const Symbol174: Symbol = {
           "parts": [
             {
               ...Symbol149,
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -61,6 +64,7 @@ const Symbol174: Symbol = {
           "parts": [
             {
               ...Symbol149,
+              "type": "symbol",
               "partIdx": 3,
               "colorOffset": {
                 "r": -16,
@@ -76,7 +80,8 @@ const Symbol174: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol174;

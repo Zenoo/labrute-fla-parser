@@ -5,7 +5,14 @@
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -14,7 +21,14 @@
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         }
       ]
@@ -26,6 +40,7 @@
             {
               "name": "REPLACE|Symbol19|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -10.3,
@@ -43,6 +58,7 @@
             {
               "name": "REPLACE|Symbol73|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.1,
@@ -56,6 +72,7 @@
             {
               "name": "REPLACE|Symbol456|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": 1.25,
                 "ty": 1.75
@@ -68,6 +85,7 @@
             {
               "name": "REPLACE|Symbol458|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": 2.15,
@@ -81,6 +99,7 @@
             {
               "name": "REPLACE|Symbol464|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 10.8,
@@ -94,6 +113,7 @@
             {
               "name": "REPLACE|Symbol468|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.55,
@@ -104,5 +124,6 @@
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 }

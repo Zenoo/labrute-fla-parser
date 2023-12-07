@@ -1,4 +1,11 @@
-export type Svg = string;
+export type Svg = {
+  type: 'svg';
+  svg: string;
+  offset: {
+    x: number;
+    y: number;
+  };
+};
 
 export type Frame = {
   parts: (Symbol | Svg)[];
@@ -9,6 +16,7 @@ export type Layer = {
 };
 
 export type Symbol = {
+  type: 'symbol';
   name: string;
   partIdx?: number;
   layers: Layer[];

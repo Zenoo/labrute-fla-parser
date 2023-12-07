@@ -10,6 +10,7 @@ const Symbol471: Symbol = {
           "parts": [
             {
               ...Symbol470,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -22,6 +23,7 @@ const Symbol471: Symbol = {
           "parts": [
             {
               ...Symbol470,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -38,6 +40,7 @@ const Symbol471: Symbol = {
           "parts": [
             {
               ...Symbol470,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -54,6 +57,7 @@ const Symbol471: Symbol = {
           "parts": [
             {
               ...Symbol470,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -70,6 +74,7 @@ const Symbol471: Symbol = {
           "parts": [
             {
               ...Symbol470,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -86,6 +91,7 @@ const Symbol471: Symbol = {
           "parts": [
             {
               ...Symbol470,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -102,6 +108,7 @@ const Symbol471: Symbol = {
           "parts": [
             {
               ...Symbol470,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -118,6 +125,7 @@ const Symbol471: Symbol = {
           "parts": [
             {
               ...Symbol470,
+              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -132,7 +140,8 @@ const Symbol471: Symbol = {
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 };
 
 export default Symbol471;

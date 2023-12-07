@@ -8,6 +8,7 @@
             {
               "name": "REPLACE|Symbol423|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 0.3,
@@ -25,6 +26,7 @@
             {
               "name": "REPLACE|Symbol77|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 4,
               "colorOffset": {
                 "r": -16,
@@ -51,6 +53,7 @@
             {
               "name": "REPLACE|Symbol70|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -70,5 +73,6 @@
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 }

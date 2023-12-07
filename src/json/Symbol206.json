@@ -5,12 +5,26 @@
       "frames": [
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
           "parts": [
-            ""
+            {
+              "type": "svg",
+              "svg": "MISSING",
+              "offset": {
+                "x": 0,
+                "y": 0
+              }
+            }
           ]
         },
         {
@@ -18,6 +32,7 @@
             {
               "name": "REPLACE|Symbol142|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -0.6,
@@ -37,6 +52,7 @@
             {
               "name": "REPLACE|Symbol19|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -11.3,
@@ -54,6 +70,7 @@
             {
               "name": "REPLACE|Symbol193|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -2,
@@ -67,6 +84,7 @@
             {
               "name": "REPLACE|Symbol128|REPLACE",
               "layers": [],
+              "type": "symbol",
               "transform": {
                 "tx": -0.5,
                 "ty": 4.8
@@ -79,6 +97,7 @@
             {
               "name": "REPLACE|Symbol195|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -2.05,
@@ -92,6 +111,7 @@
             {
               "name": "REPLACE|Symbol202|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -1.6,
@@ -105,6 +125,7 @@
             {
               "name": "REPLACE|Symbol204|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": 0.85,
@@ -118,6 +139,7 @@
             {
               "name": "REPLACE|Symbol124|REPLACE",
               "layers": [],
+              "type": "symbol",
               "partIdx": 2,
               "colorOffset": {
                 "r": -110,
@@ -135,5 +157,6 @@
         }
       ]
     }
-  ]
+  ],
+  "type": "symbol"
 }
