@@ -1,0 +1,21 @@
+{
+  "name": "Symbol790",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol789|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

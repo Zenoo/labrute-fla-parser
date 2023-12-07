@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 674" lastModified="1701887458">
+<timeline>
+<DOMTimeline name="Symbol 674">
+<layers>
+<DOMLayer name="Layer 1" color="#75a3d6" current="true" isSelected="true">
+<frames>
+<DOMFrame index="0" keyMode="9728">
+<elements>
+<DOMShape isFloating="true">
+<fills>
+<FillStyle index="1">
+<SolidColor color="#ffffff" alpha="1.0"/>
+</FillStyle>
+<FillStyle index="2">
+<SolidColor color="#d6baba" alpha="1.0"/>
+</FillStyle>
+</fills>
+<strokes>
+<StrokeStyle index="1">
+<SolidStroke scaleMode="normal" weight="0.05">
+<fill>
+<SolidColor color="#000000" alpha="0.3019608"/>
+</fill>
+</SolidStroke>
+</StrokeStyle>
+</strokes>
+<edges>
+<Edge fillStyle0="1" strokeStyle="1" edges="! 80 -289| 28 -256| -32 -221| -140 -154[ -239 -77 -249 4| -249 5| -251 23| -244 115| -231 200| -208 359[ -198 442 -72 443"/>
+<Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! -72 443[ -69 277 -37 115[ -11 -13 -78 -51[ -124 -77 -143 -68| -195 -39| -177 -54| -42 -153| 64 -231| 85 -260[ 98 -283 80 -289"/>
+<Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 80 -289[ 128 -323 178 -371| 251 -444| 141 -253| 120 -194[ 106 -148 92 -25[ 80 75 71 218[ 79 440 -59 443| -72 443"/>
+</edges>
+</DOMShape>
+</elements>
+</DOMFrame>
+</frames>
+</DOMLayer>
+</layers>
+</DOMTimeline>
+</timeline>
+</DOMSymbolItem>

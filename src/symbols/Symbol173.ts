@@ -1,0 +1,89 @@
+import { Symbol } from '../common';
+import Symbol156 from './Symbol156';
+import Symbol163 from './Symbol163';
+import Symbol165 from './Symbol165';
+import Symbol172 from './Symbol172';
+import Symbol149 from './Symbol149';
+
+const Symbol173: Symbol = {
+  "name": "Symbol173",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              ...Symbol156,
+              "partIdx": 1,
+              "transform": {
+                "tx": -0.35,
+                "ty": -7.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol163,
+              "partIdx": 1,
+              "transform": {
+                "tx": -4.9,
+                "ty": 0.6,
+                "a": 0.804779052734375,
+                "d": 0.9352569580078125,
+                "b": 0,
+                "c": 0.2011871337890625
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol165,
+              "partIdx": 2,
+              "transform": {
+                "tx": -5.85,
+                "ty": -10.65
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol172,
+              "partIdx": 1,
+              "transform": {
+                "tx": -13.35,
+                "ty": -30.75
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              ...Symbol149,
+              "partIdx": 2,
+              "colorOffset": {
+                "r": -110,
+                "g": -90,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0.05,
+                "ty": -12.65,
+                "a": 1.068756103515625,
+                "d": 1.0053558349609375
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+export default Symbol173;

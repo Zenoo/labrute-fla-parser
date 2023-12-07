@@ -1,0 +1,108 @@
+{
+  "name": "Symbol339",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol290|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol297|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 8,
+                "ty": 0.55
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol304|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -0.75,
+                "ty": 2.8
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol312|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 1.05,
+                "ty": 2.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol318|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0.7,
+                "ty": 2.2
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol328|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0.7,
+                "ty": 2.2
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol338|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0.45,
+                "ty": 1.6
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

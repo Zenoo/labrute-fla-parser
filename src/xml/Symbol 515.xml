@@ -1,0 +1,51 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 515" lastModified="1701887458">
+<timeline>
+<DOMTimeline name="Symbol 515">
+<layers>
+<DOMLayer name="Layer 1" color="#c61fac" current="true" isSelected="true">
+<frames>
+<DOMFrame index="0" keyMode="9728">
+<elements>
+<DOMShape isFloating="true">
+<fills>
+<FillStyle index="1">
+<SolidColor color="#990000" alpha="1.0"/>
+</FillStyle>
+<FillStyle index="2">
+<SolidColor color="#ffffff" alpha="1.0"/>
+</FillStyle>
+<FillStyle index="3">
+<SolidColor color="#ff0000" alpha="1.0"/>
+</FillStyle>
+<FillStyle index="4">
+<SolidColor color="#e11ebb" alpha="1.0"/>
+</FillStyle>
+</fills>
+<strokes>
+<StrokeStyle index="1">
+<SolidStroke scaleMode="normal" weight="0.05">
+<fill>
+<SolidColor color="#000000" alpha="0.3019608"/>
+</fill>
+</SolidStroke>
+</StrokeStyle>
+</strokes>
+<edges>
+<Edge fillStyle1="1" strokeStyle="1" edges="! -49 -143[ -49 -150 -35 -155| 1 -159| 36 -155[ 51 -150 51 -143[ 51 -136 36 -132| 31 -130| 31 -37| 65 -14[ 93 16 93 58[ 93 100 65 129[ 38 159 -1 159[ -39 159 -67 129[ -94 100 -94 58[ -94 16 -67 -14[ -50 -31 -30 -38| -30 -130| -35 -132[ -49 -136 -49 -143"/>
+<Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="! 31 -130| 0 -132| -30 -130"/>
+<Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="! -30 -38| -1 -43| 31 -37"/>
+<Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 3 -11[ 3 -33 26 -21[ 49 -9 49 4[ 49 13 33 13[ 20 13 10 2[ 3 -6 3 -11"/>
+<Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 51 28[ 51 18 59 18| 67 23| 69 28| 60 34| 51 28"/>
+<Edge fillStyle0="3" fillStyle1="1" strokeStyle="0" edges="! -82 55| -85 75| -62 115[ -40 144 -9 146[ 21 149 43 132| 68 104"/>
+<Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 68 104| 68 88| 65 82| 63 83| 37 111[ 12 131 -12 131[ -50 131 -76 70| -82 56| -81 52| -82 55"/>
+<Edge fillStyle0="1" fillStyle1="4" strokeStyle="0" edges="! -82 55[ -80 36 -63 36[ -55 36 -32 57[ -9 77 9 77| 32 72[ 42 66 57 66[ 70 66 73 72| 74 79| 68 104"/>
+</edges>
+</DOMShape>
+</elements>
+</DOMFrame>
+</frames>
+</DOMLayer>
+</layers>
+</DOMTimeline>
+</timeline>
+</DOMSymbolItem>

@@ -1,0 +1,29 @@
+{
+  "name": "Symbol4",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol3|REPLACE",
+              "layers": [],
+              "partIdx": 0,
+              "colorOffset": {
+                "r": 45,
+                "g": -16,
+                "b": -92
+              },
+              "transform": {
+                "tx": 0,
+                "ty": -0.25,
+                "a": 0.20111083984375,
+                "d": 0.20111083984375
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

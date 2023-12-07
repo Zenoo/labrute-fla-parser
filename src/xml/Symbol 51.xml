@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 51" lastModified="1701887458" symbolType="graphic">
+<timeline>
+<DOMTimeline name="Symbol 51" currentFrame="0">
+<layers>
+<DOMLayer name="Layer 1">
+<frames>
+<DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+<elements>
+<DOMShape isFloating="true">
+<fills>
+<FillStyle index="1">
+<SolidColor color="#753c24" alpha="1.0"/>
+</FillStyle>
+<FillStyle index="2">
+<SolidColor color="#964d2e" alpha="1.0"/>
+</FillStyle>
+</fills>
+<strokes>
+<StrokeStyle index="1">
+<SolidStroke scaleMode="normal" weight="0.05">
+<fill>
+<SolidColor color="#000000" alpha="0.4"/>
+</fill>
+</SolidStroke>
+</StrokeStyle>
+</strokes>
+<edges>
+<Edge fillStyle0="2" strokeStyle="1" edges="! 1579 837[ 1573 767 1543 695[ 1448 467 1202 387[ 1035 332 863 308"/>
+<Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! 863 308| 820 314[ 807 314 780 328| 752 341[ 713 366 698 366| 647 375| 594 368| 593 373| 672 397| 649 396[ 618 396 596 436[ 580 466 580 484| 585 495| 589 505| 597 540| 605 579| 609 590| 613 601| 699 657[ 799 723 857 787| 834 805| 790 813| 825 822| 880 831| 958 821[ 1031 821 1084 908[ 1137 994 1224 994| 1375 978| 1392 982[ 1405 986 1405 989| 1415 996| 1432 996| 1443 992| 1453 987[ 1458 987 1464 983[ 1470 978 1475 978[ 1508 978 1546 914[ 1570 872 1579 837"/>
+<Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 1579 837[ 1592 989 1487 1126[ 1370 1227 1113 1247[ 847 1266 508 879[ 334 679 164 426| 55 308[ 11 266 -52 240| -171 203[ -272 164 -272 126| -262 85[ -250 52 -235 52| -219 47| -215 45[ -213 44 -131 84[ -49 123 117 174[ 283 225 498 262| 699 290| 718 292| 806 301| 863 308"/>
+</edges>
+</DOMShape>
+</elements>
+</DOMFrame>
+</frames>
+</DOMLayer>
+</layers>
+</DOMTimeline>
+</timeline>
+</DOMSymbolItem>

@@ -1,0 +1,21 @@
+{
+  "name": "Symbol256",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol255|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

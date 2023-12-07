@@ -1,0 +1,35 @@
+{
+  "name": "Symbol419",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol416|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0.2,
+                "ty": -1.85
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol418|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0.05,
+                "ty": -0.75
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

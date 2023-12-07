@@ -1,0 +1,69 @@
+{
+  "name": "Symbol698",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol693|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0.3,
+                "ty": -11.6
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol694|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0.05,
+                "ty": -16.85
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol642|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 0.3,
+                "ty": 0.45
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol697|REPLACE",
+              "layers": [],
+              "partIdx": 3,
+              "transform": {
+                "tx": 0.3,
+                "ty": -11.6
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

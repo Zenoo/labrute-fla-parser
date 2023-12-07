@@ -1,0 +1,73 @@
+{
+  "name": "Symbol259",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol256|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": -1.25,
+                "ty": -6.65,
+                "b": 0.1340179443359375,
+                "c": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol258|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0.2,
+                "ty": 3.7,
+                "b": 0.2081298828125,
+                "c": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol253|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "transform": {
+                "tx": 1.1,
+                "ty": -0.65,
+                "a": 0.99102783203125,
+                "d": 1,
+                "b": 0.2448577880859375,
+                "c": -0.0366363525390625
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

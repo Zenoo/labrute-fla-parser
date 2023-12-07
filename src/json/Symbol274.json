@@ -1,0 +1,128 @@
+{
+  "name": "Symbol274",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol250|REPLACE",
+              "layers": [],
+              "partIdx": 3,
+              "transform": {
+                "tx": -0.85,
+                "ty": -7.65,
+                "a": 1.0434722900390625,
+                "d": 1.237030029296875
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol273|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": -0.65,
+                "ty": -13.65
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol246|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol248|REPLACE",
+              "layers": [],
+              "colorOffset": {
+                "r": -77,
+                "g": -102,
+                "b": -148
+              },
+              "transform": {
+                "tx": -0.25,
+                "ty": -9.6,
+                "a": 1.0434722900390625,
+                "d": 1.237030029296875
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol259|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0.7,
+                "ty": -2.9
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol265|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 1.05,
+                "ty": -2.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol267|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "colorOffset": {
+                "r": -110,
+                "g": -90,
+                "b": -80
+              },
+              "transform": {
+                "tx": -3.9,
+                "ty": -7.1,
+                "a": 1.0048065185546875,
+                "d": 1.0048065185546875
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

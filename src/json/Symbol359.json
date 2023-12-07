@@ -1,0 +1,33 @@
+{
+  "name": "Symbol359",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol351|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 0.25,
+                "ty": -2.5
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol358|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 0.25,
+                "ty": -2.5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

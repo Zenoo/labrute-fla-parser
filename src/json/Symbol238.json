@@ -1,0 +1,53 @@
+{
+  "name": "Symbol238",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            ""
+          ]
+        },
+        {
+          "parts": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol234|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "transform": {
+                "tx": 6.5,
+                "ty": 29.15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol236|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "transform": {
+                "tx": 6.75,
+                "ty": 19.95
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

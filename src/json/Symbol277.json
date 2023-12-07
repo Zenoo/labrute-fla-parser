@@ -1,0 +1,26 @@
+{
+  "name": "Symbol277",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol276|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "transform": {
+                "tx": -4.5,
+                "ty": 9.45,
+                "a": 1,
+                "d": 0.992645263671875,
+                "b": 0,
+                "c": -0.069671630859375
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

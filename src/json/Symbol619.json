@@ -1,0 +1,38 @@
+{
+  "name": "Symbol619",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol608|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 0,
+                "ty": -0.05,
+                "a": 1.013397216796875,
+                "d": 1.013397216796875
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

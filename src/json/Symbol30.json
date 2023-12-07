@@ -1,0 +1,22 @@
+{
+  "name": "Symbol30",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol29|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "transform": {
+                "tx": 0.55,
+                "ty": 1.55
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

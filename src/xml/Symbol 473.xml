@@ -1,0 +1,111 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 473" lastModified="1701887458">
+<timeline>
+<DOMTimeline name="Symbol 473">
+<layers>
+<DOMLayer name="Script Layer" color="#ccb2e9">
+<frames>
+<DOMFrame index="0" keyMode="9728">
+<Actionscript>
+<script>flag = _parent._parent._parent._sid;
+if(flag == null)
+{
+   flag = false;
+}
+this._visible = flag;
+</script>
+</Actionscript>
+<elements/>
+</DOMFrame>
+</frames>
+</DOMLayer>
+<DOMLayer name="Layer 2" color="#dcf4fb" current="true" isSelected="true">
+<frames>
+<DOMFrame index="0" keyMode="9728">
+<elements>
+<DOMShape isFloating="true">
+<fills>
+<FillStyle index="1">
+<SolidColor color="#ffffff" alpha="1.0"/>
+</FillStyle>
+<FillStyle index="2">
+<SolidColor color="#a77250" alpha="1.0"/>
+</FillStyle>
+<FillStyle index="3">
+<SolidColor color="#674732" alpha="1.0"/>
+</FillStyle>
+<FillStyle index="4">
+<SolidColor color="#f7c500" alpha="1.0"/>
+</FillStyle>
+</fills>
+<strokes>
+<StrokeStyle index="1">
+<SolidStroke scaleMode="normal" weight="0.05">
+<fill>
+<SolidColor color="#3b0101" alpha="0.4"/>
+</fill>
+</SolidStroke>
+</StrokeStyle>
+<StrokeStyle index="2">
+<SolidStroke scaleMode="normal" weight="0.05">
+<fill>
+<SolidColor color="#3b0101" alpha="0.2509804"/>
+</fill>
+</SolidStroke>
+</StrokeStyle>
+</strokes>
+<edges>
+<Edge fillStyle0="3" strokeStyle="1" edges="! 867 15[ 766 -37 637 -37| 580 -34[ 361 -16 173 156[ -40 349 -88 621[ -136 895 8 1090[ 44 1139 87 1175[ 168 1244 273 1270"/>
+<Edge fillStyle0="3" fillStyle1="2" strokeStyle="1" edges="! 273 1270[ 227 1246 187 1212[ 144 1176 108 1127[ -36 932 12 658[ 60 386 273 193[ 461 21 680 3| 737 0[ 806 0 867 15"/>
+<Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 867 15| 883 19[ 936 34 982 60[ 1068 108 1133 195| 1172 255[ 1270 431 1229 661[ 1181 937 968 1130| 895 1190[ 722 1316 524 1322"/>
+<Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! 524 1322| 522 1322"/>
+<Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 522 1322| 504 1322[ 374 1322 273 1270"/>
+<Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 1056 377| 1053 377| 1052 380[ 1048 369 1030 369| 1051 340[ 1061 323 1033 323[ 1023 323 1001 352[ 979 381 979 391| 1022 428| 1048 410| 1066 390"/>
+<Edge fillStyle0="3" fillStyle1="1" strokeStyle="0" edges="! 1066 390| 1063 387| 1056 377"/>
+<Edge fillStyle0="4" fillStyle1="1" strokeStyle="0" edges="! 1056 377| 1052 365[ 1052 353 1064 343[ 1074 334 1082 334[ 1091 334 1100 343[ 1110 353 1110 366| 1099 387[ 1088 398 1081 398[ 1074 398 1066 390"/>
+<Edge fillStyle0="4" fillStyle1="2" strokeStyle="1" edges="! 930 592[ 929 499 877 428| 849 395[ 781 330 679 330| 624 335"/>
+<Edge fillStyle0="4" fillStyle1="4" strokeStyle="1" edges="! 624 335| 617 540"/>
+<Edge fillStyle0="4" fillStyle1="2" strokeStyle="1" edges="! 617 540| 667 544| 694 553| 725 619"/>
+<Edge fillStyle0="4" fillStyle1="4" strokeStyle="1" edges="! 725 619| 930 592"/>
+<Edge fillStyle0="2" fillStyle1="4" strokeStyle="1" edges="! 930 592| 924 661[ 901 797 794 894[ 721 961 637 982| 629 984"/>
+<Edge fillStyle0="2" fillStyle1="2" strokeStyle="2" edges="! 629 984[ 562 1179 524 1322"/>
+<Edge fillStyle0="2" fillStyle1="4" strokeStyle="1" edges="! 980 404[ 975 368 990 347[ 1015 311 1056 303| 1102 305[ 1116 315 1128 354[ 1141 395 1130 411[ 1118 428 1066 444| 1000 449[ 984 438 980 404"/>
+<Edge fillStyle0="2" fillStyle1="2" strokeStyle="2" edges="! 982 60| 849 395"/>
+<Edge fillStyle0="1" fillStyle1="4" strokeStyle="0" edges="! 856 550[ 877 526 877 510[ 877 470 812 449[ 770 435 741 435[ 731 435 724 444[ 717 452 717 462[ 717 490 736 517[ 755 544 775 544[ 781 544 801 559| 821 573[ 835 573 856 550"/>
+<Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 856 982[ 856 1001 878 1006| 908 999[ 928 990 928 977| 923 964| 918 950| 919 940[ 918 932 905 932[ 892 932 875 948[ 856 965 856 982"/>
+<Edge fillStyle0="1" fillStyle1="4" strokeStyle="0" edges="! 952 942[ 952 956 966 960| 976 961[ 994 961 994 939[ 993 916 973 916[ 952 916 952 942"/>
+<Edge fillStyle0="2" fillStyle1="4" strokeStyle="1" edges="! 970 998[ 942 1022 904 1034| 874 1042[ 791 954 901 900[ 959 873 999 910"/>
+<Edge fillStyle0="2" fillStyle1="2" strokeStyle="2" edges="! 999 910| 1041 769[ 1140 434 1172 255"/>
+<Edge fillStyle0="2" fillStyle1="4" strokeStyle="1" edges="! 999 910| 1014 927| 1014 943[ 996 975 970 998"/>
+<Edge fillStyle0="2" fillStyle1="2" strokeStyle="2" edges="! 970 998[ 926 1131 895 1190"/>
+<Edge fillStyle0="2" fillStyle1="2" strokeStyle="2" edges="! 612 157| 625 115[ 625 104 639 73[ 654 39 680 3"/>
+<Edge fillStyle0="2" fillStyle1="4" strokeStyle="1" edges="! 612 157| 618 161[ 638 174 620 223| 610 244[ 591 266 564 277| 562 278"/>
+<Edge fillStyle0="2" fillStyle1="2" strokeStyle="2" edges="! 562 278| 521 372"/>
+<Edge fillStyle0="2" fillStyle1="4" strokeStyle="1" edges="! 521 372[ 570 344 624 335"/>
+<Edge fillStyle0="2" fillStyle1="4" strokeStyle="1" edges="! 562 278[ 520 296 489 273[ 468 259 460 235[ 452 214 459 203[ 489 161 550 153| 612 157"/>
+<Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 489 223| 507 259| 540 212[ 564 164 527 164[ 511 164 485 182[ 457 202 489 223"/>
+<Edge fillStyle0="1" fillStyle1="4" strokeStyle="0" edges="! 557 211| 559 228| 573 231[ 592 231 592 210[ 592 189 576 189[ 557 189 557 211"/>
+<Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 495 424[ 480 424 410 514[ 339 605 339 629[ 339 644 358 650| 356 657[ 353 661 353 667| 357 681| 367 688[ 375 688 400 651| 427 608| 427 606[ 433 624 447 624| 458 621| 466 615| 473 623| 481 646| 493 648[ 498 648 543 537| 540 533| 523 544| 502 558| 494 541[ 492 536 486 536[ 479 536 472 548| 461 569| 460 570[ 457 574 457 564| 464 550[ 471 540 471 523[ 497 493 497 474| 486 461[ 502 442 501 428| 502 428[ 505 424 495 424"/>
+<Edge fillStyle0="4" fillStyle1="2" strokeStyle="1" edges="! 521 372[ 483 394 447 426[ 341 523 317 659[ 310 697 311 733"/>
+<Edge fillStyle0="4" fillStyle1="4" strokeStyle="1" edges="! 311 733| 519 666"/>
+<Edge fillStyle0="4" fillStyle1="2" strokeStyle="1" edges="! 519 666[ 527 585 600 547| 617 540"/>
+<Edge fillStyle0="2" fillStyle1="4" strokeStyle="1" edges="! 224 580[ 243 687 134 720| 126 720[ 72 691 84 628[ 138 565 218 571| 224 580"/>
+<Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 147 586[ 136 586 116 602[ 95 619 95 632| 103 653[ 111 665 111 676| 113 690| 130 693[ 150 693 158 680| 163 649[ 163 636 151 634| 138 633| 137 632| 162 603[ 175 586 147 586"/>
+<Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 380 846[ 380 883 406 908[ 424 926 433 926[ 448 926 448 910| 430 879| 457 871| 455 846[ 455 836 470 827[ 482 820 487 820[ 496 820 500 804[ 504 788 498 782| 500 778| 503 783| 510 784[ 525 784 526 755[ 527 726 507 726[ 503 726 489 753| 468 785| 438 794[ 421 801 425 830[ 407 820 397 820[ 389 820 384 830| 380 846"/>
+<Edge fillStyle0="4" fillStyle1="2" strokeStyle="1" edges="! 311 733[ 312 781 329 824[ 342 861 366 893[ 438 991 563 990| 629 984"/>
+<Edge fillStyle0="1" fillStyle1="4" strokeStyle="0" edges="! 752 685[ 739 692 739 710[ 739 728 752 737| 769 743[ 794 743 806 712[ 819 680 783 680| 752 685"/>
+<Edge fillStyle0="4" fillStyle1="2" strokeStyle="1" edges="! 621 759[ 537 773 522 685| 519 666"/>
+<Edge fillStyle0="4" fillStyle1="2" strokeStyle="1" edges="! 725 619[ 738 707 646 748| 621 759"/>
+<Edge fillStyle0="4" fillStyle1="4" strokeStyle="1" edges="! 621 759| 637 982"/>
+<Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 364 1090[ 365 1070 346 1070[ 332 1070 321 1090[ 310 1109 310 1128[ 310 1138 319 1150[ 328 1163 338 1163[ 348 1163 365 1151| 382 1132[ 382 1117 359 1115| 358 1110| 364 1090"/>
+<Edge fillStyle0="2" fillStyle1="4" strokeStyle="1" edges="! 298 1118[ 328 1008 421 1068[ 459 1182 340 1182[ 281 1182 298 1118"/>
+<Edge fillStyle0="2" fillStyle1="2" strokeStyle="2" edges="! 187 1212[ 246 1039 329 824"/>
+</edges>
+</DOMShape>
+</elements>
+</DOMFrame>
+</frames>
+</DOMLayer>
+</layers>
+</DOMTimeline>
+</timeline>
+</DOMSymbolItem>

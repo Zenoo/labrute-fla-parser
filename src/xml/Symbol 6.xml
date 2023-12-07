@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 6" lastModified="1701887458"
+  linkageIdentifier="mcShade" linkageExportForAS="true">
+  <timeline>
+    <DOMTimeline name="Symbol 6">
+      <layers>
+        <DOMLayer name="Layer 1" color="#b16aad" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient focalPointRatio="0">
+                        <matrix>
+                          <Matrix tx="0.0" ty="0.0" a="0.02435302734375" d="0.01226806640625" />
+                        </matrix>
+                        <GradientEntry color="#c10202" alpha="0.8" ratio="0.6117647" />
+                        <GradientEntry color="#660000" alpha="0.0" ratio="1.0" />
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes />
+                  <edges>
+                    <Edge fillStyle1="1"
+                      edges="! 283 -141[ 400 -82 400 0[ 400 26 388 50[ 363 101 283 142[ 166 200 0 200[ -166 200 -283 142[ -363 101 -388 50[ -400 26 -400 0[ -400 -82 -283 -141[ -166 -200 0 -200[ 166 -200 283 -141" />
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

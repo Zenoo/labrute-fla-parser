@@ -1,0 +1,27 @@
+{
+  "name": "Symbol37",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol35|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

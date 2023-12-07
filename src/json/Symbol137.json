@@ -1,0 +1,48 @@
+{
+  "name": "Symbol137",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol135|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "transform": {
+                "tx": 0,
+                "ty": 2.95
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol133|REPLACE",
+              "layers": [],
+              "partIdx": 3,
+              "transform": {
+                "tx": -3.95,
+                "ty": -1.45
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

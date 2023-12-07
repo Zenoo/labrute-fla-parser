@@ -1,0 +1,25 @@
+import { Symbol } from '../common';
+import Symbol169 from './Symbol169';
+
+const Symbol170: Symbol = {
+  "name": "Symbol170",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              ...Symbol169,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+export default Symbol170;

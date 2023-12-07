@@ -1,0 +1,22 @@
+{
+  "name": "Symbol607",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol606|REPLACE",
+              "layers": [],
+              "partIdx": 8,
+              "transform": {
+                "tx": 2,
+                "ty": 4.15
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

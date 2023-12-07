@@ -1,0 +1,37 @@
+{
+  "name": "Symbol595",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol107|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 0,
+                "ty": -10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol107|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": 0,
+                "ty": -5.7
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

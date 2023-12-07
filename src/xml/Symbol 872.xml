@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 872" lastModified="1701887458" symbolType="graphic">
+<timeline>
+<DOMTimeline name="Symbol 872" currentFrame="0">
+<layers>
+<DOMLayer name="Layer 1">
+<frames>
+<DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+<elements>
+<DOMShape isFloating="true">
+<fills>
+<FillStyle index="1">
+<SolidColor color="#ffffff"/>
+</FillStyle>
+</fills>
+<strokes/>
+<edges>
+<Edge fillStyle0="0" fillStyle1="0" strokeStyle="0" edges="! 0 0"/>
+<Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 2961 -1432| 3032 -1107| 3534 -1439[ 3480 -1317 3495 -1195[ 3496 -1188 3505 -1187[ 3595 -1172 3690 -1184| 3337 -928| 3348 -935| 3354 -920| 3350 -906| 3294 -920| 3174 -889| 3003 -903[ 2931 -765 2796 -776[ 2773 -779 2763 -802| 2755 -823| 2712 -655| 2694 -653| 2368 -1236| 2373 -1252| 2398 -1255| 2675 -1035| 2944 -1434| 2961 -1432"/>
+<Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 2703 -231[ 2882 -303 3052 -393[ 3158 -449 3269 -500| 3347 -496[ 3484 -403 3651 -412| 3651 -394[ 3570 -350 3494 -300[ 3449 -269 3464 -206[ 3474 -161 3460 -118| 3448 -117[ 3375 -221 3258 -226[ 3183 -237 3120 -194[ 3018 -124 2972 -8[ 2952 43 2919 88| 2841 -111| 2624 -36| 2703 -231"/>
+</edges>
+</DOMShape>
+</elements>
+</DOMFrame>
+</frames>
+</DOMLayer>
+<DOMLayer name="Layer 2">
+<frames>
+<DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+<elements>
+<DOMShape isFloating="true">
+<fills>
+<FillStyle index="1">
+<SolidColor color="#545656"/>
+</FillStyle>
+</fills>
+<strokes/>
+<edges>
+<Edge fillStyle1="1" edges="! 648 -552[ 785 -620 828 -632[ 1134 -720 1317 -693[ 1466 -669 1763 -517[ 1927 -433 2125 -391[ 2391 -335 2622 -381[ 2872 -446 2944 -510| 2985 -560[ 3005 -590 3027 -606| 3109 -699[ 3193 -788 3241 -802[ 3371 -839 3413 -789[ 3429 -772 3435 -716| 3443 -714[ 3457 -737 3453 -752[ 3442 -789 3407 -814[ 3346 -859 3232 -826[ 3158 -805 3030 -657[ 2902 -508 2785 -475[ 2482 -388 2213 -432[ 2028 -462 1786 -576[ 1500 -712 1415 -736[ 1206 -797 1007 -740[ 748 -666 457 -502[ 168 -339 185 -279| 193 -270| 206 -270[ 333 -374 482 -463| 648 -552"/>
+</edges>
+</DOMShape>
+</elements>
+</DOMFrame>
+</frames>
+</DOMLayer>
+</layers>
+</DOMTimeline>
+</timeline>
+</DOMSymbolItem>

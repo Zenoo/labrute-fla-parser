@@ -1,0 +1,35 @@
+{
+  "name": "Symbol215",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol213|REPLACE",
+              "layers": [],
+              "partIdx": 3,
+              "transform": {
+                "tx": 0.15,
+                "ty": -8.3
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol214|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0.25,
+                "ty": -8.35
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

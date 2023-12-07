@@ -1,0 +1,39 @@
+{
+  "name": "Symbol749",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol748|REPLACE",
+              "layers": [],
+              "partIdx": 3,
+              "transform": {
+                "tx": 33.95,
+                "ty": 8.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol746|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "transform": {
+                "tx": 35.2,
+                "ty": 13.8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

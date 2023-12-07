@@ -1,0 +1,38 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 502" lastModified="1701887458">
+<timeline>
+<DOMTimeline name="Symbol 502">
+<layers>
+<DOMLayer name="Layer 1" color="#cfb4f2" current="true" isSelected="true">
+<frames>
+<DOMFrame index="0" keyMode="9728">
+<elements>
+<DOMShape isFloating="true">
+<fills>
+<FillStyle index="1">
+<SolidColor color="#ffffff" alpha="0.2509804"/>
+</FillStyle>
+<FillStyle index="2">
+<SolidColor color="#ffffff" alpha="0.5019608"/>
+</FillStyle>
+<FillStyle index="3">
+<SolidColor color="#ffffff" alpha="1.0"/>
+</FillStyle>
+</fills>
+<strokes/>
+<edges>
+<Edge fillStyle0="1" edges="! -39 -624| -71 -630| -301 -647[ -405 -645 -509 -622| -543 -615[ -448 -592 -357 -552| -346 -547| -302 -525"/>
+<Edge fillStyle0="1" fillStyle1="2" edges="! -302 -525| -39 -624"/>
+<Edge fillStyle0="0" fillStyle1="2" edges="! -39 -624| 129 -579[ 241 -539 339 -472| 391 -431"/>
+<Edge fillStyle0="0" fillStyle1="3" edges="! 391 -431[ 453 -377 495 -304[ 551 -207 543 -96[ 540 -32 513 59[ 485 150 440 199[ 359 321 206 442[ 53 563 -123 646[ -185 579 -230 535| -346 422| -450 317| -320 217[ -311 221 -214 133[ -118 45 -96 9| -79 -23| -69 -44[ -44 -101 -42 -125| -38 -171| -49 -228[ -68 -310 -116 -374"/>
+<Edge fillStyle0="0" fillStyle1="2" edges="! -116 -374| -165 -428[ -227 -485 -302 -525"/>
+<Edge fillStyle0="3" fillStyle1="2" edges="! 391 -431| -116 -374"/>
+</edges>
+</DOMShape>
+</elements>
+</DOMFrame>
+</frames>
+</DOMLayer>
+</layers>
+</DOMTimeline>
+</timeline>
+</DOMSymbolItem>

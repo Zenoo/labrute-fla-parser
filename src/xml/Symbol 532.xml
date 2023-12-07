@@ -1,0 +1,52 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 532" lastModified="1701887458" symbolType="graphic">
+<timeline>
+<DOMTimeline name="Symbol 532" currentFrame="0">
+<layers>
+<DOMLayer name="Layer 1">
+<frames>
+<DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+<elements>
+<DOMShape isFloating="true">
+<fills>
+<FillStyle index="1">
+<SolidColor color="#ffffff"/>
+</FillStyle>
+</fills>
+<strokes/>
+<edges>
+<Edge fillStyle0="0" fillStyle1="0" strokeStyle="0" edges="! 0 0"/>
+<Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 2588 -1098| 2402 -1218[ 2413 -1152 2464 -1104[ 2520 -1054 2584 -1080| 2588 -1098"/>
+<Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 2783 -1050| 2972 -1040[ 2978 -1040 2980 -1049[ 2987 -1082 2981 -1115[ 2960 -1236 2953 -1357[ 2907 -1392 2871 -1344[ 2834 -1293 2813 -1233[ 2803 -1204 2784 -1180| 2741 -1124| 2758 -1075| 2783 -1050"/>
+<Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 3142 -1109| 3162 -1095| 3285 -1030| 3446 -1118| 3343 -1118| 3519 -1380| 3143 -1125| 3142 -1109"/>
+<Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 2753 -171| 2728 -153| 2738 -165| 2753 -171"/>
+<Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 2690 -86| 2808 -156| 2916 6| 2995 -201| 2761 -220| 2678 -96| 2690 -86"/>
+<Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 3598 -375[ 3570 -410 3516 -412| 3428 -420[ 3388 -416 3357 -386[ 3325 -357 3285 -333| 3245 -306| 3430 -172| 3537 -332| 3598 -375"/>
+</edges>
+</DOMShape>
+</elements>
+</DOMFrame>
+</frames>
+</DOMLayer>
+<DOMLayer name="Layer 2">
+<frames>
+<DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+<elements>
+<DOMShape isFloating="true">
+<fills>
+<FillStyle index="1">
+<SolidColor color="#545656"/>
+</FillStyle>
+</fills>
+<strokes/>
+<edges>
+<Edge fillStyle1="1" edges="! 682 -246[ 862 -213 987 -213[ 1273 -213 1563 -342[ 1827 -459 1936 -603[ 2105 -832 2152 -884[ 2291 -1042 2369 -1019[ 2511 -1013 2626 -961[ 2672 -940 2769 -877| 2865 -780[ 2938 -711 2967 -711[ 3011 -711 3018 -737[ 3026 -775 3031 -779| 3045 -758| 3050 -736[ 3050 -716 3036 -700[ 3016 -678 2977 -678[ 2945 -678 2885 -725| 2761 -830[ 2573 -982 2408 -982[ 2278 -982 2186 -888[ 2166 -868 2104 -772[ 2014 -620 1961 -557[ 1869 -449 1673 -342[ 1352 -166 985 -166[ 832 -166 627 -208[ 511 -232 421 -259[ 381 -270 277 -327[ 172 -385 172 -399| 176 -409| 189 -415| 316 -358[ 440 -299 473 -292| 682 -246"/>
+</edges>
+</DOMShape>
+</elements>
+</DOMFrame>
+</frames>
+</DOMLayer>
+</layers>
+</DOMTimeline>
+</timeline>
+</DOMSymbolItem>

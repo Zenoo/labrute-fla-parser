@@ -1,0 +1,66 @@
+{
+  "name": "Symbol375",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol367|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 2.35,
+                "ty": -6.8
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            ""
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol370|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": -12,
+                "ty": 12.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol372|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": -12,
+                "ty": 12.35
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol374|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": -12,
+                "ty": 12.35
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

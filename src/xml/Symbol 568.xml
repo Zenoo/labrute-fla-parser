@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 568" lastModified="1701887458">
+<timeline>
+<DOMTimeline name="Symbol 568">
+<layers>
+<DOMLayer name="Layer 1" color="#bfb27e" current="true" isSelected="true">
+<frames>
+<DOMFrame index="0" keyMode="9728">
+<elements>
+<DOMShape isFloating="true">
+<fills>
+<FillStyle index="1">
+<SolidColor color="#ffffff" alpha="1.0"/>
+</FillStyle>
+<FillStyle index="2">
+<SolidColor color="#d6baba" alpha="1.0"/>
+</FillStyle>
+</fills>
+<strokes>
+<StrokeStyle index="1">
+<SolidStroke scaleMode="normal" weight="0.05">
+<fill>
+<SolidColor color="#000000" alpha="0.3019608"/>
+</fill>
+</SolidStroke>
+</StrokeStyle>
+</strokes>
+<edges>
+<Edge fillStyle0="2" strokeStyle="1" edges="! 59 368[ 91 383 132 380[ 155 373 174 360[ 186 352 188 337| 200 247[ 206 197 229 152[ 250 109 283 71[ 320 28 374 13| 355 9[ 300 -7 248 7| 233 12"/>
+<Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! 233 12| 214 32| 179 58[ 154 76 139 109[ 123 141 112 175| 93 234| 79 292| 59 368"/>
+<Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 59 368| 18 337[ -9 308 4 272[ 33 196 67 127[ 89 82 128 53| 140 44[ 184 26 233 12"/>
+</edges>
+</DOMShape>
+</elements>
+</DOMFrame>
+</frames>
+</DOMLayer>
+</layers>
+</DOMTimeline>
+</timeline>
+</DOMSymbolItem>

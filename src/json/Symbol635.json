@@ -1,0 +1,41 @@
+{
+  "name": "Symbol635",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol155|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "transform": {
+                "tx": -3.25,
+                "ty": 7.55,
+                "a": 0.846160888671875,
+                "d": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol634|REPLACE",
+              "layers": [],
+              "partIdx": 3,
+              "transform": {
+                "tx": 0,
+                "ty": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Symbol101",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol100|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "transform": {
+                "tx": -3.05,
+                "ty": 0.5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol98|REPLACE",
+              "layers": [],
+              "partIdx": 3,
+              "transform": {
+                "tx": 0.95,
+                "ty": -1.05
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

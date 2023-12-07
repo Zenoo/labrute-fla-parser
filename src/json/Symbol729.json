@@ -1,0 +1,122 @@
+{
+  "name": "Symbol729",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol709|REPLACE",
+              "layers": [],
+              "partIdx": 3,
+              "transform": {
+                "tx": -2.1,
+                "ty": -10.55
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol707|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "transform": {
+                "tx": 3.45,
+                "ty": -8.6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol704|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 4.75,
+                "ty": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            ""
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol717|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 7.1,
+                "ty": 6.5
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol719|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "transform": {
+                "tx": -3.9,
+                "ty": -7
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol726|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 7.1,
+                "ty": 6.5
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol728|REPLACE",
+              "layers": [],
+              "partIdx": 4,
+              "transform": {
+                "tx": -10.55,
+                "ty": -14.1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

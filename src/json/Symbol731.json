@@ -1,0 +1,22 @@
+{
+  "name": "Symbol731",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol730|REPLACE",
+              "layers": [],
+              "partIdx": 5,
+              "transform": {
+                "tx": 0.1,
+                "ty": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

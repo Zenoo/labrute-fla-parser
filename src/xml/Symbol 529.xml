@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 529" lastModified="1701887458" symbolType="graphic">
+<timeline>
+<DOMTimeline name="Symbol 529" currentFrame="0">
+<layers>
+<DOMLayer name="Layer 1">
+<frames>
+<DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+<elements>
+<DOMShape isFloating="true">
+<fills>
+<FillStyle index="1">
+<SolidColor color="#545656"/>
+</FillStyle>
+</fills>
+<strokes/>
+<edges>
+<Edge fillStyle1="1" edges="! 132 -1023[ 128 -1014 113 -1014[ 70 -1014 -214 -1079[ -347 -1105 -486 -1197[ -561 -1246 -624 -1347[ -685 -1446 -685 -1510[ -685 -1544 -675 -1562[ -661 -1589 -618 -1615[ -556 -1666 -534 -1673[ -520 -1677 -320 -1677[ -244 -1677 -213 -1722[ -195 -1748 -195 -1777| -196 -1795[ -200 -1806 -217 -1818[ -195 -1842 -182 -1820[ -173 -1803 -173 -1776[ -173 -1727 -200 -1694[ -256 -1624 -411 -1649[ -517 -1665 -588 -1600[ -642 -1550 -642 -1509[ -642 -1443 -576 -1353[ -511 -1265 -423 -1206[ -333 -1146 -149 -1108[ 56 -1065 130 -1029| 132 -1023"/>
+</edges>
+</DOMShape>
+</elements>
+</DOMFrame>
+</frames>
+</DOMLayer>
+</layers>
+</DOMTimeline>
+</timeline>
+</DOMSymbolItem>

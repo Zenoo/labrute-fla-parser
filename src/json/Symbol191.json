@@ -1,0 +1,21 @@
+{
+  "name": "Symbol191",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol190|REPLACE",
+              "layers": [],
+              "transform": {
+                "tx": -1.3,
+                "ty": 3.15
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

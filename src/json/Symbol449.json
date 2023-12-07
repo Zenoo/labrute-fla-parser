@@ -1,0 +1,98 @@
+{
+  "name": "Symbol449",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol87|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 0,
+                "ty": -0.05,
+                "a": 0.798675537109375,
+                "d": 0.798675537109375,
+                "b": 0.599151611328125,
+                "c": -0.599151611328125
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol430|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": -5,
+                "ty": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol436|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 2.5,
+                "ty": 4.65
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol442|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": 5.2,
+                "ty": 0.1
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol446|REPLACE",
+              "layers": [],
+              "partIdx": 1,
+              "transform": {
+                "tx": -0.6,
+                "ty": -0.4
+              }
+            }
+          ]
+        },
+        {
+          "parts": [
+            {
+              "name": "REPLACE|Symbol448|REPLACE",
+              "layers": [],
+              "partIdx": 2,
+              "colorOffset": {
+                "r": -110,
+                "g": -90,
+                "b": -80
+              },
+              "transform": {
+                "tx": -2,
+                "ty": 0.45,
+                "a": 1.0142822265625,
+                "d": 1.0142822265625
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

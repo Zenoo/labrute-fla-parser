@@ -1,0 +1,52 @@
+import { Symbol } from '../common';
+import Symbol574 from './Symbol574';
+import Symbol565 from './Symbol565';
+
+const Symbol575: Symbol = {
+  "name": "Symbol575",
+  "layers": [
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              ...Symbol574,
+              "partIdx": 7,
+              "transform": {
+                "tx": 0.55,
+                "ty": 1.55
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frames": [
+        {
+          "parts": [
+            {
+              ...Symbol565,
+              "partIdx": 0,
+              "colorOffset": {
+                "r": -16,
+                "g": -50,
+                "b": -80
+              },
+              "transform": {
+                "tx": 1.4,
+                "ty": -12.45,
+                "a": 0.9917755126953125,
+                "d": 0.9917755126953125,
+                "b": 0.122100830078125,
+                "c": -0.122100830078125
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+export default Symbol575;

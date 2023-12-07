@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 55" lastModified="1701887458" symbolType="graphic">
+<timeline>
+<DOMTimeline name="Symbol 55" currentFrame="0">
+<layers>
+<DOMLayer name="Layer 1">
+<frames>
+<DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+<elements>
+<DOMShape isFloating="true">
+<fills>
+<FillStyle index="1">
+<SolidColor color="#545656"/>
+</FillStyle>
+</fills>
+<strokes/>
+<edges>
+<Edge fillStyle1="1" edges="! 176 231| 262 255| 326 277| 402 298[ 429 298 510 350[ 604 411 690 495[ 840 642 898 794[ 931 898 938 1011[ 948 1189 806 1280[ 652 1377 476 1335[ 302 1295 208 1140[ 123 1000 90 841[ 64 705 64 538[ 24 376 -21 315[ -37 293 -85 281| -156 271[ -269 271 -426 348[ -594 429 -594 503[ -594 524 -612 534| -633 540[ -648 540 -660 519| -669 491[ -669 456 -569 383[ -483 321 -418 292[ -327 251 -280 239[ -227 225 -150 225[ -1 225 67 392[ 99 472 148 758| 163 836| 181 914[ 224 1093 393 1191[ 550 1280 715 1191[ 754 1169 774 1126[ 852 968 760 802[ 702 682 586 567[ 387 370 211 337[ 166 329 56 273[ -51 219 -99 213[ -174 204 -275 165[ -396 119 -396 78[ -396 44 -370 30| -343 24[ -320 24 -250 50| -183 75[ -164 75 90 198| 126 216| 176 231"/>
+</edges>
+</DOMShape>
+</elements>
+</DOMFrame>
+</frames>
+</DOMLayer>
+</layers>
+</DOMTimeline>
+</timeline>
+</DOMSymbolItem>

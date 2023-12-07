@@ -1,0 +1,603 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 881" lastModified="1701887458">
+<timeline>
+<DOMTimeline name="Symbol 881">
+<layers>
+<DOMLayer name="Labels Layer 1" color="#9e13ea">
+<frames>
+<DOMFrame index="198" keyMode="9728" name="normal" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="normal1" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="184" duration="14" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="fist" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="191" duration="7" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="land" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="hurt3" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="182" duration="16" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="run" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="194" duration="4" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="show" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="jump" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="194" duration="4" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="parry" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="194" duration="4" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="trash" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="194" duration="4" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="death" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="194" duration="4" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="estoc" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="194" duration="4" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="slash" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="194" duration="4" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="slot" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="throw" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="192" duration="6" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="prepareThrow" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="grab" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="steal" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="grabed" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="stolen" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="net" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="drink" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="brute" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="194" duration="4" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="whip" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="194" duration="4" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="launch" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="194" duration="4" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="win" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="train0" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="train1" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="193" duration="5" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="eat" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="194" duration="4" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="jump_asc" labelType="name">
+<elements/>
+</DOMFrame>
+</frames>
+</DOMLayer>
+<DOMLayer name="Labels Layer 2" color="#907bfa">
+<frames>
+<DOMFrame index="192" duration="6" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="normal0" labelType="name">
+<elements/>
+</DOMFrame>
+<DOMFrame index="170" duration="28" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="hurt2" labelType="name">
+<elements/>
+</DOMFrame>
+</frames>
+</DOMLayer>
+<DOMLayer name="Labels Layer 3" color="#4891b3">
+<frames>
+<DOMFrame index="163" duration="35" keyMode="9728">
+<elements/>
+</DOMFrame>
+<DOMFrame index="198" keyMode="9728" name="hurt1" labelType="name">
+<elements/>
+</DOMFrame>
+</frames>
+</DOMLayer>
+<DOMLayer name="Layer 1" color="#a8c097" current="true" isSelected="true">
+<frames>
+<DOMFrame index="0" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 846" name="smc" centerPoint3DX="58.05" centerPoint3DY="38.95">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="6" duration="15" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 847" name="smc" centerPoint3DX="69.2" centerPoint3DY="39.15">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="21" duration="8" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 848" name="smc" centerPoint3DX="76.7" centerPoint3DY="61.1">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="29" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 849" name="smc" centerPoint3DX="76.7" centerPoint3DY="71.3">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="35" duration="5" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 851" name="smc" centerPoint3DX="68.65" centerPoint3DY="42.9">
+<matrix>
+<Matrix tx="0.0" ty="-20.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="40" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 852" name="smc" centerPoint3DX="80.4" centerPoint3DY="44.85">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="46" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 853" name="smc" centerPoint3DX="80.3" centerPoint3DY="69.25">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="52" duration="5" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 854" name="smc" centerPoint3DX="78.25" centerPoint3DY="51.1">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="57" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 855" name="smc" centerPoint3DX="59.85" centerPoint3DY="78.65">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="63" duration="5" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 856" name="smc" centerPoint3DX="65.05" centerPoint3DY="63.85">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="68" duration="5" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 857" name="smc" centerPoint3DX="59.7" centerPoint3DY="38.4">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="73" duration="5" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 858" name="smc" centerPoint3DX="88.8" centerPoint3DY="65.15">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="78" duration="5" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 859" name="smc" centerPoint3DX="69.85" centerPoint3DY="52.3">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="83" duration="5" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 860" name="smc" centerPoint3DX="80.65" centerPoint3DY="41.35">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="88" duration="5" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 861" name="smc" centerPoint3DX="106.55" centerPoint3DY="97.65">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="93" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 862" name="smc" centerPoint3DX="37.85" centerPoint3DY="49.8">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="99" duration="7" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 863" name="smc" centerPoint3DX="83.25" centerPoint3DY="101.9">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="106" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 864" name="smc" centerPoint3DX="59.05" centerPoint3DY="72.9">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="112" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 865" name="smc" centerPoint3DX="57.6" centerPoint3DY="40.4">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="118" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 866" name="smc" centerPoint3DX="66.7" centerPoint3DY="58.05">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="124" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 867" name="smc" centerPoint3DX="63.65" centerPoint3DY="51.65">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="130" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 868" name="smc" centerPoint3DX="71.85" centerPoint3DY="73.2">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="136" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 869" name="smc" centerPoint3DX="72.55" centerPoint3DY="72.0">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="142" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 870" name="smc" centerPoint3DX="70.5" centerPoint3DY="47.7">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="148" duration="5" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 871" name="smc" centerPoint3DX="72.5" centerPoint3DY="68.25">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="153" duration="5" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 875" name="smc" centerPoint3DX="133.15" centerPoint3DY="101.9">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="158" duration="5" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 876" name="smc" centerPoint3DX="61.25" centerPoint3DY="39.15">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="163" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 877" name="smc" centerPoint3DX="66.8" centerPoint3DY="79.85">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="169" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 878" name="smc" centerPoint3DX="52.65" centerPoint3DY="62.9">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="175" duration="6" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 879" name="smc" centerPoint3DX="52.65" centerPoint3DY="62.9">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="181" duration="5" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 880" name="smc" centerPoint3DX="65.8" centerPoint3DY="52.45">
+<matrix>
+<Matrix tx="0.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+<DOMFrame index="186" duration="12" keyMode="9728">
+<elements>
+<DOMSymbolInstance libraryItemName="Symbol 479" name="smc" centerPoint3DX="76.4" centerPoint3DY="83.2">
+<matrix>
+<Matrix tx="-1.0" ty="0.0"/>
+</matrix>
+<transformationPoint>
+<Point/>
+</transformationPoint>
+</DOMSymbolInstance>
+</elements>
+</DOMFrame>
+</frames>
+</DOMLayer>
+</layers>
+</DOMTimeline>
+</timeline>
+</DOMSymbolItem>
