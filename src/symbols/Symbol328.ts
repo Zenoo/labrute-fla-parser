@@ -4,6 +4,7 @@ import Symbol324 from './Symbol324';
 import Symbol320 from './Symbol320';
 
 const Symbol328: Symbol = {
+  "type": "symbol",
   "name": "Symbol328",
   "layers": [
     {
@@ -28,7 +29,6 @@ const Symbol328: Symbol = {
           "parts": [
             {
               ...Symbol326,
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -2.95,
@@ -65,7 +65,6 @@ const Symbol328: Symbol = {
           "parts": [
             {
               ...Symbol324,
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -19.1,
@@ -82,7 +81,6 @@ const Symbol328: Symbol = {
           "parts": [
             {
               ...Symbol320,
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -2.95,
@@ -109,8 +107,7 @@ const Symbol328: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol328;

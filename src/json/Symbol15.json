@@ -1,4 +1,5 @@
 {
+  "type": "symbol",
   "name": "Symbol15",
   "layers": [
     {
@@ -121,6 +122,5 @@
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 }

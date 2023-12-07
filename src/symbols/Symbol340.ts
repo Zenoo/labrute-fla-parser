@@ -5,6 +5,7 @@ import Symbol287 from './Symbol287';
 import Symbol285 from './Symbol285';
 
 const Symbol340: Symbol = {
+  "type": "symbol",
   "name": "Symbol340",
   "layers": [
     {
@@ -13,7 +14,6 @@ const Symbol340: Symbol = {
           "parts": [
             {
               ...Symbol339,
-              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 16.6,
@@ -30,7 +30,6 @@ const Symbol340: Symbol = {
           "parts": [
             {
               ...Symbol331,
-              "type": "symbol",
               "partIdx": 4,
               "colorOffset": {
                 "r": -110,
@@ -54,7 +53,6 @@ const Symbol340: Symbol = {
           "parts": [
             {
               ...Symbol287,
-              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -78,7 +76,6 @@ const Symbol340: Symbol = {
           "parts": [
             {
               ...Symbol285,
-              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 16.6,
@@ -89,8 +86,7 @@ const Symbol340: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol340;

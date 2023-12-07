@@ -2,6 +2,7 @@ import { Symbol } from '../common';
 import Symbol146 from './Symbol146';
 
 const Symbol147: Symbol = {
+  "type": "symbol",
   "name": "Symbol147",
   "layers": [
     {
@@ -10,7 +11,6 @@ const Symbol147: Symbol = {
           "parts": [
             {
               ...Symbol146,
-              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -23,7 +23,6 @@ const Symbol147: Symbol = {
           "parts": [
             {
               ...Symbol146,
-              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -38,7 +37,6 @@ const Symbol147: Symbol = {
           "parts": [
             {
               ...Symbol146,
-              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -53,7 +51,6 @@ const Symbol147: Symbol = {
           "parts": [
             {
               ...Symbol146,
-              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -66,8 +63,7 @@ const Symbol147: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol147;

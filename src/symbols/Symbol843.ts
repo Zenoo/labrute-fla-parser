@@ -3,6 +3,7 @@ import Symbol842 from './Symbol842';
 import Symbol836 from './Symbol836';
 
 const Symbol843: Symbol = {
+  "type": "symbol",
   "name": "Symbol843",
   "layers": [
     {
@@ -11,7 +12,6 @@ const Symbol843: Symbol = {
           "parts": [
             {
               ...Symbol842,
-              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 0.55,
@@ -28,7 +28,6 @@ const Symbol843: Symbol = {
           "parts": [
             {
               ...Symbol836,
-              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -48,8 +47,7 @@ const Symbol843: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol843;

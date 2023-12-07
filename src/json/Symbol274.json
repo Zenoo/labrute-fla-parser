@@ -1,4 +1,5 @@
 {
+  "type": "symbol",
   "name": "Symbol274",
   "layers": [
     {
@@ -22,9 +23,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol250|REPLACE",
               "layers": [],
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -0.85,
@@ -38,9 +39,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol273|REPLACE",
               "layers": [],
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.65,
@@ -56,9 +57,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol246|REPLACE",
               "layers": [],
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0,
@@ -70,9 +71,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol248|REPLACE",
               "layers": [],
-              "type": "symbol",
               "colorOffset": {
                 "r": -77,
                 "g": -102,
@@ -90,9 +91,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol259|REPLACE",
               "layers": [],
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0.7,
@@ -104,9 +105,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol265|REPLACE",
               "layers": [],
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 1.05,
@@ -118,9 +119,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol267|REPLACE",
               "layers": [],
-              "type": "symbol",
               "partIdx": 2,
               "colorOffset": {
                 "r": -110,
@@ -138,6 +139,5 @@
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 }

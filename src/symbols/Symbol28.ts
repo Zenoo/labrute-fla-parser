@@ -6,6 +6,7 @@ import Symbol25 from './Symbol25';
 import Symbol17 from './Symbol17';
 
 const Symbol28: Symbol = {
+  "type": "symbol",
   "name": "Symbol28",
   "layers": [
     {
@@ -14,7 +15,6 @@ const Symbol28: Symbol = {
           "parts": [
             {
               ...Symbol27,
-              "type": "symbol",
               "transform": {
                 "tx": -0.45,
                 "ty": 3.35
@@ -30,7 +30,6 @@ const Symbol28: Symbol = {
           "parts": [
             {
               ...Symbol19,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -10.3,
@@ -47,7 +46,6 @@ const Symbol28: Symbol = {
           "parts": [
             {
               ...Symbol21,
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -1.4,
@@ -60,7 +58,6 @@ const Symbol28: Symbol = {
           "parts": [
             {
               ...Symbol25,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -12.6,
@@ -73,7 +70,6 @@ const Symbol28: Symbol = {
           "parts": [
             {
               ...Symbol17,
-              "type": "symbol",
               "partIdx": 2,
               "colorOffset": {
                 "r": -110,
@@ -93,8 +89,7 @@ const Symbol28: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol28;

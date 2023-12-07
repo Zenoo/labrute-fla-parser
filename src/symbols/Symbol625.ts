@@ -7,6 +7,7 @@ import Symbol619 from './Symbol619';
 import Symbol624 from './Symbol624';
 
 const Symbol625: Symbol = {
+  "type": "symbol",
   "name": "Symbol625",
   "layers": [
     {
@@ -15,7 +16,6 @@ const Symbol625: Symbol = {
           "parts": [
             {
               ...Symbol566,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -8.25,
@@ -32,7 +32,6 @@ const Symbol625: Symbol = {
           "parts": [
             {
               ...Symbol609,
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -1.6,
@@ -45,7 +44,6 @@ const Symbol625: Symbol = {
           "parts": [
             {
               ...Symbol612,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -16.2,
@@ -58,7 +56,6 @@ const Symbol625: Symbol = {
           "parts": [
             {
               ...Symbol617,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -8.45,
@@ -71,7 +68,6 @@ const Symbol625: Symbol = {
           "parts": [
             {
               ...Symbol619,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.55,
@@ -88,7 +84,6 @@ const Symbol625: Symbol = {
           "parts": [
             {
               ...Symbol624,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.8,
@@ -99,8 +94,7 @@ const Symbol625: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol625;

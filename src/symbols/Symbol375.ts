@@ -5,6 +5,7 @@ import Symbol372 from './Symbol372';
 import Symbol374 from './Symbol374';
 
 const Symbol375: Symbol = {
+  "type": "symbol",
   "name": "Symbol375",
   "layers": [
     {
@@ -13,7 +14,6 @@ const Symbol375: Symbol = {
           "parts": [
             {
               ...Symbol367,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 2.35,
@@ -38,7 +38,6 @@ const Symbol375: Symbol = {
           "parts": [
             {
               ...Symbol370,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -12,
@@ -51,7 +50,6 @@ const Symbol375: Symbol = {
           "parts": [
             {
               ...Symbol372,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -12,
@@ -64,7 +62,6 @@ const Symbol375: Symbol = {
           "parts": [
             {
               ...Symbol374,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -12,
@@ -75,8 +72,7 @@ const Symbol375: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol375;

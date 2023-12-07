@@ -2,6 +2,7 @@ import { Symbol } from '../common';
 import Symbol240 from './Symbol240';
 
 const Symbol241: Symbol = {
+  "type": "symbol",
   "name": "Symbol241",
   "layers": [
     {
@@ -10,7 +11,6 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
-              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -23,7 +23,6 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
-              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -38,7 +37,6 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
-              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -53,7 +51,6 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
-              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -68,7 +65,6 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
-              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -83,7 +79,6 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
-              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -98,7 +93,6 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
-              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -113,7 +107,6 @@ const Symbol241: Symbol = {
           "parts": [
             {
               ...Symbol240,
-              "type": "symbol",
               "partIdx": 6,
               "transform": {
                 "tx": 0,
@@ -126,8 +119,7 @@ const Symbol241: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol241;

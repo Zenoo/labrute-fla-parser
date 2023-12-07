@@ -8,6 +8,7 @@ import Symbol726 from './Symbol726';
 import Symbol728 from './Symbol728';
 
 const Symbol729: Symbol = {
+  "type": "symbol",
   "name": "Symbol729",
   "layers": [
     {
@@ -16,7 +17,6 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol709,
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -2.1,
@@ -49,7 +49,6 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol707,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": 3.45,
@@ -66,7 +65,6 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol704,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 4.75,
@@ -91,7 +89,6 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol717,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 7.1,
@@ -104,7 +101,6 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol719,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -3.9,
@@ -117,7 +113,6 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol726,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 7.1,
@@ -130,7 +125,6 @@ const Symbol729: Symbol = {
           "parts": [
             {
               ...Symbol728,
-              "type": "symbol",
               "partIdx": 4,
               "transform": {
                 "tx": -10.55,
@@ -141,8 +135,7 @@ const Symbol729: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol729;

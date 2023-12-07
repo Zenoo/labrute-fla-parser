@@ -6,6 +6,7 @@ import Symbol841 from './Symbol841';
 import Symbol27 from './Symbol27';
 
 const Symbol842: Symbol = {
+  "type": "symbol",
   "name": "Symbol842",
   "layers": [
     {
@@ -14,7 +15,6 @@ const Symbol842: Symbol = {
           "parts": [
             {
               ...Symbol566,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -9.55,
@@ -31,7 +31,6 @@ const Symbol842: Symbol = {
           "parts": [
             {
               ...Symbol837,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -12.6,
@@ -44,7 +43,6 @@ const Symbol842: Symbol = {
           "parts": [
             {
               ...Symbol839,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -0.15,
@@ -57,7 +55,6 @@ const Symbol842: Symbol = {
           "parts": [
             {
               ...Symbol841,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -1.1,
@@ -70,7 +67,6 @@ const Symbol842: Symbol = {
           "parts": [
             {
               ...Symbol27,
-              "type": "symbol",
               "transform": {
                 "tx": -0.45,
                 "ty": 3.35
@@ -80,8 +76,7 @@ const Symbol842: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol842;

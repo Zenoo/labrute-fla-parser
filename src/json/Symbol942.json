@@ -1,4 +1,5 @@
 {
+  "type": "symbol",
   "name": "Symbol942",
   "layers": [
     {
@@ -6,9 +7,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol934|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 3.25,
                 "ty": -32.2,
@@ -23,9 +24,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol934|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 3.5,
                 "ty": -33.45,
@@ -40,9 +41,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol934|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 3.7,
                 "ty": -34.65,
@@ -57,9 +58,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol934|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 3.95,
                 "ty": -35.85,
@@ -78,9 +79,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -26.3,
                 "ty": -1.75,
@@ -95,9 +96,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -5.7,
                 "ty": -6,
@@ -112,9 +113,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 15,
                 "ty": -10.15,
@@ -129,9 +130,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 35.55,
                 "ty": -14.45,
@@ -150,9 +151,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol920|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -24.25,
                 "ty": -16.95,
@@ -167,9 +168,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol920|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -11.65,
                 "ty": -16.6,
@@ -184,9 +185,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol920|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 0.9,
                 "ty": -16.25,
@@ -201,9 +202,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol920|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 13.45,
                 "ty": -16,
@@ -222,9 +223,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 24.15,
                 "ty": -14.05,
@@ -237,9 +238,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 26.75,
                 "ty": -14.05,
@@ -252,9 +253,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 29.4,
                 "ty": -14.05,
@@ -267,9 +268,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol932|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 32,
                 "ty": -14.05,
@@ -286,9 +287,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol930|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -26.85,
                 "ty": 38.7,
@@ -303,9 +304,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol930|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -20.25,
                 "ty": 39.3,
@@ -320,9 +321,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol930|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -13.85,
                 "ty": 40.05,
@@ -337,9 +338,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol930|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -7.4,
                 "ty": 40.7,
@@ -358,9 +359,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -25.35,
                 "ty": 23,
@@ -375,9 +376,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -19.3,
                 "ty": 23,
@@ -392,9 +393,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -13.2,
                 "ty": 23,
@@ -409,9 +410,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -7.05,
                 "ty": 23,
@@ -430,9 +431,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -17.65,
                 "ty": 11.05,
@@ -447,9 +448,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -14.2,
                 "ty": 11.05,
@@ -464,9 +465,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -10.8,
                 "ty": 11.05,
@@ -481,9 +482,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -7.35,
                 "ty": 11.05,
@@ -502,9 +503,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol928|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -8.85,
                 "ty": -15.15,
@@ -519,9 +520,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol928|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -6.3,
                 "ty": -15.1,
@@ -536,9 +537,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol928|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -3.8,
                 "ty": -15.15,
@@ -553,9 +554,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol928|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -1.25,
                 "ty": -15.15,
@@ -574,9 +575,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol926|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -8.75,
                 "ty": -15.15,
@@ -591,9 +592,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol926|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -6.15,
                 "ty": -15.15,
@@ -608,9 +609,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol926|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -3.5,
                 "ty": -15.15,
@@ -625,9 +626,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol926|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -0.9,
                 "ty": -15.15,
@@ -646,9 +647,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 14.2,
                 "ty": 7.7,
@@ -663,9 +664,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 13.3,
                 "ty": 7.65,
@@ -680,9 +681,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 12.4,
                 "ty": 7.65,
@@ -697,9 +698,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 11.5,
                 "ty": 7.7,
@@ -718,9 +719,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -0.65,
                 "ty": 0.7,
@@ -735,9 +736,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -1.5,
                 "ty": 0.7,
@@ -752,9 +753,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -2.4,
                 "ty": 0.7,
@@ -769,9 +770,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol924|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -3.25,
                 "ty": 0.7,
@@ -790,9 +791,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol922|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 16.3,
                 "ty": 23.15,
@@ -807,9 +808,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol922|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 15.1,
                 "ty": 23.55,
@@ -824,9 +825,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol922|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 14,
                 "ty": 23.85,
@@ -841,9 +842,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol922|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 12.75,
                 "ty": 24.25,
@@ -862,9 +863,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol920|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 12.45,
                 "ty": -29.85,
@@ -879,9 +880,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol920|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 13.55,
                 "ty": -29.7,
@@ -896,9 +897,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol920|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 14.7,
                 "ty": -29.65,
@@ -913,9 +914,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol920|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 15.75,
                 "ty": -29.55,
@@ -929,6 +930,5 @@
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 }

@@ -2,6 +2,7 @@ import { Symbol } from '../common';
 import Symbol61 from './Symbol61';
 
 const Symbol62: Symbol = {
+  "type": "symbol",
   "name": "Symbol62",
   "layers": [
     {
@@ -10,7 +11,6 @@ const Symbol62: Symbol = {
           "parts": [
             {
               ...Symbol61,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -22,7 +22,6 @@ const Symbol62: Symbol = {
           "parts": [
             {
               ...Symbol61,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0.6,
@@ -36,7 +35,6 @@ const Symbol62: Symbol = {
           "parts": [
             {
               ...Symbol61,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 1.15,
@@ -50,7 +48,6 @@ const Symbol62: Symbol = {
           "parts": [
             {
               ...Symbol61,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0.55,
@@ -66,7 +63,6 @@ const Symbol62: Symbol = {
           "parts": [
             {
               ...Symbol61,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": -0.05,
@@ -82,7 +78,6 @@ const Symbol62: Symbol = {
           "parts": [
             {
               ...Symbol61,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": -0.65,
@@ -98,7 +93,6 @@ const Symbol62: Symbol = {
           "parts": [
             {
               ...Symbol61,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": -0.25,
@@ -114,7 +108,6 @@ const Symbol62: Symbol = {
           "parts": [
             {
               ...Symbol61,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -124,8 +117,7 @@ const Symbol62: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol62;

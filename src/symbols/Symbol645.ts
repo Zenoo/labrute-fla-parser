@@ -5,6 +5,7 @@ import Symbol642 from './Symbol642';
 import Symbol644 from './Symbol644';
 
 const Symbol645: Symbol = {
+  "type": "symbol",
   "name": "Symbol645",
   "layers": [
     {
@@ -29,7 +30,6 @@ const Symbol645: Symbol = {
           "parts": [
             {
               ...Symbol635,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.35,
@@ -42,7 +42,6 @@ const Symbol645: Symbol = {
           "parts": [
             {
               ...Symbol637,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.1,
@@ -55,7 +54,6 @@ const Symbol645: Symbol = {
           "parts": [
             {
               ...Symbol642,
-              "type": "symbol",
               "transform": {
                 "tx": -5.05,
                 "ty": -2,
@@ -69,7 +67,6 @@ const Symbol645: Symbol = {
           "parts": [
             {
               ...Symbol644,
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -0.35,
@@ -80,8 +77,7 @@ const Symbol645: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol645;

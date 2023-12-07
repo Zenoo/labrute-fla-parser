@@ -3,6 +3,7 @@ import Symbol419 from './Symbol419';
 import Symbol413 from './Symbol413';
 
 const Symbol420: Symbol = {
+  "type": "symbol",
   "name": "Symbol420",
   "layers": [
     {
@@ -11,7 +12,6 @@ const Symbol420: Symbol = {
           "parts": [
             {
               ...Symbol419,
-              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": -2.75,
@@ -28,7 +28,6 @@ const Symbol420: Symbol = {
           "parts": [
             {
               ...Symbol413,
-              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -44,8 +43,7 @@ const Symbol420: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol420;

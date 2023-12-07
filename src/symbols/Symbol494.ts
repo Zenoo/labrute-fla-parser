@@ -19,6 +19,7 @@ import Symbol68 from './Symbol68';
 import Symbol30 from './Symbol30';
 
 const Symbol494: Symbol = {
+  "type": "symbol",
   "name": "Symbol494",
   "layers": [
     {
@@ -27,7 +28,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol474,
-              "type": "symbol",
               "transform": {
                 "tx": -15.6,
                 "ty": -50.3,
@@ -47,7 +47,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol452,
-              "type": "symbol",
               "transform": {
                 "tx": -2.55,
                 "ty": -49.6,
@@ -67,7 +66,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol426,
-              "type": "symbol",
               "transform": {
                 "tx": -8.2,
                 "ty": -50.8,
@@ -87,7 +85,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol421,
-              "type": "symbol",
               "transform": {
                 "tx": -19.75,
                 "ty": -47,
@@ -107,7 +104,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol411,
-              "type": "symbol",
               "transform": {
                 "tx": 5.2,
                 "ty": -60.25,
@@ -127,7 +123,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol342,
-              "type": "symbol",
               "transform": {
                 "tx": 2.05,
                 "ty": -44.8,
@@ -147,7 +142,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol209,
-              "type": "symbol",
               "transform": {
                 "tx": 1.45,
                 "ty": -34.95,
@@ -167,7 +161,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol277,
-              "type": "symbol",
               "transform": {
                 "tx": 3.65,
                 "ty": -36.9,
@@ -187,7 +180,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol242,
-              "type": "symbol",
               "transform": {
                 "tx": 0.05,
                 "ty": -32.05,
@@ -207,7 +199,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol218,
-              "type": "symbol",
               "transform": {
                 "tx": 3.1,
                 "ty": -33.05,
@@ -225,7 +216,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol191,
-              "type": "symbol",
               "transform": {
                 "tx": 0.4,
                 "ty": -19.65,
@@ -245,7 +235,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol176,
-              "type": "symbol",
               "transform": {
                 "tx": 6.4,
                 "ty": -34.1,
@@ -265,7 +254,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol148,
-              "type": "symbol",
               "transform": {
                 "tx": 11.05,
                 "ty": -23.85,
@@ -285,7 +273,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol122,
-              "type": "symbol",
               "transform": {
                 "tx": 12.95,
                 "ty": -10.2,
@@ -305,7 +292,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol105,
-              "type": "symbol",
               "transform": {
                 "tx": 5,
                 "ty": -52.4,
@@ -325,7 +311,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol80,
-              "type": "symbol",
               "transform": {
                 "tx": 7.25,
                 "ty": -53.05,
@@ -345,7 +330,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol68,
-              "type": "symbol",
               "transform": {
                 "tx": 19.4,
                 "ty": -54.25,
@@ -365,7 +349,6 @@ const Symbol494: Symbol = {
           "parts": [
             {
               ...Symbol30,
-              "type": "symbol",
               "transform": {
                 "tx": 14.2,
                 "ty": -54.7,
@@ -379,8 +362,7 @@ const Symbol494: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol494;

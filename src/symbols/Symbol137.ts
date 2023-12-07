@@ -3,6 +3,7 @@ import Symbol135 from './Symbol135';
 import Symbol133 from './Symbol133';
 
 const Symbol137: Symbol = {
+  "type": "symbol",
   "name": "Symbol137",
   "layers": [
     {
@@ -27,7 +28,6 @@ const Symbol137: Symbol = {
           "parts": [
             {
               ...Symbol135,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": 0,
@@ -44,7 +44,6 @@ const Symbol137: Symbol = {
           "parts": [
             {
               ...Symbol133,
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -3.95,
@@ -55,8 +54,7 @@ const Symbol137: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol137;

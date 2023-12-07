@@ -4,6 +4,7 @@ import Symbol716 from './Symbol716';
 import Symbol711 from './Symbol711';
 
 const Symbol717: Symbol = {
+  "type": "symbol",
   "name": "Symbol717",
   "layers": [
     {
@@ -28,7 +29,6 @@ const Symbol717: Symbol = {
           "parts": [
             {
               ...Symbol713,
-              "type": "symbol",
               "colorOffset": {
                 "r": -87,
                 "g": -148,
@@ -49,7 +49,6 @@ const Symbol717: Symbol = {
           "parts": [
             {
               ...Symbol716,
-              "type": "symbol",
               "transform": {
                 "tx": -26.6,
                 "ty": -18.7
@@ -65,7 +64,6 @@ const Symbol717: Symbol = {
           "parts": [
             {
               ...Symbol711,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": 2.75,
@@ -76,8 +74,7 @@ const Symbol717: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol717;

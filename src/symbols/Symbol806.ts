@@ -19,6 +19,7 @@ import Symbol790 from './Symbol790';
 import Symbol803 from './Symbol803';
 
 const Symbol806: Symbol = {
+  "type": "symbol",
   "name": "Symbol806",
   "layers": [
     {
@@ -27,7 +28,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol554,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 43.1,
@@ -48,7 +48,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol557,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -64,7 +63,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol788,
-              "type": "symbol",
               "partIdx": 4,
               "transform": {
                 "tx": -11.25,
@@ -77,7 +75,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol797,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -7.95,
@@ -92,7 +89,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol797,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -9.9,
@@ -113,7 +109,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol556,
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": 27.2,
@@ -126,7 +121,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol795,
-              "type": "symbol",
               "partIdx": 4,
               "transform": {
                 "tx": -11.25,
@@ -139,7 +133,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol795,
-              "type": "symbol",
               "partIdx": 4,
               "transform": {
                 "tx": -14.85,
@@ -156,7 +149,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol781,
-              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -178,7 +170,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol779,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -1.85,
@@ -191,7 +182,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol792,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -14.5,
@@ -206,7 +196,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol794,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -1.85,
@@ -219,7 +208,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol799,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -1.85,
@@ -232,7 +220,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol801,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -1.85,
@@ -245,7 +232,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol805,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -5.4,
@@ -262,7 +248,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol777,
-              "type": "symbol",
               "transform": {
                 "tx": -11.85,
                 "ty": 26.65,
@@ -282,7 +267,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol775,
-              "type": "symbol",
               "colorOffset": {
                 "r": 0,
                 "g": 0,
@@ -303,7 +287,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol344,
-              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -325,7 +308,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol556,
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -12.15,
@@ -342,7 +324,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol554,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -12.7,
@@ -357,7 +338,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol790,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 35.5,
@@ -370,7 +350,6 @@ const Symbol806: Symbol = {
           "parts": [
             {
               ...Symbol803,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -7.8,
@@ -381,8 +360,7 @@ const Symbol806: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol806;

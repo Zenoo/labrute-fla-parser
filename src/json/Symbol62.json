@@ -1,4 +1,5 @@
 {
+  "type": "symbol",
   "name": "Symbol62",
   "layers": [
     {
@@ -6,9 +7,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol61|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -19,9 +20,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol61|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0.6,
@@ -34,9 +35,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol61|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 1.15,
@@ -49,9 +50,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol61|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0.55,
@@ -66,9 +67,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol61|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": -0.05,
@@ -83,9 +84,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol61|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": -0.65,
@@ -100,9 +101,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol61|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": -0.25,
@@ -117,9 +118,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol61|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -129,6 +130,5 @@
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 }

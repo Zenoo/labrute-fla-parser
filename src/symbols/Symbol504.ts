@@ -7,6 +7,7 @@ import Symbol105 from './Symbol105';
 import Symbol80 from './Symbol80';
 
 const Symbol504: Symbol = {
+  "type": "symbol",
   "name": "Symbol504",
   "layers": [
     {
@@ -15,7 +16,6 @@ const Symbol504: Symbol = {
           "parts": [
             {
               ...Symbol452,
-              "type": "symbol",
               "transform": {
                 "tx": -4.85,
                 "ty": -8.2,
@@ -33,7 +33,6 @@ const Symbol504: Symbol = {
           "parts": [
             {
               ...Symbol426,
-              "type": "symbol",
               "transform": {
                 "tx": -6.5,
                 "ty": -1.85,
@@ -51,7 +50,6 @@ const Symbol504: Symbol = {
           "parts": [
             {
               ...Symbol411,
-              "type": "symbol",
               "transform": {
                 "tx": 2.8,
                 "ty": -32.7,
@@ -69,7 +67,6 @@ const Symbol504: Symbol = {
           "parts": [
             {
               ...Symbol342,
-              "type": "symbol",
               "transform": {
                 "tx": 5.95,
                 "ty": -4.9,
@@ -87,7 +84,6 @@ const Symbol504: Symbol = {
           "parts": [
             {
               ...Symbol105,
-              "type": "symbol",
               "transform": {
                 "tx": 8.75,
                 "ty": -12.45,
@@ -107,7 +103,6 @@ const Symbol504: Symbol = {
           "parts": [
             {
               ...Symbol80,
-              "type": "symbol",
               "transform": {
                 "tx": 10.15,
                 "ty": -6.05,
@@ -121,8 +116,7 @@ const Symbol504: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol504;

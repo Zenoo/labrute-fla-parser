@@ -1,4 +1,5 @@
 {
+  "type": "symbol",
   "name": "Symbol862",
   "layers": [
     {
@@ -6,9 +7,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol834|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -1.9,
                 "ty": -6.9,
@@ -27,9 +28,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol821|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -4.9,
                 "ty": -1.55,
@@ -48,9 +49,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol807|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 3.45,
                 "ty": -33.85,
@@ -67,9 +68,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol773|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 6.2,
                 "ty": -3.55,
@@ -88,9 +89,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol594|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 8.5,
                 "ty": -9.6,
@@ -109,9 +110,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol581|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": 12.15,
                 "ty": -2.5,
@@ -130,9 +131,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol563|REPLACE",
               "layers": [],
-              "type": "symbol",
               "transform": {
                 "tx": -7.65,
                 "ty": -6.5,
@@ -144,6 +145,5 @@
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 }

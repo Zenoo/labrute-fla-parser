@@ -4,6 +4,7 @@ import Symbol77 from './Symbol77';
 import Symbol70 from './Symbol70';
 
 const Symbol78: Symbol = {
+  "type": "symbol",
   "name": "Symbol78",
   "layers": [
     {
@@ -12,7 +13,6 @@ const Symbol78: Symbol = {
           "parts": [
             {
               ...Symbol75,
-              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 0.3,
@@ -29,7 +29,6 @@ const Symbol78: Symbol = {
           "parts": [
             {
               ...Symbol77,
-              "type": "symbol",
               "partIdx": 4,
               "colorOffset": {
                 "r": -16,
@@ -55,7 +54,6 @@ const Symbol78: Symbol = {
           "parts": [
             {
               ...Symbol70,
-              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -75,8 +73,7 @@ const Symbol78: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol78;

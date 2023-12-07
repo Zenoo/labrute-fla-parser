@@ -1,4 +1,5 @@
 {
+  "type": "symbol",
   "name": "Symbol312",
   "layers": [
     {
@@ -22,9 +23,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol310|REPLACE",
               "layers": [],
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -1.95,
@@ -40,9 +41,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol308|REPLACE",
               "layers": [],
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": 0,
@@ -58,9 +59,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol306|REPLACE",
               "layers": [],
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": 0,
@@ -71,6 +72,5 @@
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 }

@@ -2,6 +2,7 @@ import { Symbol } from '../common';
 import Symbol349 from './Symbol349';
 
 const Symbol351: Symbol = {
+  "type": "symbol",
   "name": "Symbol351",
   "layers": [
     {
@@ -26,7 +27,6 @@ const Symbol351: Symbol = {
           "parts": [
             {
               ...Symbol349,
-              "type": "symbol",
               "transform": {
                 "tx": 0.35,
                 "ty": 0.95
@@ -38,7 +38,6 @@ const Symbol351: Symbol = {
           "parts": [
             {
               ...Symbol349,
-              "type": "symbol",
               "colorOffset": {
                 "r": 0,
                 "g": 0,
@@ -55,7 +54,6 @@ const Symbol351: Symbol = {
           "parts": [
             {
               ...Symbol349,
-              "type": "symbol",
               "colorOffset": {
                 "r": 0,
                 "g": 0,
@@ -74,8 +72,7 @@ const Symbol351: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol351;

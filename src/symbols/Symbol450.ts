@@ -4,6 +4,7 @@ import Symbol82 from './Symbol82';
 import Symbol448 from './Symbol448';
 
 const Symbol450: Symbol = {
+  "type": "symbol",
   "name": "Symbol450",
   "layers": [
     {
@@ -12,7 +13,6 @@ const Symbol450: Symbol = {
           "parts": [
             {
               ...Symbol449,
-              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 1.9,
@@ -29,7 +29,6 @@ const Symbol450: Symbol = {
           "parts": [
             {
               ...Symbol82,
-              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -47,7 +46,6 @@ const Symbol450: Symbol = {
           "parts": [
             {
               ...Symbol448,
-              "type": "symbol",
               "partIdx": 4,
               "colorOffset": {
                 "r": -16,
@@ -63,8 +61,7 @@ const Symbol450: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol450;

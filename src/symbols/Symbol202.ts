@@ -3,6 +3,7 @@ import Symbol200 from './Symbol200';
 import Symbol198 from './Symbol198';
 
 const Symbol202: Symbol = {
+  "type": "symbol",
   "name": "Symbol202",
   "layers": [
     {
@@ -27,7 +28,6 @@ const Symbol202: Symbol = {
           "parts": [
             {
               ...Symbol200,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": 0,
@@ -44,7 +44,6 @@ const Symbol202: Symbol = {
           "parts": [
             {
               ...Symbol198,
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": 0.25,
@@ -55,8 +54,7 @@ const Symbol202: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol202;

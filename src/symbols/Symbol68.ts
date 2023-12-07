@@ -16,6 +16,7 @@ import Symbol62 from './Symbol62';
 import Symbol38 from './Symbol38';
 
 const Symbol68: Symbol = {
+  "type": "symbol",
   "name": "Symbol68",
   "layers": [
     {
@@ -40,7 +41,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol67,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -56,7 +56,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol54,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -72,7 +71,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol66,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -88,7 +86,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol45,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -100,7 +97,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol52,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -128,7 +124,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol41,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -164,7 +159,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol44,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -176,7 +170,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol46,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -188,7 +181,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol47,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -200,7 +192,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol48,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -212,7 +203,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol49,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -236,7 +226,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol51,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -260,7 +249,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol55,
-              "type": "symbol",
               "transform": {
                 "tx": 0,
                 "ty": 0
@@ -320,7 +308,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol62,
-              "type": "symbol",
               "transform": {
                 "tx": -5.2,
                 "ty": 23.05
@@ -372,7 +359,6 @@ const Symbol68: Symbol = {
           "parts": [
             {
               ...Symbol38,
-              "type": "symbol",
               "transform": {
                 "tx": 0.05,
                 "ty": 2.65
@@ -382,8 +368,7 @@ const Symbol68: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol68;

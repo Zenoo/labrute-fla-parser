@@ -1,4 +1,5 @@
 {
+  "type": "symbol",
   "name": "Symbol818",
   "layers": [
     {
@@ -6,9 +7,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol576|REPLACE",
               "layers": [],
-              "type": "symbol",
               "partIdx": 2,
               "colorOffset": {
                 "r": -16,
@@ -28,6 +29,5 @@
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 }

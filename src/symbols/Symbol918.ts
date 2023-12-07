@@ -13,6 +13,7 @@ import Symbol914 from './Symbol914';
 import Symbol917 from './Symbol917';
 
 const Symbol918: Symbol = {
+  "type": "symbol",
   "name": "Symbol918",
   "layers": [
     {
@@ -21,7 +22,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol894,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 2.6,
@@ -34,7 +34,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol903,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 2.6,
@@ -47,7 +46,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol904,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 2.6,
@@ -60,7 +58,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol905,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 2.6,
@@ -73,7 +70,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol906,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 1.6,
@@ -86,7 +82,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol907,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 1.6,
@@ -99,7 +94,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol910,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": -11.6,
@@ -112,7 +106,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol911,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 2.6,
@@ -125,7 +118,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol894,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 2.6,
@@ -138,7 +130,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol912,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 2.6,
@@ -151,7 +142,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol894,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 2.6,
@@ -164,7 +154,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol913,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 2.6,
@@ -177,7 +166,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol894,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 2.6,
@@ -190,7 +178,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol914,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 1.6,
@@ -203,7 +190,6 @@ const Symbol918: Symbol = {
           "parts": [
             {
               ...Symbol917,
-              "type": "symbol",
               "partIdx": 0,
               "transform": {
                 "tx": 2.6,
@@ -214,8 +200,7 @@ const Symbol918: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol918;

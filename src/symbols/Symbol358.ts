@@ -3,6 +3,7 @@ import Symbol356 from './Symbol356';
 import Symbol354 from './Symbol354';
 
 const Symbol358: Symbol = {
+  "type": "symbol",
   "name": "Symbol358",
   "layers": [
     {
@@ -11,7 +12,6 @@ const Symbol358: Symbol = {
           "parts": [
             {
               ...Symbol356,
-              "type": "symbol",
               "transform": {
                 "tx": 0.35,
                 "ty": 0.95
@@ -23,7 +23,6 @@ const Symbol358: Symbol = {
           "parts": [
             {
               ...Symbol356,
-              "type": "symbol",
               "transform": {
                 "tx": 0.35,
                 "ty": 0.95,
@@ -43,7 +42,6 @@ const Symbol358: Symbol = {
           "parts": [
             {
               ...Symbol354,
-              "type": "symbol",
               "transform": {
                 "tx": 0.5,
                 "ty": -1.25
@@ -55,7 +53,6 @@ const Symbol358: Symbol = {
           "parts": [
             {
               ...Symbol354,
-              "type": "symbol",
               "transform": {
                 "tx": 0.5,
                 "ty": -0.25,
@@ -71,7 +68,6 @@ const Symbol358: Symbol = {
           "parts": [
             {
               ...Symbol354,
-              "type": "symbol",
               "transform": {
                 "tx": 0.5,
                 "ty": -0.75
@@ -97,8 +93,7 @@ const Symbol358: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol358;

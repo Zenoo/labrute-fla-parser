@@ -2,6 +2,7 @@ import { Symbol } from '../common';
 import Symbol424 from './Symbol424';
 
 const Symbol425: Symbol = {
+  "type": "symbol",
   "name": "Symbol425",
   "layers": [
     {
@@ -10,7 +11,6 @@ const Symbol425: Symbol = {
           "parts": [
             {
               ...Symbol424,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -23,7 +23,6 @@ const Symbol425: Symbol = {
           "parts": [
             {
               ...Symbol424,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -40,7 +39,6 @@ const Symbol425: Symbol = {
           "parts": [
             {
               ...Symbol424,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -57,7 +55,6 @@ const Symbol425: Symbol = {
           "parts": [
             {
               ...Symbol424,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -74,7 +71,6 @@ const Symbol425: Symbol = {
           "parts": [
             {
               ...Symbol424,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -91,7 +87,6 @@ const Symbol425: Symbol = {
           "parts": [
             {
               ...Symbol424,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -108,7 +103,6 @@ const Symbol425: Symbol = {
           "parts": [
             {
               ...Symbol424,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -123,8 +117,7 @@ const Symbol425: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol425;

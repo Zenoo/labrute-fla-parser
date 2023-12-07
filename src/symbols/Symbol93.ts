@@ -2,6 +2,7 @@ import { Symbol } from '../common';
 
 
 const Symbol93: Symbol = {
+  "type": "symbol",
   "name": "Symbol93",
   "layers": [
     {
@@ -20,8 +21,7 @@ const Symbol93: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol93;

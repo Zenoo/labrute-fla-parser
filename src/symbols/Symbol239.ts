@@ -6,6 +6,7 @@ import Symbol238 from './Symbol238';
 import Symbol149 from './Symbol149';
 
 const Symbol239: Symbol = {
+  "type": "symbol",
   "name": "Symbol239",
   "layers": [
     {
@@ -14,7 +15,6 @@ const Symbol239: Symbol = {
           "parts": [
             {
               ...Symbol225,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": 0.3,
@@ -27,7 +27,6 @@ const Symbol239: Symbol = {
           "parts": [
             {
               ...Symbol230,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -0.35,
@@ -40,7 +39,6 @@ const Symbol239: Symbol = {
           "parts": [
             {
               ...Symbol232,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": 0.15,
@@ -53,7 +51,6 @@ const Symbol239: Symbol = {
           "parts": [
             {
               ...Symbol238,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -6.6,
@@ -66,7 +63,6 @@ const Symbol239: Symbol = {
           "parts": [
             {
               ...Symbol149,
-              "type": "symbol",
               "partIdx": 2,
               "colorOffset": {
                 "r": -110,
@@ -84,8 +80,7 @@ const Symbol239: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol239;

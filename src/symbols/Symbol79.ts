@@ -2,6 +2,7 @@ import { Symbol } from '../common';
 import Symbol78 from './Symbol78';
 
 const Symbol79: Symbol = {
+  "type": "symbol",
   "name": "Symbol79",
   "layers": [
     {
@@ -10,7 +11,6 @@ const Symbol79: Symbol = {
           "parts": [
             {
               ...Symbol78,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -23,7 +23,6 @@ const Symbol79: Symbol = {
           "parts": [
             {
               ...Symbol78,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -40,7 +39,6 @@ const Symbol79: Symbol = {
           "parts": [
             {
               ...Symbol78,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -57,7 +55,6 @@ const Symbol79: Symbol = {
           "parts": [
             {
               ...Symbol78,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -74,7 +71,6 @@ const Symbol79: Symbol = {
           "parts": [
             {
               ...Symbol78,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -91,7 +87,6 @@ const Symbol79: Symbol = {
           "parts": [
             {
               ...Symbol78,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -108,7 +103,6 @@ const Symbol79: Symbol = {
           "parts": [
             {
               ...Symbol78,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -123,8 +117,7 @@ const Symbol79: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol79;

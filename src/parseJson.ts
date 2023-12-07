@@ -251,9 +251,9 @@ const parseSymbol = (symbolInstance: DOMSymbolInstance, symbolItem?: DOMSymbolIt
   const matrix = symbolInstance.elements?.find((element) => element.name === 'matrix')?.elements?.[0] as Matrix | undefined;
   
   const result: Symbol = {
+    type: 'symbol',
     name: (symbolInstance.attributes?.libraryItemName || '').split(' ').join(''),
     layers: [],
-    type: 'symbol',
     partIdx: symbolInstance.attributes?.name ? +symbolInstance.attributes.name.replace(/\D/g, '') : undefined,
     colorOffset: colors ? {
       r: +(colors.attributes?.redOffset || 0),

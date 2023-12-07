@@ -1,4 +1,5 @@
 {
+  "type": "symbol",
   "name": "Symbol732",
   "layers": [
     {
@@ -6,9 +7,9 @@
         {
           "parts": [
             {
+              "type": "symbol",
               "name": "REPLACE|Symbol731|REPLACE",
               "layers": [],
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -4.5,
@@ -23,6 +24,5 @@
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 }

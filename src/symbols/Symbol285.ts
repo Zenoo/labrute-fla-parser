@@ -2,6 +2,7 @@ import { Symbol } from '../common';
 import Symbol284 from './Symbol284';
 
 const Symbol285: Symbol = {
+  "type": "symbol",
   "name": "Symbol285",
   "layers": [
     {
@@ -10,7 +11,6 @@ const Symbol285: Symbol = {
           "parts": [
             {
               ...Symbol284,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -12.55,
@@ -21,8 +21,7 @@ const Symbol285: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol285;

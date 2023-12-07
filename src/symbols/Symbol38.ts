@@ -3,6 +3,7 @@ import Symbol37 from './Symbol37';
 import Symbol32 from './Symbol32';
 
 const Symbol38: Symbol = {
+  "type": "symbol",
   "name": "Symbol38",
   "layers": [
     {
@@ -11,7 +12,6 @@ const Symbol38: Symbol = {
           "parts": [
             {
               ...Symbol37,
-              "type": "symbol",
               "partIdx": 7,
               "transform": {
                 "tx": 0,
@@ -28,7 +28,6 @@ const Symbol38: Symbol = {
           "parts": [
             {
               ...Symbol32,
-              "type": "symbol",
               "partIdx": 0,
               "colorOffset": {
                 "r": -16,
@@ -44,8 +43,7 @@ const Symbol38: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol38;

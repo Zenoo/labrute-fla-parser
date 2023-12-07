@@ -2,6 +2,7 @@ import { Symbol } from '../common';
 import Symbol340 from './Symbol340';
 
 const Symbol341: Symbol = {
+  "type": "symbol",
   "name": "Symbol341",
   "layers": [
     {
@@ -10,7 +11,6 @@ const Symbol341: Symbol = {
           "parts": [
             {
               ...Symbol340,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": 0,
@@ -23,7 +23,6 @@ const Symbol341: Symbol = {
           "parts": [
             {
               ...Symbol340,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -1.7,
@@ -40,7 +39,6 @@ const Symbol341: Symbol = {
           "parts": [
             {
               ...Symbol340,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -3.35,
@@ -57,7 +55,6 @@ const Symbol341: Symbol = {
           "parts": [
             {
               ...Symbol340,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -5.15,
@@ -74,7 +71,6 @@ const Symbol341: Symbol = {
           "parts": [
             {
               ...Symbol340,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -6.9,
@@ -91,7 +87,6 @@ const Symbol341: Symbol = {
           "parts": [
             {
               ...Symbol340,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -7.45,
@@ -108,7 +103,6 @@ const Symbol341: Symbol = {
           "parts": [
             {
               ...Symbol340,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -8.1,
@@ -125,7 +119,6 @@ const Symbol341: Symbol = {
           "parts": [
             {
               ...Symbol340,
-              "type": "symbol",
               "partIdx": 5,
               "transform": {
                 "tx": -8.75,
@@ -140,8 +133,7 @@ const Symbol341: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol341;

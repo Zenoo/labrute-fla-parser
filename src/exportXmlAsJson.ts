@@ -95,7 +95,7 @@ for (const file of files) {
   let stringifiedSymbol = JSON.stringify(symbol, null, 2);
 
   // Replace `"name":"REPLACE|{name}|REPLACE","layers":[]` with `...{name}`
-  stringifiedSymbol = stringifiedSymbol.replace(/"name": "REPLACE\|(.*)\|REPLACE",\n\s+"layers": \[\]/g, '...$1');
+  stringifiedSymbol = stringifiedSymbol.replace(/"type": "symbol",\n\s+"name": "REPLACE\|(.*)\|REPLACE",\n\s+"layers": \[\]/g, '...$1');
 
   const newFileContent = `import { Symbol } from '../common';
 ${[...dependencies].map((dependency) => `import ${dependency.split(' ').join('')} from './${dependency}';`).join('\n')}

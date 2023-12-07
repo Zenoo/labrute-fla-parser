@@ -9,6 +9,7 @@ import Symbol139 from './Symbol139';
 import Symbol124 from './Symbol124';
 
 const Symbol143: Symbol = {
+  "type": "symbol",
   "name": "Symbol143",
   "layers": [
     {
@@ -41,7 +42,6 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol142,
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -0.6,
@@ -60,7 +60,6 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol19,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -11.3,
@@ -77,7 +76,6 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol126,
-              "type": "symbol",
               "partIdx": 3,
               "transform": {
                 "tx": -1.6,
@@ -90,7 +88,6 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol128,
-              "type": "symbol",
               "transform": {
                 "tx": -0.5,
                 "ty": 4.8
@@ -102,7 +99,6 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol130,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -4.1,
@@ -115,7 +111,6 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol137,
-              "type": "symbol",
               "partIdx": 1,
               "transform": {
                 "tx": -7.05,
@@ -128,7 +123,6 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol139,
-              "type": "symbol",
               "partIdx": 2,
               "transform": {
                 "tx": -0.85,
@@ -141,7 +135,6 @@ const Symbol143: Symbol = {
           "parts": [
             {
               ...Symbol124,
-              "type": "symbol",
               "partIdx": 2,
               "colorOffset": {
                 "r": -110,
@@ -159,8 +152,7 @@ const Symbol143: Symbol = {
         }
       ]
     }
-  ],
-  "type": "symbol"
+  ]
 };
 
 export default Symbol143;
