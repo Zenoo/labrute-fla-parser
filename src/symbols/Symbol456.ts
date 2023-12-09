@@ -11,10 +11,10 @@ const Symbol456: Symbol = {
           "parts": [
             {
               "type": "svg",
-              "svg": "MISSING",
+              "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"11.95px\" width=\"4.95px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 0.25, 5.65)\">\r\n    <path d=\"M3.15 -0.2 L4.6 -5.65 4.7 0.25 3.15 -0.2 4.7 0.25 -0.25 6.3 -0.25 -1.65 3.15 -0.2 -0.25 6.3 3.15 -0.2\" fill=\"#bcbecb\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n    <path d=\"M4.6 -5.65 L3.15 -0.2 -0.25 -1.65 4.6 -5.65\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n    <path d=\"M4.6 -5.65 L3.15 -0.2 4.7 0.25 4.6 -5.65 -0.25 -1.65 3.15 -0.2 -0.25 6.3 4.7 0.25 M-0.25 6.3 L-0.25 -1.65\" fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-opacity=\"0.3019608\" stroke-width=\"0.05\"/>\r\n  </g>\r\n</svg>\r\n",
               "offset": {
-                "x": 0,
-                "y": 0
+                "x": 0.25,
+                "y": 5.65
               }
             }
           ]

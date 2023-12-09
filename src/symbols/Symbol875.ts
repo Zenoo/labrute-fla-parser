@@ -120,10 +120,10 @@ const Symbol875: Symbol = {
           "parts": [
             {
               "type": "svg",
-              "svg": "MISSING",
+              "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"24.65px\" width=\"40.7px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, -10.55, 26.95)\">\r\n    <path d=\"M12.0 -26.2 L14.45 -22.65 Q15.2 -21.4 17.0 -20.1 19.2 -18.55 22.05 -17.7 L24.35 -16.9 27.3 -16.25 35.65 -15.85 44.15 -15.35 Q48.75 -14.25 50.3 -12.9 51.25 -12.05 51.25 -10.55 51.25 -8.1 46.1 -6.15 41.65 -4.45 38.05 -4.45 L32.4 -4.85 Q29.95 -4.85 28.45 -3.85 L25.9 -2.35 25.75 -2.3 Q25.6 -2.35 25.6 -2.65 25.6 -4.65 29.35 -5.5 L37.6 -6.4 Q49.55 -7.25 49.55 -10.7 49.55 -12.55 46.2 -13.25 L38.1 -13.95 Q23.95 -14.5 18.95 -17.0 16.75 -18.1 13.75 -21.15 10.55 -24.4 10.55 -25.95 10.55 -27.85 12.0 -26.2\" fill=\"#545656\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
               "offset": {
-                "x": 0,
-                "y": 0
+                "x": -10.55,
+                "y": 26.95
               }
             }
           ]
@@ -187,10 +187,10 @@ const Symbol875: Symbol = {
           "parts": [
             {
               "type": "svg",
-              "svg": "MISSING",
+              "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"24.65px\" width=\"40.7px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, -10.55, 26.95)\">\r\n    <path d=\"M12.0 -26.2 L14.45 -22.65 Q15.2 -21.4 17.0 -20.1 19.2 -18.55 22.05 -17.7 L24.35 -16.9 27.3 -16.25 35.65 -15.85 44.15 -15.35 Q48.75 -14.25 50.3 -12.9 51.25 -12.05 51.25 -10.55 51.25 -8.1 46.1 -6.15 41.65 -4.45 38.05 -4.45 L32.4 -4.85 Q29.95 -4.85 28.45 -3.85 L25.9 -2.35 25.75 -2.3 Q25.6 -2.35 25.6 -2.65 25.6 -4.65 29.35 -5.5 L37.6 -6.4 Q49.55 -7.25 49.55 -10.7 49.55 -12.55 46.2 -13.25 L38.1 -13.95 Q23.95 -14.5 18.95 -17.0 16.75 -18.1 13.75 -21.15 10.55 -24.4 10.55 -25.95 10.55 -27.85 12.0 -26.2\" fill=\"#545656\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
               "offset": {
-                "x": 0,
-                "y": 0
+                "x": -10.55,
+                "y": 26.95
               }
             }
           ]
@@ -220,6 +220,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": -1.85,
                 "ty": -46.95,
@@ -380,6 +381,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.7890625,
               "transform": {
                 "tx": 11.1,
                 "ty": -28.85,
@@ -400,6 +402,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.5859375,
               "transform": {
                 "tx": 7.8,
                 "ty": -33.5,
@@ -420,6 +423,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.3984375,
               "transform": {
                 "tx": 4.75,
                 "ty": -37.75,
@@ -440,6 +444,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.234375,
               "transform": {
                 "tx": 2,
                 "ty": -41.6,
@@ -460,6 +465,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.09375,
               "transform": {
                 "tx": -0.3,
                 "ty": -44.7,
@@ -480,6 +486,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": -1.85,
                 "ty": -46.95,
@@ -500,6 +507,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": -1.85,
                 "ty": -46.95,
@@ -524,6 +532,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": -6.5,
                 "ty": -43.85,
@@ -544,6 +553,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": -9.5,
                 "ty": -43.85,
@@ -564,6 +574,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.46484375,
               "transform": {
                 "tx": 6.1,
                 "ty": -31.95,
@@ -664,6 +675,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": 18.05,
                 "ty": -23.3,
@@ -684,6 +696,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": 14,
                 "ty": -26.75,
@@ -704,6 +717,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": 9.8,
                 "ty": -30.15,
@@ -724,6 +738,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": 5.7,
                 "ty": -33.6,
@@ -744,6 +759,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": 1.6,
                 "ty": -37.1,
@@ -764,6 +780,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": -2.45,
                 "ty": -40.5,
@@ -784,6 +801,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": -6.5,
                 "ty": -43.85,
@@ -804,6 +822,7 @@ const Symbol875: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": -6.5,
                 "ty": -43.85,

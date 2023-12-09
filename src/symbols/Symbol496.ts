@@ -2244,6 +2244,7 @@ const Symbol496: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": 1.55,
                 "ty": -41.95,
@@ -2264,6 +2265,7 @@ const Symbol496: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": -1.4,
                 "ty": -41.95,
@@ -2284,6 +2286,7 @@ const Symbol496: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": -4.45,
                 "ty": -41.95,

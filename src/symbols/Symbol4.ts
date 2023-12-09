@@ -16,6 +16,7 @@ const Symbol4: Symbol = {
                 "g": -16,
                 "b": -92
               },
+              "alpha": 0.3984375,
               "transform": {
                 "tx": 0,
                 "ty": -0.25,

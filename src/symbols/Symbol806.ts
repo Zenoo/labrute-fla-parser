@@ -875,6 +875,7 @@ const Symbol806: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.53125,
               "transform": {
                 "tx": -13.95,
                 "ty": 29
@@ -891,6 +892,7 @@ const Symbol806: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.53125,
               "transform": {
                 "tx": -13.95,
                 "ty": 29
@@ -907,6 +909,7 @@ const Symbol806: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.53125,
               "transform": {
                 "tx": -13.95,
                 "ty": 29
@@ -923,6 +926,7 @@ const Symbol806: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.53125,
               "transform": {
                 "tx": -13.95,
                 "ty": 29
@@ -939,6 +943,7 @@ const Symbol806: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.53125,
               "transform": {
                 "tx": -13.95,
                 "ty": 29
@@ -955,6 +960,7 @@ const Symbol806: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.53125,
               "transform": {
                 "tx": -13.95,
                 "ty": 29
@@ -971,6 +977,7 @@ const Symbol806: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.53125,
               "transform": {
                 "tx": -13.95,
                 "ty": 29
@@ -987,6 +994,7 @@ const Symbol806: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.53125,
               "transform": {
                 "tx": -13.95,
                 "ty": 29
@@ -1003,6 +1011,7 @@ const Symbol806: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.53125,
               "transform": {
                 "tx": -13.95,
                 "ty": 29
@@ -1019,6 +1028,7 @@ const Symbol806: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.53125,
               "transform": {
                 "tx": -13.95,
                 "ty": 29
@@ -1035,6 +1045,7 @@ const Symbol806: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.53125,
               "transform": {
                 "tx": -13.95,
                 "ty": 29
@@ -1051,6 +1062,7 @@ const Symbol806: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.53125,
               "transform": {
                 "tx": -13.95,
                 "ty": 29

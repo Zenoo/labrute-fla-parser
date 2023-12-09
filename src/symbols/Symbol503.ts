@@ -64,6 +64,7 @@ const Symbol503: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.83203125,
               "transform": {
                 "tx": 37.8,
                 "ty": -21.9,
@@ -84,6 +85,7 @@ const Symbol503: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.66796875,
               "transform": {
                 "tx": 34.1,
                 "ty": -18.15,
@@ -104,6 +106,7 @@ const Symbol503: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.5,
               "transform": {
                 "tx": 30.3,
                 "ty": -14.5,
@@ -124,6 +127,7 @@ const Symbol503: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.33203125,
               "transform": {
                 "tx": 30.25,
                 "ty": -14.5,
@@ -144,6 +148,7 @@ const Symbol503: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.16796875,
               "transform": {
                 "tx": 30.25,
                 "ty": -14.5,
@@ -164,6 +169,7 @@ const Symbol503: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": 30.3,
                 "ty": -14.5,

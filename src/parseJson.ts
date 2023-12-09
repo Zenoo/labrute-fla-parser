@@ -78,6 +78,7 @@ type script = {
 type DOMShape = {
   name: 'DOMShape';
   attributes?: {
+    correspondingSymbol?: string;
     isFloating?: string;
   };
   elements?: (fills | strokes | edges)[];
@@ -211,6 +212,7 @@ type Color = {
     redOffset?: string;
     greenOffset?: string;
     blueOffset?: string;
+    alphaMultiplier?: string;
   };
 };
 
@@ -223,7 +225,6 @@ const getSvg = (symbolName: string): Svg => {
     // Get the offset values from the svg file
     const offset = svg.match(/<g transform="matrix\(1.0, 0.0, 0.0, 1.0, (.*), (.*)\)">/);
 
-
     return {
       type: 'svg',
       svg,
@@ -234,15 +235,34 @@ const getSvg = (symbolName: string): Svg => {
     
     };
   } catch (error) {
-    console.log(`No SVG found for ${name}. Export it and rerun the script.`);
-    return {
-      type: 'svg',
-      svg: 'MISSING',
-      offset: {
-        x: 0,
-        y: 0,
-      },
-    };
+    // Try with name - 1ù
+    try {
+      const nameMinusOne = `Symbol${+name.replace('Symbol', '') - 1}`;
+      const svg = fs.readFileSync(`./src/svg/${nameMinusOne}.svg`, 'utf8');
+
+      // Get the offset values from the svg file
+      const offset = svg.match(/<g transform="matrix\(1.0, 0.0, 0.0, 1.0, (.*), (.*)\)">/);
+
+      return {
+        type: 'svg',
+        svg,
+        offset: {
+          x: offset ? +offset[1] : 0,
+          y: offset ? +offset[2] : 0,
+        },
+      };
+
+    } catch (error) {
+      console.log(`No SVG found for ${name}. Export it and rerun the script.`);
+      return {
+        type: 'svg',
+        svg: 'MISSING',
+        offset: {
+          x: 0,
+          y: 0,
+        },
+      };
+    }
   }
 };
 
@@ -265,6 +285,7 @@ const parseSymbol = (symbolInstance: DOMSymbolInstance, symbolItem?: DOMSymbolIt
       g: +(colors.attributes?.greenOffset || 0),
       b: +(colors.attributes?.blueOffset || 0),
     } : undefined,
+    alpha: (colors && colors.attributes?.alphaMultiplier) ? +colors.attributes.alphaMultiplier : undefined,
     transform: matrix ? {
       tx: matrix.attributes?.tx ? +matrix.attributes.tx : undefined,
       ty: matrix.attributes?.ty ? +matrix.attributes.ty : undefined,
@@ -303,7 +324,11 @@ const parseSymbol = (symbolInstance: DOMSymbolInstance, symbolItem?: DOMSymbolIt
             return parseSymbol(element);
           }
 
-          return getSvg(symbolInstance.attributes?.libraryItemName || '');
+          const svgName = element.attributes?.correspondingSymbol
+            ? `Symbol ${element.attributes.correspondingSymbol}`
+            : (symbolInstance.attributes?.libraryItemName || '');
+
+          return getSvg(svgName);
         }) || [],
       };
 

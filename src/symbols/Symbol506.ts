@@ -3420,6 +3420,7 @@ const Symbol506: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0,
               "transform": {
                 "tx": 5.15,
                 "ty": -39.8,
@@ -3440,6 +3441,7 @@ const Symbol506: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.1875,
               "transform": {
                 "tx": 2.75,
                 "ty": -41,
@@ -3460,6 +3462,7 @@ const Symbol506: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.39453125,
               "transform": {
                 "tx": 0.2,
                 "ty": -42.35,
@@ -3480,6 +3483,7 @@ const Symbol506: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.62109375,
               "transform": {
                 "tx": -2.75,
                 "ty": -43.75,
@@ -3500,6 +3504,7 @@ const Symbol506: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.69921875,
               "transform": {
                 "tx": -6.65,
                 "ty": -43.6,
@@ -3520,6 +3525,7 @@ const Symbol506: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.76953125,
               "transform": {
                 "tx": -10.1,
                 "ty": -43.45,
@@ -3540,6 +3546,7 @@ const Symbol506: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.83203125,
               "transform": {
                 "tx": -13.05,
                 "ty": -43.4,
@@ -3560,6 +3567,7 @@ const Symbol506: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.8828125,
               "transform": {
                 "tx": -15.55,
                 "ty": -43.35,
@@ -3580,6 +3588,7 @@ const Symbol506: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.92578125,
               "transform": {
                 "tx": -17.6,
                 "ty": -43.2,
@@ -3600,6 +3609,7 @@ const Symbol506: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.95703125,
               "transform": {
                 "tx": -19.1,
                 "ty": -43.15,
@@ -3620,6 +3630,7 @@ const Symbol506: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.98046875,
               "transform": {
                 "tx": -20.3,
                 "ty": -43.2,
@@ -3640,6 +3651,7 @@ const Symbol506: Symbol = {
                 "g": 0,
                 "b": 0
               },
+              "alpha": 0.99609375,
               "transform": {
                 "tx": -20.95,
                 "ty": -43.15,

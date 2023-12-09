@@ -107,10 +107,10 @@ const Symbol488: Symbol = {
           "parts": [
             {
               "type": "svg",
-              "svg": "MISSING",
+              "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"0.4px\" width=\"0.55px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 43.35, 15.65)\">\r\n    <path d=\"M-43.2 -15.25 L-43.35 -15.65 -42.8 -15.45 -43.2 -15.25\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
               "offset": {
-                "x": 0,
-                "y": 0
+                "x": 43.35,
+                "y": 15.65
               }
             }
           ]

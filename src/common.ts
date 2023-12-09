@@ -34,4 +34,5 @@ export type Symbol = {
     g: number;
     b: number;
   };
+  alpha?: number;
 }
