@@ -22,9 +22,18 @@ app.renderer.render(app.stage);
 app.stage.addChild(viewport);
 
 
-export const displaySymbol = async (symbol: Symbol, frame?: number) => {
+export const displaySymbol = async (symbol: Symbol, frame?: number, x?: number, y?: number) => {
   const symbolContainer = new PIXI.Container();
   symbolContainer.name = symbol.name;
+  symbolContainer.x = x ?? 0;
+  symbolContainer.y = y ?? 0;
+
+  // Add a dot to see the position
+  const dot = new PIXI.Graphics();
+  dot.beginFill(0xFF0000);
+  dot.drawCircle(0, 0, 5);
+  dot.endFill();
+  symbolContainer.addChild(dot);
 
   // Apply transform
   if (symbol.transform) {
@@ -77,7 +86,7 @@ export const displaySymbol = async (symbol: Symbol, frame?: number) => {
           if (innerSymbol) {
             frameContainer.addChild(innerSymbol);
           }
-          return;
+          continue;
         }
   
         // If it's an SVG
@@ -87,7 +96,7 @@ export const displaySymbol = async (symbol: Symbol, frame?: number) => {
   
           // Add to container
           frameContainer.addChild(sprite);
-          return;
+          continue;
         }
       };
 
@@ -100,8 +109,8 @@ export const displaySymbol = async (symbol: Symbol, frame?: number) => {
   return symbolContainer;
 };
 
-const iddleMale = await displaySymbol(Male, MaleAnimation.iddle)
+const iddleMale = await displaySymbol(Male, MaleAnimation.iddle, 100, 100);
 
-if (iddleMale) {
-  viewport.addChild(iddleMale);
-}
+console.log(iddleMale);
+
+viewport.addChild(iddleMale);
