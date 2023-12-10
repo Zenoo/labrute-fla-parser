@@ -133,3 +133,5 @@ const displaySymbol = (symbol: Symbol, frame?: number, x?: number, y?: number) =
 const symbol = displaySymbol(Symbol411, 0, 100, 100);
 
 viewport.addChild(symbol);
+
+app.start();
