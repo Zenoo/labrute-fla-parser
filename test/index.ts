@@ -1,11 +1,9 @@
 import * as PIXI from 'pixi.js';
-import { FramePart, Svg, Symbol } from '../src/common';
-import { Male, MaleAnimation } from '../src/Symbols';
 import { Filter, Texture } from 'pixi.js';
-import { TextureManager } from './TextureManager';
-import { PixiHelper } from './PixiHelper';
-import ColorOffsetShader from './ColorOffsetShader';
 import Symbol411 from '../src/Symbols/Symbol411';
+import { FramePart, Svg, Symbol } from '../src/common';
+import ColorOffsetShader from './ColorOffsetShader';
+import { PixiHelper } from './PixiHelper';
 
 type PartContainer = PIXI.Container & {
   source?: Symbol | Svg;
