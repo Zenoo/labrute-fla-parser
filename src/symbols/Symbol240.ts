@@ -28,10 +28,15 @@ const Symbol240: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol239",
+        "name": "Symbol149",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
         "transform": {
-          "tx": -0.05,
-          "ty": 12.75
+          "tx": 0,
+          "ty": 0
         }
       },
       {
@@ -44,29 +49,16 @@ const Symbol240: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol149",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
+        "name": "Symbol239",
         "transform": {
-          "tx": 0,
-          "ty": 0
+          "tx": -0.05,
+          "ty": 12.75
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol239",
-        "transform": {
-          "tx": -0.05,
-          "ty": 12.75
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol149",
         "colorOffset": {
           "r": -16,
@@ -76,6 +68,14 @@ const Symbol240: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol239",
+        "transform": {
+          "tx": -0.05,
+          "ty": 12.75
         }
       }
     ]

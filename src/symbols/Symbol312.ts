@@ -32,15 +32,11 @@ const Symbol312: Symbol = {
   "frames": [
     [
       {
-        "type": "svg",
-        "name": "Symbol312"
-      },
-      {
         "type": "symbol",
-        "name": "Symbol310",
+        "name": "Symbol306",
         "transform": {
-          "tx": -1.95,
-          "ty": 2.8
+          "tx": 0,
+          "ty": 0
         }
       },
       {
@@ -53,11 +49,15 @@ const Symbol312: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol306",
+        "name": "Symbol310",
         "transform": {
-          "tx": 0,
-          "ty": 0
+          "tx": -1.95,
+          "ty": 2.8
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol312"
       }
     ]
   ]

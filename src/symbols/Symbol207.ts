@@ -24,14 +24,6 @@ const Symbol207: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol206",
-        "transform": {
-          "tx": 0.55,
-          "ty": 1.55
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol124",
         "colorOffset": {
           "r": -16,
@@ -42,9 +34,7 @@ const Symbol207: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol206",
@@ -52,7 +42,9 @@ const Symbol207: Symbol = {
           "tx": 0.55,
           "ty": 1.55
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol145",
@@ -64,6 +56,14 @@ const Symbol207: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol206",
+        "transform": {
+          "tx": 0.55,
+          "ty": 1.55
         }
       }
     ]

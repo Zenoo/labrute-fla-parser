@@ -50,10 +50,6 @@ const Symbol328: Symbol = {
   "frames": [
     [
       {
-        "type": "svg",
-        "name": "Symbol328"
-      },
-      {
         "type": "symbol",
         "name": "Symbol320",
         "transform": {
@@ -64,12 +60,24 @@ const Symbol328: Symbol = {
           "b": 0.0973663330078125,
           "c": -0.1570892333984375
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol328"
       }
     ],
     [
       {
         "type": "svg",
         "name": "Symbol328"
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol324",
+        "transform": {
+          "tx": -19.1,
+          "ty": 0.55
+        }
       },
       {
         "type": "symbol",
@@ -81,14 +89,6 @@ const Symbol328: Symbol = {
           "d": 0.80902099609375,
           "b": 0.0973663330078125,
           "c": -0.1570892333984375
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol324",
-        "transform": {
-          "tx": -19.1,
-          "ty": 0.55
         }
       },
       {

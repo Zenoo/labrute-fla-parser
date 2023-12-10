@@ -19,14 +19,6 @@ const Symbol730: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol729",
-        "transform": {
-          "tx": 3.9,
-          "ty": 7.1
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol702",
         "colorOffset": {
           "r": -16,
@@ -36,20 +28,20 @@ const Symbol730: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol729",
+        "transform": {
+          "tx": 3.9,
+          "ty": 7.1
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol729",
-        "transform": {
-          "tx": 3.9,
-          "ty": 7.1
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol702",
         "colorOffset": {
           "r": -16,
@@ -59,6 +51,14 @@ const Symbol730: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol729",
+        "transform": {
+          "tx": 3.9,
+          "ty": 7.1
         }
       }
     ]

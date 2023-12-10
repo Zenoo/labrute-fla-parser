@@ -26,16 +26,16 @@ const Symbol349: Symbol = {
   "frames": [
     [
       {
+        "type": "svg",
+        "name": "Symbol349"
+      },
+      {
         "type": "symbol",
         "name": "Symbol347",
         "transform": {
           "tx": -0.6,
           "ty": -0.1
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol349"
       }
     ],
     [

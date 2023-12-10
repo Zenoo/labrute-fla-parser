@@ -19,36 +19,36 @@ const Symbol749: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol748",
-        "transform": {
-          "tx": 33.95,
-          "ty": 8.2
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol746",
         "transform": {
           "tx": 35.2,
           "ty": 13.8
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol748",
+        "transform": {
+          "tx": 33.95,
+          "ty": 8.2
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol748",
-        "transform": {
-          "tx": 33.95,
-          "ty": 8.2
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol746",
         "transform": {
           "tx": 35.2,
           "ty": 13.8
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol748",
+        "transform": {
+          "tx": 33.95,
+          "ty": 8.2
         }
       }
     ]

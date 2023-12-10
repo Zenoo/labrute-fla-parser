@@ -20,6 +20,16 @@ const Symbol612: Symbol = {
     [
       {
         "type": "symbol",
+        "name": "Symbol611",
+        "transform": {
+          "tx": 11.75,
+          "ty": 0,
+          "a": -0.4404449462890625,
+          "d": 1
+        }
+      },
+      {
+        "type": "symbol",
         "name": "Symbol566",
         "transform": {
           "tx": 7.95,
@@ -28,16 +38,6 @@ const Symbol612: Symbol = {
           "d": 0.5594940185546875,
           "b": 0.39666748046875,
           "c": -0.13494873046875
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol611",
-        "transform": {
-          "tx": 11.75,
-          "ty": 0,
-          "a": -0.4404449462890625,
-          "d": 1
         }
       }
     ]

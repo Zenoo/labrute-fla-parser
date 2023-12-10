@@ -23,14 +23,6 @@ const Symbol468: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol27",
-        "transform": {
-          "tx": 0.1,
-          "ty": 5
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol17",
         "colorOffset": {
           "r": -110,
@@ -44,28 +36,20 @@ const Symbol468: Symbol = {
           "d": 0.9970703125,
           "b": 0.124298095703125,
           "c": -0.1227569580078125
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol27",
+        "transform": {
+          "tx": 0.1,
+          "ty": 5
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol467",
-        "transform": {
-          "tx": 7.15,
-          "ty": -5.6
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol27",
-        "transform": {
-          "tx": 0.1,
-          "ty": 5
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol17",
         "colorOffset": {
           "r": -110,
@@ -79,6 +63,22 @@ const Symbol468: Symbol = {
           "d": 0.9970703125,
           "b": 0.124298095703125,
           "c": -0.1227569580078125
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol27",
+        "transform": {
+          "tx": 0.1,
+          "ty": 5
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol467",
+        "transform": {
+          "tx": 7.15,
+          "ty": -5.6
         }
       }
     ]

@@ -40,10 +40,6 @@ const Symbol230: Symbol = {
   "frames": [
     [
       {
-        "type": "svg",
-        "name": "Symbol230"
-      },
-      {
         "type": "symbol",
         "name": "Symbol227",
         "transform": {
@@ -52,12 +48,20 @@ const Symbol230: Symbol = {
           "a": 0.86419677734375,
           "d": 0.86419677734375
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol230"
       }
     ],
     [
       {
-        "type": "svg",
-        "name": "Symbol230"
+        "type": "symbol",
+        "name": "Symbol227",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
       },
       {
         "type": "symbol",
@@ -68,12 +72,8 @@ const Symbol230: Symbol = {
         }
       },
       {
-        "type": "symbol",
-        "name": "Symbol227",
-        "transform": {
-          "tx": 0,
-          "ty": 0
-        }
+        "type": "svg",
+        "name": "Symbol230"
       }
     ]
   ]

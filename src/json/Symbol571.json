@@ -18,20 +18,20 @@
     [
       {
         "type": "symbol",
-        "name": "Symbol570",
+        "name": "Symbol568",
         "transform": {
-          "tx": 20.55,
-          "ty": -0.25,
+          "tx": 14.5,
+          "ty": -1,
           "a": -1,
           "d": 1
         }
       },
       {
         "type": "symbol",
-        "name": "Symbol568",
+        "name": "Symbol570",
         "transform": {
-          "tx": 14.5,
-          "ty": -1,
+          "tx": 20.55,
+          "ty": -0.25,
           "a": -1,
           "d": 1
         }

@@ -70,14 +70,6 @@ const Symbol28: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol27",
-        "transform": {
-          "tx": -0.45,
-          "ty": 3.35
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol17",
         "colorOffset": {
           "r": -110,
@@ -91,6 +83,14 @@ const Symbol28: Symbol = {
           "d": 0.9970703125,
           "b": 0.124298095703125,
           "c": -0.1227569580078125
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol27",
+        "transform": {
+          "tx": -0.45,
+          "ty": 3.35
         }
       }
     ]

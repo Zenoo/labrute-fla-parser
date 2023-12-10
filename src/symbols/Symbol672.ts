@@ -23,10 +23,6 @@ const Symbol672: Symbol = {
     [],
     [
       {
-        "type": "svg",
-        "name": "Symbol672"
-      },
-      {
         "type": "symbol",
         "name": "Symbol608",
         "colorOffset": {
@@ -40,6 +36,10 @@ const Symbol672: Symbol = {
           "a": 1.013397216796875,
           "d": 1.013397216796875
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol672"
       }
     ]
   ]

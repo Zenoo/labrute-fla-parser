@@ -26,8 +26,12 @@
     [],
     [
       {
-        "type": "svg",
-        "name": "Symbol202"
+        "type": "symbol",
+        "name": "Symbol198",
+        "transform": {
+          "tx": 0.25,
+          "ty": -1.75
+        }
       },
       {
         "type": "symbol",
@@ -38,12 +42,8 @@
         }
       },
       {
-        "type": "symbol",
-        "name": "Symbol198",
-        "transform": {
-          "tx": 0.25,
-          "ty": -1.75
-        }
+        "type": "svg",
+        "name": "Symbol202"
       }
     ]
   ]

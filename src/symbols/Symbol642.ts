@@ -22,10 +22,6 @@ const Symbol642: Symbol = {
   "frames": [
     [
       {
-        "type": "svg",
-        "name": "Symbol642"
-      },
-      {
         "type": "symbol",
         "name": "Symbol640",
         "transform": {
@@ -36,6 +32,10 @@ const Symbol642: Symbol = {
           "b": -0.7071075439453125,
           "c": 0.707122802734375
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol642"
       }
     ]
   ]

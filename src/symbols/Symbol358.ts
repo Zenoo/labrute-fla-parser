@@ -35,22 +35,12 @@ const Symbol358: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol356",
-        "transform": {
-          "tx": 0.35,
-          "ty": 0.95
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol354",
         "transform": {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -58,7 +48,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -66,9 +58,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -76,7 +66,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -84,9 +76,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -94,7 +84,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -102,9 +94,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -112,7 +102,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -120,9 +112,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -130,7 +120,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -138,9 +130,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -148,7 +138,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -156,9 +148,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -166,7 +156,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -174,9 +166,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -184,7 +174,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -192,9 +184,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -202,7 +192,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -210,9 +202,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -220,7 +210,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -228,9 +220,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -238,7 +228,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -246,9 +238,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -256,7 +246,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -264,9 +256,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -274,7 +264,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -282,9 +274,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -292,7 +282,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -300,9 +292,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -310,7 +300,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -318,9 +310,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -328,7 +318,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -336,9 +328,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -346,7 +336,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -354,9 +346,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -364,7 +354,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -372,9 +364,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -382,7 +372,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -390,9 +382,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -400,7 +390,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -408,9 +400,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -418,7 +408,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -426,9 +418,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -436,7 +426,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -444,9 +436,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -454,7 +444,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -462,9 +454,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -472,7 +462,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -480,9 +472,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -490,7 +480,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -498,9 +490,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -508,7 +498,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -516,9 +508,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -526,7 +516,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -534,9 +526,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -544,7 +534,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -552,9 +544,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -562,7 +552,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -570,9 +562,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -580,7 +570,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -588,9 +580,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -598,7 +588,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -606,9 +598,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -616,7 +606,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -624,9 +616,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -634,7 +624,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -642,9 +634,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -652,7 +642,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -660,9 +652,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -670,7 +660,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -678,9 +670,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -688,7 +678,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -696,9 +688,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -706,7 +696,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -714,9 +706,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -724,7 +714,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -732,9 +724,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -742,7 +732,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -750,9 +742,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -760,7 +750,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -768,9 +760,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -778,7 +768,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -786,9 +778,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -796,7 +786,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -804,9 +796,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -814,7 +804,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -822,9 +814,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -832,7 +822,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -840,9 +832,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -850,7 +840,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -858,9 +850,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -868,7 +858,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -876,9 +868,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -886,7 +876,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -894,9 +886,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -904,7 +894,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -912,9 +904,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -922,7 +912,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -930,9 +922,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -940,7 +930,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -948,9 +940,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -958,7 +948,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -966,9 +958,7 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -976,7 +966,9 @@ const Symbol358: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -984,9 +976,21 @@ const Symbol358: Symbol = {
           "tx": 0.5,
           "ty": -1.25
         }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol356",
+        "transform": {
+          "tx": 0.35,
+          "ty": 0.95
+        }
       }
     ],
     [
+      {
+        "type": "svg",
+        "name": "Symbol358"
+      },
       {
         "type": "symbol",
         "name": "Symbol354",
@@ -998,13 +1002,17 @@ const Symbol358: Symbol = {
           "b": -0.1703948974609375,
           "c": 0.1703948974609375
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol358"
       }
     ],
     [
+      {
+        "type": "symbol",
+        "name": "Symbol354",
+        "transform": {
+          "tx": 0.5,
+          "ty": -0.75
+        }
+      },
       {
         "type": "symbol",
         "name": "Symbol356",
@@ -1015,14 +1023,6 @@ const Symbol358: Symbol = {
           "d": 0.6558380126953125,
           "b": -0.0872344970703125,
           "c": 0.0574493408203125
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol354",
-        "transform": {
-          "tx": 0.5,
-          "ty": -0.75
         }
       }
     ]

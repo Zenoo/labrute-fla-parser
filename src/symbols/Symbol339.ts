@@ -101,16 +101,16 @@ const Symbol339: Symbol = {
     ],
     [
       {
-        "type": "svg",
-        "name": "Symbol329"
-      },
-      {
         "type": "symbol",
         "name": "Symbol328",
         "transform": {
           "tx": 0.7,
           "ty": 2.2
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol329"
       }
     ],
     [

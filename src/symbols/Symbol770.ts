@@ -110,10 +110,6 @@ const Symbol770: Symbol = {
     ],
     [
       {
-        "type": "svg",
-        "name": "Symbol755"
-      },
-      {
         "type": "symbol",
         "name": "Symbol754",
         "transform": {
@@ -122,17 +118,13 @@ const Symbol770: Symbol = {
           "a": 0.9076690673828125,
           "d": 0.9076690673828125
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol755"
       }
     ],
     [
-      {
-        "type": "symbol",
-        "name": "Symbol761",
-        "transform": {
-          "tx": -4.9,
-          "ty": 4.85
-        }
-      },
       {
         "type": "symbol",
         "name": "Symbol756",
@@ -140,15 +132,23 @@ const Symbol770: Symbol = {
           "tx": 0,
           "ty": 0
         }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol761",
+        "transform": {
+          "tx": -4.9,
+          "ty": 4.85
+        }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol769",
+        "name": "Symbol763",
         "transform": {
-          "tx": -4.9,
-          "ty": 4.85
+          "tx": 1.35,
+          "ty": -7.25
         }
       },
       {
@@ -157,10 +157,10 @@ const Symbol770: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol763",
+        "name": "Symbol769",
         "transform": {
-          "tx": 1.35,
-          "ty": -7.25
+          "tx": -4.9,
+          "ty": 4.85
         }
       }
     ]

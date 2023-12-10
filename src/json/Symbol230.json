@@ -39,10 +39,6 @@
   "frames": [
     [
       {
-        "type": "svg",
-        "name": "Symbol230"
-      },
-      {
         "type": "symbol",
         "name": "Symbol227",
         "transform": {
@@ -51,12 +47,20 @@
           "a": 0.86419677734375,
           "d": 0.86419677734375
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol230"
       }
     ],
     [
       {
-        "type": "svg",
-        "name": "Symbol230"
+        "type": "symbol",
+        "name": "Symbol227",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
       },
       {
         "type": "symbol",
@@ -67,12 +71,8 @@
         }
       },
       {
-        "type": "symbol",
-        "name": "Symbol227",
-        "transform": {
-          "tx": 0,
-          "ty": 0
-        }
+        "type": "svg",
+        "name": "Symbol230"
       }
     ]
   ]

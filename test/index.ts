@@ -4,6 +4,8 @@ import Symbol411 from '../src/Symbols/Symbol411';
 import { FramePart, Svg, Symbol } from '../src/common';
 import ColorOffsetShader from './ColorOffsetShader';
 import { PixiHelper } from './PixiHelper';
+import Symbol377 from '../src/Symbols/Symbol377';
+import Symbol410 from '../src/Symbols/Symbol410';
 
 type PartContainer = PIXI.Container & {
   source?: Symbol | Svg;
@@ -27,7 +29,7 @@ app.stage.addChild(viewport);
 const initializeParts = (parts: (Symbol | Svg)[]) => {
   const partContainers: PartContainer[] = [];
 
-  parts.forEach(part => {
+  parts.forEach((part) => {
     const container: PartContainer = new PIXI.Container();
     container.name = part.name;
     container.source = part;
@@ -49,8 +51,8 @@ const initializeParts = (parts: (Symbol | Svg)[]) => {
 
       // Apply offset
       if (part.offset) {
-        svg.x = part.offset.x ?? 0;
-        svg.y = part.offset.y ?? 0;
+        svg.x = -part.offset.x ?? 0;
+        svg.y = -part.offset.y ?? 0;
       }
 
       container.addChild(svg);
@@ -101,6 +103,8 @@ const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
   // Handle children
   if (part.type === 'symbol') {
     partContainer.children.forEach(child => {
+      child.visible = true;
+
       // Only display frame 0 for now
       const source = (child as PartContainer).source;
 
@@ -128,6 +132,8 @@ const displaySymbol = (symbol: Symbol, frame?: number, x?: number, y?: number) =
     symbolContainer.addChild(...initializeParts(symbol.parts));
   }
 
+  console.log(symbol.frames?.[0]);
+
   // Only display frame 0 for now
   symbol.frames?.[0].forEach(part => {
     displayPart(symbolContainer.children, part);
@@ -136,13 +142,7 @@ const displaySymbol = (symbol: Symbol, frame?: number, x?: number, y?: number) =
   return symbolContainer;
 };
 
-const symbol = displaySymbol(Symbol411, 0, 100, 100);
+const symbol = displaySymbol(Symbol410, 0, 100, 100);
 
 viewport.addChild(symbol);
 console.log(symbol);
-
-// Write some dumb text to the screen to make sure it's working
-const text = new PIXI.Text('Hello world');
-text.x = 100;
-text.y = 200;
-viewport.addChild(text);

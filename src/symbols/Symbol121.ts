@@ -24,10 +24,10 @@ const Symbol121: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol120",
+        "name": "Symbol108",
         "transform": {
-          "tx": 5.2,
-          "ty": 0.75
+          "tx": 4.95,
+          "ty": 17.85
         }
       },
       {
@@ -45,20 +45,20 @@ const Symbol121: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol108",
+        "name": "Symbol120",
         "transform": {
-          "tx": 4.95,
-          "ty": 17.85
+          "tx": 5.2,
+          "ty": 0.75
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol120",
+        "name": "Symbol108",
         "transform": {
-          "tx": 5.2,
-          "ty": 0.75
+          "tx": 4.95,
+          "ty": 17.85
         }
       },
       {
@@ -76,20 +76,20 @@ const Symbol121: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol108",
+        "name": "Symbol120",
         "transform": {
-          "tx": 4.95,
-          "ty": 17.85
+          "tx": 5.2,
+          "ty": 0.75
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol120",
+        "name": "Symbol108",
         "transform": {
-          "tx": 5.2,
-          "ty": 0.75
+          "tx": 4.95,
+          "ty": 17.85
         }
       },
       {
@@ -107,20 +107,20 @@ const Symbol121: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol108",
+        "name": "Symbol120",
         "transform": {
-          "tx": 4.95,
-          "ty": 17.85
+          "tx": 5.2,
+          "ty": 0.75
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol120",
+        "name": "Symbol108",
         "transform": {
-          "tx": 5.2,
-          "ty": 0.75
+          "tx": 4.95,
+          "ty": 17.85
         }
       },
       {
@@ -138,20 +138,20 @@ const Symbol121: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol108",
+        "name": "Symbol120",
         "transform": {
-          "tx": 4.95,
-          "ty": 17.85
+          "tx": 5.2,
+          "ty": 0.75
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol120",
+        "name": "Symbol108",
         "transform": {
-          "tx": 5.2,
-          "ty": 0.75
+          "tx": 4.95,
+          "ty": 17.85
         }
       },
       {
@@ -169,10 +169,10 @@ const Symbol121: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol108",
+        "name": "Symbol120",
         "transform": {
-          "tx": 4.95,
-          "ty": 17.85
+          "tx": 5.2,
+          "ty": 0.75
         }
       }
     ]

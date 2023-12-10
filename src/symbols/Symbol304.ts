@@ -36,6 +36,14 @@ const Symbol304: Symbol = {
   "frames": [
     [
       {
+        "type": "symbol",
+        "name": "Symbol299",
+        "transform": {
+          "tx": -1.2,
+          "ty": 0.45
+        }
+      },
+      {
         "type": "svg",
         "name": "Symbol304"
       },
@@ -50,14 +58,6 @@ const Symbol304: Symbol = {
       {
         "type": "svg",
         "name": "Symbol304"
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol299",
-        "transform": {
-          "tx": -1.2,
-          "ty": 0.45
-        }
       }
     ]
   ]

@@ -144,26 +144,40 @@ const Symbol410: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol377",
+        "name": "Symbol344",
         "colorOffset": {
           "r": -16,
           "g": -50,
           "b": -80
         },
         "transform": {
-          "tx": 21.5,
-          "ty": 21.35
+          "tx": 0,
+          "ty": 6.05
         }
       },
       {
         "type": "symbol",
-        "name": "Symbol375",
+        "name": "Symbol360",
         "transform": {
-          "tx": -5.8,
-          "ty": 24.85,
-          "a": 0.9999847412109375,
-          "d": 0.9999847412109375
+          "tx": -11.85,
+          "ty": 26.65,
+          "a": 0.995819091796875,
+          "d": 0.9999847412109375,
+          "b": 0.088043212890625,
+          "c": 0
         }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol362",
+        "transform": {
+          "tx": -12.7,
+          "ty": 12.15
+        }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol363"
       },
       {
         "type": "symbol",
@@ -174,15 +188,49 @@ const Symbol410: Symbol = {
         }
       },
       {
-        "type": "svg",
-        "name": "Symbol363"
+        "type": "symbol",
+        "name": "Symbol375",
+        "transform": {
+          "tx": -5.8,
+          "ty": 24.85,
+          "a": 0.9999847412109375,
+          "d": 0.9999847412109375
+        }
       },
       {
         "type": "symbol",
-        "name": "Symbol362",
+        "name": "Symbol377",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
         "transform": {
-          "tx": -12.7,
-          "ty": 12.15
+          "tx": 21.5,
+          "ty": 21.35
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol379",
+        "transform": {
+          "tx": 23.55,
+          "ty": 2.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol344",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 6.05
         }
       },
       {
@@ -199,41 +247,15 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol344",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
+        "name": "Symbol362",
         "transform": {
-          "tx": 0,
-          "ty": 6.05
-        }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol377",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 21.5,
-          "ty": 21.35
+          "tx": -12.7,
+          "ty": 12.15
         }
       },
       {
-        "type": "symbol",
-        "name": "Symbol375",
-        "transform": {
-          "tx": -5.8,
-          "ty": 24.85,
-          "a": 0.9999847412109375,
-          "d": 0.9999847412109375
-        }
+        "type": "svg",
+        "name": "Symbol380"
       },
       {
         "type": "symbol",
@@ -244,15 +266,41 @@ const Symbol410: Symbol = {
         }
       },
       {
-        "type": "svg",
-        "name": "Symbol380"
+        "type": "symbol",
+        "name": "Symbol375",
+        "transform": {
+          "tx": -5.8,
+          "ty": 24.85,
+          "a": 0.9999847412109375,
+          "d": 0.9999847412109375
+        }
       },
       {
         "type": "symbol",
-        "name": "Symbol362",
+        "name": "Symbol377",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
         "transform": {
-          "tx": -12.7,
-          "ty": 12.15
+          "tx": 21.5,
+          "ty": 21.35
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol344",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 6.05
         }
       },
       {
@@ -269,48 +317,10 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol344",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
+        "name": "Symbol362",
         "transform": {
-          "tx": 0,
-          "ty": 6.05
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol379",
-        "transform": {
-          "tx": 23.55,
-          "ty": 2.3
-        }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol377",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 21.5,
-          "ty": 21.35
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol375",
-        "transform": {
-          "tx": -5.8,
-          "ty": 24.85,
-          "a": 0.9999847412109375,
-          "d": 0.9999847412109375
+          "tx": -12.7,
+          "ty": 12.15
         }
       },
       {
@@ -323,49 +333,12 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol362",
+        "name": "Symbol375",
         "transform": {
-          "tx": -12.7,
-          "ty": 12.15
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol360",
-        "transform": {
-          "tx": -11.85,
-          "ty": 26.65,
-          "a": 0.995819091796875,
-          "d": 0.9999847412109375,
-          "b": 0.088043212890625,
-          "c": 0
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol344",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 0,
-          "ty": 6.05
-        }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol388",
-        "transform": {
-          "tx": -2.9,
-          "ty": 2.4,
-          "a": 3.507293701171875,
-          "d": 3.507293701171875,
-          "b": 0,
-          "c": -0.01434326171875
+          "tx": -5.8,
+          "ty": 24.85,
+          "a": 0.9999847412109375,
+          "d": 0.9999847412109375
         }
       },
       {
@@ -380,50 +353,9 @@ const Symbol410: Symbol = {
           "tx": 21.5,
           "ty": 21.35
         }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol375",
-        "transform": {
-          "tx": -5.8,
-          "ty": 24.85,
-          "a": 0.9999847412109375,
-          "d": 0.9999847412109375
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol362",
-        "transform": {
-          "tx": -12.7,
-          "ty": 12.15
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol360",
-        "transform": {
-          "tx": -11.85,
-          "ty": 26.65,
-          "a": 0.995819091796875,
-          "d": 0.9999847412109375,
-          "b": 0.088043212890625,
-          "c": 0
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol344",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 0,
-          "ty": 6.05
-        }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol386",
@@ -435,9 +367,50 @@ const Symbol410: Symbol = {
           "b": 0,
           "c": -0.257049560546875
         }
-      }
-    ],
-    [
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol344",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 6.05
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol360",
+        "transform": {
+          "tx": -11.85,
+          "ty": 26.65,
+          "a": 0.995819091796875,
+          "d": 0.9999847412109375,
+          "b": 0.088043212890625,
+          "c": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol362",
+        "transform": {
+          "tx": -12.7,
+          "ty": 12.15
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol375",
+        "transform": {
+          "tx": -5.8,
+          "ty": 24.85,
+          "a": 0.9999847412109375,
+          "d": 0.9999847412109375
+        }
+      },
       {
         "type": "symbol",
         "name": "Symbol377",
@@ -453,12 +426,49 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol375",
+        "name": "Symbol388",
         "transform": {
-          "tx": -5.8,
-          "ty": 24.85,
-          "a": 0.9999847412109375,
-          "d": 0.9999847412109375
+          "tx": -2.9,
+          "ty": 2.4,
+          "a": 3.507293701171875,
+          "d": 3.507293701171875,
+          "b": 0,
+          "c": -0.01434326171875
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol344",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 6.05
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol360",
+        "transform": {
+          "tx": -11.85,
+          "ty": 26.65,
+          "a": 0.995819091796875,
+          "d": 0.9999847412109375,
+          "b": 0.088043212890625,
+          "c": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol362",
+        "transform": {
+          "tx": -12.7,
+          "ty": 12.15
         }
       },
       {
@@ -471,10 +481,40 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol362",
+        "name": "Symbol375",
         "transform": {
-          "tx": -12.7,
-          "ty": 12.15
+          "tx": -5.8,
+          "ty": 24.85,
+          "a": 0.9999847412109375,
+          "d": 0.9999847412109375
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol377",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 21.5,
+          "ty": 21.35
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol344",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 6.05
         }
       },
       {
@@ -491,40 +531,10 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol344",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
+        "name": "Symbol362",
         "transform": {
-          "tx": 0,
-          "ty": 6.05
-        }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol377",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 21.5,
-          "ty": 21.35
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol375",
-        "transform": {
-          "tx": -5.8,
-          "ty": 24.85,
-          "a": 0.9999847412109375,
-          "d": 0.9999847412109375
+          "tx": -12.7,
+          "ty": 12.15
         }
       },
       {
@@ -537,10 +547,40 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol362",
+        "name": "Symbol375",
         "transform": {
-          "tx": -12.7,
-          "ty": 12.15
+          "tx": -5.8,
+          "ty": 24.85,
+          "a": 0.9999847412109375,
+          "d": 0.9999847412109375
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol377",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 21.5,
+          "ty": 21.35
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol344",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 6.05
         }
       },
       {
@@ -557,41 +597,15 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol344",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
+        "name": "Symbol362",
         "transform": {
-          "tx": 0,
-          "ty": 6.05
-        }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol377",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 21.5,
-          "ty": 21.35
+          "tx": -12.7,
+          "ty": 12.15
         }
       },
       {
-        "type": "symbol",
-        "name": "Symbol375",
-        "transform": {
-          "tx": -5.8,
-          "ty": 24.85,
-          "a": 0.9999847412109375,
-          "d": 0.9999847412109375
-        }
+        "type": "svg",
+        "name": "Symbol394"
       },
       {
         "type": "symbol",
@@ -602,15 +616,41 @@ const Symbol410: Symbol = {
         }
       },
       {
-        "type": "svg",
-        "name": "Symbol394"
+        "type": "symbol",
+        "name": "Symbol375",
+        "transform": {
+          "tx": -5.8,
+          "ty": 24.85,
+          "a": 0.9999847412109375,
+          "d": 0.9999847412109375
+        }
       },
       {
         "type": "symbol",
-        "name": "Symbol362",
+        "name": "Symbol377",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
         "transform": {
-          "tx": -12.7,
-          "ty": 12.15
+          "tx": 21.5,
+          "ty": 21.35
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol344",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 6.05
         }
       },
       {
@@ -627,40 +667,10 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol344",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
+        "name": "Symbol362",
         "transform": {
-          "tx": 0,
-          "ty": 6.05
-        }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol377",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 21.5,
-          "ty": 21.35
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol375",
-        "transform": {
-          "tx": -5.8,
-          "ty": 24.85,
-          "a": 0.9999847412109375,
-          "d": 0.9999847412109375
+          "tx": -12.7,
+          "ty": 12.15
         }
       },
       {
@@ -673,10 +683,40 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol362",
+        "name": "Symbol375",
         "transform": {
-          "tx": -12.7,
-          "ty": 12.15
+          "tx": -5.8,
+          "ty": 24.85,
+          "a": 0.9999847412109375,
+          "d": 0.9999847412109375
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol377",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 21.5,
+          "ty": 21.35
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol344",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 6.05
         }
       },
       {
@@ -693,41 +733,15 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol344",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
+        "name": "Symbol362",
         "transform": {
-          "tx": 0,
-          "ty": 6.05
-        }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol377",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 21.5,
-          "ty": 21.35
+          "tx": -12.7,
+          "ty": 12.15
         }
       },
       {
-        "type": "symbol",
-        "name": "Symbol375",
-        "transform": {
-          "tx": -5.8,
-          "ty": 24.85,
-          "a": 0.9999847412109375,
-          "d": 0.9999847412109375
-        }
+        "type": "svg",
+        "name": "Symbol399"
       },
       {
         "type": "symbol",
@@ -738,50 +752,13 @@ const Symbol410: Symbol = {
         }
       },
       {
-        "type": "svg",
-        "name": "Symbol399"
-      },
-      {
         "type": "symbol",
-        "name": "Symbol362",
+        "name": "Symbol375",
         "transform": {
-          "tx": -12.7,
-          "ty": 12.15
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol360",
-        "transform": {
-          "tx": -11.85,
-          "ty": 26.65,
-          "a": 0.995819091796875,
-          "d": 0.9999847412109375,
-          "b": 0.088043212890625,
-          "c": 0
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol344",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 0,
-          "ty": 6.05
-        }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol405",
-        "transform": {
-          "tx": 1.05,
-          "ty": -4.35
+          "tx": -5.8,
+          "ty": 24.85,
+          "a": 0.9999847412109375,
+          "d": 0.9999847412109375
         }
       },
       {
@@ -796,50 +773,9 @@ const Symbol410: Symbol = {
           "tx": 21.5,
           "ty": 21.35
         }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol375",
-        "transform": {
-          "tx": -5.8,
-          "ty": 24.85,
-          "a": 0.9999847412109375,
-          "d": 0.9999847412109375
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol362",
-        "transform": {
-          "tx": -12.7,
-          "ty": 12.15
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol360",
-        "transform": {
-          "tx": -11.85,
-          "ty": 26.65,
-          "a": 0.995819091796875,
-          "d": 0.9999847412109375,
-          "b": 0.088043212890625,
-          "c": 0
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol344",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 0,
-          "ty": 6.05
-        }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol403",
@@ -847,9 +783,50 @@ const Symbol410: Symbol = {
           "tx": 0.8,
           "ty": 15.2
         }
-      }
-    ],
-    [
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol344",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 6.05
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol360",
+        "transform": {
+          "tx": -11.85,
+          "ty": 26.65,
+          "a": 0.995819091796875,
+          "d": 0.9999847412109375,
+          "b": 0.088043212890625,
+          "c": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol362",
+        "transform": {
+          "tx": -12.7,
+          "ty": 12.15
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol375",
+        "transform": {
+          "tx": -5.8,
+          "ty": 24.85,
+          "a": 0.9999847412109375,
+          "d": 0.9999847412109375
+        }
+      },
       {
         "type": "symbol",
         "name": "Symbol377",
@@ -865,12 +842,45 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol375",
+        "name": "Symbol405",
         "transform": {
-          "tx": -5.8,
-          "ty": 24.85,
-          "a": 0.9999847412109375,
-          "d": 0.9999847412109375
+          "tx": 1.05,
+          "ty": -4.35
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol344",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 6.05
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol360",
+        "transform": {
+          "tx": -11.85,
+          "ty": 26.65,
+          "a": 0.995819091796875,
+          "d": 0.9999847412109375,
+          "b": 0.088043212890625,
+          "c": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol362",
+        "transform": {
+          "tx": -12.7,
+          "ty": 12.15
         }
       },
       {
@@ -883,10 +893,40 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol362",
+        "name": "Symbol375",
         "transform": {
-          "tx": -12.7,
-          "ty": 12.15
+          "tx": -5.8,
+          "ty": 24.85,
+          "a": 0.9999847412109375,
+          "d": 0.9999847412109375
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol377",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 21.5,
+          "ty": 21.35
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol344",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 6.05
         }
       },
       {
@@ -903,30 +943,18 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol344",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
+        "name": "Symbol362",
         "transform": {
-          "tx": 0,
-          "ty": 6.05
+          "tx": -12.7,
+          "ty": 12.15
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
-        "name": "Symbol377",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
+        "name": "Symbol409",
         "transform": {
-          "tx": 21.5,
-          "ty": 21.35
+          "tx": 6.55,
+          "ty": -0.4
         }
       },
       {
@@ -941,43 +969,15 @@ const Symbol410: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol409",
-        "transform": {
-          "tx": 6.55,
-          "ty": -0.4
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol362",
-        "transform": {
-          "tx": -12.7,
-          "ty": 12.15
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol360",
-        "transform": {
-          "tx": -11.85,
-          "ty": 26.65,
-          "a": 0.995819091796875,
-          "d": 0.9999847412109375,
-          "b": 0.088043212890625,
-          "c": 0
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol344",
+        "name": "Symbol377",
         "colorOffset": {
           "r": -16,
           "g": -50,
           "b": -80
         },
         "transform": {
-          "tx": 0,
-          "ty": 6.05
+          "tx": 21.5,
+          "ty": 21.35
         }
       }
     ]

@@ -18,6 +18,14 @@ const Symbol845: Symbol = {
     [
       {
         "type": "symbol",
+        "name": "Symbol844",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
         "name": "Symbol473",
         "transform": {
           "tx": -2.9,
@@ -26,14 +34,6 @@ const Symbol845: Symbol = {
           "d": 0.659759521484375,
           "b": 0.7493133544921875,
           "c": -0.7493133544921875
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol844",
-        "transform": {
-          "tx": 0,
-          "ty": 0
         }
       }
     ]

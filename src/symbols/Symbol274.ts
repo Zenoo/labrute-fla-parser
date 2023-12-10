@@ -61,20 +61,6 @@ const Symbol274: Symbol = {
     ],
     [
       {
-        "type": "svg",
-        "name": "Symbol251"
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol250",
-        "transform": {
-          "tx": -0.85,
-          "ty": -7.65,
-          "a": 1.0434722900390625,
-          "d": 1.237030029296875
-        }
-      },
-      {
         "type": "symbol",
         "name": "Symbol248",
         "colorOffset": {
@@ -88,6 +74,20 @@ const Symbol274: Symbol = {
           "a": 1.0434722900390625,
           "d": 1.237030029296875
         }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol250",
+        "transform": {
+          "tx": -0.85,
+          "ty": -7.65,
+          "a": 1.0434722900390625,
+          "d": 1.237030029296875
+        }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol251"
       }
     ],
     [
@@ -115,14 +115,6 @@ const Symbol274: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol273",
-        "transform": {
-          "tx": -0.65,
-          "ty": -13.65
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol267",
         "colorOffset": {
           "r": -110,
@@ -134,6 +126,14 @@ const Symbol274: Symbol = {
           "ty": -7.1,
           "a": 1.0048065185546875,
           "d": 1.0048065185546875
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol273",
+        "transform": {
+          "tx": -0.65,
+          "ty": -13.65
         }
       }
     ]

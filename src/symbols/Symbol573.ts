@@ -23,10 +23,6 @@ const Symbol573: Symbol = {
     [],
     [
       {
-        "type": "svg",
-        "name": "Symbol573"
-      },
-      {
         "type": "symbol",
         "name": "Symbol565",
         "colorOffset": {
@@ -42,6 +38,10 @@ const Symbol573: Symbol = {
           "b": 0.1232452392578125,
           "c": -0.1232452392578125
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol573"
       }
     ]
   ]

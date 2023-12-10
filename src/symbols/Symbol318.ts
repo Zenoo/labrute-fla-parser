@@ -27,8 +27,12 @@ const Symbol318: Symbol = {
   "frames": [
     [
       {
-        "type": "svg",
-        "name": "Symbol318"
+        "type": "symbol",
+        "name": "Symbol314",
+        "transform": {
+          "tx": 0.3,
+          "ty": -1.8
+        }
       },
       {
         "type": "symbol",
@@ -39,29 +43,25 @@ const Symbol318: Symbol = {
         }
       },
       {
-        "type": "symbol",
-        "name": "Symbol314",
-        "transform": {
-          "tx": 0.3,
-          "ty": -1.8
-        }
+        "type": "svg",
+        "name": "Symbol318"
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol316",
-        "transform": {
-          "tx": -3.45,
-          "ty": 1.65
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol314",
         "transform": {
           "tx": 0.3,
           "ty": -1.8
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol316",
+        "transform": {
+          "tx": -3.45,
+          "ty": 1.65
         }
       }
     ]

@@ -27,8 +27,12 @@ const Symbol726: Symbol = {
   "frames": [
     [
       {
-        "type": "svg",
-        "name": "Symbol726"
+        "type": "symbol",
+        "name": "Symbol722",
+        "transform": {
+          "tx": 2.75,
+          "ty": 0.15
+        }
       },
       {
         "type": "symbol",
@@ -39,12 +43,8 @@ const Symbol726: Symbol = {
         }
       },
       {
-        "type": "symbol",
-        "name": "Symbol722",
-        "transform": {
-          "tx": 2.75,
-          "ty": 0.15
-        }
+        "type": "svg",
+        "name": "Symbol726"
       }
     ]
   ]

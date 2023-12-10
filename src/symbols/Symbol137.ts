@@ -28,8 +28,12 @@ const Symbol137: Symbol = {
     [],
     [
       {
-        "type": "svg",
-        "name": "Symbol137"
+        "type": "symbol",
+        "name": "Symbol133",
+        "transform": {
+          "tx": -3.95,
+          "ty": -1.45
+        }
       },
       {
         "type": "symbol",
@@ -40,12 +44,8 @@ const Symbol137: Symbol = {
         }
       },
       {
-        "type": "symbol",
-        "name": "Symbol133",
-        "transform": {
-          "tx": -3.95,
-          "ty": -1.45
-        }
+        "type": "svg",
+        "name": "Symbol137"
       }
     ]
   ]

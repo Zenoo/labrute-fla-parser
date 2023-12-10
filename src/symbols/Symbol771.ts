@@ -24,9 +24,9 @@ const Symbol771: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol770",
+        "name": "Symbol734",
         "transform": {
-          "tx": 16.6,
+          "tx": 13.35,
           "ty": 15.15
         }
       },
@@ -47,9 +47,9 @@ const Symbol771: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol734",
+        "name": "Symbol770",
         "transform": {
-          "tx": 13.35,
+          "tx": 16.6,
           "ty": 15.15
         }
       }
@@ -57,9 +57,9 @@ const Symbol771: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol770",
+        "name": "Symbol734",
         "transform": {
-          "tx": 16.6,
+          "tx": 13.35,
           "ty": 15.15
         }
       },
@@ -80,9 +80,9 @@ const Symbol771: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol734",
+        "name": "Symbol770",
         "transform": {
-          "tx": 13.35,
+          "tx": 16.6,
           "ty": 15.15
         }
       }

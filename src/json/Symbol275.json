@@ -22,14 +22,6 @@
     [
       {
         "type": "symbol",
-        "name": "Symbol274",
-        "transform": {
-          "tx": 3.9,
-          "ty": 7.1
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol244",
         "colorOffset": {
           "r": -16,
@@ -40,9 +32,7 @@
           "tx": 0,
           "ty": 0
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol274",
@@ -50,7 +40,9 @@
           "tx": 3.9,
           "ty": 7.1
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol267",
@@ -62,6 +54,14 @@
         "transform": {
           "tx": 0,
           "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol274",
+        "transform": {
+          "tx": 3.9,
+          "ty": 7.1
         }
       }
     ]

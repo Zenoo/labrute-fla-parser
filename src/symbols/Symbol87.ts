@@ -23,7 +23,7 @@ const Symbol87: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol86",
+        "name": "Symbol83",
         "transform": {
           "tx": 0,
           "ty": 0
@@ -43,7 +43,7 @@ const Symbol87: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol83",
+        "name": "Symbol86",
         "transform": {
           "tx": 0,
           "ty": 0

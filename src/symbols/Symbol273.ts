@@ -33,10 +33,10 @@ const Symbol273: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol272",
+        "name": "Symbol269",
         "transform": {
-          "tx": -4.65,
-          "ty": 15.3
+          "tx": 0,
+          "ty": 0
         }
       },
       {
@@ -49,10 +49,10 @@ const Symbol273: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol269",
+        "name": "Symbol272",
         "transform": {
-          "tx": 0,
-          "ty": 0
+          "tx": -4.65,
+          "ty": 15.3
         }
       }
     ]

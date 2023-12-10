@@ -22,16 +22,16 @@ const Symbol456: Symbol = {
   "frames": [
     [
       {
-        "type": "svg",
-        "name": "Symbol456"
-      },
-      {
         "type": "symbol",
         "name": "Symbol454",
         "transform": {
           "tx": 0.05,
           "ty": 0
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol456"
       }
     ]
   ]

@@ -24,14 +24,6 @@ const Symbol450: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol449",
-        "transform": {
-          "tx": 1.9,
-          "ty": -0.5
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol82",
         "colorOffset": {
           "r": -16,
@@ -42,9 +34,7 @@ const Symbol450: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol449",
@@ -52,7 +42,9 @@ const Symbol450: Symbol = {
           "tx": 1.9,
           "ty": -0.5
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol448",
@@ -64,6 +56,14 @@ const Symbol450: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol449",
+        "transform": {
+          "tx": 1.9,
+          "ty": -0.5
         }
       }
     ]

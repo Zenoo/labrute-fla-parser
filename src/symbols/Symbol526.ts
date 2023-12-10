@@ -101,9 +101,19 @@ const Symbol526: Symbol = {
   "frames": [
     [
       {
+        "type": "symbol",
+        "name": "Symbol38",
+        "transform": {
+          "tx": 0.05,
+          "ty": 2.65
+        }
+      },
+      {
         "type": "svg",
         "name": "Symbol526"
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -111,13 +121,13 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "svg",
         "name": "Symbol526"
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -125,9 +135,7 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol41",
@@ -135,7 +143,9 @@ const Symbol526: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -143,13 +153,13 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "svg",
         "name": "Symbol526"
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -157,13 +167,13 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "svg",
         "name": "Symbol526"
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -171,9 +181,7 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol44",
@@ -181,7 +189,9 @@ const Symbol526: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -189,9 +199,7 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol522",
@@ -199,7 +207,9 @@ const Symbol526: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -207,9 +217,7 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol46",
@@ -217,7 +225,9 @@ const Symbol526: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -225,9 +235,7 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol47",
@@ -235,7 +243,9 @@ const Symbol526: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -243,9 +253,7 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol48",
@@ -253,7 +261,9 @@ const Symbol526: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -261,9 +271,7 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol49",
@@ -271,7 +279,9 @@ const Symbol526: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -279,33 +289,31 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "svg",
         "name": "Symbol526"
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol38",
+        "transform": {
+          "tx": 0.05,
+          "ty": 2.65
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol38",
+        "transform": {
+          "tx": 0.05,
+          "ty": 2.65
+        }
       },
-      {
-        "type": "symbol",
-        "name": "Symbol38",
-        "transform": {
-          "tx": 0.05,
-          "ty": 2.65
-        }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol38",
-        "transform": {
-          "tx": 0.05,
-          "ty": 2.65
-        }
-      }
-    ],
-    [
       {
         "type": "symbol",
         "name": "Symbol51",
@@ -313,7 +321,9 @@ const Symbol526: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -321,9 +331,7 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol524",
@@ -331,7 +339,9 @@ const Symbol526: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -339,9 +349,7 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol525",
@@ -349,7 +357,9 @@ const Symbol526: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol38",
@@ -357,23 +367,13 @@ const Symbol526: Symbol = {
           "tx": 0.05,
           "ty": 2.65
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol55",
         "transform": {
           "tx": 0,
           "ty": 0
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol38",
-        "transform": {
-          "tx": 0.05,
-          "ty": 2.65
         }
       }
     ]

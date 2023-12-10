@@ -72,12 +72,8 @@ const Symbol729: Symbol = {
     [],
     [
       {
-        "type": "symbol",
-        "name": "Symbol709",
-        "transform": {
-          "tx": -2.1,
-          "ty": -10.55
-        }
+        "type": "svg",
+        "name": "Symbol705"
       },
       {
         "type": "symbol",
@@ -88,8 +84,12 @@ const Symbol729: Symbol = {
         }
       },
       {
-        "type": "svg",
-        "name": "Symbol705"
+        "type": "symbol",
+        "name": "Symbol709",
+        "transform": {
+          "tx": -2.1,
+          "ty": -10.55
+        }
       }
     ],
     [
@@ -104,16 +104,16 @@ const Symbol729: Symbol = {
     ],
     [
       {
-        "type": "svg",
-        "name": "Symbol720"
-      },
-      {
         "type": "symbol",
         "name": "Symbol719",
         "transform": {
           "tx": -3.9,
           "ty": -7
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol720"
       }
     ],
     [

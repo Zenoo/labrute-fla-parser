@@ -99,16 +99,16 @@ const Symbol206: Symbol = {
     ],
     [
       {
-        "type": "svg",
-        "name": "Symbol206"
-      },
-      {
         "type": "symbol",
         "name": "Symbol195",
         "transform": {
           "tx": -2.05,
           "ty": 6.4
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol206"
       }
     ],
     [
@@ -123,22 +123,27 @@ const Symbol206: Symbol = {
     ],
     [
       {
-        "type": "svg",
-        "name": "Symbol206"
-      },
-      {
         "type": "symbol",
         "name": "Symbol204",
         "transform": {
           "tx": 0.85,
           "ty": 1.3
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol206"
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol142",
+        "name": "Symbol124",
+        "colorOffset": {
+          "r": -110,
+          "g": -90,
+          "b": -80
+        },
         "transform": {
           "tx": -0.6,
           "ty": -1.55,
@@ -148,12 +153,7 @@ const Symbol206: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol124",
-        "colorOffset": {
-          "r": -110,
-          "g": -90,
-          "b": -80
-        },
+        "name": "Symbol142",
         "transform": {
           "tx": -0.6,
           "ty": -1.55,

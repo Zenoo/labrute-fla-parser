@@ -33,6 +33,22 @@ const Symbol259: Symbol = {
     [
       {
         "type": "symbol",
+        "name": "Symbol253",
+        "transform": {
+          "tx": 1.1,
+          "ty": -0.65,
+          "a": 0.99102783203125,
+          "d": 1,
+          "b": 0.2448577880859375,
+          "c": -0.0366363525390625
+        }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol254"
+      },
+      {
+        "type": "symbol",
         "name": "Symbol256",
         "transform": {
           "tx": -1.25,
@@ -40,11 +56,9 @@ const Symbol259: Symbol = {
           "b": 0.1340179443359375,
           "c": 0
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol254"
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol253",
@@ -55,18 +69,6 @@ const Symbol259: Symbol = {
           "d": 1,
           "b": 0.2448577880859375,
           "c": -0.0366363525390625
-        }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol256",
-        "transform": {
-          "tx": -1.25,
-          "ty": -6.65,
-          "b": 0.1340179443359375,
-          "c": 0
         }
       },
       {
@@ -81,14 +83,12 @@ const Symbol259: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol253",
+        "name": "Symbol256",
         "transform": {
-          "tx": 1.1,
-          "ty": -0.65,
-          "a": 0.99102783203125,
-          "d": 1,
-          "b": 0.2448577880859375,
-          "c": -0.0366363525390625
+          "tx": -1.25,
+          "ty": -6.65,
+          "b": 0.1340179443359375,
+          "c": 0
         }
       }
     ]

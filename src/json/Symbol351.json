@@ -557,10 +557,6 @@
     ],
     [
       {
-        "type": "svg",
-        "name": "Symbol351"
-      },
-      {
         "type": "symbol",
         "name": "Symbol349",
         "colorOffset": {
@@ -573,6 +569,10 @@
           "tx": 0.35,
           "ty": 0.95
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol351"
       }
     ],
     [

@@ -29,7 +29,7 @@ const Symbol340: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol339",
+        "name": "Symbol285",
         "transform": {
           "tx": 16.6,
           "ty": 15.15
@@ -52,7 +52,7 @@ const Symbol340: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol285",
+        "name": "Symbol339",
         "transform": {
           "tx": 16.6,
           "ty": 15.15
@@ -62,10 +62,25 @@ const Symbol340: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol339",
+        "name": "Symbol285",
         "transform": {
           "tx": 16.6,
           "ty": 15.15
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol287",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 18,
+          "ty": 15.9,
+          "a": 0.9076690673828125,
+          "d": 0.9076690673828125
         }
       },
       {
@@ -85,22 +100,7 @@ const Symbol340: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol287",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 18,
-          "ty": 15.9,
-          "a": 0.9076690673828125,
-          "d": 0.9076690673828125
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol285",
+        "name": "Symbol339",
         "transform": {
           "tx": 16.6,
           "ty": 15.15

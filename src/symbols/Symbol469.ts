@@ -89,24 +89,20 @@ const Symbol469: Symbol = {
     ],
     [
       {
-        "type": "svg",
-        "name": "Symbol459"
-      },
-      {
         "type": "symbol",
         "name": "Symbol458",
         "transform": {
           "tx": 2.15,
           "ty": -1.3
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol459"
       }
     ],
     [],
     [
-      {
-        "type": "svg",
-        "name": "Symbol465"
-      },
       {
         "type": "symbol",
         "name": "Symbol464",
@@ -114,6 +110,10 @@ const Symbol469: Symbol = {
           "tx": 10.8,
           "ty": 1.65
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol465"
       }
     ],
     [

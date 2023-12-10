@@ -30,32 +30,13 @@ const Symbol717: Symbol = {
   "frames": [
     [
       {
-        "type": "svg",
-        "name": "Symbol714"
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol713",
-        "colorOffset": {
-          "r": -87,
-          "g": -148,
-          "b": -159
-        },
-        "transform": {
-          "tx": -32.85,
-          "ty": -12.05
-        }
-      },
-      {
         "type": "symbol",
         "name": "Symbol711",
         "transform": {
           "tx": 2.75,
           "ty": 0.15
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol713",
@@ -67,6 +48,20 @@ const Symbol717: Symbol = {
         "transform": {
           "tx": -32.85,
           "ty": -12.05
+        }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol714"
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol711",
+        "transform": {
+          "tx": 2.75,
+          "ty": 0.15
         }
       },
       {
@@ -79,10 +74,15 @@ const Symbol717: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol711",
+        "name": "Symbol713",
+        "colorOffset": {
+          "r": -87,
+          "g": -148,
+          "b": -159
+        },
         "transform": {
-          "tx": 2.75,
-          "ty": 0.15
+          "tx": -32.85,
+          "ty": -12.05
         }
       }
     ]

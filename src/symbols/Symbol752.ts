@@ -19,40 +19,40 @@ const Symbol752: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol751",
-        "transform": {
-          "tx": -13.35,
-          "ty": -8.15
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol743",
         "transform": {
           "tx": 1.55,
           "ty": -2.45,
           "a": 0.9076690673828125,
           "d": 0.9076690673828125
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol751",
+        "transform": {
+          "tx": -13.35,
+          "ty": -8.15
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol751",
-        "transform": {
-          "tx": -13.35,
-          "ty": -8.15
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol743",
         "transform": {
           "tx": 1.55,
           "ty": -2.45,
           "a": 0.9076690673828125,
           "d": 0.9076690673828125
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol751",
+        "transform": {
+          "tx": -13.35,
+          "ty": -8.15
         }
       }
     ]

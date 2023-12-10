@@ -19,36 +19,36 @@ const Symbol216: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol215",
-        "transform": {
-          "tx": 2.35,
-          "ty": 2.4
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol211",
         "transform": {
           "tx": 2.65,
           "ty": -5.9
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol215",
+        "transform": {
+          "tx": 2.35,
+          "ty": 2.4
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol215",
-        "transform": {
-          "tx": 2.35,
-          "ty": 2.4
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol211",
         "transform": {
           "tx": 2.65,
           "ty": -5.9
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol215",
+        "transform": {
+          "tx": 2.35,
+          "ty": 2.4
         }
       }
     ]

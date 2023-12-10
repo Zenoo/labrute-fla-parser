@@ -28,8 +28,12 @@ const Symbol436: Symbol = {
     [],
     [
       {
-        "type": "svg",
-        "name": "Symbol436"
+        "type": "symbol",
+        "name": "Symbol432",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
       },
       {
         "type": "symbol",
@@ -40,12 +44,8 @@ const Symbol436: Symbol = {
         }
       },
       {
-        "type": "symbol",
-        "name": "Symbol432",
-        "transform": {
-          "tx": 0,
-          "ty": 0
-        }
+        "type": "svg",
+        "name": "Symbol436"
       }
     ]
   ]

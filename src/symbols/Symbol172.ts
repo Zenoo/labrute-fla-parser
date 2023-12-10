@@ -36,31 +36,19 @@ const Symbol172: Symbol = {
   "frames": [
     [
       {
-        "type": "svg",
-        "name": "Symbol172"
-      },
-      {
         "type": "symbol",
         "name": "Symbol167",
         "transform": {
           "tx": 7.2,
           "ty": 32.35
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol172"
       }
     ],
     [
-      {
-        "type": "svg",
-        "name": "Symbol172"
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol167",
-        "transform": {
-          "tx": 7.2,
-          "ty": 32.35
-        }
-      },
       {
         "type": "symbol",
         "name": "Symbol170",
@@ -72,6 +60,18 @@ const Symbol172: Symbol = {
           "b": -0.4839019775390625,
           "c": 0
         }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol167",
+        "transform": {
+          "tx": 7.2,
+          "ty": 32.35
+        }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol172"
       }
     ]
   ]

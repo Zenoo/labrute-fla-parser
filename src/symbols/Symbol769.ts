@@ -19,7 +19,7 @@ const Symbol769: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol768",
+        "name": "Symbol766",
         "transform": {
           "tx": 0,
           "ty": 0
@@ -27,7 +27,7 @@ const Symbol769: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol766",
+        "name": "Symbol768",
         "transform": {
           "tx": 0,
           "ty": 0
@@ -37,7 +37,7 @@ const Symbol769: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol768",
+        "name": "Symbol766",
         "transform": {
           "tx": 0,
           "ty": 0
@@ -45,7 +45,7 @@ const Symbol769: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol766",
+        "name": "Symbol768",
         "transform": {
           "tx": 0,
           "ty": 0

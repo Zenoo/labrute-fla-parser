@@ -20,18 +20,18 @@ const Symbol837: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol568",
-        "transform": {
-          "tx": 6.05,
-          "ty": 0
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol570",
         "transform": {
           "tx": 0,
           "ty": 0.75
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol568",
+        "transform": {
+          "tx": 6.05,
+          "ty": 0
         }
       }
     ]

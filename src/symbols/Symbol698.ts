@@ -49,16 +49,16 @@ const Symbol698: Symbol = {
     [],
     [
       {
-        "type": "svg",
-        "name": "Symbol695"
-      },
-      {
         "type": "symbol",
         "name": "Symbol694",
         "transform": {
           "tx": 0.05,
           "ty": -16.85
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol695"
       }
     ],
     [

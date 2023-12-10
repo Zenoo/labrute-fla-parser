@@ -49,10 +49,6 @@ const Symbol831: Symbol = {
     [],
     [
       {
-        "type": "svg",
-        "name": "Symbol831"
-      },
-      {
         "type": "symbol",
         "name": "Symbol583",
         "transform": {
@@ -61,6 +57,10 @@ const Symbol831: Symbol = {
           "a": 1.028778076171875,
           "d": 1.0359649658203125
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol831"
       }
     ],
     [

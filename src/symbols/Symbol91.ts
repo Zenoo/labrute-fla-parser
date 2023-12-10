@@ -23,16 +23,16 @@ const Symbol91: Symbol = {
     [],
     [
       {
-        "type": "svg",
-        "name": "Symbol91"
-      },
-      {
         "type": "symbol",
         "name": "Symbol89",
         "transform": {
           "tx": -0.9,
           "ty": 0.35
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol91"
       }
     ]
   ]
