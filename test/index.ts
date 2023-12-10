@@ -12,11 +12,11 @@ type PartContainer = PIXI.Container & {
 };
 
 const app = new PIXI.Application<HTMLCanvasElement>({
-  background: '#1099bb',
-  resizeTo: window,
+  backgroundColor: 0xfbf7c0,
+  width: 500,
+  height: 300,
   antialias: true,
   autoDensity: true,
-  autoStart: false,
   resolution: window.devicePixelRatio,
 });
 
@@ -103,8 +103,8 @@ const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
       }
 
       if (source.type === 'symbol' && source.frames?.[0]) {
-        source.frames[0].forEach(part => {
-          displayPart(child.children as PIXI.DisplayObject[], part);
+        source.frames[0].forEach(childPart => {
+          displayPart(child.children as PIXI.DisplayObject[], childPart);
         });
       }
     });
@@ -133,5 +133,10 @@ const displaySymbol = (symbol: Symbol, frame?: number, x?: number, y?: number) =
 const symbol = displaySymbol(Symbol411, 0, 100, 100);
 
 viewport.addChild(symbol);
+console.log(symbol);
 
-app.start();
+// Write some dumb text to the screen to make sure it's working
+const text = new PIXI.Text('Hello world');
+text.x = 100;
+text.y = 200;
+viewport.addChild(text);
