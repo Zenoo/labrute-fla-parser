@@ -45,7 +45,15 @@ const initializeParts = (parts: (Symbol | Svg)[]) => {
     }
 
     if (part.type === 'svg') {
-      container.addChild(new PIXI.Sprite(Texture.from(part.svg)));
+      const svg = new PIXI.Sprite(Texture.from(part.svg));
+
+      // Apply offset
+      if (part.offset) {
+        svg.x = part.offset.x ?? 0;
+        svg.y = part.offset.y ?? 0;
+      }
+
+      container.addChild(svg);
     }
 
     partContainers.push(container);
