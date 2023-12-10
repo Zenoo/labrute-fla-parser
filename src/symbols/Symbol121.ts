@@ -6,224 +6,176 @@ import Symbol108 from './Symbol108';
 const Symbol121: Symbol = {
   "type": "symbol",
   "name": "Symbol121",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol120,
-              "partIdx": 7,
-              "transform": {
-                "tx": 5.2,
-                "ty": 0.75
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol120,
-              "partIdx": 7,
-              "transform": {
-                "tx": 5.2,
-                "ty": 0.75
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol120,
-              "partIdx": 7,
-              "transform": {
-                "tx": 5.2,
-                "ty": 0.75
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol120,
-              "partIdx": 7,
-              "transform": {
-                "tx": 5.2,
-                "ty": 0.75
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol120,
-              "partIdx": 7,
-              "transform": {
-                "tx": 5.2,
-                "ty": 0.75
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol120,
+      "partIdx": 7
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol110,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 4.3,
-                "ty": -0.3
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol110,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 4.3,
-                "ty": -0.3
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol110,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 4.3,
-                "ty": -0.3
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol110,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 4.3,
-                "ty": -0.3
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol110,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 4.3,
-                "ty": -0.3
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol110,
+      "colorIdx": 0
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol108,
-              "partIdx": 7,
-              "transform": {
-                "tx": 4.95,
-                "ty": 17.85
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol108,
-              "partIdx": 7,
-              "transform": {
-                "tx": 4.95,
-                "ty": 17.85
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol108,
-              "partIdx": 7,
-              "transform": {
-                "tx": 4.95,
-                "ty": 17.85
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol108,
-              "partIdx": 7,
-              "transform": {
-                "tx": 4.95,
-                "ty": 17.85
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol108,
-              "partIdx": 7,
-              "transform": {
-                "tx": 4.95,
-                "ty": 17.85
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol108,
+      "partIdx": 7
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol120",
+        "transform": {
+          "tx": 5.2,
+          "ty": 0.75
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol110",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 4.3,
+          "ty": -0.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol108",
+        "transform": {
+          "tx": 4.95,
+          "ty": 17.85
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol120",
+        "transform": {
+          "tx": 5.2,
+          "ty": 0.75
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol110",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 4.3,
+          "ty": -0.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol108",
+        "transform": {
+          "tx": 4.95,
+          "ty": 17.85
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol120",
+        "transform": {
+          "tx": 5.2,
+          "ty": 0.75
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol110",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 4.3,
+          "ty": -0.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol108",
+        "transform": {
+          "tx": 4.95,
+          "ty": 17.85
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol120",
+        "transform": {
+          "tx": 5.2,
+          "ty": 0.75
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol110",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 4.3,
+          "ty": -0.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol108",
+        "transform": {
+          "tx": 4.95,
+          "ty": 17.85
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol120",
+        "transform": {
+          "tx": 5.2,
+          "ty": 0.75
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol110",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 4.3,
+          "ty": -0.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol108",
+        "transform": {
+          "tx": 4.95,
+          "ty": 17.85
+        }
+      }
+    ]
   ]
 };
 

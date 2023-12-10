@@ -6,49 +6,53 @@ import Symbol188 from './Symbol188';
 const Symbol189: Symbol = {
   "type": "symbol",
   "name": "Symbol189",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol185,
-              "partIdx": 1,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol186,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol188,
-              "colorIdx": 3,
-              "transform": {
-                "tx": -0.55,
-                "ty": -1.6
-              }
-            }
-          ]
-        },
-        null
-      ]
+      ...Symbol185,
+      "partIdx": 1
+    },
+    {
+      ...Symbol186
+    },
+    {
+      ...Symbol188,
+      "colorIdx": 3
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol185",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol186",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol188",
+        "transform": {
+          "tx": -0.55,
+          "ty": -1.6
+        }
+      }
+    ]
   ]
 };
 

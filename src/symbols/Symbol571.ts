@@ -5,45 +5,40 @@ import Symbol568 from './Symbol568';
 const Symbol571: Symbol = {
   "type": "symbol",
   "name": "Symbol571",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol570,
-              "colorIdx": 3,
-              "transform": {
-                "tx": 20.55,
-                "ty": -0.25,
-                "a": -1,
-                "d": 1
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol570,
+      "colorIdx": 3
     },
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol568,
-              "colorIdx": 2,
-              "transform": {
-                "tx": 14.5,
-                "ty": -1,
-                "a": -1,
-                "d": 1
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol568,
+      "colorIdx": 2
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol570",
+        "transform": {
+          "tx": 20.55,
+          "ty": -0.25,
+          "a": -1,
+          "d": 1
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol568",
+        "transform": {
+          "tx": 14.5,
+          "ty": -1,
+          "a": -1,
+          "d": 1
+        }
+      }
+    ]
   ]
 };
 

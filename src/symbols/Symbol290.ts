@@ -5,39 +5,35 @@ import Symbol288 from './Symbol288';
 const Symbol290: Symbol = {
   "type": "symbol",
   "name": "Symbol290",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol289,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol289
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol288,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        null
-      ]
+      ...Symbol288
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol288",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol289",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ]
   ]
 };
 

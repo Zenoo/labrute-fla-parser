@@ -1,98 +1,94 @@
 {
   "type": "symbol",
   "name": "Symbol548",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol547|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol547|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 0,
-                "ty": 0,
-                "a": 0.6580963134765625,
-                "d": 0.6580963134765625
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol547|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 0,
-                "ty": 0,
-                "a": 0.6580963134765625,
-                "d": 0.6580963134765625
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol547|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 0,
-                "ty": 0,
-                "a": 0.6580963134765625,
-                "d": 0.6580963134765625
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol547|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 0,
-                "ty": 0,
-                "a": 0.6580963134765625,
-                "d": 0.6580963134765625
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol547|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 0,
-                "ty": 0,
-                "a": 1.0688018798828125,
-                "d": 1.0688018798828125
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol547"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol547"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol547"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol547"
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol547",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol547",
+        "transform": {
+          "tx": 0,
+          "ty": 0,
+          "a": 0.6580963134765625,
+          "d": 0.6580963134765625
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol547",
+        "transform": {
+          "tx": 0,
+          "ty": 0,
+          "a": 0.6580963134765625,
+          "d": 0.6580963134765625
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol547",
+        "transform": {
+          "tx": 0,
+          "ty": 0,
+          "a": 0.6580963134765625,
+          "d": 0.6580963134765625
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol547",
+        "transform": {
+          "tx": 0,
+          "ty": 0,
+          "a": 0.6580963134765625,
+          "d": 0.6580963134765625
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol547",
+        "transform": {
+          "tx": 0,
+          "ty": 0,
+          "a": 1.0688018798828125,
+          "d": 1.0688018798828125
+        }
+      }
+    ]
   ]
 }

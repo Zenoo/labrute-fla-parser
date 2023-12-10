@@ -5,91 +5,66 @@ import Symbol314 from './Symbol314';
 const Symbol318: Symbol = {
   "type": "symbol",
   "name": "Symbol318",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "svg",
-              "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"5.15px\" width=\"5.0px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 15.1, -4.5)\">\r\n    <path d=\"M-12.6 4.5 Q-11.35 4.5 -10.65 5.15 -10.15 5.6 -10.15 5.9 -10.15 6.4 -11.0 6.7 L-12.7 6.95 -14.55 6.5 -15.1 5.75 Q-15.1 5.3 -14.5 4.95 L-14.05 4.75 -13.65 4.6 -13.4 4.5 -12.6 4.5 M-11.15 9.65 Q-11.6 9.65 -11.9 9.3 L-12.15 8.8 Q-12.15 8.15 -11.1 8.25 -10.1 8.35 -10.1 8.85 L-10.4 9.4 -11.15 9.65\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
-              "offset": {
-                "x": 15.1,
-                "y": -4.5
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "svg",
-              "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"5.15px\" width=\"5.0px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 15.1, -4.5)\">\r\n    <path d=\"M-12.6 4.5 Q-11.35 4.5 -10.65 5.15 -10.15 5.6 -10.15 5.9 -10.15 6.4 -11.0 6.7 L-12.7 6.95 -14.55 6.5 -15.1 5.75 Q-15.1 5.3 -14.5 4.95 L-14.05 4.75 -13.65 4.6 -13.4 4.5 -12.6 4.5 M-11.15 9.65 Q-11.6 9.65 -11.9 9.3 L-12.15 8.8 Q-12.15 8.15 -11.1 8.25 -10.1 8.35 -10.1 8.85 L-10.4 9.4 -11.15 9.65\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
-              "offset": {
-                "x": 15.1,
-                "y": -4.5
-              }
-            }
-          ]
-        }
-      ]
+      "type": "svg",
+      "name": "Symbol318",
+      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"5.15px\" width=\"5.0px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 15.1, -4.5)\">\r\n    <path d=\"M-12.6 4.5 Q-11.35 4.5 -10.65 5.15 -10.15 5.6 -10.15 5.9 -10.15 6.4 -11.0 6.7 L-12.7 6.95 -14.55 6.5 -15.1 5.75 Q-15.1 5.3 -14.5 4.95 L-14.05 4.75 -13.65 4.6 -13.4 4.5 -12.6 4.5 M-11.15 9.65 Q-11.6 9.65 -11.9 9.3 L-12.15 8.8 Q-12.15 8.15 -11.1 8.25 -10.1 8.35 -10.1 8.85 L-10.4 9.4 -11.15 9.65\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
+      "offset": {
+        "x": 15.1,
+        "y": -4.5
+      }
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol316,
-              "colorIdx": 2,
-              "transform": {
-                "tx": -3.45,
-                "ty": 1.65
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol316,
-              "colorIdx": 2,
-              "transform": {
-                "tx": -3.45,
-                "ty": 1.65
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol316,
+      "colorIdx": 2
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol314,
-              "colorIdx": 3,
-              "transform": {
-                "tx": 0.3,
-                "ty": -1.8
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol314,
-              "colorIdx": 3,
-              "transform": {
-                "tx": 0.3,
-                "ty": -1.8
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol314,
+      "colorIdx": 3
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "svg",
+        "name": "Symbol318"
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol316",
+        "transform": {
+          "tx": -3.45,
+          "ty": 1.65
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol314",
+        "transform": {
+          "tx": 0.3,
+          "ty": -1.8
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol316",
+        "transform": {
+          "tx": -3.45,
+          "ty": 1.65
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol314",
+        "transform": {
+          "tx": 0.3,
+          "ty": -1.8
+        }
+      }
+    ]
   ]
 };
 

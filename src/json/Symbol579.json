@@ -1,116 +1,94 @@
 {
   "type": "symbol",
   "name": "Symbol579",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol577|REPLACE",
-              "layers": [],
-              "partIdx": 7,
-              "transform": {
-                "tx": 0.3,
-                "ty": 3.3
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol577|REPLACE",
-              "layers": [],
-              "partIdx": 7,
-              "transform": {
-                "tx": 0.3,
-                "ty": 3.3
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol577",
+      "partIdx": 7
     },
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol578|REPLACE",
-              "layers": [],
-              "colorIdx": 2,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": -4.2,
-                "ty": -13.7,
-                "a": 0.955169677734375,
-                "d": 0.955169677734375,
-                "b": -0.2927398681640625,
-                "c": 0.2927398681640625
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol578",
+      "colorIdx": 2
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol576|REPLACE",
-              "layers": [],
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": -4.2,
-                "ty": -13.7,
-                "a": 0.955169677734375,
-                "d": 0.955169677734375,
-                "b": -0.2927398681640625,
-                "c": 0.2927398681640625
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol576|REPLACE",
-              "layers": [],
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": -4.2,
-                "ty": -13.7,
-                "a": 0.955169677734375,
-                "d": 0.955169677734375,
-                "b": -0.2927398681640625,
-                "c": 0.2927398681640625
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol576",
+      "colorIdx": 0
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol577",
+        "transform": {
+          "tx": 0.3,
+          "ty": 3.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol576",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": -4.2,
+          "ty": -13.7,
+          "a": 0.955169677734375,
+          "d": 0.955169677734375,
+          "b": -0.2927398681640625,
+          "c": 0.2927398681640625
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol577",
+        "transform": {
+          "tx": 0.3,
+          "ty": 3.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol578",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": -4.2,
+          "ty": -13.7,
+          "a": 0.955169677734375,
+          "d": 0.955169677734375,
+          "b": -0.2927398681640625,
+          "c": 0.2927398681640625
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol576",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": -4.2,
+          "ty": -13.7,
+          "a": 0.955169677734375,
+          "d": 0.955169677734375,
+          "b": -0.2927398681640625,
+          "c": 0.2927398681640625
+        }
+      }
+    ]
   ]
 }

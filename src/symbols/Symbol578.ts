@@ -4,22 +4,22 @@ import Symbol76 from './Symbol76';
 const Symbol578: Symbol = {
   "type": "symbol",
   "name": "Symbol578",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol76,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol76
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol76",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ]
   ]
 };
 

@@ -7,129 +7,106 @@ import Symbol285 from './Symbol285';
 const Symbol340: Symbol = {
   "type": "symbol",
   "name": "Symbol340",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol339,
-              "partIdx": 7,
-              "transform": {
-                "tx": 16.6,
-                "ty": 15.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol339,
-              "partIdx": 7,
-              "transform": {
-                "tx": 16.6,
-                "ty": 15.15
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol339,
+      "partIdx": 7
     },
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol331,
-              "colorIdx": 4,
-              "colorOffset": {
-                "r": -110,
-                "g": -90,
-                "b": -80
-              },
-              "transform": {
-                "tx": 18,
-                "ty": 15.9,
-                "a": 0.9076690673828125,
-                "d": 0.9076690673828125
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol331,
+      "colorIdx": 4
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol287,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 18,
-                "ty": 15.9,
-                "a": 0.9076690673828125,
-                "d": 0.9076690673828125
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol287,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 18,
-                "ty": 15.9,
-                "a": 0.9076690673828125,
-                "d": 0.9076690673828125
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol287,
+      "colorIdx": 0
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol285,
-              "partIdx": 7,
-              "transform": {
-                "tx": 16.6,
-                "ty": 15.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol285,
-              "partIdx": 7,
-              "transform": {
-                "tx": 16.6,
-                "ty": 15.15
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol285,
+      "partIdx": 7
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol339",
+        "transform": {
+          "tx": 16.6,
+          "ty": 15.15
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol287",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 18,
+          "ty": 15.9,
+          "a": 0.9076690673828125,
+          "d": 0.9076690673828125
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol285",
+        "transform": {
+          "tx": 16.6,
+          "ty": 15.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol339",
+        "transform": {
+          "tx": 16.6,
+          "ty": 15.15
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol331",
+        "colorOffset": {
+          "r": -110,
+          "g": -90,
+          "b": -80
+        },
+        "transform": {
+          "tx": 18,
+          "ty": 15.9,
+          "a": 0.9076690673828125,
+          "d": 0.9076690673828125
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol287",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 18,
+          "ty": 15.9,
+          "a": 0.9076690673828125,
+          "d": 0.9076690673828125
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol285",
+        "transform": {
+          "tx": 16.6,
+          "ty": 15.15
+        }
+      }
+    ]
   ]
 };
 

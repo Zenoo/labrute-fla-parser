@@ -6,53 +6,45 @@ import Symbol737 from './Symbol737';
 const Symbol741: Symbol = {
   "type": "symbol",
   "name": "Symbol741",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol740,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol740
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol739,
-              "colorIdx": 2,
-              "transform": {
-                "tx": -9.4,
-                "ty": 0.3
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol739,
+      "colorIdx": 2
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol737,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol737
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol740",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol739",
+        "transform": {
+          "tx": -9.4,
+          "ty": 0.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol737",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ]
   ]
 };
 

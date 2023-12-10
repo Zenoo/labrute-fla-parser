@@ -1,40 +1,43 @@
 {
   "type": "symbol",
   "name": "Symbol75",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol73|REPLACE",
-              "layers": [],
-              "partIdx": 1,
-              "transform": {
-                "tx": 2.45,
-                "ty": 5.45
-              }
-            }
-          ]
-        },
-        null,
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol74|REPLACE",
-              "layers": [],
-              "partIdx": 1,
-              "transform": {
-                "tx": -0.35,
-                "ty": -3.4
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol73",
+      "partIdx": 1
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol74",
+      "partIdx": 1
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol73",
+        "transform": {
+          "tx": 2.45,
+          "ty": 5.45
+        }
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol74",
+        "transform": {
+          "tx": -0.35,
+          "ty": -3.4
+        }
+      }
+    ]
   ]
 }

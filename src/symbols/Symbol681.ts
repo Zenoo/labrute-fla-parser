@@ -4,107 +4,93 @@ import Symbol680 from './Symbol680';
 const Symbol681: Symbol = {
   "type": "symbol",
   "name": "Symbol681",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol680,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol680,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol680,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol680,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol680,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol680,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol680,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol680,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol680,
+      "partIdx": 6
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol680",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol680",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol680",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol680",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol680",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol680",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol680",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol680",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ]
   ]
 };
 

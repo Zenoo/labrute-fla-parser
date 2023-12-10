@@ -5,38 +5,34 @@ import Symbol471 from './Symbol471';
 const Symbol474: Symbol = {
   "type": "symbol",
   "name": "Symbol474",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol473,
-              "transform": {
-                "tx": -38.2,
-                "ty": -19.3
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol473
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol471,
-              "partIdx": 2,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol471,
+      "partIdx": 2
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol473",
+        "transform": {
+          "tx": -38.2,
+          "ty": -19.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol471",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ]
   ]
 };
 

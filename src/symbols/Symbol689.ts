@@ -6,62 +6,68 @@ import Symbol688 from './Symbol688';
 const Symbol689: Symbol = {
   "type": "symbol",
   "name": "Symbol689",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol684,
-              "colorIdx": 3,
-              "transform": {
-                "tx": 0.3,
-                "ty": -8.3
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol686,
-              "colorIdx": 2,
-              "transform": {
-                "tx": 0.3,
-                "ty": -8.3
-              }
-            }
-          ]
-        },
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol686,
-              "colorIdx": 2,
-              "transform": {
-                "tx": 0.3,
-                "ty": -8.3
-              }
-            }
-          ]
-        },
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol688,
-              "colorIdx": 3,
-              "transform": {
-                "tx": 0.3,
-                "ty": -8.3
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol684,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol686,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol686,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol688,
+      "colorIdx": 3
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol684",
+        "transform": {
+          "tx": 0.3,
+          "ty": -8.3
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol686",
+        "transform": {
+          "tx": 0.3,
+          "ty": -8.3
+        }
+      }
+    ],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol686",
+        "transform": {
+          "tx": 0.3,
+          "ty": -8.3
+        }
+      }
+    ],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol688",
+        "transform": {
+          "tx": 0.3,
+          "ty": -8.3
+        }
+      }
+    ]
   ]
 };
 

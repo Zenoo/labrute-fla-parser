@@ -1,28 +1,27 @@
 {
   "type": "symbol",
   "name": "Symbol277",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol276|REPLACE",
-              "layers": [],
-              "partIdx": 2,
-              "transform": {
-                "tx": -4.5,
-                "ty": 9.45,
-                "a": 1,
-                "d": 0.992645263671875,
-                "b": 0,
-                "c": -0.069671630859375
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol276",
+      "partIdx": 2
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol276",
+        "transform": {
+          "tx": -4.5,
+          "ty": 9.45,
+          "a": 1,
+          "d": 0.992645263671875,
+          "b": 0,
+          "c": -0.069671630859375
+        }
+      }
+    ]
   ]
 }

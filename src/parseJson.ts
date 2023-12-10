@@ -1,4 +1,4 @@
-import { Frame, Svg, Symbol } from './common';
+import { Svg, Symbol } from './common';
 import fs from 'fs';
 
 type Json = {
@@ -227,6 +227,7 @@ const getSvg = (symbolName: string): Svg => {
 
     return {
       type: 'svg',
+      name,
       svg,
       offset: {
         x: offset ? +offset[1] : 0,
@@ -235,7 +236,7 @@ const getSvg = (symbolName: string): Svg => {
     
     };
   } catch (error) {
-    // Try with name - 1ù
+    // Try with name - 1
     try {
       const nameMinusOne = `Symbol${+name.replace('Symbol', '') - 1}`;
       const svg = fs.readFileSync(`./src/svg/${nameMinusOne}.svg`, 'utf8');
@@ -245,6 +246,7 @@ const getSvg = (symbolName: string): Svg => {
 
       return {
         type: 'svg',
+        name: name,
         svg,
         offset: {
           x: offset ? +offset[1] : 0,
@@ -256,6 +258,7 @@ const getSvg = (symbolName: string): Svg => {
       console.log(`No SVG found for ${name}. Export it and rerun the script.`);
       return {
         type: 'svg',
+        name,
         svg: 'MISSING',
         offset: {
           x: 0,
@@ -266,87 +269,123 @@ const getSvg = (symbolName: string): Svg => {
   }
 };
 
-const parseSymbol = (symbolInstance: DOMSymbolInstance, symbolItem?: DOMSymbolItem): Symbol => {
-  const colors = symbolInstance.elements?.find((element) => element.name === 'color')?.elements?.[0] as Color | undefined;
-  const matrix = symbolInstance.elements?.find((element) => element.name === 'matrix')?.elements?.[0] as Matrix | undefined;
-  
-  const customIndex = symbolInstance.attributes?.name;
-  const partIdx = customIndex ? customIndex.startsWith('_p') ? +customIndex.replace(/\D/g, '') : undefined : undefined;
-  const colorIdx = customIndex ? customIndex.startsWith('_col') ? +customIndex.replace(/\D/g, '') : undefined : undefined;
+const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
+  if (!symbolItem) {
+    throw new Error('No symbolItem');
+  }
 
   const result: Symbol = {
     type: 'symbol',
-    name: (symbolInstance.attributes?.libraryItemName || '').split(' ').join(''),
-    layers: [],
-    partIdx,
-    colorIdx,
-    colorOffset: colors ? {
-      r: +(colors.attributes?.redOffset || 0),
-      g: +(colors.attributes?.greenOffset || 0),
-      b: +(colors.attributes?.blueOffset || 0),
-    } : undefined,
-    alpha: (colors && colors.attributes?.alphaMultiplier) ? +colors.attributes.alphaMultiplier : undefined,
-    transform: matrix ? {
-      tx: matrix.attributes?.tx ? +matrix.attributes.tx : undefined,
-      ty: matrix.attributes?.ty ? +matrix.attributes.ty : undefined,
-      a: matrix.attributes?.a ? +matrix.attributes.a : undefined,
-      d: matrix.attributes?.d ? +matrix.attributes.d : undefined,
-      b: matrix.attributes?.b ? +matrix.attributes.b : undefined,
-      c: matrix.attributes?.c ? +matrix.attributes.c : undefined,
-    } : undefined,
+    name: (symbolItem.attributes?.name || '').split(' ').join(''),
+    parts: [],
+    frames: [],
   };
 
-  // Stop here if there is no symbolItem, it will be parsed later
-  if (!symbolItem) {
-    result.name = `REPLACE|${result.name}|REPLACE`;
-    return result;
+  if (!result.frames) {
+    throw new Error('No frames');
   }
 
   const layers = symbolItem.elements?.[0].elements?.[0].elements?.[0].elements;
 
   // Go through all layers
-  result.layers = (layers?.map((layer) => {
+  for (const layer of layers || []) {
     const frames = layer.elements?.[0].elements;
-    const parsedFrames: (Frame |null)[] = [];
 
-    for (const currentFrame of frames || []) {
-      const elements = currentFrame.elements?.find((element) => element.name === 'elements')?.elements as (DOMShape | DOMSymbolInstance)[] | undefined;
-
-      // Empty frame
-      if (!elements?.length) {
-        parsedFrames.push(null);
-        continue;
-      }
-
-      const parsedFrame = {
-        parts: elements?.map((element) => {
-          if (element.name === 'DOMSymbolInstance') {
-            return parseSymbol(element);
-          }
-
-          const svgName = element.attributes?.correspondingSymbol
-            ? `Symbol ${element.attributes.correspondingSymbol}`
-            : (symbolInstance.attributes?.libraryItemName || '');
-
-          return getSvg(svgName);
-        }) || [],
-      };
-
-      // Add the frame to the list
-      parsedFrames.push(parsedFrame);
-
-      // Duplicate it X times for the duration of the frame
-      if (currentFrame.attributes?.duration) {
-        for (let i = 1; i < +currentFrame.attributes.duration; i++) {
-          parsedFrames.push(parsedFrame);
-        }
-      }
+    if (!frames) {
+      continue;
     }
 
-    return {
-      frames: parsedFrames,
-    };
-  }) || []).filter((layer) => layer.frames.length > 0);
+    for (const frame of frames || []) {
+      const elements = frame.elements?.find((element) => element.name === 'elements')?.elements as (DOMShape | DOMSymbolInstance)[] | undefined;
+
+      for (const element of elements || []) {
+        const index = frame.attributes?.index ? +frame.attributes.index : 0;
+
+        // Sub symbol
+        if (element.name === 'DOMSymbolInstance') {
+          const colors = element.elements?.find((element) => element.name === 'color')?.elements?.[0] as Color | undefined;
+          const matrix = element.elements?.find((element) => element.name === 'matrix')?.elements?.[0] as Matrix | undefined;
+          
+          const customIndex = element.attributes?.name;
+          const partIdx = customIndex ? customIndex.startsWith('_p') ? +customIndex.replace(/\D/g, '') : undefined : undefined;
+          const colorIdx = customIndex ? customIndex.startsWith('_col') ? +customIndex.replace(/\D/g, '') : undefined : undefined;
+        
+          // Store part details
+          result.parts?.push({
+            type: 'symbol',
+            name: (element.attributes?.libraryItemName || '').split(' ').join(''),
+            partIdx,
+            colorIdx,
+          });
+
+          // Store part frame details
+          if (!result.frames[index]) {
+            result.frames[index] = [];
+          }
+
+          const frameData = {
+            type: 'symbol' as const,
+            name: (element.attributes?.libraryItemName || '').split(' ').join(''),
+            colorOffset: colors ? {
+              r: +(colors.attributes?.redOffset || 0),
+              g: +(colors.attributes?.greenOffset || 0),
+              b: +(colors.attributes?.blueOffset || 0),
+            } : undefined,
+            alpha: (colors && colors.attributes?.alphaMultiplier) ? +colors.attributes.alphaMultiplier : undefined,
+            transform: matrix ? {
+              tx: matrix.attributes?.tx ? +matrix.attributes.tx : undefined,
+              ty: matrix.attributes?.ty ? +matrix.attributes.ty : undefined,
+              a: matrix.attributes?.a ? +matrix.attributes.a : undefined,
+              d: matrix.attributes?.d ? +matrix.attributes.d : undefined,
+              b: matrix.attributes?.b ? +matrix.attributes.b : undefined,
+              c: matrix.attributes?.c ? +matrix.attributes.c : undefined,
+            } : undefined,
+          };
+          result.frames[index].push(frameData);
+
+          // Add to next frames if duration exists
+          const duration = frame.attributes?.duration;
+          if (duration) {
+            for (let i = 1; i < +duration; i++) {
+              if (!result.frames[index + i]) {
+                result.frames[index + i] = [];
+              }
+              result.frames[index + i].push(frameData);
+            }
+          }
+
+          continue;
+        }
+
+        // Svg
+        const svgName = element.attributes?.correspondingSymbol
+          ? `Symbol ${element.attributes.correspondingSymbol}`
+          : (symbolItem.attributes?.name || '');
+
+        const svg = getSvg(svgName);
+
+        // Store part details
+        result.parts?.push(svg);
+
+        // Store part frame details
+        if (!result.frames[index]) {
+          result.frames[index] = [];
+        }
+
+        result.frames[index].push({
+          type: 'svg',
+          name: svg.name,
+        });
+      }
+    }
+  }
+
+  // Initialize empty frames
+  for (let i = 0; i < result.frames.length; i++) {
+    if (!result.frames[i]) {
+      result.frames[i] = [];
+    }
+  }
   
   return result;
 };
@@ -354,10 +393,5 @@ const parseSymbol = (symbolInstance: DOMSymbolInstance, symbolItem?: DOMSymbolIt
 export const parseJson = (jsonString: string): Symbol => {
   const json: Json = JSON.parse(jsonString);
   
-  return parseSymbol({
-    name: 'DOMSymbolInstance',
-    attributes: {
-      libraryItemName: json.elements?.[0].attributes?.name,
-    },
-  }, json.elements?.[0]);
+  return parseSymbol(json.elements?.[0]);
 };

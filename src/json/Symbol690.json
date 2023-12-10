@@ -1,70 +1,54 @@
 {
   "type": "symbol",
   "name": "Symbol690",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol689|REPLACE",
-              "layers": [],
-              "partIdx": 7,
-              "transform": {
-                "tx": 2.35,
-                "ty": 2.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol689|REPLACE",
-              "layers": [],
-              "partIdx": 7,
-              "transform": {
-                "tx": 2.35,
-                "ty": 2.4
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol689",
+      "partIdx": 7
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol683|REPLACE",
-              "layers": [],
-              "colorIdx": 3,
-              "transform": {
-                "tx": 2.65,
-                "ty": -5.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol683|REPLACE",
-              "layers": [],
-              "colorIdx": 3,
-              "transform": {
-                "tx": 2.65,
-                "ty": -5.9
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol683",
+      "colorIdx": 3
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol689",
+        "transform": {
+          "tx": 2.35,
+          "ty": 2.4
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol683",
+        "transform": {
+          "tx": 2.65,
+          "ty": -5.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol689",
+        "transform": {
+          "tx": 2.35,
+          "ty": 2.4
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol683",
+        "transform": {
+          "tx": 2.65,
+          "ty": -5.9
+        }
+      }
+    ]
   ]
 }

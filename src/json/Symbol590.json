@@ -1,70 +1,54 @@
 {
   "type": "symbol",
   "name": "Symbol590",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol589|REPLACE",
-              "layers": [],
-              "colorIdx": 3,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol589|REPLACE",
-              "layers": [],
-              "colorIdx": 3,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol589",
+      "colorIdx": 3
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol587|REPLACE",
-              "layers": [],
-              "colorIdx": 4,
-              "transform": {
-                "tx": -3.1,
-                "ty": 9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol587|REPLACE",
-              "layers": [],
-              "colorIdx": 4,
-              "transform": {
-                "tx": -3.1,
-                "ty": 9
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol587",
+      "colorIdx": 4
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol589",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol587",
+        "transform": {
+          "tx": -3.1,
+          "ty": 9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol589",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol587",
+        "transform": {
+          "tx": -3.1,
+          "ty": 9
+        }
+      }
+    ]
   ]
 }

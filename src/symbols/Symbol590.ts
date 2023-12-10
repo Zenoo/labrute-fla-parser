@@ -5,63 +5,53 @@ import Symbol587 from './Symbol587';
 const Symbol590: Symbol = {
   "type": "symbol",
   "name": "Symbol590",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol589,
-              "colorIdx": 3,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol589,
-              "colorIdx": 3,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol589,
+      "colorIdx": 3
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol587,
-              "colorIdx": 4,
-              "transform": {
-                "tx": -3.1,
-                "ty": 9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol587,
-              "colorIdx": 4,
-              "transform": {
-                "tx": -3.1,
-                "ty": 9
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol587,
+      "colorIdx": 4
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol589",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol587",
+        "transform": {
+          "tx": -3.1,
+          "ty": 9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol589",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol587",
+        "transform": {
+          "tx": -3.1,
+          "ty": 9
+        }
+      }
+    ]
   ]
 };
 

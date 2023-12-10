@@ -4,23 +4,23 @@ import Symbol647 from './Symbol647';
 const Symbol648: Symbol = {
   "type": "symbol",
   "name": "Symbol648",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol647,
-              "partIdx": 2,
-              "transform": {
-                "tx": -0.1,
-                "ty": 16.4
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol647,
+      "partIdx": 2
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol647",
+        "transform": {
+          "tx": -0.1,
+          "ty": 16.4
+        }
+      }
+    ]
   ]
 };
 

@@ -1,26 +1,17 @@
 export type Svg = {
   type: 'svg';
+  name: string;
   svg: string;
+  appearsOnFrames?: number[];
   offset: {
     x: number;
     y: number;
   };
 };
 
-export type Frame = {
-  parts: (Symbol | Svg)[];
-};
-
-export type Layer = {
-  frames: (Frame | null)[];
-};
-
-export type Symbol = {
-  type: 'symbol';
+export type FramePart = {
+  type: 'symbol' | 'svg';
   name: string;
-  partIdx?: number;
-  colorIdx?: number;
-  layers: Layer[];
   transform?: {
     tx?: number;
     ty?: number;
@@ -35,4 +26,15 @@ export type Symbol = {
     b: number;
   };
   alpha?: number;
+};
+
+export type Symbol = {
+  // Main symbol
+  type: 'symbol';
+  name: string;
+  parts?: (Symbol | Svg)[];
+  frames?: FramePart[][]
+  // Sub symbol
+  partIdx?: number;
+  colorIdx?: number;
 }

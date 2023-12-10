@@ -1,80 +1,64 @@
 {
   "type": "symbol",
   "name": "Symbol730",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol729|REPLACE",
-              "layers": [],
-              "partIdx": 7,
-              "transform": {
-                "tx": 3.9,
-                "ty": 7.1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol729|REPLACE",
-              "layers": [],
-              "partIdx": 7,
-              "transform": {
-                "tx": 3.9,
-                "ty": 7.1
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol729",
+      "partIdx": 7
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol702|REPLACE",
-              "layers": [],
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol702|REPLACE",
-              "layers": [],
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol702",
+      "colorIdx": 0
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol729",
+        "transform": {
+          "tx": 3.9,
+          "ty": 7.1
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol702",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol729",
+        "transform": {
+          "tx": 3.9,
+          "ty": 7.1
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol702",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ]
   ]
 }

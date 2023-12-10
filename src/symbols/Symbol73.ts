@@ -4,24 +4,24 @@ import Symbol72 from './Symbol72';
 const Symbol73: Symbol = {
   "type": "symbol",
   "name": "Symbol73",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol72,
-              "colorIdx": 2,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol72,
+      "colorIdx": 2
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol72",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ]
   ]
 };
 

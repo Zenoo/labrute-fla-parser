@@ -5,41 +5,36 @@ import Symbol93 from './Symbol93';
 const Symbol96: Symbol = {
   "type": "symbol",
   "name": "Symbol96",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol95,
-              "colorIdx": 2,
-              "transform": {
-                "tx": 1.6,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol95,
+      "colorIdx": 2
     },
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol93,
-              "colorIdx": 3,
-              "transform": {
-                "tx": -2,
-                "ty": -6.85
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol93,
+      "colorIdx": 3
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol95",
+        "transform": {
+          "tx": 1.6,
+          "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol93",
+        "transform": {
+          "tx": -2,
+          "ty": -6.85
+        }
+      }
+    ]
   ]
 };
 

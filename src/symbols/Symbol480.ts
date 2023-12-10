@@ -4,23 +4,24 @@ import { Symbol } from '../common';
 const Symbol480: Symbol = {
   "type": "symbol",
   "name": "Symbol480",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "svg",
-              "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"4.65px\" width=\"4.95px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 10.2, 25.25)\">\r\n    <path d=\"M-5.95 -23.8 Q-6.25 -23.3 -6.8 -23.3 -7.75 -23.3 -7.8 -24.3 -7.8 -25.25 -6.75 -25.25 -5.75 -25.25 -5.75 -24.3 L-5.95 -23.8 M-8.6 -22.0 L-8.9 -21.45 -9.4 -21.25 Q-10.0 -21.25 -10.15 -21.75 L-10.2 -22.1 Q-10.2 -22.85 -9.4 -22.85 -8.6 -22.85 -8.6 -22.0 M-6.2 -20.6 Q-7.2 -20.6 -7.15 -21.55 -7.15 -22.45 -6.2 -22.45 -5.25 -22.45 -5.25 -21.5 -5.25 -21.2 -5.55 -20.9 -5.85 -20.6 -6.2 -20.6\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
-              "offset": {
-                "x": 10.2,
-                "y": 25.25
-              }
-            }
-          ]
-        }
-      ]
+      "type": "svg",
+      "name": "Symbol480",
+      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"4.65px\" width=\"4.95px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 10.2, 25.25)\">\r\n    <path d=\"M-5.95 -23.8 Q-6.25 -23.3 -6.8 -23.3 -7.75 -23.3 -7.8 -24.3 -7.8 -25.25 -6.75 -25.25 -5.75 -25.25 -5.75 -24.3 L-5.95 -23.8 M-8.6 -22.0 L-8.9 -21.45 -9.4 -21.25 Q-10.0 -21.25 -10.15 -21.75 L-10.2 -22.1 Q-10.2 -22.85 -9.4 -22.85 -8.6 -22.85 -8.6 -22.0 M-6.2 -20.6 Q-7.2 -20.6 -7.15 -21.55 -7.15 -22.45 -6.2 -22.45 -5.25 -22.45 -5.25 -21.5 -5.25 -21.2 -5.55 -20.9 -5.85 -20.6 -6.2 -20.6\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
+      "offset": {
+        "x": 10.2,
+        "y": 25.25
+      }
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "svg",
+        "name": "Symbol480"
+      }
+    ]
   ]
 };
 

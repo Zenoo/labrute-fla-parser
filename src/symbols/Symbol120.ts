@@ -6,49 +6,53 @@ import Symbol119 from './Symbol119';
 const Symbol120: Symbol = {
   "type": "symbol",
   "name": "Symbol120",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol115,
-              "partIdx": 1,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol117,
-              "transform": {
-                "tx": 25.4,
-                "ty": -3.4
-              }
-            }
-          ]
-        },
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol119,
-              "colorIdx": 3,
-              "transform": {
-                "tx": -1.65,
-                "ty": -0.6
-              }
-            }
-          ]
-        },
-        null
-      ]
+      ...Symbol115,
+      "partIdx": 1
+    },
+    {
+      ...Symbol117
+    },
+    {
+      ...Symbol119,
+      "colorIdx": 3
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol115",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol117",
+        "transform": {
+          "tx": 25.4,
+          "ty": -3.4
+        }
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol119",
+        "transform": {
+          "tx": -1.65,
+          "ty": -0.6
+        }
+      }
+    ]
   ]
 };
 

@@ -1,61 +1,55 @@
 {
   "type": "symbol",
   "name": "Symbol284",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol283|REPLACE",
-              "layers": [],
-              "colorIdx": 2,
-              "transform": {
-                "tx": -3.25,
-                "ty": -5.8
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol283",
+      "colorIdx": 2
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol279|REPLACE",
-              "layers": [],
-              "colorIdx": 3,
-              "transform": {
-                "tx": 1.55,
-                "ty": 0,
-                "a": 3.2306976318359375,
-                "d": 3.2306976318359375
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol281|REPLACE",
-              "layers": [],
-              "colorIdx": 3,
-              "transform": {
-                "tx": 1.55,
-                "ty": 0,
-                "a": 3.2306976318359375,
-                "d": 3.2306976318359375
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol279",
+      "colorIdx": 3
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol281",
+      "colorIdx": 3
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol279",
+        "transform": {
+          "tx": 1.55,
+          "ty": 0,
+          "a": 3.2306976318359375,
+          "d": 3.2306976318359375
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol283",
+        "transform": {
+          "tx": -3.25,
+          "ty": -5.8
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol281",
+        "transform": {
+          "tx": 1.55,
+          "ty": 0,
+          "a": 3.2306976318359375,
+          "d": 3.2306976318359375
+        }
+      }
+    ]
   ]
 }

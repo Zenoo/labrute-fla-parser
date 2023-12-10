@@ -1,2599 +1,2008 @@
 {
   "type": "symbol",
   "name": "Symbol918",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
+      "type": "symbol",
+      "name": "Symbol894"
     },
     {
-      "frames": [
-        null,
-        null,
-        null,
-        null
-      ]
+      "type": "symbol",
+      "name": "Symbol903"
     },
     {
-      "frames": [
-        null,
-        null,
-        null,
-        null
-      ]
+      "type": "symbol",
+      "name": "Symbol904"
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol903|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol903|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol903|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol903|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol903|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol903|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol903|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol903|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol904|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol904|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol904|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol904|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol904|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol904|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol905|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol906|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol906|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol906|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol906|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol906|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol906|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol906|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol906|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol906|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol906|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol906|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol907|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol910|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": -11.6,
-                "ty": -2.5
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol910|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": -11.6,
-                "ty": -2.5
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol910|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": -11.6,
-                "ty": -2.5
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol910|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": -11.6,
-                "ty": -2.5
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol910|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": -11.6,
-                "ty": -2.5
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol910|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": -11.6,
-                "ty": -2.5
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol910|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": -11.6,
-                "ty": -2.5
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol911|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol911|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol911|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol911|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol911|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol911|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol911|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol911|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol912|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol912|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol912|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol912|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol912|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol912|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol913|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol894|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol914|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol914|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol914|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol914|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol914|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol914|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol914|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol914|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol914|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol914|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 1.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol917|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 2.6,
-                "ty": -1
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol905"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol906"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol907"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol910"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol911"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol894"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol912"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol894"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol913"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol894"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol914"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol917"
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol903",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol903",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol903",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol903",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol903",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol903",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol903",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol903",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol904",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol904",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol904",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol904",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol904",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol904",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol905",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol906",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol906",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol906",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol906",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol906",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol906",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol906",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol906",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol906",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol906",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol906",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol907",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol910",
+        "transform": {
+          "tx": -11.6,
+          "ty": -2.5
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol910",
+        "transform": {
+          "tx": -11.6,
+          "ty": -2.5
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol910",
+        "transform": {
+          "tx": -11.6,
+          "ty": -2.5
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol910",
+        "transform": {
+          "tx": -11.6,
+          "ty": -2.5
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol910",
+        "transform": {
+          "tx": -11.6,
+          "ty": -2.5
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol910",
+        "transform": {
+          "tx": -11.6,
+          "ty": -2.5
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol910",
+        "transform": {
+          "tx": -11.6,
+          "ty": -2.5
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol911",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol911",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol911",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol911",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol911",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol911",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol911",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol911",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol912",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol912",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol912",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol912",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol912",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol912",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol913",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol894",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol914",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol914",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol914",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol914",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol914",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol914",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol914",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol914",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol914",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol914",
+        "transform": {
+          "tx": 1.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol917",
+        "transform": {
+          "tx": 2.6,
+          "ty": -1
+        }
+      }
+    ]
   ]
 }

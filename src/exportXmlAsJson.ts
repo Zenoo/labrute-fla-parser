@@ -68,34 +68,22 @@ for (const file of files) {
   
   const dependencies = new Set<string>();
 
-  // For each layer
-  symbol.layers.forEach((layer, i) => {
-    // For each frame
-    layer.frames.forEach((frame, j) => {
-      // For each part
-      frame?.parts.forEach((part) => {
-        // If the part is a symbol
-        if (part.type === 'symbol') {
-          // Check if the symbol has to be replaced
-          if (part.name.startsWith('REPLACE|')) {
-            const name = part.name.split('|')[1];
+  // Replace parts with their name
+  symbol.parts?.forEach((part) => {
+    // If the part is a symbol
+    if (part.type === 'symbol') {
+      // Add the symbolItem to the dependencies
+      dependencies.add(part.name);
 
-            // Add the symbolItem to the dependencies
-            dependencies.add(name);
-
-            // Replace the part with its name temporarily
-            // @ts-expect-error Only deviates from the type definition temporarily
-            part = part.name;
-          }
-        }
-      });
-    });
+      // Add replace tag to the name
+      part.name = `REPLACE|${part.name}|REPLACE`;
+    }
   });
 
   let stringifiedSymbol = JSON.stringify(symbol, null, 2);
 
-  // Replace `"name":"REPLACE|{name}|REPLACE","layers":[]` with `...{name}`
-  stringifiedSymbol = stringifiedSymbol.replace(/"type": "symbol",\n\s+"name": "REPLACE\|(.*)\|REPLACE",\n\s+"layers": \[\]/g, '...$1');
+  // Replace `"type": "symbol", "name": "REPLACE|{name}|REPLACE"` with `...{name}`
+  stringifiedSymbol = stringifiedSymbol.replace(/"type": "symbol",\n\s+"name": "REPLACE\|(.*)\|REPLACE"/g, '...$1');
 
   const newFileContent = `import { Symbol } from '../common';
 ${[...dependencies].map((dependency) => `import ${dependency.split(' ').join('')} from './${dependency}';`).join('\n')}

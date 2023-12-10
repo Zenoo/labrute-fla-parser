@@ -1,40 +1,40 @@
 {
   "type": "symbol",
   "name": "Symbol795",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol783|REPLACE",
-              "layers": [],
-              "colorIdx": 1,
-              "transform": {
-                "tx": 3.2,
-                "ty": 0,
-                "b": 0.100982666015625,
-                "c": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol785|REPLACE",
-              "layers": [],
-              "colorIdx": 1,
-              "transform": {
-                "tx": 3.2,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol783",
+      "colorIdx": 1
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol785",
+      "colorIdx": 1
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol783",
+        "transform": {
+          "tx": 3.2,
+          "ty": 0,
+          "b": 0.100982666015625,
+          "c": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol785",
+        "transform": {
+          "tx": 3.2,
+          "ty": 0
+        }
+      }
+    ]
   ]
 }

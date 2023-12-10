@@ -6,56 +6,53 @@ import Symbol281 from './Symbol281';
 const Symbol284: Symbol = {
   "type": "symbol",
   "name": "Symbol284",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol283,
-              "colorIdx": 2,
-              "transform": {
-                "tx": -3.25,
-                "ty": -5.8
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol283,
+      "colorIdx": 2
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol279,
-              "colorIdx": 3,
-              "transform": {
-                "tx": 1.55,
-                "ty": 0,
-                "a": 3.2306976318359375,
-                "d": 3.2306976318359375
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol281,
-              "colorIdx": 3,
-              "transform": {
-                "tx": 1.55,
-                "ty": 0,
-                "a": 3.2306976318359375,
-                "d": 3.2306976318359375
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol279,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol281,
+      "colorIdx": 3
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol279",
+        "transform": {
+          "tx": 1.55,
+          "ty": 0,
+          "a": 3.2306976318359375,
+          "d": 3.2306976318359375
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol283",
+        "transform": {
+          "tx": -3.25,
+          "ty": -5.8
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol281",
+        "transform": {
+          "tx": 1.55,
+          "ty": 0,
+          "a": 3.2306976318359375,
+          "d": 3.2306976318359375
+        }
+      }
+    ]
   ]
 };
 

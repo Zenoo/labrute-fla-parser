@@ -4,155 +4,133 @@ import Symbol606 from './Symbol606';
 const Symbol607: Symbol = {
   "type": "symbol",
   "name": "Symbol607",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol606,
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol606,
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol606,
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol606,
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol606,
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol606,
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol606,
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol606,
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol606,
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol606,
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol606,
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol606,
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol606,
+      "partIdx": 8
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ]
   ]
 };
 

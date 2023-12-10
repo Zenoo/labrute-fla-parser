@@ -5,37 +5,39 @@ import Symbol630 from './Symbol630';
 const Symbol694: Symbol = {
   "type": "symbol",
   "name": "Symbol694",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol632,
-              "colorIdx": 2,
-              "transform": {
-                "tx": 0.15,
-                "ty": 3.9
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol630,
-              "colorIdx": 2,
-              "transform": {
-                "tx": 0.1,
-                "ty": 3.8,
-                "a": 1.01190185546875,
-                "d": 1.01190185546875
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol632,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol630,
+      "colorIdx": 2
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol632",
+        "transform": {
+          "tx": 0.15,
+          "ty": 3.9
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol630",
+        "transform": {
+          "tx": 0.1,
+          "ty": 3.8,
+          "a": 1.01190185546875,
+          "d": 1.01190185546875
+        }
+      }
+    ]
   ]
 };
 

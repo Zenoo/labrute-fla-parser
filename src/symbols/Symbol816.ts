@@ -5,37 +5,42 @@ import Symbol815 from './Symbol815';
 const Symbol816: Symbol = {
   "type": "symbol",
   "name": "Symbol816",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol812,
-              "partIdx": 1,
-              "transform": {
-                "tx": 3.75,
-                "ty": -0.35
-              }
-            }
-          ]
-        },
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol815,
-              "partIdx": 1,
-              "transform": {
-                "tx": 3.75,
-                "ty": -0.35
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol812,
+      "partIdx": 1
+    },
+    {
+      ...Symbol815,
+      "partIdx": 1
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol812",
+        "transform": {
+          "tx": 3.75,
+          "ty": -0.35
+        }
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol815",
+        "transform": {
+          "tx": 3.75,
+          "ty": -0.35
+        }
+      }
+    ]
   ]
 };
 

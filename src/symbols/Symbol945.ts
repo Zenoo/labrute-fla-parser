@@ -13,1645 +13,1484 @@ import Symbol944 from './Symbol944';
 const Symbol945: Symbol = {
   "type": "symbol",
   "name": "Symbol945",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
+      ...Symbol935
     },
     {
-      "frames": [
-        null,
-        null
-      ]
+      ...Symbol936
     },
     {
-      "frames": [
-        null,
-        null
-      ]
+      ...Symbol937
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol936,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol936,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol936,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol936,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol936,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol936,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol936,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol936,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol937,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol937,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol937,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol937,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol937,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol937,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol938,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol939,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol939,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol939,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol939,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol939,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol939,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol939,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol939,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol939,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol939,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol939,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol940,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol940,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol940,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol940,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol940,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol941,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol941,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol941,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol941,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol941,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol942,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol942,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol942,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol942,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol942,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol942,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol943,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol943,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol943,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol943,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol943,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol943,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol944,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol944,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol944,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol944,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol944,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol935,
-              "transform": {
-                "tx": 9.5,
-                "ty": -37.4
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol938
+    },
+    {
+      ...Symbol939
+    },
+    {
+      ...Symbol940
+    },
+    {
+      ...Symbol935
+    },
+    {
+      ...Symbol941
+    },
+    {
+      ...Symbol935
+    },
+    {
+      ...Symbol942
+    },
+    {
+      ...Symbol935
+    },
+    {
+      ...Symbol943
+    },
+    {
+      ...Symbol935
+    },
+    {
+      ...Symbol944
+    },
+    {
+      ...Symbol935
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol936",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol936",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol936",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol936",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol936",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol936",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol936",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol936",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol937",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol937",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol937",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol937",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol937",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol937",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol938",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol939",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol939",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol939",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol939",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol939",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol939",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol939",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol939",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol939",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol939",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol939",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol940",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol940",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol940",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol940",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol940",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol941",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol941",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol941",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol941",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol941",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol942",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol942",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol942",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol942",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol942",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol942",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol943",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol943",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol943",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol943",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol943",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol943",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol944",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol944",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol944",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol944",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol944",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol935",
+        "transform": {
+          "tx": 9.5,
+          "ty": -37.4
+        }
+      }
+    ]
   ]
 };
 

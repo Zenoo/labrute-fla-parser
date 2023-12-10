@@ -6,48 +6,51 @@ import Symbol659 from './Symbol659';
 const Symbol660: Symbol = {
   "type": "symbol",
   "name": "Symbol660",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol185,
-              "partIdx": 1,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol186,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol659,
-              "partIdx": 1,
-              "transform": {
-                "tx": -13.15,
-                "ty": -19.4
-              }
-            }
-          ]
-        },
-        null
-      ]
+      ...Symbol185,
+      "partIdx": 1
+    },
+    {
+      ...Symbol186
+    },
+    {
+      ...Symbol659,
+      "partIdx": 1
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol185",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol186",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol659",
+        "transform": {
+          "tx": -13.15,
+          "ty": -19.4
+        }
+      }
+    ]
   ]
 };
 

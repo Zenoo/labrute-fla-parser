@@ -4,113 +4,111 @@ import Symbol207 from './Symbol207';
 const Symbol208: Symbol = {
   "type": "symbol",
   "name": "Symbol208",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol207,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol207,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol207,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol207,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol207,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol207,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0,
-                "a": 1.08135986328125,
-                "d": 1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol207,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0,
-                "a": 1.1627044677734375,
-                "d": 1
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol207,
-              "partIdx": 6,
-              "transform": {
-                "tx": 0,
-                "ty": 0,
-                "a": 1.2440643310546875,
-                "d": 1
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol207,
+      "partIdx": 6
+    },
+    {
+      ...Symbol207,
+      "partIdx": 6
+    },
+    {
+      ...Symbol207,
+      "partIdx": 6
+    },
+    {
+      ...Symbol207,
+      "partIdx": 6
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol207",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol207",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol207",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol207",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol207",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol207",
+        "transform": {
+          "tx": 0,
+          "ty": 0,
+          "a": 1.08135986328125,
+          "d": 1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol207",
+        "transform": {
+          "tx": 0,
+          "ty": 0,
+          "a": 1.1627044677734375,
+          "d": 1
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol207",
+        "transform": {
+          "tx": 0,
+          "ty": 0,
+          "a": 1.2440643310546875,
+          "d": 1
+        }
+      }
+    ]
   ]
 };
 

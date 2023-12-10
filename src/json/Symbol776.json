@@ -1,28 +1,22 @@
 {
   "type": "symbol",
   "name": "Symbol776",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null
-      ]
-    },
-    {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol358|REPLACE",
-              "layers": [],
-              "transform": {
-                "tx": 0.25,
-                "ty": -2.5
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol358"
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol358",
+        "transform": {
+          "tx": 0.25,
+          "ty": -2.5
+        }
+      }
+    ]
   ]
 }

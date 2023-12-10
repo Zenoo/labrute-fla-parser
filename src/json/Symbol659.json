@@ -1,63 +1,50 @@
 {
   "type": "symbol",
   "name": "Symbol659",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol658|REPLACE",
-              "layers": [],
-              "colorIdx": 4,
-              "transform": {
-                "tx": 2.85,
-                "ty": 16.8
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol658",
+      "colorIdx": 4
     },
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol656|REPLACE",
-              "layers": [],
-              "colorIdx": 3,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol656",
+      "colorIdx": 3
     },
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol654|REPLACE",
-              "layers": [],
-              "colorIdx": 4,
-              "transform": {
-                "tx": -0.95,
-                "ty": 16.35
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol654",
+      "colorIdx": 4
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol658",
+        "transform": {
+          "tx": 2.85,
+          "ty": 16.8
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol656",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol654",
+        "transform": {
+          "tx": -0.95,
+          "ty": 16.35
+        }
+      }
+    ]
   ]
 }

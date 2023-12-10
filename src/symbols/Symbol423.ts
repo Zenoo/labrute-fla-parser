@@ -4,24 +4,29 @@ import Symbol422 from './Symbol422';
 const Symbol423: Symbol = {
   "type": "symbol",
   "name": "Symbol423",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol422,
-              "partIdx": 1,
-              "transform": {
-                "tx": -0.35,
-                "ty": -3.4
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol422,
+      "partIdx": 1
     }
+  ],
+  "frames": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol422",
+        "transform": {
+          "tx": -0.35,
+          "ty": -3.4
+        }
+      }
+    ]
   ]
 };
 

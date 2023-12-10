@@ -6,49 +6,53 @@ import Symbol787 from './Symbol787';
 const Symbol788: Symbol = {
   "type": "symbol",
   "name": "Symbol788",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol783,
-              "colorIdx": 1,
-              "transform": {
-                "tx": 3.2,
-                "ty": 0,
-                "b": 0.102691650390625,
-                "c": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol785,
-              "colorIdx": 1,
-              "transform": {
-                "tx": 3.2,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol787,
-              "colorIdx": 1,
-              "transform": {
-                "tx": 3.2,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol783,
+      "colorIdx": 1
+    },
+    {
+      ...Symbol785,
+      "colorIdx": 1
+    },
+    {
+      ...Symbol787,
+      "colorIdx": 1
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol783",
+        "transform": {
+          "tx": 3.2,
+          "ty": 0,
+          "b": 0.102691650390625,
+          "c": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol785",
+        "transform": {
+          "tx": 3.2,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol787",
+        "transform": {
+          "tx": 3.2,
+          "ty": 0
+        }
+      }
+    ]
   ]
 };
 

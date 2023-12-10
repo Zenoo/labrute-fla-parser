@@ -1,31 +1,30 @@
 {
   "type": "symbol",
   "name": "Symbol4",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol3|REPLACE",
-              "layers": [],
-              "colorOffset": {
-                "r": 45,
-                "g": -16,
-                "b": -92
-              },
-              "alpha": 0.3984375,
-              "transform": {
-                "tx": 0,
-                "ty": -0.25,
-                "a": 0.20111083984375,
-                "d": 0.20111083984375
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol3"
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol3",
+        "colorOffset": {
+          "r": 45,
+          "g": -16,
+          "b": -92
+        },
+        "alpha": 0.3984375,
+        "transform": {
+          "tx": 0,
+          "ty": -0.25,
+          "a": 0.20111083984375,
+          "d": 0.20111083984375
+        }
+      }
+    ]
   ]
 }

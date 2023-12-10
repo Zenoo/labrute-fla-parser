@@ -1,24 +1,23 @@
 {
   "type": "symbol",
   "name": "Symbol563",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol562|REPLACE",
-              "layers": [],
-              "partIdx": 3,
-              "transform": {
-                "tx": 78.7,
-                "ty": 6.9
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol562",
+      "partIdx": 3
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol562",
+        "transform": {
+          "tx": 78.7,
+          "ty": 6.9
+        }
+      }
+    ]
   ]
 }

@@ -4,22 +4,22 @@ import Symbol38 from './Symbol38';
 const Symbol492: Symbol = {
   "type": "symbol",
   "name": "Symbol492",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol38,
-              "transform": {
-                "tx": 0.05,
-                "ty": 2.65
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol38
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol38",
+        "transform": {
+          "tx": 0.05,
+          "ty": 2.65
+        }
+      }
+    ]
   ]
 };
 

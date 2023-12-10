@@ -1,40 +1,43 @@
 {
   "type": "symbol",
   "name": "Symbol419",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol416|REPLACE",
-              "layers": [],
-              "partIdx": 1,
-              "transform": {
-                "tx": 0.2,
-                "ty": -1.85
-              }
-            }
-          ]
-        },
-        null,
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol418|REPLACE",
-              "layers": [],
-              "partIdx": 1,
-              "transform": {
-                "tx": 0.05,
-                "ty": -0.75
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol416",
+      "partIdx": 1
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol418",
+      "partIdx": 1
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol416",
+        "transform": {
+          "tx": 0.2,
+          "ty": -1.85
+        }
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol418",
+        "transform": {
+          "tx": 0.05,
+          "ty": -0.75
+        }
+      }
+    ]
   ]
 }

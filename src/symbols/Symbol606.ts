@@ -6,224 +6,176 @@ import Symbol595 from './Symbol595';
 const Symbol606: Symbol = {
   "type": "symbol",
   "name": "Symbol606",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol605,
-              "partIdx": 7,
-              "transform": {
-                "tx": 5.2,
-                "ty": 0.75
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol605,
-              "partIdx": 7,
-              "transform": {
-                "tx": 5.2,
-                "ty": 0.75
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol605,
-              "partIdx": 7,
-              "transform": {
-                "tx": 5.2,
-                "ty": 0.75
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol605,
-              "partIdx": 7,
-              "transform": {
-                "tx": 5.2,
-                "ty": 0.75
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol605,
-              "partIdx": 7,
-              "transform": {
-                "tx": 5.2,
-                "ty": 0.75
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol605,
+      "partIdx": 7
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol597,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 4.3,
-                "ty": -0.3
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol597,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 4.3,
-                "ty": -0.3
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol597,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 4.3,
-                "ty": -0.3
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol597,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 4.3,
-                "ty": -0.3
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol597,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 4.3,
-                "ty": -0.3
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol597,
+      "colorIdx": 0
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol595,
-              "partIdx": 7,
-              "transform": {
-                "tx": 4.95,
-                "ty": 17.85
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol595,
-              "partIdx": 7,
-              "transform": {
-                "tx": 4.95,
-                "ty": 17.85
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol595,
-              "partIdx": 7,
-              "transform": {
-                "tx": 4.95,
-                "ty": 17.85
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol595,
-              "partIdx": 7,
-              "transform": {
-                "tx": 4.95,
-                "ty": 17.85
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol595,
-              "partIdx": 7,
-              "transform": {
-                "tx": 4.95,
-                "ty": 17.85
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol595,
+      "partIdx": 7
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol605",
+        "transform": {
+          "tx": 5.2,
+          "ty": 0.75
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol597",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 4.3,
+          "ty": -0.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol595",
+        "transform": {
+          "tx": 4.95,
+          "ty": 17.85
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol605",
+        "transform": {
+          "tx": 5.2,
+          "ty": 0.75
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol597",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 4.3,
+          "ty": -0.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol595",
+        "transform": {
+          "tx": 4.95,
+          "ty": 17.85
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol605",
+        "transform": {
+          "tx": 5.2,
+          "ty": 0.75
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol597",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 4.3,
+          "ty": -0.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol595",
+        "transform": {
+          "tx": 4.95,
+          "ty": 17.85
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol605",
+        "transform": {
+          "tx": 5.2,
+          "ty": 0.75
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol597",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 4.3,
+          "ty": -0.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol595",
+        "transform": {
+          "tx": 4.95,
+          "ty": 17.85
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol605",
+        "transform": {
+          "tx": 5.2,
+          "ty": 0.75
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol597",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 4.3,
+          "ty": -0.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol595",
+        "transform": {
+          "tx": 4.95,
+          "ty": 17.85
+        }
+      }
+    ]
   ]
 };
 

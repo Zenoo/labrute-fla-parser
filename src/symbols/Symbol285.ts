@@ -4,25 +4,24 @@ import Symbol284 from './Symbol284';
 const Symbol285: Symbol = {
   "type": "symbol",
   "name": "Symbol285",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol284,
-              "partIdx": 1,
-              "transform": {
-                "tx": -12.55,
-                "ty": -1.9
-              }
-            }
-          ]
-        },
-        null
-      ]
+      ...Symbol284,
+      "partIdx": 1
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol284",
+        "transform": {
+          "tx": -12.55,
+          "ty": -1.9
+        }
+      }
+    ]
   ]
 };
 

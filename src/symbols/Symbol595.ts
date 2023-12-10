@@ -4,41 +4,35 @@ import Symbol107 from './Symbol107';
 const Symbol595: Symbol = {
   "type": "symbol",
   "name": "Symbol595",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol107,
-              "transform": {
-                "tx": 0,
-                "ty": -10
-              }
-            }
-          ]
-        },
-        null
-      ]
+      ...Symbol107
     },
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol107,
-              "transform": {
-                "tx": 0,
-                "ty": -5.7
-              }
-            }
-          ]
-        },
-        null
-      ]
+      ...Symbol107
     }
+  ],
+  "frames": [
+    [],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol107",
+        "transform": {
+          "tx": 0,
+          "ty": -10
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol107",
+        "transform": {
+          "tx": 0,
+          "ty": -5.7
+        }
+      }
+    ]
   ]
 };
 

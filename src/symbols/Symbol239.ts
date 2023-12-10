@@ -8,80 +8,88 @@ import Symbol149 from './Symbol149';
 const Symbol239: Symbol = {
   "type": "symbol",
   "name": "Symbol239",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol225,
-              "partIdx": 1,
-              "transform": {
-                "tx": 0.3,
-                "ty": -11.6
-              }
-            }
-          ]
-        },
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol230,
-              "partIdx": 1,
-              "transform": {
-                "tx": -0.35,
-                "ty": 0.6
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol232,
-              "colorIdx": 2,
-              "transform": {
-                "tx": 0.15,
-                "ty": -10.4
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol238,
-              "partIdx": 1,
-              "transform": {
-                "tx": -6.6,
-                "ty": -30.35
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol149,
-              "colorIdx": 2,
-              "colorOffset": {
-                "r": -110,
-                "g": -90,
-                "b": -80
-              },
-              "transform": {
-                "tx": 0.55,
-                "ty": -12.75,
-                "a": 1.0773162841796875,
-                "d": 1.03216552734375
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol225,
+      "partIdx": 1
+    },
+    {
+      ...Symbol230,
+      "partIdx": 1
+    },
+    {
+      ...Symbol232,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol238,
+      "partIdx": 1
+    },
+    {
+      ...Symbol149,
+      "colorIdx": 2
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol225",
+        "transform": {
+          "tx": 0.3,
+          "ty": -11.6
+        }
+      }
+    ],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol230",
+        "transform": {
+          "tx": -0.35,
+          "ty": 0.6
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol232",
+        "transform": {
+          "tx": 0.15,
+          "ty": -10.4
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol238",
+        "transform": {
+          "tx": -6.6,
+          "ty": -30.35
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol149",
+        "colorOffset": {
+          "r": -110,
+          "g": -90,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0.55,
+          "ty": -12.75,
+          "a": 1.0773162841796875,
+          "d": 1.03216552734375
+        }
+      }
+    ]
   ]
 };
 

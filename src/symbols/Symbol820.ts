@@ -4,23 +4,23 @@ import Symbol819 from './Symbol819';
 const Symbol820: Symbol = {
   "type": "symbol",
   "name": "Symbol820",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol819,
-              "partIdx": 5,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol819,
+      "partIdx": 5
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol819",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ]
   ]
 };
 

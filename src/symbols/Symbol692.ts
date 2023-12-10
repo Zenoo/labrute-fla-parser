@@ -4,23 +4,23 @@ import Symbol691 from './Symbol691';
 const Symbol692: Symbol = {
   "type": "symbol",
   "name": "Symbol692",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol691,
-              "partIdx": 2,
-              "transform": {
-                "tx": -3.05,
-                "ty": 5.95
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol691,
+      "partIdx": 2
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol691",
+        "transform": {
+          "tx": -3.05,
+          "ty": 5.95
+        }
+      }
+    ]
   ]
 };
 

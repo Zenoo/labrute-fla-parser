@@ -1,10 +1,15 @@
 import * as PIXI from 'pixi.js';
-import { Symbol } from '../src/common';
+import { FramePart, Svg, Symbol } from '../src/common';
 import { Male, MaleAnimation } from '../src/Symbols';
 import { Filter, Texture } from 'pixi.js';
 import { TextureManager } from './TextureManager';
 import { PixiHelper } from './PixiHelper';
 import ColorOffsetShader from './ColorOffsetShader';
+import Symbol411 from '../src/Symbols/Symbol411';
+
+type PartContainer = PIXI.Container & {
+  source?: Symbol | Svg;
+};
 
 const app = new PIXI.Application<HTMLCanvasElement>({
   background: '#1099bb',
@@ -21,96 +26,110 @@ const viewport = app.stage.addChild(new PIXI.Container());
 app.renderer.render(app.stage);
 app.stage.addChild(viewport);
 
+const initializeParts = (parts: (Symbol | Svg)[]) => {
+  const partContainers: PartContainer[] = [];
 
-export const displaySymbol = async (symbol: Symbol, frame?: number, x?: number, y?: number) => {
-  const symbolContainer = new PIXI.Container();
-  symbolContainer.name = symbol.name;
-  symbolContainer.x = x ?? 0;
-  symbolContainer.y = y ?? 0;
+  parts.forEach(part => {
+    const container: PartContainer = new PIXI.Container();
+    container.name = part.name;
+    container.source = part;
+    container.visible = false;
 
-  // Add a dot to see the position
-  const dot = new PIXI.Graphics();
-  dot.beginFill(0xFF0000);
-  dot.drawCircle(0, 0, 5);
-  dot.endFill();
-  symbolContainer.addChild(dot);
+    if (part.type === 'symbol') {
+      if (part.parts) {
+        container.addChild(...initializeParts(part.parts));
+      }
+      // Apply color
+      if (part.colorIdx) {
+        // TODO: Apply color from config object
+        // container.color = '#0000ff';
+      }
+    }
+
+    if (part.type === 'svg') {
+      container.addChild(new PIXI.Sprite(Texture.from(part.svg)));
+    }
+
+    partContainers.push(container);
+  });
+
+  return partContainers;
+};
+
+const getPartContainer = (parts: PIXI.DisplayObject[], type: 'symbol' | 'svg', name: string) => {
+  return (parts as PartContainer[]).find(part => part.source?.type === type && part.name === name);
+};
+
+const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
+  const partContainer = getPartContainer(parts, part.type, part.name);
+
+  if (!partContainer) {
+    throw new Error(`Part ${part.type}:${part.name} not found`);
+  }
 
   // Apply transform
-  if (symbol.transform) {
-    symbolContainer.transform.setFromMatrix(PixiHelper.matrixFromObject(symbol.transform));
+  if (part.transform) {
+    partContainer.transform.setFromMatrix(PixiHelper.matrixFromObject(part.transform));
   }
 
   // Apply color offset
-  if (symbol.colorOffset) {
-    symbolContainer.filters = [new Filter(undefined, ColorOffsetShader, {
+  if (part.colorOffset) {
+    partContainer.filters = [new Filter(undefined, ColorOffsetShader, {
       offset: new Float32Array([
-        symbol.colorOffset.r ?? 0,
-        symbol.colorOffset.g ?? 0,
-        symbol.colorOffset.b ?? 0
+        part.colorOffset.r ?? 0,
+        part.colorOffset.g ?? 0,
+        part.colorOffset.b ?? 0
       ]),
       mult: new Float32Array([1, 1, 1])
     })];
   }
 
   // Apply alpha
-  if (symbol.alpha) {
-    symbolContainer.alpha = symbol.alpha;
+  if (part.alpha) {
+    partContainer.alpha = part.alpha;
   }
 
-  // For each layer
-  for (let layerIdx = 0; layerIdx < symbol.layers.length; layerIdx++) {
-    const layer = symbol.layers[layerIdx];
-    const layerContainer = new PIXI.Container();
-    layerContainer.name = `layer${layerIdx}`;
+  // Apply visibility
+  partContainer.visible = true;
 
-    // For each frame
-    for (let frameIdx = 0; frameIdx < layer.frames.length; frameIdx++) {
-      const currentFrame = layer.frames[frameIdx];
-      const frameContainer = new PIXI.Container();
-      frameContainer.name = `frame${frameIdx}`;
+  // Handle children
+  if (part.type === 'symbol') {
+    partContainer.children.forEach(child => {
+      // Only display frame 0 for now
+      const source = (child as PartContainer).source;
 
-      // Hide every frame but 0 for now
-      frameContainer.visible = frameIdx === 0;
+      if (!source) {
+        throw new Error(`Child ${child.name} has no source`);
+      }
 
-      if (!currentFrame) continue;
+      if (source.type === 'symbol' && source.frames?.[0]) {
+        source.frames[0].forEach(part => {
+          displayPart(child.children as PIXI.DisplayObject[], part);
+        });
+      }
+    });
+  }
+};
 
-      // For each part
-      for (let partIdx = 0; partIdx < currentFrame.parts.length; partIdx++) {
-        const part = currentFrame.parts[partIdx];
+const displaySymbol = (symbol: Symbol, frame?: number, x?: number, y?: number) => {
+  const symbolContainer = new PIXI.Container();
+  symbolContainer.name = symbol.name;
+  symbolContainer.x = x ?? 0;
+  symbolContainer.y = y ?? 0;
 
-        // If it's a symbol
-        if (part.type === 'symbol') {
-          // Display it
-          const innerSymbol = await displaySymbol(part, frame);
+  // Initialize all parts
+  if (symbol.parts) {
+    symbolContainer.addChild(...initializeParts(symbol.parts));
+  }
 
-          if (innerSymbol) {
-            frameContainer.addChild(innerSymbol);
-          }
-          continue;
-        }
-  
-        // If it's an SVG
-        if (part.type === 'svg') {
-          // Get sprite
-          const sprite = new PIXI.Sprite(TextureManager.getTexture(part.svg));
-  
-          // Add to container
-          frameContainer.addChild(sprite);
-          continue;
-        }
-      };
-
-      layerContainer.addChild(frameContainer);
-    }
-
-    symbolContainer.addChild(layerContainer);
-  };
+  // Only display frame 0 for now
+  symbol.frames?.[0].forEach(part => {
+    displayPart(symbolContainer.children, part);
+  });
 
   return symbolContainer;
 };
 
-const iddleMale = await displaySymbol(Male, MaleAnimation.iddle, 100, 100);
+const symbol = displaySymbol(Symbol411, 0, 100, 100);
 
-console.log(iddleMale);
-
-viewport.addChild(iddleMale);
+viewport.addChild(symbol);

@@ -4,23 +4,23 @@ import Symbol420 from './Symbol420';
 const Symbol421: Symbol = {
   "type": "symbol",
   "name": "Symbol421",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol420,
-              "partIdx": 5,
-              "transform": {
-                "tx": -0.75,
-                "ty": 3.15
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol420,
+      "partIdx": 5
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol420",
+        "transform": {
+          "tx": -0.75,
+          "ty": 3.15
+        }
+      }
+    ]
   ]
 };
 

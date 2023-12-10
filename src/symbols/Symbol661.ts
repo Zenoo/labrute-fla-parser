@@ -6,60 +6,52 @@ import Symbol650 from './Symbol650';
 const Symbol661: Symbol = {
   "type": "symbol",
   "name": "Symbol661",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol660,
-              "partIdx": 7,
-              "transform": {
-                "tx": -2.95,
-                "ty": -1.5
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol660,
+      "partIdx": 7
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol652,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": -3.4,
-                "ty": -3.3
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol652,
+      "colorIdx": 0
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol650,
-              "partIdx": 7,
-              "transform": {
-                "tx": -5.35,
-                "ty": 21.3
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol650,
+      "partIdx": 7
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol660",
+        "transform": {
+          "tx": -2.95,
+          "ty": -1.5
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol652",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": -3.4,
+          "ty": -3.3
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol650",
+        "transform": {
+          "tx": -5.35,
+          "ty": 21.3
+        }
+      }
+    ]
   ]
 };
 

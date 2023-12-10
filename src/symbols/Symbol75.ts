@@ -5,37 +5,42 @@ import Symbol74 from './Symbol74';
 const Symbol75: Symbol = {
   "type": "symbol",
   "name": "Symbol75",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol73,
-              "partIdx": 1,
-              "transform": {
-                "tx": 2.45,
-                "ty": 5.45
-              }
-            }
-          ]
-        },
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol74,
-              "partIdx": 1,
-              "transform": {
-                "tx": -0.35,
-                "ty": -3.4
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol73,
+      "partIdx": 1
+    },
+    {
+      ...Symbol74,
+      "partIdx": 1
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol73",
+        "transform": {
+          "tx": 2.45,
+          "ty": 5.45
+        }
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol74",
+        "transform": {
+          "tx": -0.35,
+          "ty": -3.4
+        }
+      }
+    ]
   ]
 };
 

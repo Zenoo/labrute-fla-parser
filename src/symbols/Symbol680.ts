@@ -5,73 +5,63 @@ import Symbol608 from './Symbol608';
 const Symbol680: Symbol = {
   "type": "symbol",
   "name": "Symbol680",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol679,
-              "partIdx": 7,
-              "transform": {
-                "tx": 0.55,
-                "ty": 1.55
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol679,
-              "partIdx": 7,
-              "transform": {
-                "tx": 0.55,
-                "ty": 1.55
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol679,
+      "partIdx": 7
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              ...Symbol608,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              ...Symbol608,
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol608,
+      "colorIdx": 0
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol679",
+        "transform": {
+          "tx": 0.55,
+          "ty": 1.55
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol608",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol679",
+        "transform": {
+          "tx": 0.55,
+          "ty": 1.55
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol608",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ]
   ]
 };
 

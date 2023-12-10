@@ -4,29 +4,29 @@ import Symbol34 from './Symbol34';
 const Symbol35: Symbol = {
   "type": "symbol",
   "name": "Symbol35",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol34,
-              "colorIdx": 2,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": -0.15,
-                "ty": -0.2
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol34,
+      "colorIdx": 2
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol34",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": -0.15,
+          "ty": -0.2
+        }
+      }
+    ]
   ]
 };
 

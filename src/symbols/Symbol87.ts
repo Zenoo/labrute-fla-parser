@@ -6,60 +6,50 @@ import Symbol83 from './Symbol83';
 const Symbol87: Symbol = {
   "type": "symbol",
   "name": "Symbol87",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol86,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol86
     },
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol85,
-              "colorIdx": 3,
-              "transform": {
-                "tx": -0.9,
-                "ty": -0.55,
-                "a": 3.4643096923828125,
-                "d": 2.7031707763671875,
-                "b": -1.29888916015625,
-                "c": 0.6588897705078125
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol85,
+      "colorIdx": 3
     },
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol83,
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol83
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol86",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol85",
+        "transform": {
+          "tx": -0.9,
+          "ty": -0.55,
+          "a": 3.4643096923828125,
+          "d": 2.7031707763671875,
+          "b": -1.29888916015625,
+          "c": 0.6588897705078125
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol83",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ]
   ]
 };
 

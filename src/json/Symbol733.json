@@ -1,27 +1,26 @@
 {
   "type": "symbol",
   "name": "Symbol733",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol279|REPLACE",
-              "layers": [],
-              "colorIdx": 3,
-              "transform": {
-                "tx": 1.55,
-                "ty": 0,
-                "a": 3.2306976318359375,
-                "d": 3.2306976318359375
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol279",
+      "colorIdx": 3
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol279",
+        "transform": {
+          "tx": 1.55,
+          "ty": 0,
+          "a": 3.2306976318359375,
+          "d": 3.2306976318359375
+        }
+      }
+    ]
   ]
 }

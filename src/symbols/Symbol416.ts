@@ -4,29 +4,29 @@ import Symbol415 from './Symbol415';
 const Symbol416: Symbol = {
   "type": "symbol",
   "name": "Symbol416",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        null,
-        {
-          "parts": [
-            {
-              ...Symbol415,
-              "colorIdx": 2,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 2.55,
-                "ty": -5.75
-              }
-            }
-          ]
-        }
-      ]
+      ...Symbol415,
+      "colorIdx": 2
     }
+  ],
+  "frames": [
+    [],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol415",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 2.55,
+          "ty": -5.75
+        }
+      }
+    ]
   ]
 };
 

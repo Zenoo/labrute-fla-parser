@@ -1,178 +1,133 @@
 {
   "type": "symbol",
   "name": "Symbol607",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol606|REPLACE",
-              "layers": [],
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol606|REPLACE",
-              "layers": [],
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol606|REPLACE",
-              "layers": [],
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol606|REPLACE",
-              "layers": [],
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol606|REPLACE",
-              "layers": [],
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol606|REPLACE",
-              "layers": [],
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol606|REPLACE",
-              "layers": [],
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol606|REPLACE",
-              "layers": [],
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol606|REPLACE",
-              "layers": [],
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol606|REPLACE",
-              "layers": [],
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol606|REPLACE",
-              "layers": [],
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol606|REPLACE",
-              "layers": [],
-              "partIdx": 8,
-              "transform": {
-                "tx": 2,
-                "ty": 4.15
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol606",
+      "partIdx": 8
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol606",
+        "transform": {
+          "tx": 2,
+          "ty": 4.15
+        }
+      }
+    ]
   ]
 }

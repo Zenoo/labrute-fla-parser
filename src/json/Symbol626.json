@@ -1,88 +1,72 @@
 {
   "type": "symbol",
   "name": "Symbol626",
-  "layers": [
+  "parts": [
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol625|REPLACE",
-              "layers": [],
-              "partIdx": 7,
-              "transform": {
-                "tx": 0.55,
-                "ty": 1.55,
-                "a": 0.9969329833984375,
-                "d": 0.9969329833984375,
-                "b": -0.0749359130859375,
-                "c": 0.0749359130859375
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol625|REPLACE",
-              "layers": [],
-              "partIdx": 7,
-              "transform": {
-                "tx": 0.55,
-                "ty": 1.55,
-                "a": 0.9969329833984375,
-                "d": 0.9969329833984375,
-                "b": -0.0749359130859375,
-                "c": 0.0749359130859375
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol625",
+      "partIdx": 7
     },
     {
-      "frames": [
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol608|REPLACE",
-              "layers": [],
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        },
-        {
-          "parts": [
-            {
-              "type": "symbol",
-              "name": "REPLACE|Symbol608|REPLACE",
-              "layers": [],
-              "colorIdx": 0,
-              "colorOffset": {
-                "r": -16,
-                "g": -50,
-                "b": -80
-              },
-              "transform": {
-                "tx": 0,
-                "ty": 0
-              }
-            }
-          ]
-        }
-      ]
+      "type": "symbol",
+      "name": "Symbol608",
+      "colorIdx": 0
     }
+  ],
+  "frames": [
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol625",
+        "transform": {
+          "tx": 0.55,
+          "ty": 1.55,
+          "a": 0.9969329833984375,
+          "d": 0.9969329833984375,
+          "b": -0.0749359130859375,
+          "c": 0.0749359130859375
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol608",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol625",
+        "transform": {
+          "tx": 0.55,
+          "ty": 1.55,
+          "a": 0.9969329833984375,
+          "d": 0.9969329833984375,
+          "b": -0.0749359130859375,
+          "c": 0.0749359130859375
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol608",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ]
   ]
 }
