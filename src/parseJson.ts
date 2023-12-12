@@ -409,7 +409,7 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
     if (!result.frames[i]) {
       result.frames[i] = [];
     } else {
-      result.frames[i] = result.frames[i].reverse();
+      result.frames[i].reverse();
     }
   }
   
