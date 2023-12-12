@@ -21,7 +21,7 @@ const Symbol595: Symbol = {
         "name": "Symbol107",
         "transform": {
           "tx": 0,
-          "ty": -5.7
+          "ty": -10
         }
       },
       {
@@ -29,7 +29,7 @@ const Symbol595: Symbol = {
         "name": "Symbol107",
         "transform": {
           "tx": 0,
-          "ty": -10
+          "ty": -5.7
         }
       }
     ]

@@ -1,18 +1,11 @@
 import { Symbol } from '../common';
-import Symbol184 from './Symbol184';
 import Symbol183 from './Symbol183';
+import Symbol184 from './Symbol184';
 
 const Symbol185: Symbol = {
   "type": "symbol",
   "name": "Symbol185",
   "parts": [
-    {
-      ...Symbol184
-    },
-    {
-      ...Symbol183,
-      "colorIdx": 3
-    },
     {
       "type": "svg",
       "name": "Symbol185",
@@ -21,14 +14,25 @@ const Symbol185: Symbol = {
         "x": 13.7,
         "y": 2.9
       }
+    },
+    {
+      ...Symbol183,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol184
     }
   ],
   "frames": [
     [],
     [
       {
-        "type": "svg",
-        "name": "Symbol185"
+        "type": "symbol",
+        "name": "Symbol184",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
       },
       {
         "type": "symbol",
@@ -41,12 +45,8 @@ const Symbol185: Symbol = {
         }
       },
       {
-        "type": "symbol",
-        "name": "Symbol184",
-        "transform": {
-          "tx": 0,
-          "ty": 0
-        }
+        "type": "svg",
+        "name": "Symbol185"
       }
     ]
   ]

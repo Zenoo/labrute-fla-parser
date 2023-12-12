@@ -1,11 +1,15 @@
 import { Symbol } from '../common';
-import Symbol302 from './Symbol302';
 import Symbol299 from './Symbol299';
+import Symbol302 from './Symbol302';
 
 const Symbol304: Symbol = {
   "type": "symbol",
   "name": "Symbol304",
   "parts": [
+    {
+      ...Symbol299,
+      "colorIdx": 3
+    },
     {
       "type": "svg",
       "name": "Symbol304",
@@ -27,22 +31,10 @@ const Symbol304: Symbol = {
         "x": 16.6,
         "y": 8.15
       }
-    },
-    {
-      ...Symbol299,
-      "colorIdx": 3
     }
   ],
   "frames": [
     [
-      {
-        "type": "symbol",
-        "name": "Symbol299",
-        "transform": {
-          "tx": -1.2,
-          "ty": 0.45
-        }
-      },
       {
         "type": "svg",
         "name": "Symbol304"
@@ -58,6 +50,14 @@ const Symbol304: Symbol = {
       {
         "type": "svg",
         "name": "Symbol304"
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol299",
+        "transform": {
+          "tx": -1.2,
+          "ty": 0.45
+        }
       }
     ]
   ]

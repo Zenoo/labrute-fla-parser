@@ -11,7 +11,7 @@ type PartContainer = PIXI.Container & {
   source?: Symbol | Svg;
 };
 
-const SCALE = 1;
+const SCALE = 2;
 
 const app = new PIXI.Application<HTMLCanvasElement>({
   backgroundColor: 0xfbf7c0,

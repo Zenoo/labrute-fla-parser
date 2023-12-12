@@ -1,13 +1,28 @@
 import { Symbol } from '../common';
-import Symbol693 from './Symbol693';
-import Symbol694 from './Symbol694';
-import Symbol642 from './Symbol642';
 import Symbol697 from './Symbol697';
+import Symbol642 from './Symbol642';
+import Symbol694 from './Symbol694';
+import Symbol693 from './Symbol693';
 
 const Symbol698: Symbol = {
   "type": "symbol",
   "name": "Symbol698",
   "parts": [
+    {
+      ...Symbol697,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol642
+    },
+    {
+      ...Symbol694,
+      "partIdx": 1
+    },
+    {
+      ...Symbol693,
+      "partIdx": 1
+    },
     {
       "type": "svg",
       "name": "Symbol695",
@@ -16,21 +31,6 @@ const Symbol698: Symbol = {
         "x": 5.95,
         "y": 21.2
       }
-    },
-    {
-      ...Symbol693,
-      "partIdx": 1
-    },
-    {
-      ...Symbol694,
-      "partIdx": 1
-    },
-    {
-      ...Symbol642
-    },
-    {
-      ...Symbol697,
-      "colorIdx": 3
     }
   ],
   "frames": [
@@ -49,16 +49,16 @@ const Symbol698: Symbol = {
     [],
     [
       {
+        "type": "svg",
+        "name": "Symbol695"
+      },
+      {
         "type": "symbol",
         "name": "Symbol694",
         "transform": {
           "tx": 0.05,
           "ty": -16.85
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol695"
       }
     ],
     [

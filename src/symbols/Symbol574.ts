@@ -1,27 +1,27 @@
 import { Symbol } from '../common';
-import Symbol566 from './Symbol566';
-import Symbol571 from './Symbol571';
-import Symbol573 from './Symbol573';
 import Symbol27 from './Symbol27';
+import Symbol573 from './Symbol573';
+import Symbol571 from './Symbol571';
+import Symbol566 from './Symbol566';
 
 const Symbol574: Symbol = {
   "type": "symbol",
   "name": "Symbol574",
   "parts": [
     {
-      ...Symbol566,
-      "colorIdx": 2
-    },
-    {
-      ...Symbol571,
-      "partIdx": 1
+      ...Symbol27
     },
     {
       ...Symbol573,
       "partIdx": 1
     },
     {
-      ...Symbol27
+      ...Symbol571,
+      "partIdx": 1
+    },
+    {
+      ...Symbol566,
+      "colorIdx": 2
     }
   ],
   "frames": [

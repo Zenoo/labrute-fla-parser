@@ -1,11 +1,19 @@
 import { Symbol } from '../common';
-import Symbol316 from './Symbol316';
 import Symbol314 from './Symbol314';
+import Symbol316 from './Symbol316';
 
 const Symbol318: Symbol = {
   "type": "symbol",
   "name": "Symbol318",
   "parts": [
+    {
+      ...Symbol314,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol316,
+      "colorIdx": 2
+    },
     {
       "type": "svg",
       "name": "Symbol318",
@@ -14,25 +22,13 @@ const Symbol318: Symbol = {
         "x": 16.1,
         "y": -3.5
       }
-    },
-    {
-      ...Symbol316,
-      "colorIdx": 2
-    },
-    {
-      ...Symbol314,
-      "colorIdx": 3
     }
   ],
   "frames": [
     [
       {
-        "type": "symbol",
-        "name": "Symbol314",
-        "transform": {
-          "tx": 0.3,
-          "ty": -1.8
-        }
+        "type": "svg",
+        "name": "Symbol318"
       },
       {
         "type": "symbol",
@@ -43,25 +39,29 @@ const Symbol318: Symbol = {
         }
       },
       {
-        "type": "svg",
-        "name": "Symbol318"
+        "type": "symbol",
+        "name": "Symbol314",
+        "transform": {
+          "tx": 0.3,
+          "ty": -1.8
+        }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol314",
-        "transform": {
-          "tx": 0.3,
-          "ty": -1.8
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol316",
         "transform": {
           "tx": -3.45,
           "ty": 1.65
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol314",
+        "transform": {
+          "tx": 0.3,
+          "ty": -1.8
         }
       }
     ]

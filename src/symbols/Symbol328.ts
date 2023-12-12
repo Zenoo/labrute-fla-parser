@@ -1,12 +1,29 @@
 import { Symbol } from '../common';
-import Symbol326 from './Symbol326';
-import Symbol324 from './Symbol324';
 import Symbol320 from './Symbol320';
+import Symbol324 from './Symbol324';
+import Symbol326 from './Symbol326';
 
 const Symbol328: Symbol = {
   "type": "symbol",
   "name": "Symbol328",
   "parts": [
+    {
+      "type": "svg",
+      "name": "Symbol328",
+      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"10.55px\" width=\"22.3px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 19.8, 4.4)\">\r\n    <path d=\"M-1.25 5.15 Q-1.85 5.1 -2.35 4.55 -2.85 3.9 -2.75 3.25 -2.6 2.6 -2.0 2.1 -1.3 1.65 -0.75 1.75 L0.75 1.95 Q1.65 2.35 1.45 3.4 1.35 3.95 0.45 4.55 -0.4 5.25 -1.25 5.15 M-18.35 -3.0 L-17.85 -3.4 -17.45 -3.35 Q-16.3 -2.95 -16.5 -1.85 -16.7 -0.65 -17.95 -0.8 -18.35 -0.8 -18.6 -1.25 -18.85 -1.6 -18.75 -2.15 L-18.35 -3.0\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n    <path d=\"M-18.35 -3.0 L-18.75 -2.15 Q-18.85 -1.6 -18.6 -1.25 -18.35 -0.8 -17.95 -0.8 -16.7 -0.65 -16.5 -1.85 -16.3 -2.95 -17.45 -3.35 L-17.85 -3.4 -18.35 -3.0 M-1.25 5.15 Q-0.4 5.25 0.45 4.55 1.35 3.95 1.45 3.4 1.65 2.35 0.75 1.95 L-0.75 1.75 Q-1.3 1.65 -2.0 2.1 -2.6 2.6 -2.75 3.25 -2.85 3.9 -2.35 4.55 -1.85 5.1 -1.25 5.15 Z\" fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-opacity=\"0.3019608\" stroke-width=\"1\"/>\r\n  </g>\r\n</svg>\r\n",
+      "offset": {
+        "x": 19.8,
+        "y": 4.4
+      }
+    },
+    {
+      ...Symbol320,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol324,
+      "colorIdx": 3
+    },
     {
       "type": "svg",
       "name": "Symbol328",
@@ -28,27 +45,14 @@ const Symbol328: Symbol = {
         "x": 19.8,
         "y": 4.4
       }
-    },
-    {
-      ...Symbol324,
-      "colorIdx": 3
-    },
-    {
-      ...Symbol320,
-      "colorIdx": 3
-    },
-    {
-      "type": "svg",
-      "name": "Symbol328",
-      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"10.55px\" width=\"22.3px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 19.8, 4.4)\">\r\n    <path d=\"M-1.25 5.15 Q-1.85 5.1 -2.35 4.55 -2.85 3.9 -2.75 3.25 -2.6 2.6 -2.0 2.1 -1.3 1.65 -0.75 1.75 L0.75 1.95 Q1.65 2.35 1.45 3.4 1.35 3.95 0.45 4.55 -0.4 5.25 -1.25 5.15 M-18.35 -3.0 L-17.85 -3.4 -17.45 -3.35 Q-16.3 -2.95 -16.5 -1.85 -16.7 -0.65 -17.95 -0.8 -18.35 -0.8 -18.6 -1.25 -18.85 -1.6 -18.75 -2.15 L-18.35 -3.0\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n    <path d=\"M-18.35 -3.0 L-18.75 -2.15 Q-18.85 -1.6 -18.6 -1.25 -18.35 -0.8 -17.95 -0.8 -16.7 -0.65 -16.5 -1.85 -16.3 -2.95 -17.45 -3.35 L-17.85 -3.4 -18.35 -3.0 M-1.25 5.15 Q-0.4 5.25 0.45 4.55 1.35 3.95 1.45 3.4 1.65 2.35 0.75 1.95 L-0.75 1.75 Q-1.3 1.65 -2.0 2.1 -2.6 2.6 -2.75 3.25 -2.85 3.9 -2.35 4.55 -1.85 5.1 -1.25 5.15 Z\" fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-opacity=\"0.3019608\" stroke-width=\"1\"/>\r\n  </g>\r\n</svg>\r\n",
-      "offset": {
-        "x": 19.8,
-        "y": 4.4
-      }
     }
   ],
   "frames": [
     [
+      {
+        "type": "svg",
+        "name": "Symbol328"
+      },
       {
         "type": "symbol",
         "name": "Symbol320",
@@ -60,24 +64,12 @@ const Symbol328: Symbol = {
           "b": 0.0973663330078125,
           "c": -0.1570892333984375
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol328"
       }
     ],
     [
       {
         "type": "svg",
         "name": "Symbol328"
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol324",
-        "transform": {
-          "tx": -19.1,
-          "ty": 0.55
-        }
       },
       {
         "type": "symbol",
@@ -89,6 +81,14 @@ const Symbol328: Symbol = {
           "d": 0.80902099609375,
           "b": 0.0973663330078125,
           "c": -0.1570892333984375
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol324",
+        "transform": {
+          "tx": -19.1,
+          "ty": 0.55
         }
       },
       {

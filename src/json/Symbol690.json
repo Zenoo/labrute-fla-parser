@@ -4,49 +4,49 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol689",
-      "partIdx": 7
+      "name": "Symbol683",
+      "colorIdx": 3
     },
     {
       "type": "symbol",
-      "name": "Symbol683",
-      "colorIdx": 3
+      "name": "Symbol689",
+      "partIdx": 7
     }
   ],
   "frames": [
     [
       {
         "type": "symbol",
-        "name": "Symbol683",
-        "transform": {
-          "tx": 2.65,
-          "ty": -5.9
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol689",
         "transform": {
           "tx": 2.35,
           "ty": 2.4
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol683",
+        "transform": {
+          "tx": 2.65,
+          "ty": -5.9
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol683",
-        "transform": {
-          "tx": 2.65,
-          "ty": -5.9
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol689",
         "transform": {
           "tx": 2.35,
           "ty": 2.4
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol683",
+        "transform": {
+          "tx": 2.65,
+          "ty": -5.9
         }
       }
     ]

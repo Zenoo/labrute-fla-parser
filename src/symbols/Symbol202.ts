@@ -1,11 +1,19 @@
 import { Symbol } from '../common';
-import Symbol200 from './Symbol200';
 import Symbol198 from './Symbol198';
+import Symbol200 from './Symbol200';
 
 const Symbol202: Symbol = {
   "type": "symbol",
   "name": "Symbol202",
   "parts": [
+    {
+      ...Symbol198,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol200,
+      "colorIdx": 2
+    },
     {
       "type": "svg",
       "name": "Symbol202",
@@ -14,26 +22,14 @@ const Symbol202: Symbol = {
         "x": 5.3,
         "y": 12.55
       }
-    },
-    {
-      ...Symbol200,
-      "colorIdx": 2
-    },
-    {
-      ...Symbol198,
-      "colorIdx": 3
     }
   ],
   "frames": [
     [],
     [
       {
-        "type": "symbol",
-        "name": "Symbol198",
-        "transform": {
-          "tx": 0.25,
-          "ty": -1.75
-        }
+        "type": "svg",
+        "name": "Symbol202"
       },
       {
         "type": "symbol",
@@ -44,8 +40,12 @@ const Symbol202: Symbol = {
         }
       },
       {
-        "type": "svg",
-        "name": "Symbol202"
+        "type": "symbol",
+        "name": "Symbol198",
+        "transform": {
+          "tx": 0.25,
+          "ty": -1.75
+        }
       }
     ]
   ]

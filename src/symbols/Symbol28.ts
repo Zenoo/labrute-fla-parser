@@ -1,32 +1,32 @@
 import { Symbol } from '../common';
-import Symbol27 from './Symbol27';
-import Symbol19 from './Symbol19';
-import Symbol21 from './Symbol21';
-import Symbol25 from './Symbol25';
 import Symbol17 from './Symbol17';
+import Symbol25 from './Symbol25';
+import Symbol21 from './Symbol21';
+import Symbol19 from './Symbol19';
+import Symbol27 from './Symbol27';
 
 const Symbol28: Symbol = {
   "type": "symbol",
   "name": "Symbol28",
   "parts": [
     {
-      ...Symbol27
-    },
-    {
-      ...Symbol19,
+      ...Symbol17,
       "colorIdx": 2
-    },
-    {
-      ...Symbol21,
-      "colorIdx": 3
     },
     {
       ...Symbol25,
       "partIdx": 1
     },
     {
-      ...Symbol17,
+      ...Symbol21,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol19,
       "colorIdx": 2
+    },
+    {
+      ...Symbol27
     }
   ],
   "frames": [
@@ -70,6 +70,14 @@ const Symbol28: Symbol = {
     [
       {
         "type": "symbol",
+        "name": "Symbol27",
+        "transform": {
+          "tx": -0.45,
+          "ty": 3.35
+        }
+      },
+      {
+        "type": "symbol",
         "name": "Symbol17",
         "colorOffset": {
           "r": -110,
@@ -83,14 +91,6 @@ const Symbol28: Symbol = {
           "d": 0.9970703125,
           "b": 0.124298095703125,
           "c": -0.1227569580078125
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol27",
-        "transform": {
-          "tx": -0.45,
-          "ty": 3.35
         }
       }
     ]

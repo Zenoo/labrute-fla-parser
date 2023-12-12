@@ -1,12 +1,24 @@
 import { Symbol } from '../common';
-import Symbol310 from './Symbol310';
-import Symbol308 from './Symbol308';
 import Symbol306 from './Symbol306';
+import Symbol308 from './Symbol308';
+import Symbol310 from './Symbol310';
 
 const Symbol312: Symbol = {
   "type": "symbol",
   "name": "Symbol312",
   "parts": [
+    {
+      ...Symbol306,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol308,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol310,
+      "colorIdx": 2
+    },
     {
       "type": "svg",
       "name": "Symbol312",
@@ -15,28 +27,20 @@ const Symbol312: Symbol = {
         "x": 2.25,
         "y": 8
       }
-    },
-    {
-      ...Symbol310,
-      "colorIdx": 2
-    },
-    {
-      ...Symbol308,
-      "colorIdx": 3
-    },
-    {
-      ...Symbol306,
-      "colorIdx": 2
     }
   ],
   "frames": [
     [
       {
+        "type": "svg",
+        "name": "Symbol312"
+      },
+      {
         "type": "symbol",
-        "name": "Symbol306",
+        "name": "Symbol310",
         "transform": {
-          "tx": 0,
-          "ty": 0
+          "tx": -1.95,
+          "ty": 2.8
         }
       },
       {
@@ -49,15 +53,11 @@ const Symbol312: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol310",
+        "name": "Symbol306",
         "transform": {
-          "tx": -1.95,
-          "ty": 2.8
+          "tx": 0,
+          "ty": 0
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol312"
       }
     ]
   ]

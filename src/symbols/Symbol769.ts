@@ -1,25 +1,25 @@
 import { Symbol } from '../common';
-import Symbol768 from './Symbol768';
 import Symbol766 from './Symbol766';
+import Symbol768 from './Symbol768';
 
 const Symbol769: Symbol = {
   "type": "symbol",
   "name": "Symbol769",
   "parts": [
     {
-      ...Symbol768,
-      "colorIdx": 4
-    },
-    {
       ...Symbol766,
       "colorIdx": 2
+    },
+    {
+      ...Symbol768,
+      "colorIdx": 4
     }
   ],
   "frames": [
     [
       {
         "type": "symbol",
-        "name": "Symbol766",
+        "name": "Symbol768",
         "transform": {
           "tx": 0,
           "ty": 0
@@ -27,7 +27,7 @@ const Symbol769: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol768",
+        "name": "Symbol766",
         "transform": {
           "tx": 0,
           "ty": 0
@@ -37,7 +37,7 @@ const Symbol769: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol766",
+        "name": "Symbol768",
         "transform": {
           "tx": 0,
           "ty": 0
@@ -45,7 +45,7 @@ const Symbol769: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol768",
+        "name": "Symbol766",
         "transform": {
           "tx": 0,
           "ty": 0

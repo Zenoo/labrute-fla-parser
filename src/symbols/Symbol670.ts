@@ -1,31 +1,23 @@
 import { Symbol } from '../common';
-import Symbol669 from './Symbol669';
 import Symbol667 from './Symbol667';
+import Symbol669 from './Symbol669';
 
 const Symbol670: Symbol = {
   "type": "symbol",
   "name": "Symbol670",
   "parts": [
     {
-      ...Symbol669,
-      "colorIdx": 4
-    },
-    {
       ...Symbol667,
       "colorIdx": 3
+    },
+    {
+      ...Symbol669,
+      "colorIdx": 4
     }
   ],
   "frames": [
     [],
     [
-      {
-        "type": "symbol",
-        "name": "Symbol667",
-        "transform": {
-          "tx": 0,
-          "ty": 0
-        }
-      },
       {
         "type": "symbol",
         "name": "Symbol669",
@@ -34,6 +26,14 @@ const Symbol670: Symbol = {
           "ty": 7.4,
           "a": 0.5977020263671875,
           "d": 1.227294921875
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol667",
+        "transform": {
+          "tx": 0,
+          "ty": 0
         }
       }
     ]

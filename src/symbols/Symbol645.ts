@@ -1,13 +1,28 @@
 import { Symbol } from '../common';
-import Symbol635 from './Symbol635';
-import Symbol637 from './Symbol637';
-import Symbol642 from './Symbol642';
 import Symbol644 from './Symbol644';
+import Symbol642 from './Symbol642';
+import Symbol637 from './Symbol637';
+import Symbol635 from './Symbol635';
 
 const Symbol645: Symbol = {
   "type": "symbol",
   "name": "Symbol645",
   "parts": [
+    {
+      ...Symbol644,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol642
+    },
+    {
+      ...Symbol637,
+      "partIdx": 1
+    },
+    {
+      ...Symbol635,
+      "partIdx": 1
+    },
     {
       "type": "svg",
       "name": "Symbol638",
@@ -16,21 +31,6 @@ const Symbol645: Symbol = {
         "x": 6.5,
         "y": 20.45
       }
-    },
-    {
-      ...Symbol635,
-      "partIdx": 1
-    },
-    {
-      ...Symbol637,
-      "partIdx": 1
-    },
-    {
-      ...Symbol642
-    },
-    {
-      ...Symbol644,
-      "colorIdx": 3
     }
   ],
   "frames": [
@@ -49,16 +49,16 @@ const Symbol645: Symbol = {
     [],
     [
       {
+        "type": "svg",
+        "name": "Symbol638"
+      },
+      {
         "type": "symbol",
         "name": "Symbol637",
         "transform": {
           "tx": -0.1,
           "ty": -16.65
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol638"
       }
     ],
     [

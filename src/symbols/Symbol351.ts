@@ -6,6 +6,15 @@ const Symbol351: Symbol = {
   "name": "Symbol351",
   "parts": [
     {
+      ...Symbol349
+    },
+    {
+      ...Symbol349
+    },
+    {
+      ...Symbol349
+    },
+    {
       "type": "svg",
       "name": "Symbol351",
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"4.25px\" width=\"7.65px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 3.5, 1.4)\">\r\n    <path d=\"M3.15 -0.4 L2.2 -0.25 1.1 0.25 Q0.2 0.55 -0.5 1.2 L-0.7 1.5 0.1 1.1 1.35 0.65 2.95 0.35 M-0.7 1.5 L-1.85 1.85 -2.5 1.6\" fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-opacity=\"0.6\" stroke-width=\"1\"/>\r\n  </g>\r\n</svg>\r\n",
@@ -13,15 +22,6 @@ const Symbol351: Symbol = {
         "x": 3.5,
         "y": 1.4
       }
-    },
-    {
-      ...Symbol349
-    },
-    {
-      ...Symbol349
-    },
-    {
-      ...Symbol349
     }
   ],
   "frames": [
@@ -557,6 +557,10 @@ const Symbol351: Symbol = {
     ],
     [
       {
+        "type": "svg",
+        "name": "Symbol351"
+      },
+      {
         "type": "symbol",
         "name": "Symbol349",
         "colorOffset": {
@@ -569,10 +573,6 @@ const Symbol351: Symbol = {
           "tx": 0.35,
           "ty": 0.95
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol351"
       }
     ],
     [

@@ -1,14 +1,14 @@
 import { Symbol } from '../common';
 import Symbol935 from './Symbol935';
-import Symbol936 from './Symbol936';
-import Symbol937 from './Symbol937';
-import Symbol938 from './Symbol938';
-import Symbol939 from './Symbol939';
-import Symbol940 from './Symbol940';
-import Symbol941 from './Symbol941';
-import Symbol942 from './Symbol942';
-import Symbol943 from './Symbol943';
 import Symbol944 from './Symbol944';
+import Symbol943 from './Symbol943';
+import Symbol942 from './Symbol942';
+import Symbol941 from './Symbol941';
+import Symbol940 from './Symbol940';
+import Symbol939 from './Symbol939';
+import Symbol938 from './Symbol938';
+import Symbol937 from './Symbol937';
+import Symbol936 from './Symbol936';
 
 const Symbol945: Symbol = {
   "type": "symbol",
@@ -18,31 +18,7 @@ const Symbol945: Symbol = {
       ...Symbol935
     },
     {
-      ...Symbol936
-    },
-    {
-      ...Symbol937
-    },
-    {
-      ...Symbol938
-    },
-    {
-      ...Symbol939
-    },
-    {
-      ...Symbol940
-    },
-    {
-      ...Symbol935
-    },
-    {
-      ...Symbol941
-    },
-    {
-      ...Symbol935
-    },
-    {
-      ...Symbol942
+      ...Symbol944
     },
     {
       ...Symbol935
@@ -54,7 +30,31 @@ const Symbol945: Symbol = {
       ...Symbol935
     },
     {
-      ...Symbol944
+      ...Symbol942
+    },
+    {
+      ...Symbol935
+    },
+    {
+      ...Symbol941
+    },
+    {
+      ...Symbol935
+    },
+    {
+      ...Symbol940
+    },
+    {
+      ...Symbol939
+    },
+    {
+      ...Symbol938
+    },
+    {
+      ...Symbol937
+    },
+    {
+      ...Symbol936
     },
     {
       ...Symbol935

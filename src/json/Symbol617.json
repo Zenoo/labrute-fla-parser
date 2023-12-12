@@ -4,26 +4,18 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol616",
-      "colorIdx": 4
+      "name": "Symbol614",
+      "colorIdx": 3
     },
     {
       "type": "symbol",
-      "name": "Symbol614",
-      "colorIdx": 3
+      "name": "Symbol616",
+      "colorIdx": 4
     }
   ],
   "frames": [
     [],
     [
-      {
-        "type": "symbol",
-        "name": "Symbol614",
-        "transform": {
-          "tx": 0,
-          "ty": 0
-        }
-      },
       {
         "type": "symbol",
         "name": "Symbol616",
@@ -32,6 +24,14 @@
           "ty": 7.4,
           "a": 0.5977020263671875,
           "d": 1.227294921875
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol614",
+        "transform": {
+          "tx": 0,
+          "ty": 0
         }
       }
     ]

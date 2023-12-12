@@ -4,12 +4,12 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol812",
+      "name": "Symbol815",
       "partIdx": 1
     },
     {
       "type": "symbol",
-      "name": "Symbol815",
+      "name": "Symbol812",
       "partIdx": 1
     }
   ],

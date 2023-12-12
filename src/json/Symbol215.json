@@ -4,13 +4,13 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol213",
-      "colorIdx": 3
+      "name": "Symbol214",
+      "partIdx": 1
     },
     {
       "type": "symbol",
-      "name": "Symbol214",
-      "partIdx": 1
+      "name": "Symbol213",
+      "colorIdx": 3
     }
   ],
   "frames": [

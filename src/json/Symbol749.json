@@ -4,49 +4,49 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol748",
-      "colorIdx": 3
+      "name": "Symbol746",
+      "colorIdx": 2
     },
     {
       "type": "symbol",
-      "name": "Symbol746",
-      "colorIdx": 2
+      "name": "Symbol748",
+      "colorIdx": 3
     }
   ],
   "frames": [
     [
       {
         "type": "symbol",
-        "name": "Symbol746",
-        "transform": {
-          "tx": 35.2,
-          "ty": 13.8
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol748",
         "transform": {
           "tx": 33.95,
           "ty": 8.2
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol746",
+        "transform": {
+          "tx": 35.2,
+          "ty": 13.8
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol746",
-        "transform": {
-          "tx": 35.2,
-          "ty": 13.8
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol748",
         "transform": {
           "tx": 33.95,
           "ty": 8.2
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol746",
+        "transform": {
+          "tx": 35.2,
+          "ty": 13.8
         }
       }
     ]

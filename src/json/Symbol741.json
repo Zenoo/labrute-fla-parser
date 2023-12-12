@@ -4,7 +4,7 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol740"
+      "name": "Symbol737"
     },
     {
       "type": "symbol",
@@ -13,14 +13,14 @@
     },
     {
       "type": "symbol",
-      "name": "Symbol737"
+      "name": "Symbol740"
     }
   ],
   "frames": [
     [
       {
         "type": "symbol",
-        "name": "Symbol737",
+        "name": "Symbol740",
         "transform": {
           "tx": 0,
           "ty": 0
@@ -36,7 +36,7 @@
       },
       {
         "type": "symbol",
-        "name": "Symbol740",
+        "name": "Symbol737",
         "transform": {
           "tx": 0,
           "ty": 0

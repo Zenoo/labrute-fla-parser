@@ -4,8 +4,8 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol115",
-      "partIdx": 1
+      "name": "Symbol119",
+      "colorIdx": 3
     },
     {
       "type": "symbol",
@@ -13,8 +13,8 @@
     },
     {
       "type": "symbol",
-      "name": "Symbol119",
-      "colorIdx": 3
+      "name": "Symbol115",
+      "partIdx": 1
     }
   ],
   "frames": [

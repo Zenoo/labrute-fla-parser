@@ -1,19 +1,15 @@
 import { Symbol } from '../common';
-import Symbol826 from './Symbol826';
-import Symbol824 from './Symbol824';
 import Symbol828 from './Symbol828';
+import Symbol824 from './Symbol824';
+import Symbol826 from './Symbol826';
 
 const Symbol830: Symbol = {
   "type": "symbol",
   "name": "Symbol830",
   "parts": [
     {
-      ...Symbol826,
-      "colorIdx": 3
-    },
-    {
-      ...Symbol824,
-      "colorIdx": 2
+      ...Symbol828,
+      "colorIdx": 4
     },
     {
       "type": "svg",
@@ -25,18 +21,22 @@ const Symbol830: Symbol = {
       }
     },
     {
-      ...Symbol828,
-      "colorIdx": 4
+      ...Symbol824,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol826,
+      "colorIdx": 3
     }
   ],
   "frames": [
     [
       {
         "type": "symbol",
-        "name": "Symbol824",
+        "name": "Symbol826",
         "transform": {
-          "tx": -1.25,
-          "ty": -3.7,
+          "tx": 0,
+          "ty": 0,
           "a": 0.961578369140625,
           "d": 1.0099334716796875,
           "b": -0.1221160888671875,
@@ -45,10 +45,10 @@ const Symbol830: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol826",
+        "name": "Symbol824",
         "transform": {
-          "tx": 0,
-          "ty": 0,
+          "tx": -1.25,
+          "ty": -3.7,
           "a": 0.961578369140625,
           "d": 1.0099334716796875,
           "b": -0.1221160888671875,
@@ -59,15 +59,15 @@ const Symbol830: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol828",
+        "name": "Symbol826",
         "transform": {
-          "tx": -1.15,
-          "ty": 7.1
+          "tx": 0,
+          "ty": 0,
+          "a": 0.961578369140625,
+          "d": 1.0099334716796875,
+          "b": -0.1221160888671875,
+          "c": 0.2364501953125
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol830"
       },
       {
         "type": "symbol",
@@ -82,15 +82,15 @@ const Symbol830: Symbol = {
         }
       },
       {
+        "type": "svg",
+        "name": "Symbol830"
+      },
+      {
         "type": "symbol",
-        "name": "Symbol826",
+        "name": "Symbol828",
         "transform": {
-          "tx": 0,
-          "ty": 0,
-          "a": 0.961578369140625,
-          "d": 1.0099334716796875,
-          "b": -0.1221160888671875,
-          "c": 0.2364501953125
+          "tx": -1.15,
+          "ty": 7.1
         }
       }
     ]

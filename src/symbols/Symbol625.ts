@@ -1,29 +1,17 @@
 import { Symbol } from '../common';
-import Symbol566 from './Symbol566';
-import Symbol609 from './Symbol609';
-import Symbol612 from './Symbol612';
-import Symbol617 from './Symbol617';
-import Symbol619 from './Symbol619';
 import Symbol624 from './Symbol624';
+import Symbol619 from './Symbol619';
+import Symbol617 from './Symbol617';
+import Symbol612 from './Symbol612';
+import Symbol609 from './Symbol609';
+import Symbol566 from './Symbol566';
 
 const Symbol625: Symbol = {
   "type": "symbol",
   "name": "Symbol625",
   "parts": [
     {
-      ...Symbol566,
-      "colorIdx": 2
-    },
-    {
-      ...Symbol609,
-      "colorIdx": 3
-    },
-    {
-      ...Symbol612,
-      "partIdx": 1
-    },
-    {
-      ...Symbol617,
+      ...Symbol624,
       "partIdx": 1
     },
     {
@@ -31,8 +19,20 @@ const Symbol625: Symbol = {
       "partIdx": 1
     },
     {
-      ...Symbol624,
+      ...Symbol617,
       "partIdx": 1
+    },
+    {
+      ...Symbol612,
+      "partIdx": 1
+    },
+    {
+      ...Symbol609,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol566,
+      "colorIdx": 2
     }
   ],
   "frames": [

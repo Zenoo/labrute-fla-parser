@@ -1,24 +1,32 @@
 import { Symbol } from '../common';
-import Symbol679 from './Symbol679';
 import Symbol608 from './Symbol608';
+import Symbol679 from './Symbol679';
 
 const Symbol680: Symbol = {
   "type": "symbol",
   "name": "Symbol680",
   "parts": [
     {
-      ...Symbol679,
-      "partIdx": 7
-    },
-    {
       ...Symbol608,
       "colorIdx": 0
+    },
+    {
+      ...Symbol679,
+      "partIdx": 7
     }
   ],
   "frames": [
     [
       {
         "type": "symbol",
+        "name": "Symbol679",
+        "transform": {
+          "tx": 0.55,
+          "ty": 1.55
+        }
+      },
+      {
+        "type": "symbol",
         "name": "Symbol608",
         "colorOffset": {
           "r": -16,
@@ -28,20 +36,20 @@ const Symbol680: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol679",
-        "transform": {
-          "tx": 0.55,
-          "ty": 1.55
         }
       }
     ],
     [
       {
         "type": "symbol",
+        "name": "Symbol679",
+        "transform": {
+          "tx": 0.55,
+          "ty": 1.55
+        }
+      },
+      {
+        "type": "symbol",
         "name": "Symbol608",
         "colorOffset": {
           "r": -16,
@@ -51,14 +59,6 @@ const Symbol680: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol679",
-        "transform": {
-          "tx": 0.55,
-          "ty": 1.55
         }
       }
     ]

@@ -1,17 +1,17 @@
 import { Symbol } from '../common';
-import Symbol632 from './Symbol632';
 import Symbol630 from './Symbol630';
+import Symbol632 from './Symbol632';
 
 const Symbol694: Symbol = {
   "type": "symbol",
   "name": "Symbol694",
   "parts": [
     {
-      ...Symbol632,
+      ...Symbol630,
       "colorIdx": 2
     },
     {
-      ...Symbol630,
+      ...Symbol632,
       "colorIdx": 2
     }
   ],

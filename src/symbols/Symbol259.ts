@@ -1,19 +1,15 @@
 import { Symbol } from '../common';
-import Symbol256 from './Symbol256';
-import Symbol258 from './Symbol258';
 import Symbol253 from './Symbol253';
+import Symbol258 from './Symbol258';
+import Symbol256 from './Symbol256';
 
 const Symbol259: Symbol = {
   "type": "symbol",
   "name": "Symbol259",
   "parts": [
     {
-      ...Symbol256,
-      "partIdx": 1
-    },
-    {
-      ...Symbol258,
-      "partIdx": 1
+      ...Symbol253,
+      "colorIdx": 2
     },
     {
       "type": "svg",
@@ -25,28 +21,16 @@ const Symbol259: Symbol = {
       }
     },
     {
-      ...Symbol253,
-      "colorIdx": 2
+      ...Symbol258,
+      "partIdx": 1
+    },
+    {
+      ...Symbol256,
+      "partIdx": 1
     }
   ],
   "frames": [
     [
-      {
-        "type": "symbol",
-        "name": "Symbol253",
-        "transform": {
-          "tx": 1.1,
-          "ty": -0.65,
-          "a": 0.99102783203125,
-          "d": 1,
-          "b": 0.2448577880859375,
-          "c": -0.0366363525390625
-        }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol254"
-      },
       {
         "type": "symbol",
         "name": "Symbol256",
@@ -56,9 +40,11 @@ const Symbol259: Symbol = {
           "b": 0.1340179443359375,
           "c": 0
         }
-      }
-    ],
-    [
+      },
+      {
+        "type": "svg",
+        "name": "Symbol254"
+      },
       {
         "type": "symbol",
         "name": "Symbol253",
@@ -69,6 +55,18 @@ const Symbol259: Symbol = {
           "d": 1,
           "b": 0.2448577880859375,
           "c": -0.0366363525390625
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol256",
+        "transform": {
+          "tx": -1.25,
+          "ty": -6.65,
+          "b": 0.1340179443359375,
+          "c": 0
         }
       },
       {
@@ -83,12 +81,14 @@ const Symbol259: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol256",
+        "name": "Symbol253",
         "transform": {
-          "tx": -1.25,
-          "ty": -6.65,
-          "b": 0.1340179443359375,
-          "c": 0
+          "tx": 1.1,
+          "ty": -0.65,
+          "a": 0.99102783203125,
+          "d": 1,
+          "b": 0.2448577880859375,
+          "c": -0.0366363525390625
         }
       }
     ]

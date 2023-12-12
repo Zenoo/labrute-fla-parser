@@ -4,49 +4,49 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol589",
-      "colorIdx": 3
+      "name": "Symbol587",
+      "colorIdx": 4
     },
     {
       "type": "symbol",
-      "name": "Symbol587",
-      "colorIdx": 4
+      "name": "Symbol589",
+      "colorIdx": 3
     }
   ],
   "frames": [
     [
       {
         "type": "symbol",
-        "name": "Symbol587",
-        "transform": {
-          "tx": -3.1,
-          "ty": 9
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol589",
         "transform": {
           "tx": 0,
           "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol587",
+        "transform": {
+          "tx": -3.1,
+          "ty": 9
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol587",
-        "transform": {
-          "tx": -3.1,
-          "ty": 9
-        }
-      },
-      {
-        "type": "symbol",
         "name": "Symbol589",
         "transform": {
           "tx": 0,
           "ty": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol587",
+        "transform": {
+          "tx": -3.1,
+          "ty": 9
         }
       }
     ]

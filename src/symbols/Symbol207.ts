@@ -1,27 +1,35 @@
 import { Symbol } from '../common';
-import Symbol206 from './Symbol206';
-import Symbol124 from './Symbol124';
 import Symbol145 from './Symbol145';
+import Symbol124 from './Symbol124';
+import Symbol206 from './Symbol206';
 
 const Symbol207: Symbol = {
   "type": "symbol",
   "name": "Symbol207",
   "parts": [
     {
-      ...Symbol206,
-      "partIdx": 7
+      ...Symbol145,
+      "colorIdx": 3
     },
     {
       ...Symbol124,
       "colorIdx": 0
     },
     {
-      ...Symbol145,
-      "colorIdx": 3
+      ...Symbol206,
+      "partIdx": 7
     }
   ],
   "frames": [
     [
+      {
+        "type": "symbol",
+        "name": "Symbol206",
+        "transform": {
+          "tx": 0.55,
+          "ty": 1.55
+        }
+      },
       {
         "type": "symbol",
         "name": "Symbol124",
@@ -34,7 +42,9 @@ const Symbol207: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol206",
@@ -42,9 +52,7 @@ const Symbol207: Symbol = {
           "tx": 0.55,
           "ty": 1.55
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol145",
@@ -56,14 +64,6 @@ const Symbol207: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol206",
-        "transform": {
-          "tx": 0.55,
-          "ty": 1.55
         }
       }
     ]

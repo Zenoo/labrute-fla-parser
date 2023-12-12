@@ -4,123 +4,7 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol846"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol847"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol848"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol849"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol851"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol852"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol853"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol854"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol855"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol856"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol857"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol858"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol859"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol860"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol861"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol862"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol863"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol864"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol865"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol866"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol867"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol868"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol869"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol870"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol871"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol875"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol876"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol877"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol878"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol879"
+      "name": "Symbol479"
     },
     {
       "type": "symbol",
@@ -128,7 +12,123 @@
     },
     {
       "type": "symbol",
-      "name": "Symbol479"
+      "name": "Symbol879"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol878"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol877"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol876"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol875"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol871"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol870"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol869"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol868"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol867"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol866"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol865"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol864"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol863"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol862"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol861"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol860"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol859"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol858"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol857"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol856"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol855"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol854"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol853"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol852"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol851"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol849"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol848"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol847"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol846"
     }
   ],
   "frames": [

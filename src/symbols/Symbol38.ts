@@ -1,22 +1,30 @@
 import { Symbol } from '../common';
-import Symbol37 from './Symbol37';
 import Symbol32 from './Symbol32';
+import Symbol37 from './Symbol37';
 
 const Symbol38: Symbol = {
   "type": "symbol",
   "name": "Symbol38",
   "parts": [
     {
-      ...Symbol37,
-      "partIdx": 7
-    },
-    {
       ...Symbol32,
       "colorIdx": 0
+    },
+    {
+      ...Symbol37,
+      "partIdx": 7
     }
   ],
   "frames": [
     [
+      {
+        "type": "symbol",
+        "name": "Symbol37",
+        "transform": {
+          "tx": 0,
+          "ty": 6.85
+        }
+      },
       {
         "type": "symbol",
         "name": "Symbol32",
@@ -28,14 +36,6 @@ const Symbol38: Symbol = {
         "transform": {
           "tx": -0.15,
           "ty": 6.65
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol37",
-        "transform": {
-          "tx": 0,
-          "ty": 6.85
         }
       }
     ]

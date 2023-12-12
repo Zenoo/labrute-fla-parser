@@ -1,12 +1,22 @@
 import { Symbol } from '../common';
-import Symbol713 from './Symbol713';
-import Symbol716 from './Symbol716';
 import Symbol711 from './Symbol711';
+import Symbol716 from './Symbol716';
+import Symbol713 from './Symbol713';
 
 const Symbol717: Symbol = {
   "type": "symbol",
   "name": "Symbol717",
   "parts": [
+    {
+      ...Symbol711,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol716
+    },
+    {
+      ...Symbol713
+    },
     {
       "type": "svg",
       "name": "Symbol714",
@@ -15,27 +25,13 @@ const Symbol717: Symbol = {
         "x": 22.6,
         "y": 21.15
       }
-    },
-    {
-      ...Symbol713
-    },
-    {
-      ...Symbol716
-    },
-    {
-      ...Symbol711,
-      "colorIdx": 2
     }
   ],
   "frames": [
     [
       {
-        "type": "symbol",
-        "name": "Symbol711",
-        "transform": {
-          "tx": 2.75,
-          "ty": 0.15
-        }
+        "type": "svg",
+        "name": "Symbol714"
       },
       {
         "type": "symbol",
@@ -51,17 +47,26 @@ const Symbol717: Symbol = {
         }
       },
       {
-        "type": "svg",
-        "name": "Symbol714"
-      }
-    ],
-    [
-      {
         "type": "symbol",
         "name": "Symbol711",
         "transform": {
           "tx": 2.75,
           "ty": 0.15
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol713",
+        "colorOffset": {
+          "r": -87,
+          "g": -148,
+          "b": -159
+        },
+        "transform": {
+          "tx": -32.85,
+          "ty": -12.05
         }
       },
       {
@@ -74,15 +79,10 @@ const Symbol717: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol713",
-        "colorOffset": {
-          "r": -87,
-          "g": -148,
-          "b": -159
-        },
+        "name": "Symbol711",
         "transform": {
-          "tx": -32.85,
-          "ty": -12.05
+          "tx": 2.75,
+          "ty": 0.15
         }
       }
     ]

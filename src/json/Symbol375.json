@@ -4,7 +4,17 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol367",
+      "name": "Symbol374",
+      "colorIdx": 1
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol372",
+      "colorIdx": 1
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol370",
       "colorIdx": 1
     },
     {
@@ -18,17 +28,7 @@
     },
     {
       "type": "symbol",
-      "name": "Symbol370",
-      "colorIdx": 1
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol372",
-      "colorIdx": 1
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol374",
+      "name": "Symbol367",
       "colorIdx": 1
     }
   ],

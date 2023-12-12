@@ -1,14 +1,14 @@
 import { Symbol } from '../common';
-import Symbol605 from './Symbol605';
-import Symbol597 from './Symbol597';
 import Symbol595 from './Symbol595';
+import Symbol597 from './Symbol597';
+import Symbol605 from './Symbol605';
 
 const Symbol606: Symbol = {
   "type": "symbol",
   "name": "Symbol606",
   "parts": [
     {
-      ...Symbol605,
+      ...Symbol595,
       "partIdx": 7
     },
     {
@@ -16,7 +16,7 @@ const Symbol606: Symbol = {
       "colorIdx": 0
     },
     {
-      ...Symbol595,
+      ...Symbol605,
       "partIdx": 7
     }
   ],
@@ -24,10 +24,10 @@ const Symbol606: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol595",
+        "name": "Symbol605",
         "transform": {
-          "tx": 4.95,
-          "ty": 17.85
+          "tx": 5.2,
+          "ty": 0.75
         }
       },
       {
@@ -45,20 +45,20 @@ const Symbol606: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol605",
+        "name": "Symbol595",
         "transform": {
-          "tx": 5.2,
-          "ty": 0.75
+          "tx": 4.95,
+          "ty": 17.85
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol595",
+        "name": "Symbol605",
         "transform": {
-          "tx": 4.95,
-          "ty": 17.85
+          "tx": 5.2,
+          "ty": 0.75
         }
       },
       {
@@ -76,20 +76,20 @@ const Symbol606: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol605",
+        "name": "Symbol595",
         "transform": {
-          "tx": 5.2,
-          "ty": 0.75
+          "tx": 4.95,
+          "ty": 17.85
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol595",
+        "name": "Symbol605",
         "transform": {
-          "tx": 4.95,
-          "ty": 17.85
+          "tx": 5.2,
+          "ty": 0.75
         }
       },
       {
@@ -107,20 +107,20 @@ const Symbol606: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol605",
+        "name": "Symbol595",
         "transform": {
-          "tx": 5.2,
-          "ty": 0.75
+          "tx": 4.95,
+          "ty": 17.85
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol595",
+        "name": "Symbol605",
         "transform": {
-          "tx": 4.95,
-          "ty": 17.85
+          "tx": 5.2,
+          "ty": 0.75
         }
       },
       {
@@ -138,20 +138,20 @@ const Symbol606: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol605",
+        "name": "Symbol595",
         "transform": {
-          "tx": 5.2,
-          "ty": 0.75
+          "tx": 4.95,
+          "ty": 17.85
         }
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol595",
+        "name": "Symbol605",
         "transform": {
-          "tx": 4.95,
-          "ty": 17.85
+          "tx": 5.2,
+          "ty": 0.75
         }
       },
       {
@@ -169,10 +169,10 @@ const Symbol606: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol605",
+        "name": "Symbol595",
         "transform": {
-          "tx": 5.2,
-          "ty": 0.75
+          "tx": 4.95,
+          "ty": 17.85
         }
       }
     ]

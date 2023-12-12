@@ -1,20 +1,24 @@
 import { Symbol } from '../common';
-import Symbol87 from './Symbol87';
-import Symbol91 from './Symbol91';
-import Symbol96 from './Symbol96';
-import Symbol101 from './Symbol101';
 import Symbol82 from './Symbol82';
+import Symbol101 from './Symbol101';
+import Symbol96 from './Symbol96';
+import Symbol91 from './Symbol91';
+import Symbol87 from './Symbol87';
 
 const Symbol102: Symbol = {
   "type": "symbol",
   "name": "Symbol102",
   "parts": [
     {
-      ...Symbol87,
-      "partIdx": 1
+      ...Symbol82,
+      "colorIdx": 0
     },
     {
-      ...Symbol91,
+      ...Symbol82,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol101,
       "partIdx": 1
     },
     {
@@ -22,33 +26,16 @@ const Symbol102: Symbol = {
       "partIdx": 1
     },
     {
-      ...Symbol101,
+      ...Symbol91,
       "partIdx": 1
     },
     {
-      ...Symbol82,
-      "colorIdx": 2
-    },
-    {
-      ...Symbol82,
-      "colorIdx": 0
+      ...Symbol87,
+      "partIdx": 1
     }
   ],
   "frames": [
     [
-      {
-        "type": "symbol",
-        "name": "Symbol82",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 0,
-          "ty": 0
-        }
-      },
       {
         "type": "symbol",
         "name": "Symbol87",
@@ -60,37 +47,37 @@ const Symbol102: Symbol = {
           "b": 0.599151611328125,
           "c": 0.599151611328125
         }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol82",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 0,
-          "ty": 0
-        }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol82",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 0,
-          "ty": 0
-        }
       },
+      {
+        "type": "symbol",
+        "name": "Symbol82",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol82",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol91",
@@ -98,9 +85,7 @@ const Symbol102: Symbol = {
           "tx": -3.5,
           "ty": -0.8
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol82",
@@ -113,7 +98,9 @@ const Symbol102: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol96",
@@ -121,9 +108,7 @@ const Symbol102: Symbol = {
           "tx": -8.55,
           "ty": 4.35
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol82",
@@ -136,7 +121,9 @@ const Symbol102: Symbol = {
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol101",
@@ -144,37 +131,37 @@ const Symbol102: Symbol = {
           "tx": -11.55,
           "ty": 3.25
         }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol82",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 0,
-          "ty": 0
-        }
-      }
-    ],
-    [
-      {
-        "type": "symbol",
-        "name": "Symbol82",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": 0,
-          "ty": 0
-        }
       },
+      {
+        "type": "symbol",
+        "name": "Symbol82",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol82",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol82",
@@ -188,6 +175,19 @@ const Symbol102: Symbol = {
           "ty": 0,
           "a": 1.028564453125,
           "d": 1.028564453125
+        }
+      },
+      {
+        "type": "symbol",
+        "name": "Symbol82",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
+        "transform": {
+          "tx": 0,
+          "ty": 0
         }
       }
     ]

@@ -4,8 +4,7 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol347",
-      "colorIdx": 3
+      "name": "Symbol348"
     },
     {
       "type": "svg",
@@ -18,15 +17,12 @@
     },
     {
       "type": "symbol",
-      "name": "Symbol348"
+      "name": "Symbol347",
+      "colorIdx": 3
     }
   ],
   "frames": [
     [
-      {
-        "type": "svg",
-        "name": "Symbol349"
-      },
       {
         "type": "symbol",
         "name": "Symbol347",
@@ -34,6 +30,10 @@
           "tx": -0.6,
           "ty": -0.1
         }
+      },
+      {
+        "type": "svg",
+        "name": "Symbol349"
       }
     ],
     [

@@ -4,43 +4,11 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol894"
+      "name": "Symbol917"
     },
     {
       "type": "symbol",
-      "name": "Symbol903"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol904"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol905"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol906"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol907"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol910"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol911"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol894"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol912"
+      "name": "Symbol914"
     },
     {
       "type": "symbol",
@@ -56,11 +24,43 @@
     },
     {
       "type": "symbol",
-      "name": "Symbol914"
+      "name": "Symbol912"
     },
     {
       "type": "symbol",
-      "name": "Symbol917"
+      "name": "Symbol894"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol911"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol910"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol907"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol906"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol905"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol904"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol903"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol894"
     }
   ],
   "frames": [

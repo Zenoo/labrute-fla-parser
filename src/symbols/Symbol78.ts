@@ -1,44 +1,27 @@
 import { Symbol } from '../common';
-import Symbol75 from './Symbol75';
-import Symbol77 from './Symbol77';
 import Symbol70 from './Symbol70';
+import Symbol77 from './Symbol77';
+import Symbol75 from './Symbol75';
 
 const Symbol78: Symbol = {
   "type": "symbol",
   "name": "Symbol78",
   "parts": [
     {
-      ...Symbol75,
-      "partIdx": 7
+      ...Symbol70,
+      "colorIdx": 0
     },
     {
       ...Symbol77,
       "colorIdx": 4
     },
     {
-      ...Symbol70,
-      "colorIdx": 0
+      ...Symbol75,
+      "partIdx": 7
     }
   ],
   "frames": [
     [
-      {
-        "type": "symbol",
-        "name": "Symbol70",
-        "colorOffset": {
-          "r": -16,
-          "g": -50,
-          "b": -80
-        },
-        "transform": {
-          "tx": -4.2,
-          "ty": -13.7,
-          "a": 0.955169677734375,
-          "d": 0.955169677734375,
-          "b": -0.2927398681640625,
-          "c": 0.2927398681640625
-        }
-      },
       {
         "type": "symbol",
         "name": "Symbol75",
@@ -46,9 +29,7 @@ const Symbol78: Symbol = {
           "tx": 0.3,
           "ty": 3.3
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol70",
@@ -64,6 +45,16 @@ const Symbol78: Symbol = {
           "d": 0.955169677734375,
           "b": -0.2927398681640625,
           "c": 0.2927398681640625
+        }
+      }
+    ],
+    [
+      {
+        "type": "symbol",
+        "name": "Symbol75",
+        "transform": {
+          "tx": 0.3,
+          "ty": 3.3
         }
       },
       {
@@ -85,10 +76,19 @@ const Symbol78: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol75",
+        "name": "Symbol70",
+        "colorOffset": {
+          "r": -16,
+          "g": -50,
+          "b": -80
+        },
         "transform": {
-          "tx": 0.3,
-          "ty": 3.3
+          "tx": -4.2,
+          "ty": -13.7,
+          "a": 0.955169677734375,
+          "d": 0.955169677734375,
+          "b": -0.2927398681640625,
+          "c": 0.2927398681640625
         }
       }
     ]

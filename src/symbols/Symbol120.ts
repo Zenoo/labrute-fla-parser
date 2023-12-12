@@ -1,22 +1,22 @@
 import { Symbol } from '../common';
-import Symbol115 from './Symbol115';
-import Symbol117 from './Symbol117';
 import Symbol119 from './Symbol119';
+import Symbol117 from './Symbol117';
+import Symbol115 from './Symbol115';
 
 const Symbol120: Symbol = {
   "type": "symbol",
   "name": "Symbol120",
   "parts": [
     {
-      ...Symbol115,
-      "partIdx": 1
+      ...Symbol119,
+      "colorIdx": 3
     },
     {
       ...Symbol117
     },
     {
-      ...Symbol119,
-      "colorIdx": 3
+      ...Symbol115,
+      "partIdx": 1
     }
   ],
   "frames": [

@@ -1,35 +1,30 @@
 import { Symbol } from '../common';
-import Symbol709 from './Symbol709';
-import Symbol707 from './Symbol707';
-import Symbol704 from './Symbol704';
-import Symbol717 from './Symbol717';
-import Symbol719 from './Symbol719';
-import Symbol726 from './Symbol726';
 import Symbol728 from './Symbol728';
+import Symbol726 from './Symbol726';
+import Symbol719 from './Symbol719';
+import Symbol717 from './Symbol717';
+import Symbol704 from './Symbol704';
+import Symbol707 from './Symbol707';
+import Symbol709 from './Symbol709';
 
 const Symbol729: Symbol = {
   "type": "symbol",
   "name": "Symbol729",
   "parts": [
     {
-      ...Symbol709,
-      "colorIdx": 3
+      ...Symbol728,
+      "colorIdx": 4
     },
     {
-      "type": "svg",
-      "name": "Symbol720",
-      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"16.75px\" width=\"6.2px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, -7.699999999999999, 25.35)\">\r\n    <path d=\"M10.3 -20.15 Q10.7 -17.75 11.45 -16.05 L12.7 -12.8 Q13.2 -11.25 12.3 -10.55 L11.35 -9.6 Q11.15 -10.35 11.35 -11.05 L11.35 -12.2 Q10.65 -14.8 9.6 -16.95 8.45 -19.2 8.8 -21.7 L8.8 -23.55 8.8 -24.35 Q10.15 -23.8 10.15 -22.7 L10.3 -20.15\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
-      "offset": {
-        "x": -7.699999999999999,
-        "y": 25.35
-      }
+      ...Symbol726,
+      "partIdx": 1
     },
     {
-      ...Symbol707,
+      ...Symbol719,
       "colorIdx": 2
     },
     {
-      ...Symbol704,
+      ...Symbol717,
       "partIdx": 1
     },
     {
@@ -42,20 +37,25 @@ const Symbol729: Symbol = {
       }
     },
     {
-      ...Symbol717,
+      ...Symbol704,
       "partIdx": 1
     },
     {
-      ...Symbol719,
+      ...Symbol707,
       "colorIdx": 2
     },
     {
-      ...Symbol726,
-      "partIdx": 1
+      "type": "svg",
+      "name": "Symbol720",
+      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"16.75px\" width=\"6.2px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, -7.699999999999999, 25.35)\">\r\n    <path d=\"M10.3 -20.15 Q10.7 -17.75 11.45 -16.05 L12.7 -12.8 Q13.2 -11.25 12.3 -10.55 L11.35 -9.6 Q11.15 -10.35 11.35 -11.05 L11.35 -12.2 Q10.65 -14.8 9.6 -16.95 8.45 -19.2 8.8 -21.7 L8.8 -23.55 8.8 -24.35 Q10.15 -23.8 10.15 -22.7 L10.3 -20.15\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
+      "offset": {
+        "x": -7.699999999999999,
+        "y": 25.35
+      }
     },
     {
-      ...Symbol728,
-      "colorIdx": 4
+      ...Symbol709,
+      "colorIdx": 3
     }
   ],
   "frames": [
@@ -72,8 +72,12 @@ const Symbol729: Symbol = {
     [],
     [
       {
-        "type": "svg",
-        "name": "Symbol705"
+        "type": "symbol",
+        "name": "Symbol709",
+        "transform": {
+          "tx": -2.1,
+          "ty": -10.55
+        }
       },
       {
         "type": "symbol",
@@ -84,12 +88,8 @@ const Symbol729: Symbol = {
         }
       },
       {
-        "type": "symbol",
-        "name": "Symbol709",
-        "transform": {
-          "tx": -2.1,
-          "ty": -10.55
-        }
+        "type": "svg",
+        "name": "Symbol705"
       }
     ],
     [
@@ -104,16 +104,16 @@ const Symbol729: Symbol = {
     ],
     [
       {
+        "type": "svg",
+        "name": "Symbol720"
+      },
+      {
         "type": "symbol",
         "name": "Symbol719",
         "transform": {
           "tx": -3.9,
           "ty": -7
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol720"
       }
     ],
     [

@@ -1,44 +1,12 @@
 import { Symbol } from '../common';
-import Symbol28 from './Symbol28';
 import Symbol17 from './Symbol17';
+import Symbol28 from './Symbol28';
 
 const Symbol29: Symbol = {
   "type": "symbol",
   "name": "Symbol29",
   "parts": [
     {
-      ...Symbol28,
-      "partIdx": 7
-    },
-    {
-      ...Symbol28,
-      "partIdx": 7
-    },
-    {
-      ...Symbol28,
-      "partIdx": 7
-    },
-    {
-      ...Symbol28,
-      "partIdx": 7
-    },
-    {
-      ...Symbol28,
-      "partIdx": 7
-    },
-    {
-      ...Symbol28,
-      "partIdx": 7
-    },
-    {
-      ...Symbol28,
-      "partIdx": 7
-    },
-    {
-      ...Symbol28,
-      "partIdx": 7
-    },
-    {
       ...Symbol17,
       "colorIdx": 0
     },
@@ -69,10 +37,50 @@ const Symbol29: Symbol = {
     {
       ...Symbol17,
       "colorIdx": 0
+    },
+    {
+      ...Symbol28,
+      "partIdx": 7
+    },
+    {
+      ...Symbol28,
+      "partIdx": 7
+    },
+    {
+      ...Symbol28,
+      "partIdx": 7
+    },
+    {
+      ...Symbol28,
+      "partIdx": 7
+    },
+    {
+      ...Symbol28,
+      "partIdx": 7
+    },
+    {
+      ...Symbol28,
+      "partIdx": 7
+    },
+    {
+      ...Symbol28,
+      "partIdx": 7
+    },
+    {
+      ...Symbol28,
+      "partIdx": 7
     }
   ],
   "frames": [
     [
+      {
+        "type": "symbol",
+        "name": "Symbol28",
+        "transform": {
+          "tx": 0,
+          "ty": 0
+        }
+      },
       {
         "type": "symbol",
         "name": "Symbol17",
@@ -89,17 +97,19 @@ const Symbol29: Symbol = {
           "b": 0.122100830078125,
           "c": -0.122100830078125
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol28",
         "transform": {
           "tx": 0,
-          "ty": 0
+          "ty": 0,
+          "a": 1.03656005859375,
+          "d": 1
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol17",
@@ -116,19 +126,19 @@ const Symbol29: Symbol = {
           "b": 0.121856689453125,
           "c": -0.126251220703125
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol28",
         "transform": {
           "tx": 0,
           "ty": 0,
-          "a": 1.03656005859375,
+          "a": 1.0731353759765625,
           "d": 1
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol17",
@@ -145,19 +155,19 @@ const Symbol29: Symbol = {
           "b": 0.12158203125,
           "c": -0.130645751953125
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol28",
         "transform": {
           "tx": 0,
           "ty": 0,
-          "a": 1.0731353759765625,
+          "a": 1.1096954345703125,
           "d": 1
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol17",
@@ -174,19 +184,19 @@ const Symbol29: Symbol = {
           "b": 0.1209869384765625,
           "c": -0.1350250244140625
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol28",
         "transform": {
           "tx": 0,
           "ty": 0,
-          "a": 1.1096954345703125,
+          "a": 1.1462554931640625,
           "d": 1
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol17",
@@ -203,19 +213,19 @@ const Symbol29: Symbol = {
           "b": 0.1218719482421875,
           "c": -0.1396942138671875
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol28",
         "transform": {
           "tx": 0,
           "ty": 0,
-          "a": 1.1462554931640625,
+          "a": 1.1927337646484375,
           "d": 1
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol17",
@@ -232,19 +242,19 @@ const Symbol29: Symbol = {
           "b": 0.1198883056640625,
           "c": -0.144195556640625
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol28",
         "transform": {
           "tx": 0,
           "ty": 0,
-          "a": 1.1927337646484375,
+          "a": 1.239227294921875,
           "d": 1
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol17",
@@ -261,19 +271,19 @@ const Symbol29: Symbol = {
           "b": 0.119293212890625,
           "c": -0.1489105224609375
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol28",
         "transform": {
           "tx": 0,
           "ty": 0,
-          "a": 1.239227294921875,
+          "a": 1.28570556640625,
           "d": 1
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol17",
@@ -289,16 +299,6 @@ const Symbol29: Symbol = {
           "d": 0.991363525390625,
           "b": 0.1218719482421875,
           "c": -0.1566925048828125
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol28",
-        "transform": {
-          "tx": 0,
-          "ty": 0,
-          "a": 1.28570556640625,
-          "d": 1
         }
       }
     ]

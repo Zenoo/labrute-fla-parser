@@ -1,22 +1,30 @@
 import { Symbol } from '../common';
-import Symbol842 from './Symbol842';
 import Symbol836 from './Symbol836';
+import Symbol842 from './Symbol842';
 
 const Symbol843: Symbol = {
   "type": "symbol",
   "name": "Symbol843",
   "parts": [
     {
-      ...Symbol842,
-      "partIdx": 7
-    },
-    {
       ...Symbol836,
       "colorIdx": 0
+    },
+    {
+      ...Symbol842,
+      "partIdx": 7
     }
   ],
   "frames": [
     [
+      {
+        "type": "symbol",
+        "name": "Symbol842",
+        "transform": {
+          "tx": 0.55,
+          "ty": 1.55
+        }
+      },
       {
         "type": "symbol",
         "name": "Symbol836",
@@ -32,14 +40,6 @@ const Symbol843: Symbol = {
           "d": 0.9917755126953125,
           "b": 0.122100830078125,
           "c": -0.122100830078125
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol842",
-        "transform": {
-          "tx": 0.55,
-          "ty": 1.55
         }
       }
     ]

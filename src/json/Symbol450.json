@@ -4,8 +4,8 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol449",
-      "partIdx": 7
+      "name": "Symbol448",
+      "colorIdx": 4
     },
     {
       "type": "symbol",
@@ -14,12 +14,20 @@
     },
     {
       "type": "symbol",
-      "name": "Symbol448",
-      "colorIdx": 4
+      "name": "Symbol449",
+      "partIdx": 7
     }
   ],
   "frames": [
     [
+      {
+        "type": "symbol",
+        "name": "Symbol449",
+        "transform": {
+          "tx": 1.9,
+          "ty": -0.5
+        }
+      },
       {
         "type": "symbol",
         "name": "Symbol82",
@@ -32,7 +40,9 @@
           "tx": 0,
           "ty": 0
         }
-      },
+      }
+    ],
+    [
       {
         "type": "symbol",
         "name": "Symbol449",
@@ -40,9 +50,7 @@
           "tx": 1.9,
           "ty": -0.5
         }
-      }
-    ],
-    [
+      },
       {
         "type": "symbol",
         "name": "Symbol448",
@@ -54,14 +62,6 @@
         "transform": {
           "tx": 0,
           "ty": 0
-        }
-      },
-      {
-        "type": "symbol",
-        "name": "Symbol449",
-        "transform": {
-          "tx": 1.9,
-          "ty": -0.5
         }
       }
     ]

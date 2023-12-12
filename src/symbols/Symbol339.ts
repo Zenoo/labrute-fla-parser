@@ -1,16 +1,43 @@
 import { Symbol } from '../common';
-import Symbol290 from './Symbol290';
-import Symbol297 from './Symbol297';
-import Symbol304 from './Symbol304';
-import Symbol312 from './Symbol312';
-import Symbol318 from './Symbol318';
-import Symbol328 from './Symbol328';
 import Symbol338 from './Symbol338';
+import Symbol328 from './Symbol328';
+import Symbol318 from './Symbol318';
+import Symbol312 from './Symbol312';
+import Symbol304 from './Symbol304';
+import Symbol297 from './Symbol297';
+import Symbol290 from './Symbol290';
 
 const Symbol339: Symbol = {
   "type": "symbol",
   "name": "Symbol339",
   "parts": [
+    {
+      ...Symbol338,
+      "partIdx": 1
+    },
+    {
+      ...Symbol328,
+      "partIdx": 1
+    },
+    {
+      ...Symbol318,
+      "partIdx": 1
+    },
+    {
+      ...Symbol312,
+      "partIdx": 1
+    },
+    {
+      ...Symbol304
+    },
+    {
+      ...Symbol297,
+      "partIdx": 1
+    },
+    {
+      ...Symbol290,
+      "partIdx": 1
+    },
     {
       "type": "svg",
       "name": "Symbol329",
@@ -19,33 +46,6 @@ const Symbol339: Symbol = {
         "x": 17.85,
         "y": 10.5
       }
-    },
-    {
-      ...Symbol290,
-      "partIdx": 1
-    },
-    {
-      ...Symbol297,
-      "partIdx": 1
-    },
-    {
-      ...Symbol304
-    },
-    {
-      ...Symbol312,
-      "partIdx": 1
-    },
-    {
-      ...Symbol318,
-      "partIdx": 1
-    },
-    {
-      ...Symbol328,
-      "partIdx": 1
-    },
-    {
-      ...Symbol338,
-      "partIdx": 1
     }
   ],
   "frames": [
@@ -101,16 +101,16 @@ const Symbol339: Symbol = {
     ],
     [
       {
+        "type": "svg",
+        "name": "Symbol329"
+      },
+      {
         "type": "symbol",
         "name": "Symbol328",
         "transform": {
           "tx": 0.7,
           "ty": 2.2
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol329"
       }
     ],
     [

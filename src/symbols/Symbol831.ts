@@ -1,12 +1,24 @@
 import { Symbol } from '../common';
-import Symbol585 from './Symbol585';
-import Symbol583 from './Symbol583';
 import Symbol830 from './Symbol830';
+import Symbol583 from './Symbol583';
+import Symbol585 from './Symbol585';
 
 const Symbol831: Symbol = {
   "type": "symbol",
   "name": "Symbol831",
   "parts": [
+    {
+      ...Symbol830,
+      "partIdx": 1
+    },
+    {
+      ...Symbol583,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol585,
+      "partIdx": 1
+    },
     {
       "type": "svg",
       "name": "Symbol831",
@@ -15,18 +27,6 @@ const Symbol831: Symbol = {
         "x": 5.65,
         "y": 5.4
       }
-    },
-    {
-      ...Symbol585,
-      "partIdx": 1
-    },
-    {
-      ...Symbol583,
-      "colorIdx": 2
-    },
-    {
-      ...Symbol830,
-      "partIdx": 1
     }
   ],
   "frames": [
@@ -49,6 +49,10 @@ const Symbol831: Symbol = {
     [],
     [
       {
+        "type": "svg",
+        "name": "Symbol831"
+      },
+      {
         "type": "symbol",
         "name": "Symbol583",
         "transform": {
@@ -57,10 +61,6 @@ const Symbol831: Symbol = {
           "a": 1.028778076171875,
           "d": 1.0359649658203125
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol831"
       }
     ],
     [

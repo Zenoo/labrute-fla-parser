@@ -1,11 +1,19 @@
 import { Symbol } from '../common';
-import Symbol440 from './Symbol440';
 import Symbol438 from './Symbol438';
+import Symbol440 from './Symbol440';
 
 const Symbol442: Symbol = {
   "type": "symbol",
   "name": "Symbol442",
   "parts": [
+    {
+      ...Symbol438,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol440,
+      "colorIdx": 2
+    },
     {
       "type": "svg",
       "name": "Symbol442",
@@ -14,26 +22,14 @@ const Symbol442: Symbol = {
         "x": 1.95,
         "y": 9.25
       }
-    },
-    {
-      ...Symbol440,
-      "colorIdx": 2
-    },
-    {
-      ...Symbol438,
-      "colorIdx": 3
     }
   ],
   "frames": [
     [],
     [
       {
-        "type": "symbol",
-        "name": "Symbol438",
-        "transform": {
-          "tx": -0.75,
-          "ty": 0
-        }
+        "type": "svg",
+        "name": "Symbol442"
       },
       {
         "type": "symbol",
@@ -44,8 +40,12 @@ const Symbol442: Symbol = {
         }
       },
       {
-        "type": "svg",
-        "name": "Symbol442"
+        "type": "symbol",
+        "name": "Symbol438",
+        "transform": {
+          "tx": -0.75,
+          "ty": 0
+        }
       }
     ]
   ]

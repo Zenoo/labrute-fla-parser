@@ -4,17 +4,7 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol156",
-      "partIdx": 1
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol163",
-      "partIdx": 1
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol165",
+      "name": "Symbol149",
       "colorIdx": 2
     },
     {
@@ -24,8 +14,18 @@
     },
     {
       "type": "symbol",
-      "name": "Symbol149",
+      "name": "Symbol165",
       "colorIdx": 2
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol163",
+      "partIdx": 1
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol156",
+      "partIdx": 1
     }
   ],
   "frames": [

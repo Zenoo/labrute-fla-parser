@@ -1,52 +1,23 @@
 import { Symbol } from '../common';
-import Symbol142 from './Symbol142';
-import Symbol19 from './Symbol19';
-import Symbol193 from './Symbol193';
-import Symbol128 from './Symbol128';
-import Symbol195 from './Symbol195';
-import Symbol202 from './Symbol202';
-import Symbol204 from './Symbol204';
 import Symbol124 from './Symbol124';
+import Symbol204 from './Symbol204';
+import Symbol202 from './Symbol202';
+import Symbol195 from './Symbol195';
+import Symbol128 from './Symbol128';
+import Symbol193 from './Symbol193';
+import Symbol19 from './Symbol19';
+import Symbol142 from './Symbol142';
 
 const Symbol206: Symbol = {
   "type": "symbol",
   "name": "Symbol206",
   "parts": [
     {
-      "type": "svg",
-      "name": "Symbol206",
-      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"8.1px\" width=\"19.4px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 10.15, 7.95)\">\r\n    <path d=\"M7.8 -1.15 Q7.4 -0.85 7.05 -0.85 6.55 -0.85 6.2 -1.35 L5.95 -1.9 6.4 -3.35 5.9 -4.5 Q5.4 -5.65 5.4 -5.95 5.4 -8.3 8.25 -1.85 L7.8 -1.15 M-6.85 -6.65 L-7.2 -5.15 -6.95 -4.5 Q-6.95 -3.75 -7.2 -2.95 -7.55 -1.7 -8.3 -1.7 -9.0 -1.7 -9.15 -2.4 L-7.0 -6.95 -6.85 -6.65\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
-      "offset": {
-        "x": 10.15,
-        "y": 7.95
-      }
-    },
-    {
-      "type": "svg",
-      "name": "Symbol206",
-      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"8.1px\" width=\"19.4px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 10.15, 7.95)\">\r\n    <path d=\"M7.8 -1.15 Q7.4 -0.85 7.05 -0.85 6.55 -0.85 6.2 -1.35 L5.95 -1.9 6.4 -3.35 5.9 -4.5 Q5.4 -5.65 5.4 -5.95 5.4 -8.3 8.25 -1.85 L7.8 -1.15 M-6.85 -6.65 L-7.2 -5.15 -6.95 -4.5 Q-6.95 -3.75 -7.2 -2.95 -7.55 -1.7 -8.3 -1.7 -9.0 -1.7 -9.15 -2.4 L-7.0 -6.95 -6.85 -6.65\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
-      "offset": {
-        "x": 10.15,
-        "y": 7.95
-      }
-    },
-    {
-      ...Symbol142,
-      "colorIdx": 3
-    },
-    {
-      ...Symbol19,
+      ...Symbol124,
       "colorIdx": 2
     },
     {
-      ...Symbol193,
-      "colorIdx": 3
-    },
-    {
-      ...Symbol128
-    },
-    {
-      ...Symbol195,
+      ...Symbol204,
       "colorIdx": 2
     },
     {
@@ -54,12 +25,41 @@ const Symbol206: Symbol = {
       "partIdx": 1
     },
     {
-      ...Symbol204,
+      ...Symbol195,
       "colorIdx": 2
     },
     {
-      ...Symbol124,
+      ...Symbol128
+    },
+    {
+      ...Symbol193,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol19,
       "colorIdx": 2
+    },
+    {
+      ...Symbol142,
+      "colorIdx": 3
+    },
+    {
+      "type": "svg",
+      "name": "Symbol206",
+      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"8.1px\" width=\"19.4px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 10.15, 7.95)\">\r\n    <path d=\"M7.8 -1.15 Q7.4 -0.85 7.05 -0.85 6.55 -0.85 6.2 -1.35 L5.95 -1.9 6.4 -3.35 5.9 -4.5 Q5.4 -5.65 5.4 -5.95 5.4 -8.3 8.25 -1.85 L7.8 -1.15 M-6.85 -6.65 L-7.2 -5.15 -6.95 -4.5 Q-6.95 -3.75 -7.2 -2.95 -7.55 -1.7 -8.3 -1.7 -9.0 -1.7 -9.15 -2.4 L-7.0 -6.95 -6.85 -6.65\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
+      "offset": {
+        "x": 10.15,
+        "y": 7.95
+      }
+    },
+    {
+      "type": "svg",
+      "name": "Symbol206",
+      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"8.1px\" width=\"19.4px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 10.15, 7.95)\">\r\n    <path d=\"M7.8 -1.15 Q7.4 -0.85 7.05 -0.85 6.55 -0.85 6.2 -1.35 L5.95 -1.9 6.4 -3.35 5.9 -4.5 Q5.4 -5.65 5.4 -5.95 5.4 -8.3 8.25 -1.85 L7.8 -1.15 M-6.85 -6.65 L-7.2 -5.15 -6.95 -4.5 Q-6.95 -3.75 -7.2 -2.95 -7.55 -1.7 -8.3 -1.7 -9.0 -1.7 -9.15 -2.4 L-7.0 -6.95 -6.85 -6.65\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
+      "offset": {
+        "x": 10.15,
+        "y": 7.95
+      }
     }
   ],
   "frames": [
@@ -99,16 +99,16 @@ const Symbol206: Symbol = {
     ],
     [
       {
+        "type": "svg",
+        "name": "Symbol206"
+      },
+      {
         "type": "symbol",
         "name": "Symbol195",
         "transform": {
           "tx": -2.05,
           "ty": 6.4
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol206"
       }
     ],
     [
@@ -123,27 +123,22 @@ const Symbol206: Symbol = {
     ],
     [
       {
+        "type": "svg",
+        "name": "Symbol206"
+      },
+      {
         "type": "symbol",
         "name": "Symbol204",
         "transform": {
           "tx": 0.85,
           "ty": 1.3
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol206"
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol124",
-        "colorOffset": {
-          "r": -110,
-          "g": -90,
-          "b": -80
-        },
+        "name": "Symbol142",
         "transform": {
           "tx": -0.6,
           "ty": -1.55,
@@ -153,7 +148,12 @@ const Symbol206: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol142",
+        "name": "Symbol124",
+        "colorOffset": {
+          "r": -110,
+          "g": -90,
+          "b": -80
+        },
         "transform": {
           "tx": -0.6,
           "ty": -1.55,

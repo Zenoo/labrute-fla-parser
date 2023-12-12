@@ -1,25 +1,47 @@
 import { Symbol } from '../common';
-import Symbol142 from './Symbol142';
-import Symbol19 from './Symbol19';
-import Symbol126 from './Symbol126';
-import Symbol128 from './Symbol128';
-import Symbol130 from './Symbol130';
-import Symbol137 from './Symbol137';
-import Symbol139 from './Symbol139';
 import Symbol124 from './Symbol124';
+import Symbol139 from './Symbol139';
+import Symbol137 from './Symbol137';
+import Symbol130 from './Symbol130';
+import Symbol128 from './Symbol128';
+import Symbol126 from './Symbol126';
+import Symbol19 from './Symbol19';
+import Symbol142 from './Symbol142';
 
 const Symbol143: Symbol = {
   "type": "symbol",
   "name": "Symbol143",
   "parts": [
     {
-      "type": "svg",
-      "name": "Symbol131",
-      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"21.9px\" width=\"9.8px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 15.85, 9)\">\r\n    <path d=\"M-7.7 11.75 L-9.7 11.0 Q-12.25 10.7 -14.85 11.55 L-13.4 9.95 Q-11.9 8.45 -9.85 8.95 -7.3 9.3 -7.05 11.9 L-7.7 11.75 M-7.85 -7.6 L-7.6 -8.0 -7.05 -7.4 -7.5 -2.05 -7.7 0.35 -8.0 0.6 -8.05 0.4 -8.05 -0.7 -8.4 -1.2 -7.85 -7.6\" fill=\"#ffffff\" fill-opacity=\"0.8\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
-      "offset": {
-        "x": 15.85,
-        "y": 9
-      }
+      ...Symbol124,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol139,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol137,
+      "partIdx": 1
+    },
+    {
+      ...Symbol130,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol128
+    },
+    {
+      ...Symbol126,
+      "colorIdx": 3
+    },
+    {
+      ...Symbol19,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol142,
+      "colorIdx": 3
     },
     {
       "type": "svg",
@@ -31,35 +53,13 @@ const Symbol143: Symbol = {
       }
     },
     {
-      ...Symbol142,
-      "colorIdx": 3
-    },
-    {
-      ...Symbol19,
-      "colorIdx": 2
-    },
-    {
-      ...Symbol126,
-      "colorIdx": 3
-    },
-    {
-      ...Symbol128
-    },
-    {
-      ...Symbol130,
-      "colorIdx": 2
-    },
-    {
-      ...Symbol137,
-      "partIdx": 1
-    },
-    {
-      ...Symbol139,
-      "colorIdx": 2
-    },
-    {
-      ...Symbol124,
-      "colorIdx": 2
+      "type": "svg",
+      "name": "Symbol131",
+      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"21.9px\" width=\"9.8px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 15.85, 9)\">\r\n    <path d=\"M-7.7 11.75 L-9.7 11.0 Q-12.25 10.7 -14.85 11.55 L-13.4 9.95 Q-11.9 8.45 -9.85 8.95 -7.3 9.3 -7.05 11.9 L-7.7 11.75 M-7.85 -7.6 L-7.6 -8.0 -7.05 -7.4 -7.5 -2.05 -7.7 0.35 -8.0 0.6 -8.05 0.4 -8.05 -0.7 -8.4 -1.2 -7.85 -7.6\" fill=\"#ffffff\" fill-opacity=\"0.8\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
+      "offset": {
+        "x": 15.85,
+        "y": 9
+      }
     }
   ],
   "frames": [
@@ -99,16 +99,16 @@ const Symbol143: Symbol = {
     ],
     [
       {
+        "type": "svg",
+        "name": "Symbol131"
+      },
+      {
         "type": "symbol",
         "name": "Symbol130",
         "transform": {
           "tx": -4.1,
           "ty": 6.5
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol131"
       }
     ],
     [
@@ -123,27 +123,22 @@ const Symbol143: Symbol = {
     ],
     [
       {
+        "type": "svg",
+        "name": "Symbol140"
+      },
+      {
         "type": "symbol",
         "name": "Symbol139",
         "transform": {
           "tx": -0.85,
           "ty": 4.1
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol140"
       }
     ],
     [
       {
         "type": "symbol",
-        "name": "Symbol124",
-        "colorOffset": {
-          "r": -110,
-          "g": -90,
-          "b": -80
-        },
+        "name": "Symbol142",
         "transform": {
           "tx": -0.6,
           "ty": -1.55,
@@ -153,7 +148,12 @@ const Symbol143: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol142",
+        "name": "Symbol124",
+        "colorOffset": {
+          "r": -110,
+          "g": -90,
+          "b": -80
+        },
         "transform": {
           "tx": -0.6,
           "ty": -1.55,

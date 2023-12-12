@@ -1,21 +1,21 @@
 import { Symbol } from '../common';
-import Symbol185 from './Symbol185';
-import Symbol186 from './Symbol186';
 import Symbol659 from './Symbol659';
+import Symbol186 from './Symbol186';
+import Symbol185 from './Symbol185';
 
 const Symbol660: Symbol = {
   "type": "symbol",
   "name": "Symbol660",
   "parts": [
     {
-      ...Symbol185,
+      ...Symbol659,
       "partIdx": 1
     },
     {
       ...Symbol186
     },
     {
-      ...Symbol659,
+      ...Symbol185,
       "partIdx": 1
     }
   ],

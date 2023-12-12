@@ -1,24 +1,16 @@
 import { Symbol } from '../common';
-import Symbol225 from './Symbol225';
-import Symbol230 from './Symbol230';
-import Symbol232 from './Symbol232';
-import Symbol238 from './Symbol238';
 import Symbol149 from './Symbol149';
+import Symbol238 from './Symbol238';
+import Symbol232 from './Symbol232';
+import Symbol230 from './Symbol230';
+import Symbol225 from './Symbol225';
 
 const Symbol239: Symbol = {
   "type": "symbol",
   "name": "Symbol239",
   "parts": [
     {
-      ...Symbol225,
-      "partIdx": 1
-    },
-    {
-      ...Symbol230,
-      "partIdx": 1
-    },
-    {
-      ...Symbol232,
+      ...Symbol149,
       "colorIdx": 2
     },
     {
@@ -26,8 +18,16 @@ const Symbol239: Symbol = {
       "partIdx": 1
     },
     {
-      ...Symbol149,
+      ...Symbol232,
       "colorIdx": 2
+    },
+    {
+      ...Symbol230,
+      "partIdx": 1
+    },
+    {
+      ...Symbol225,
+      "partIdx": 1
     }
   ],
   "frames": [

@@ -1,11 +1,19 @@
 import { Symbol } from '../common';
-import Symbol632 from './Symbol632';
 import Symbol630 from './Symbol630';
+import Symbol632 from './Symbol632';
 
 const Symbol637: Symbol = {
   "type": "symbol",
   "name": "Symbol637",
   "parts": [
+    {
+      ...Symbol630,
+      "colorIdx": 2
+    },
+    {
+      ...Symbol632,
+      "colorIdx": 2
+    },
     {
       "type": "svg",
       "name": "Symbol637",
@@ -14,14 +22,6 @@ const Symbol637: Symbol = {
         "x": 6.4,
         "y": 8.35
       }
-    },
-    {
-      ...Symbol632,
-      "colorIdx": 2
-    },
-    {
-      ...Symbol630,
-      "colorIdx": 2
     }
   ],
   "frames": [
@@ -37,6 +37,10 @@ const Symbol637: Symbol = {
     ],
     [
       {
+        "type": "svg",
+        "name": "Symbol637"
+      },
+      {
         "type": "symbol",
         "name": "Symbol630",
         "colorOffset": {
@@ -50,10 +54,6 @@ const Symbol637: Symbol = {
           "a": 1.02056884765625,
           "d": 1.0026702880859375
         }
-      },
-      {
-        "type": "svg",
-        "name": "Symbol637"
       }
     ]
   ]

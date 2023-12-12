@@ -404,12 +404,15 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
     }
   }
 
-  // Initialize empty frames and reverse parts
+  // Revert parts
+  if (result.parts) {
+    result.parts.reverse();
+  }
+
+  // Initialize empty frames
   for (let i = 0; i < result.frames.length; i++) {
     if (!result.frames[i]) {
       result.frames[i] = [];
-    } else {
-      result.frames[i].reverse();
     }
   }
   

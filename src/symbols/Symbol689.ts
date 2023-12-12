@@ -1,14 +1,14 @@
 import { Symbol } from '../common';
-import Symbol684 from './Symbol684';
-import Symbol686 from './Symbol686';
 import Symbol688 from './Symbol688';
+import Symbol686 from './Symbol686';
+import Symbol684 from './Symbol684';
 
 const Symbol689: Symbol = {
   "type": "symbol",
   "name": "Symbol689",
   "parts": [
     {
-      ...Symbol684,
+      ...Symbol688,
       "colorIdx": 3
     },
     {
@@ -20,7 +20,7 @@ const Symbol689: Symbol = {
       "colorIdx": 2
     },
     {
-      ...Symbol688,
+      ...Symbol684,
       "colorIdx": 3
     }
   ],

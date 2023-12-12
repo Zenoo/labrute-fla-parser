@@ -4,127 +4,7 @@
   "parts": [
     {
       "type": "symbol",
-      "name": "Symbol475"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol476"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol477"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol478"
-    },
-    {
-      "type": "symbol",
       "name": "Symbol479"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol488"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol489"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol490"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol491"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol493"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol494"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol495"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol496"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol497"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol498"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol503"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol504"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol505"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol506"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol507"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol508"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol509"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol510"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol513"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol516"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol517"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol541"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol542"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol543"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol544"
-    },
-    {
-      "type": "symbol",
-      "name": "Symbol545"
     },
     {
       "type": "symbol",
@@ -132,7 +12,127 @@
     },
     {
       "type": "symbol",
+      "name": "Symbol545"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol544"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol543"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol542"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol541"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol517"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol516"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol513"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol510"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol509"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol508"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol507"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol506"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol505"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol504"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol503"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol498"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol497"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol496"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol495"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol494"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol493"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol491"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol490"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol489"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol488"
+    },
+    {
+      "type": "symbol",
       "name": "Symbol479"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol478"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol477"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol476"
+    },
+    {
+      "type": "symbol",
+      "name": "Symbol475"
     }
   ],
   "frames": [

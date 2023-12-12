@@ -1,14 +1,14 @@
 import { Symbol } from '../common';
-import Symbol660 from './Symbol660';
-import Symbol652 from './Symbol652';
 import Symbol650 from './Symbol650';
+import Symbol652 from './Symbol652';
+import Symbol660 from './Symbol660';
 
 const Symbol661: Symbol = {
   "type": "symbol",
   "name": "Symbol661",
   "parts": [
     {
-      ...Symbol660,
+      ...Symbol650,
       "partIdx": 7
     },
     {
@@ -16,7 +16,7 @@ const Symbol661: Symbol = {
       "colorIdx": 0
     },
     {
-      ...Symbol650,
+      ...Symbol660,
       "partIdx": 7
     }
   ],
@@ -24,10 +24,10 @@ const Symbol661: Symbol = {
     [
       {
         "type": "symbol",
-        "name": "Symbol650",
+        "name": "Symbol660",
         "transform": {
-          "tx": -5.35,
-          "ty": 21.3
+          "tx": -2.95,
+          "ty": -1.5
         }
       },
       {
@@ -45,10 +45,10 @@ const Symbol661: Symbol = {
       },
       {
         "type": "symbol",
-        "name": "Symbol660",
+        "name": "Symbol650",
         "transform": {
-          "tx": -2.95,
-          "ty": -1.5
+          "tx": -5.35,
+          "ty": 21.3
         }
       }
     ]
