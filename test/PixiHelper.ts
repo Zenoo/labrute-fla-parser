@@ -1,5 +1,5 @@
 import { Matrix } from 'pixi.js';
-import { Symbol } from '../src/common';
+import { FramePart, Symbol } from '../src/common';
 
 /**
  * Adds a few helpful methods to help with PixiJS manipulations.
@@ -11,7 +11,7 @@ export class PixiHelper {
 	 * @param scale Scale to apply to the matrix.
 	 * @returns A PixiJS Matrix instantiated using the input and the scale.
 	 */
-	static matrixFromObject(obj: Symbol['transform'], scale = 1) {
+	static matrixFromObject(obj: FramePart['transform'], scale = 1) {
 		return new Matrix(obj?.a ?? 1, obj?.b ?? 0, obj?.c ?? 0, obj?.d ?? 1, (obj?.tx ?? 0) * scale, (obj?.ty ?? 0) * scale);
 	}
 }

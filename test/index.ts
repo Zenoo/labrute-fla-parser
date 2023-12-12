@@ -5,11 +5,13 @@ import { FramePart, Svg, Symbol } from '../src/common';
 import ColorOffsetShader from './ColorOffsetShader';
 import { PixiHelper } from './PixiHelper';
 import Symbol377 from '../src/Symbols/Symbol377';
-import Symbol410 from '../src/Symbols/Symbol410';
+import Symbol475 from '../src/Symbols/Symbol475';
 
 type PartContainer = PIXI.Container & {
   source?: Symbol | Svg;
 };
+
+const SCALE = 1;
 
 const app = new PIXI.Application<HTMLCanvasElement>({
   backgroundColor: 0xfbf7c0,
@@ -48,11 +50,12 @@ const initializeParts = (parts: (Symbol | Svg)[]) => {
 
     if (part.type === 'svg') {
       const svg = new PIXI.Sprite(Texture.from(part.svg));
+      svg.scale.set(SCALE);
 
       // Apply offset
       if (part.offset) {
-        svg.x = -part.offset.x ?? 0;
-        svg.y = -part.offset.y ?? 0;
+        svg.x = -(part.offset.x ?? 0) * SCALE;
+        svg.y = -(part.offset.y ?? 0) * SCALE;
       }
 
       container.addChild(svg);
@@ -77,7 +80,7 @@ const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
 
   // Apply transform
   if (part.transform) {
-    partContainer.transform.setFromMatrix(PixiHelper.matrixFromObject(part.transform));
+    partContainer.transform.setFromMatrix(PixiHelper.matrixFromObject(part.transform, SCALE));
   }
 
   // Apply color offset
@@ -101,22 +104,14 @@ const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
   partContainer.visible = true;
 
   // Handle children
-  if (part.type === 'symbol') {
-    partContainer.children.forEach(child => {
-      child.visible = true;
+  const source = partContainer.source;
+  if (!source) {
+    throw new Error(`Part ${part.type}:${part.name} has no source`);
+  }
 
-      // Only display frame 0 for now
-      const source = (child as PartContainer).source;
-
-      if (!source) {
-        throw new Error(`Child ${child.name} has no source`);
-      }
-
-      if (source.type === 'symbol' && source.frames?.[0]) {
-        source.frames[0].forEach(childPart => {
-          displayPart(child.children as PIXI.DisplayObject[], childPart);
-        });
-      }
+  if (source.type === 'symbol' && source.frames?.[0]) {
+    source.frames?.[0].forEach(childPart => {
+      displayPart(partContainer.children as PIXI.DisplayObject[], childPart);
     });
   }
 };
@@ -142,7 +137,7 @@ const displaySymbol = (symbol: Symbol, frame?: number, x?: number, y?: number) =
   return symbolContainer;
 };
 
-const symbol = displaySymbol(Symbol410, 0, 100, 100);
+const symbol = displaySymbol(Symbol475, 0, 200, 200);
 
 viewport.addChild(symbol);
 console.log(symbol);

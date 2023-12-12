@@ -220,7 +220,19 @@ const getSvg = (symbolName: string): Svg => {
   const name = symbolName.split(' ').join('');
   try {
     // Get the svg file
-    const svg = fs.readFileSync(`./src/svg/${name}.svg`, 'utf8');
+    let svg = fs.readFileSync(`./src/svg/${name}.svg`, 'utf8');
+
+    // Set every stroke-width to 1
+    svg = svg.replace(/stroke-width="[^"]+"/g, 'stroke-width="1"');
+
+    // Increase svg width by 2
+    svg = svg.replace(/width="([^"]+)px"/, (_, width) => `width="${+width + 2}px"`);
+
+    // Increase svg height by 2
+    svg = svg.replace(/height="([^"]+)px"/, (_, height) => `height="${+height + 2}px"`);
+
+    // Increase tx and ty by 1
+    svg = svg.replace(/<g transform="matrix\(1.0, 0.0, 0.0, 1.0, ([^,]+), ([^,]+)\)">/, (_, tx, ty) => `<g transform="matrix(1.0, 0.0, 0.0, 1.0, ${+tx + 1}, ${+ty + 1})">`);
 
     // Get the offset values from the svg file
     const offset = svg.match(/<g transform="matrix\(1.0, 0.0, 0.0, 1.0, (.*), (.*)\)">/);
@@ -239,7 +251,19 @@ const getSvg = (symbolName: string): Svg => {
     // Try with name - 1
     try {
       const nameMinusOne = `Symbol${+name.replace('Symbol', '') - 1}`;
-      const svg = fs.readFileSync(`./src/svg/${nameMinusOne}.svg`, 'utf8');
+      let svg = fs.readFileSync(`./src/svg/${nameMinusOne}.svg`, 'utf8');
+
+      // Set every stroke-width to 1
+      svg = svg.replace(/stroke-width="[^"]+"/g, 'stroke-width="1"');
+  
+      // Increase svg width by 2
+      svg = svg.replace(/width="([^"]+)px"/, (_, width) => `width="${+width + 2}px"`);
+  
+      // Increase svg height by 2
+      svg = svg.replace(/height="([^"]+)px"/, (_, height) => `height="${+height + 2}px"`);
+  
+      // Increase tx and ty by 1
+      svg = svg.replace(/<g transform="matrix\(1.0, 0.0, 0.0, 1.0, ([^,]+), ([^,]+)\)">/, (_, tx, ty) => `<g transform="matrix(1.0, 0.0, 0.0, 1.0, ${+tx + 1}, ${+ty + 1})">`);
 
       // Get the offset values from the svg file
       const offset = svg.match(/<g transform="matrix\(1.0, 0.0, 0.0, 1.0, (.*), (.*)\)">/);

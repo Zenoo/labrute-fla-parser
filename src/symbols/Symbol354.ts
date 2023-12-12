@@ -8,19 +8,19 @@ const Symbol354: Symbol = {
     {
       "type": "svg",
       "name": "Symbol354",
-      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"3.5px\" width=\"7.75px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 3.85, 1.75)\">\r\n    <path d=\"M3.65 -0.75 Q2.9 -1.3 1.85 -1.5 0.9 -1.55 0.15 -0.95 L-0.65 -0.15 -2.0 1.15 Q-2.5 1.55 -2.9 1.5 L-3.6 0.7\" fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-opacity=\"0.7529412\" stroke-width=\"0.5\"/>\r\n  </g>\r\n</svg>\r\n",
+      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"5.5px\" width=\"9.75px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 4.85, 2.75)\">\r\n    <path d=\"M3.65 -0.75 Q2.9 -1.3 1.85 -1.5 0.9 -1.55 0.15 -0.95 L-0.65 -0.15 -2.0 1.15 Q-2.5 1.55 -2.9 1.5 L-3.6 0.7\" fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-opacity=\"0.7529412\" stroke-width=\"1\"/>\r\n  </g>\r\n</svg>\r\n",
       "offset": {
-        "x": 3.85,
-        "y": 1.75
+        "x": 4.85,
+        "y": 2.75
       }
     },
     {
       "type": "svg",
       "name": "Symbol354",
-      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"3.5px\" width=\"7.75px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 3.85, 1.75)\">\r\n    <path d=\"M3.65 -0.75 Q2.9 -1.3 1.85 -1.5 0.9 -1.55 0.15 -0.95 L-0.65 -0.15 -2.0 1.15 Q-2.5 1.55 -2.9 1.5 L-3.6 0.7\" fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-opacity=\"0.7529412\" stroke-width=\"0.5\"/>\r\n  </g>\r\n</svg>\r\n",
+      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"5.5px\" width=\"9.75px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 4.85, 2.75)\">\r\n    <path d=\"M3.65 -0.75 Q2.9 -1.3 1.85 -1.5 0.9 -1.55 0.15 -0.95 L-0.65 -0.15 -2.0 1.15 Q-2.5 1.55 -2.9 1.5 L-3.6 0.7\" fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-opacity=\"0.7529412\" stroke-width=\"1\"/>\r\n  </g>\r\n</svg>\r\n",
       "offset": {
-        "x": 3.85,
-        "y": 1.75
+        "x": 4.85,
+        "y": 2.75
       }
     }
   ],
