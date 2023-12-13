@@ -190,6 +190,7 @@ app.renderer.render(app.stage);
 app.stage.addChild(viewport);
 
 let svgCount = 0;
+let weaponMask: PIXI.Sprite | null = null;
 
 const initializeParts = (
   bruteState: BruteState,
@@ -214,6 +215,11 @@ const initializeParts = (
     }
 
     if (part.type === 'svg') {
+      // Skip if we already have the weapon mask
+      if (weaponMask && part.name === 'Symbol39') {
+        return;
+      }
+
       const svg = new PIXI.Sprite(Texture.from(part.svg));
       svg.scale.set(SCALE);
       svgCount++;
@@ -234,7 +240,12 @@ const initializeParts = (
         svg.tint = parseInt(color.replace('#', ''), 16);
       }
 
-      container.addChild(svg);
+      // Don't store weapon mask in the container, just keep it in memory
+      if (part.name === 'Symbol39') {
+        weaponMask = svg;
+      } else {
+        container.addChild(svg);
+      }
     }
 
     partContainers.push(container);
@@ -283,12 +294,12 @@ const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
 
   // Apply masking
   if (part.maskedBy) {
-    const mask = parts.find(p => p.name === `Symbol${part.maskedBy}`);
-    if (!mask) {
-      throw new Error(`Mask ${part.maskedBy} not found`);
+    if (!weaponMask) {
+      throw new Error(`Weapon mask not found`);
     }
-    // TODO: Mask removes the whole hand, tofix
-    // partContainer.mask = mask.children?.[0] as PIXI.Sprite;
+
+    partContainer.addChild(weaponMask);
+    partContainer.mask = weaponMask;
   }
 
   // Apply visibility
@@ -383,7 +394,7 @@ const bruteState: BruteState = {
   ],
   partIdx: [
     0, // ?
-    0, // Biceps
+    0, // Biceps strength
     1, // Hair
     1, // Beard
     0, // ?

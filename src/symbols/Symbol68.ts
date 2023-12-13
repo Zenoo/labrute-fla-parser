@@ -175,7 +175,7 @@ const Symbol68: Symbol = {
     {
       "type": "svg",
       "name": "Symbol39",
-      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"128.95px\" width=\"248.65px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 28.5, 14.2)\">\r\n    <path d=\"M219.15 67.3 L200.5 105.55 112.35 83.7 105.15 113.75 -27.5 81.85 Q-24.75 62.95 -18.0 44.2 -32.7 31.15 -24.2 9.7 L-24.3 8.65 Q-21.85 -8.45 -6.9 0.4 -6.15 1.45 -5.65 2.8 L-3.4 8.4 -3.7 9.05 -4.4 9.3 -5.6 8.55 -7.05 8.55 -8.55 9.65 -8.15 13.6 -2.05 16.55 0.5 15.3 1.35 13.75 1.95 12.0 Q3.5 8.8 5.45 7.05 6.3 6.25 6.8 6.2 L8.3 3.65 21.85 -13.2 137.7 14.65 130.15 45.95 219.15 67.3\" fill=\"#00ff00\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
+      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"128.95px\" width=\"248.65px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 28.5, 14.2)\">\r\n    <path d=\"M219.15 67.3 L200.5 105.55 112.35 83.7 105.15 113.75 -27.5 81.85 Q-24.75 62.95 -18.0 44.2 -32.7 31.15 -24.2 9.7 L-24.3 8.65 Q-21.85 -8.45 -6.9 0.4 -6.15 1.45 -5.65 2.8 L-3.4 8.4 -3.7 9.05 -4.4 9.3 -5.6 8.55 -7.05 8.55 -8.55 9.65 -8.15 13.6 -2.05 16.55 0.5 15.3 1.35 13.75 1.95 12.0 Q3.5 8.8 5.45 7.05 6.3 6.25 6.8 6.2 L8.3 3.65 21.85 -13.2 137.7 14.65 130.15 45.95 219.15 67.3\" fill=\"#ff0000\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
       "offset": {
         "x": 28.5,
         "y": 14.2
@@ -194,8 +194,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -213,8 +212,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -228,7 +226,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -236,8 +235,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -255,8 +253,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -274,8 +271,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -289,7 +285,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -297,8 +294,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -312,7 +308,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -320,8 +317,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -335,7 +331,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -343,8 +340,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -358,7 +354,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -366,8 +363,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -381,7 +377,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -389,8 +386,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -404,7 +400,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -412,8 +409,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -431,8 +427,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -446,8 +441,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -461,7 +455,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -469,8 +464,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -484,7 +478,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -492,8 +487,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -511,8 +505,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -526,7 +519,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -534,8 +528,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -549,7 +542,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -557,8 +551,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -576,8 +569,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -595,8 +587,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -614,8 +605,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -633,8 +623,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -648,7 +637,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": -5.2,
           "ty": 23.05
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -656,8 +646,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -675,8 +664,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -694,8 +682,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -713,8 +700,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -728,7 +714,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -736,8 +723,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ],
     [
@@ -751,7 +737,8 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -759,8 +746,7 @@ const Symbol68: Symbol = {
         "transform": {
           "tx": 0.05,
           "ty": 2.65
-        },
-        "maskedBy": 39
+        }
       }
     ]
   ]

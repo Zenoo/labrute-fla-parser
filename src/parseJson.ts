@@ -526,13 +526,12 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
     }
   }
 
-  // Special case for 68 (weapons), add mask to 38 when not alone
+  // Special case for 68 (weapons), add mask to every symbol except 38 and 39
   if (symbolNumber === 68) {
       for (const frame of result.frames) {
-        if (frame.length > 2) {
-          const symbol38 = frame.find((part) => part.name === 'Symbol38');
-          if (symbol38) {
-            symbol38.maskedBy = 39;
+        for (const part of frame) {
+          if (part.type === 'symbol' && part.name !== 'Symbol38' && part.name !== 'Symbol39') {
+            part.maskedBy = 39;
           }
         }
       }
