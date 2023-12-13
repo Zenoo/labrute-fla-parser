@@ -1,11 +1,172 @@
 import * as PIXI from 'pixi.js';
 import { Filter, Texture } from 'pixi.js';
-import Symbol411 from '../src/Symbols/Symbol411';
+import Symbol475 from '../src/Symbols/Symbol475';
+import Symbol476 from '../src/Symbols/Symbol476';
+import Symbol478 from '../src/Symbols/Symbol478';
+import Symbol479 from '../src/Symbols/Symbol479';
+import Symbol488 from '../src/Symbols/Symbol488';
+import Symbol489 from '../src/Symbols/Symbol489';
+import Symbol490 from '../src/Symbols/Symbol490';
+import Symbol491 from '../src/Symbols/Symbol491';
+import Symbol493 from '../src/Symbols/Symbol493';
+import Symbol494 from '../src/Symbols/Symbol494';
+import Symbol495 from '../src/Symbols/Symbol495';
+import Symbol496 from '../src/Symbols/Symbol496';
+import Symbol497 from '../src/Symbols/Symbol497';
+import Symbol498 from '../src/Symbols/Symbol498';
+import Symbol503 from '../src/Symbols/Symbol503';
+import Symbol504 from '../src/Symbols/Symbol504';
+import Symbol505 from '../src/Symbols/Symbol505';
+import Symbol506 from '../src/Symbols/Symbol506';
+import Symbol507 from '../src/Symbols/Symbol507';
+import Symbol508 from '../src/Symbols/Symbol508';
+import Symbol509 from '../src/Symbols/Symbol509';
+import Symbol510 from '../src/Symbols/Symbol510';
+import Symbol513 from '../src/Symbols/Symbol513';
+import Symbol516 from '../src/Symbols/Symbol516';
+import Symbol517 from '../src/Symbols/Symbol517';
+import Symbol541 from '../src/Symbols/Symbol541';
+import Symbol542 from '../src/Symbols/Symbol542';
+import Symbol543 from '../src/Symbols/Symbol543';
+import Symbol544 from '../src/Symbols/Symbol544';
+import Symbol545 from '../src/Symbols/Symbol545';
+import Symbol546 from '../src/Symbols/Symbol546';
+import Symbol846 from '../src/Symbols/Symbol846';
+import Symbol847 from '../src/Symbols/Symbol847';
+import Symbol848 from '../src/Symbols/Symbol848';
+import Symbol849 from '../src/Symbols/Symbol849';
+import Symbol851 from '../src/Symbols/Symbol851';
+import Symbol854 from '../src/Symbols/Symbol854';
+import Symbol855 from '../src/Symbols/Symbol855';
+import Symbol856 from '../src/Symbols/Symbol856';
+import Symbol857 from '../src/Symbols/Symbol857';
+import Symbol858 from '../src/Symbols/Symbol858';
+import Symbol859 from '../src/Symbols/Symbol859';
+import Symbol860 from '../src/Symbols/Symbol860';
+import Symbol861 from '../src/Symbols/Symbol861';
+import Symbol862 from '../src/Symbols/Symbol862';
+import Symbol863 from '../src/Symbols/Symbol863';
+import Symbol864 from '../src/Symbols/Symbol864';
+import Symbol865 from '../src/Symbols/Symbol865';
+import Symbol866 from '../src/Symbols/Symbol866';
+import Symbol867 from '../src/Symbols/Symbol867';
+import Symbol868 from '../src/Symbols/Symbol868';
+import Symbol869 from '../src/Symbols/Symbol869';
+import Symbol870 from '../src/Symbols/Symbol870';
+import Symbol871 from '../src/Symbols/Symbol871';
+import Symbol875 from '../src/Symbols/Symbol875';
+import Symbol876 from '../src/Symbols/Symbol876';
+import Symbol877 from '../src/Symbols/Symbol877';
+import Symbol878 from '../src/Symbols/Symbol878';
+import Symbol879 from '../src/Symbols/Symbol879';
+import Symbol880 from '../src/Symbols/Symbol880';
 import { FramePart, Svg, Symbol } from '../src/common';
 import ColorOffsetShader from './ColorOffsetShader';
 import { PixiHelper } from './PixiHelper';
-import Symbol377 from '../src/Symbols/Symbol377';
-import Symbol475 from '../src/Symbols/Symbol475';
+import Symbol807 from '../src/Symbols/Symbol807';
+
+const bust = {
+  male: Symbol504,
+  female: Symbol862,
+};
+
+const animations = {
+  male: {
+    idle: Symbol475,
+    monk: Symbol476,
+    fist: Symbol478,
+    arrive: Symbol479,
+    ['hit-0']: Symbol488,
+    ['hit-1']: Symbol489,
+    ['hit-2']: Symbol490,
+    run: Symbol491,
+    equip: Symbol493,
+    evade: Symbol494,
+    block: Symbol495,
+    trash: Symbol496,
+    death: Symbol497,
+    estoc: Symbol498,
+    slash: Symbol503,
+    throw: Symbol505,
+    ['prepare-throw']: Symbol506,
+    grab: Symbol507,
+    steal: Symbol508,
+    grabbed: Symbol509,
+    stolen: Symbol510,
+    trapped: Symbol513,
+    drink: Symbol516,
+    strengthen: Symbol517,
+    whip: Symbol541,
+    launch: Symbol542,
+    win: Symbol543,
+    train: Symbol544,
+    train2: Symbol545,
+    eat: Symbol546,
+  },
+  female: {
+    idle: Symbol846,
+    monk: Symbol847,
+    fist: Symbol848,
+    arrive: Symbol849,
+    hit: Symbol851,
+    run: Symbol854,
+    equip: Symbol855,
+    evade: Symbol856,
+    block: Symbol857,
+    trash: Symbol858,
+    death: Symbol859,
+    estoc: Symbol860,
+    slash: Symbol861,
+    throw: Symbol863,
+    ['prepare-throw']: Symbol864,
+    grab: Symbol865,
+    steal: Symbol866,
+    grabbed: Symbol867,
+    stolen: Symbol868,
+    trapped: Symbol869,
+    drink: Symbol870,
+    strengthen: Symbol871,
+    whip: Symbol875,
+    launch: Symbol876,
+    win: Symbol877,
+    train: Symbol878,
+    train2: Symbol879,
+    eat: Symbol880,
+  },
+};
+
+const WEAPON_SYMBOL = 'Symbol68';
+
+const weaponFrames = [
+  null,
+  'knife',
+  'broadsword',
+  'lance',
+  'baton',
+  'trident',
+  'hatchet',
+  'scimitar',
+  'axe',
+  'sword',
+  'fan',
+  'shuriken',
+  null,
+  'bumps',
+  'morningStar',
+  'mammothBone',
+  'flail',
+  'whip',
+  'sai',
+  'leek',
+  'mug',
+  'fryingPan',
+  'piopio',
+  'halbard',
+  'trumpet',
+  'keyboard',
+  'noodleBowl',
+  'racquet',
+].reverse();
 
 type PartContainer = PIXI.Container & {
   source?: Symbol | Svg;
@@ -28,6 +189,8 @@ const viewport = app.stage.addChild(new PIXI.Container());
 app.renderer.render(app.stage);
 app.stage.addChild(viewport);
 
+let svgCount = 0;
+
 const initializeParts = (parts: (Symbol | Svg)[]) => {
   const partContainers: PartContainer[] = [];
 
@@ -39,7 +202,10 @@ const initializeParts = (parts: (Symbol | Svg)[]) => {
 
     if (part.type === 'symbol') {
       if (part.parts) {
-        container.addChild(...initializeParts(part.parts));
+        const innerParts = initializeParts(part.parts);
+        if (innerParts.length) {
+          container.addChild(...innerParts);
+        }
       }
       // Apply color
       if (part.colorIdx) {
@@ -51,6 +217,7 @@ const initializeParts = (parts: (Symbol | Svg)[]) => {
     if (part.type === 'svg') {
       const svg = new PIXI.Sprite(Texture.from(part.svg));
       svg.scale.set(SCALE);
+      svgCount++;
 
       // Apply offset
       if (part.offset) {
@@ -109,35 +276,70 @@ const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
     throw new Error(`Part ${part.type}:${part.name} has no source`);
   }
 
-  if (source.type === 'symbol' && source.frames?.[0]) {
-    source.frames?.[0].forEach(childPart => {
+  let frameToDisplay = 0;
+
+  // Select correct weapon frame
+  if (source.type === 'symbol' && source.name === WEAPON_SYMBOL) {
+    const weaponFrame = weaponFrames.findIndex(weapon => weapon === bruteState.weapon);
+    if (weaponFrame >= 0) {
+      frameToDisplay = weaponFrame;
+    }
+  }
+
+  if (source.type === 'symbol' && source.frames?.[frameToDisplay]) {
+    if (frameToDisplay !== 0) {
+      console.log(`Displaying frame ${frameToDisplay} of ${source.name}`);
+    }
+    source.frames?.[frameToDisplay].forEach(childPart => {
       displayPart(partContainer.children as PIXI.DisplayObject[], childPart);
     });
   }
 };
 
-const displaySymbol = (symbol: Symbol, frame?: number, x?: number, y?: number) => {
+const displaySymbol = (bruteState: BruteState, x?: number, y?: number) => {
   const symbolContainer = new PIXI.Container();
-  symbolContainer.name = symbol.name;
+  symbolContainer.name = bruteState.animation;
   symbolContainer.x = x ?? 0;
   symbolContainer.y = y ?? 0;
+
+  // Get animation symbol
+  const symbol = animations[bruteState.gender][bruteState.animation] as Symbol | undefined;
+
+  if (!symbol) {
+    throw new Error(`Animation ${bruteState.animation} not found`);
+  }
 
   // Initialize all parts
   if (symbol.parts) {
     symbolContainer.addChild(...initializeParts(symbol.parts));
   }
 
-  console.log(symbol.frames?.[0]);
-
-  // Only display frame 0 for now
-  symbol.frames?.[0].forEach(part => {
+  symbol.frames?.[bruteState.frame].forEach(part => {
     displayPart(symbolContainer.children, part);
   });
 
   return symbolContainer;
 };
 
-const symbol = displaySymbol(Symbol475, 0, 200, 200);
+type BruteState = {
+  animation: string;
+  frame: number;
+  gender: 'male' | 'female';
+  shield: boolean;
+  weapon: string | null;
+};
+
+const bruteState: BruteState = {
+  animation: 'idle',
+  frame: 0,
+  gender: 'male',
+  shield: false,
+  weapon: 'axe',
+};
+
+const symbol = displaySymbol(bruteState, 200, 200);
+
+console.log(`SVG count: ${svgCount}`);
 
 viewport.addChild(symbol);
 console.log(symbol);
