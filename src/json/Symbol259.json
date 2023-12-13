@@ -78,6 +78,10 @@
         }
       },
       {
+        "type": "svg",
+        "name": "Symbol254"
+      },
+      {
         "type": "symbol",
         "name": "Symbol253",
         "transform": {

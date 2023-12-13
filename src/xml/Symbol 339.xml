@@ -10,7 +10,7 @@
             </DOMFrame>
             <DOMFrame index="5" keyMode="9728">
               <elements>
-                <DOMShape isFloating="true" correspondingSymbol="329">
+                <DOMShape isFloating="true">
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#ffffff" alpha="0.7019608" />

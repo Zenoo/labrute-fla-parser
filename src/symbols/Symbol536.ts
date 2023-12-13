@@ -7,11 +7,11 @@ const Symbol536: Symbol = {
   "parts": [
     {
       "type": "svg",
-      "name": "Symbol536",
-      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"17.6px\" width=\"108.85px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, -10.75, 22.75)\">\r\n    <path d=\"M12.85 -20.95 L14.0 -18.6 15.9 -16.3 Q17.3 -14.9 19.45 -14.0 23.55 -12.2 29.9 -10.6 41.15 -7.75 52.55 -7.75 L76.05 -8.25 Q90.8 -8.2 99.65 -8.75 L109.4 -8.8 Q115.25 -8.65 118.5 -7.45 L118.55 -7.3 Q118.75 -7.05 118.25 -7.05 L113.75 -7.1 104.75 -7.4 99.65 -7.65 Q59.05 -6.15 47.8 -6.15 30.6 -6.15 20.0 -11.9 11.75 -16.35 11.75 -20.6 11.75 -22.75 12.85 -20.95\" fill=\"#545656\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
+      "name": "Symbol535",
+      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"20px\" width=\"118.35px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, -7.35, 22.8)\">\r\n    <path d=\"M10.15 -21.0 L12.7 -18.2 Q14.05 -16.65 20.05 -13.7 23.7 -11.55 28.65 -9.6 38.45 -5.7 46.25 -5.7 L62.75 -7.2 83.45 -8.7 Q89.75 -8.7 101.5 -6.85 113.25 -5.0 117.7 -5.0 L124.3 -5.4 124.6 -5.3 124.7 -4.95 Q124.7 -4.6 122.8 -4.25 L117.7 -3.8 Q112.85 -3.8 101.3 -5.55 89.8 -7.3 83.55 -7.3 L65.05 -5.6 Q50.95 -3.9 43.65 -3.9 35.7 -3.9 22.0 -10.4 8.35 -16.9 8.35 -20.65 8.35 -22.75 10.15 -21.0\" fill=\"#545656\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
       "offset": {
-        "x": -10.75,
-        "y": 22.75
+        "x": -7.35,
+        "y": 22.8
       }
     }
   ],
@@ -19,7 +19,7 @@ const Symbol536: Symbol = {
     [
       {
         "type": "svg",
-        "name": "Symbol536"
+        "name": "Symbol535"
       }
     ]
   ]

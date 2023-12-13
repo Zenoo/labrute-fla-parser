@@ -44,7 +44,7 @@
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
-                <DOMShape isFloating="true" correspondingSymbol="254">
+                <DOMShape isFloating="true">
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#ffffff" alpha="1.0" />

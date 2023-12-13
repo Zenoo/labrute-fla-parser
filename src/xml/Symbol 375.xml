@@ -20,7 +20,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMShape isFloating="true" correspondingSymbol="368">
+                <DOMShape isFloating="true">
                   <fills />
                   <strokes>
                     <StrokeStyle index="1">

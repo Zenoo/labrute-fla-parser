@@ -57,6 +57,10 @@ const Symbol717: Symbol = {
     ],
     [
       {
+        "type": "svg",
+        "name": "Symbol714"
+      },
+      {
         "type": "symbol",
         "name": "Symbol713",
         "colorOffset": {

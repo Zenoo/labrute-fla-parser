@@ -80,6 +80,10 @@ const Symbol259: Symbol = {
         }
       },
       {
+        "type": "svg",
+        "name": "Symbol254"
+      },
+      {
         "type": "symbol",
         "name": "Symbol253",
         "transform": {

@@ -26,6 +26,7 @@ export type FramePart = {
     b: number;
   };
   alpha?: number;
+  maskedBy?: number;
 };
 
 export type Symbol = {

@@ -8,7 +8,7 @@ const Symbol358: Symbol = {
   "parts": [
     {
       "type": "svg",
-      "name": "Symbol358",
+      "name": "Symbol357",
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"4.25px\" width=\"7.15px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 2.95, 1.55)\">\r\n    <path d=\"M1.5 0.65 L-0.35 0.9 -1.8 1.3 -1.4 0.95 0.3 0.05 0.5 0.0 0.85 -0.2 1.25 -0.25 1.85 -0.45 1.55 -0.25 1.25 -0.25 0.5 0.0 -0.55 0.65 -1.8 1.3 M2.2 0.95 L-1.85 1.6 M3.1 -0.05 L-0.35 0.9\" fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-opacity=\"0.3529412\" stroke-width=\"1\"/>\r\n  </g>\r\n</svg>\r\n",
       "offset": {
         "x": 2.95,
@@ -1001,7 +1001,7 @@ const Symbol358: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol358"
+        "name": "Symbol357"
       }
     ],
     [

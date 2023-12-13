@@ -63,7 +63,6 @@ import Symbol880 from '../src/Symbols/Symbol880';
 import { FramePart, Svg, Symbol } from '../src/common';
 import ColorOffsetShader from './ColorOffsetShader';
 import { PixiHelper } from './PixiHelper';
-import Symbol807 from '../src/Symbols/Symbol807';
 
 const bust = {
   male: Symbol504,
@@ -136,6 +135,7 @@ const animations = {
 };
 
 const WEAPON_SYMBOL = 'Symbol68';
+const SHIELD_SYMBOL = 'Symbol473';
 
 const weaponFrames = [
   null,
@@ -166,7 +166,7 @@ const weaponFrames = [
   'keyboard',
   'noodleBowl',
   'racquet',
-].reverse();
+];
 
 type PartContainer = PIXI.Container & {
   source?: Symbol | Svg;
@@ -239,6 +239,11 @@ const getPartContainer = (parts: PIXI.DisplayObject[], type: 'symbol' | 'svg', n
 };
 
 const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
+  // Skip 39 as it's a mask
+  if (part.name === 'Symbol39') {
+    return;
+  }
+
   const partContainer = getPartContainer(parts, part.type, part.name);
 
   if (!partContainer) {
@@ -267,6 +272,16 @@ const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
     partContainer.alpha = part.alpha;
   }
 
+  // Apply masking
+  if (part.maskedBy) {
+    const mask = parts.find(p => p.name === `Symbol${part.maskedBy}`);
+    if (!mask) {
+      throw new Error(`Mask ${part.maskedBy} not found`);
+    }
+    // TODO: Mask removes the whole hand, tofix
+    // partContainer.mask = mask.children?.[0] as PIXI.Sprite;
+  }
+
   // Apply visibility
   partContainer.visible = true;
 
@@ -286,10 +301,12 @@ const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
     }
   }
 
+  // Hide shield if needed
+  if (source.type === 'symbol' && source.name === SHIELD_SYMBOL) {
+    partContainer.visible = bruteState.shield;
+  }
+
   if (source.type === 'symbol' && source.frames?.[frameToDisplay]) {
-    if (frameToDisplay !== 0) {
-      console.log(`Displaying frame ${frameToDisplay} of ${source.name}`);
-    }
     source.frames?.[frameToDisplay].forEach(childPart => {
       displayPart(partContainer.children as PIXI.DisplayObject[], childPart);
     });
@@ -297,6 +314,7 @@ const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
 };
 
 const displaySymbol = (bruteState: BruteState, x?: number, y?: number) => {
+  // TODO: Memo each possible part instead of initializing them each time
   const symbolContainer = new PIXI.Container();
   symbolContainer.name = bruteState.animation;
   symbolContainer.x = x ?? 0;
@@ -330,11 +348,11 @@ type BruteState = {
 };
 
 const bruteState: BruteState = {
-  animation: 'idle',
-  frame: 0,
+  animation: 'win',
+  frame: 54,
   gender: 'male',
   shield: false,
-  weapon: 'axe',
+  weapon: 'morningStar',
 };
 
 const symbol = displaySymbol(bruteState, 200, 200);
@@ -342,4 +360,3 @@ const symbol = displaySymbol(bruteState, 200, 200);
 console.log(`SVG count: ${svgCount}`);
 
 viewport.addChild(symbol);
-console.log(symbol);

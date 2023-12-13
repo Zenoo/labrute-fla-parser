@@ -149,7 +149,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape isFloating="true" correspondingSymbol="363">
+                <DOMShape isFloating="true">
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#631300" alpha="0.3529412" />
@@ -165,7 +165,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMShape isFloating="true" correspondingSymbol="380">
+                <DOMShape isFloating="true">
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#631300" alpha="0.3529412" />
@@ -223,7 +223,7 @@
             </DOMFrame>
             <DOMFrame index="6" keyMode="9728">
               <elements>
-                <DOMShape isFloating="true" correspondingSymbol="394">
+                <DOMShape isFloating="true">
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#631300" alpha="0.3529412" />
@@ -252,7 +252,7 @@
             </DOMFrame>
             <DOMFrame index="8" keyMode="9728">
               <elements>
-                <DOMShape isFloating="true" correspondingSymbol="399">
+                <DOMShape isFloating="true">
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#631300" alpha="0.3529412" />

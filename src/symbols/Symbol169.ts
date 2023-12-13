@@ -7,11 +7,11 @@ const Symbol169: Symbol = {
   "parts": [
     {
       "type": "svg",
-      "name": "Symbol169",
-      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"31.95px\" width=\"19.25px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 6.3, 20.95)\">\r\n    <path d=\"M-3.1 -11.4 L-2.4 -12.0 Q-1.6 -12.75 -1.1 -13.75 L1.15 -18.35 1.2 -18.45 1.5 -18.85 1.75 -19.95 10.0 -15.95 8.45 -12.9 8.15 -12.2 -3.1 -11.4 M11.55 1.35 L11.65 1.4 Q12.0 2.9 11.95 4.55 L11.7 8.0 3.95 10.0 3.55 8.55 Q3.2 6.4 2.4 4.35 L2.0 3.85 Q4.5 2.5 6.45 2.0 L11.55 1.35\" fill=\"#d1b6b6\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n    <path d=\"M8.15 -12.2 L7.5 -10.1 7.35 -8.25 7.55 -0.85 11.55 1.35 6.45 2.0 Q4.5 2.5 2.0 3.85 L1.9 3.75 -1.8 0.45 -2.65 -0.75 -2.95 -1.4 -3.15 -3.0 -3.6 -6.65 Q-3.75 -8.0 -4.55 -9.2 L-5.3 -10.25 Q-4.75 -10.3 -4.1 -10.75 L-3.65 -11.1 -3.45 -11.2 -3.1 -11.4 8.15 -12.2 M2.0 -8.1 L2.4 -0.3 2.0 -8.1 M3.95 -7.75 L3.9 -0.3 3.95 -7.75 M5.25 -8.55 L5.25 0.0 5.25 -8.55\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n    <path d=\"M-3.1 -11.4 L-2.4 -12.0 Q-1.6 -12.75 -1.1 -13.75 L1.15 -18.35 1.2 -18.45 1.5 -18.85 1.75 -19.95 10.0 -15.95 8.45 -12.9 8.15 -12.2 7.5 -10.1 7.35 -8.25 7.55 -0.85 11.55 1.35 11.65 1.4 Q12.0 2.9 11.95 4.55 L11.7 8.0 3.95 10.0 3.55 8.55 Q3.2 6.4 2.4 4.35 L2.0 3.85 1.9 3.75 -1.8 0.45 -2.65 -0.75 -2.95 -1.4 -3.15 -3.0 -3.6 -6.65 Q-3.75 -8.0 -4.55 -9.2 L-5.3 -10.25 Q-4.75 -10.3 -4.1 -10.75 L-3.65 -11.1 -3.45 -11.2 -3.1 -11.4 M3.9 -0.3 L3.95 -7.75 M2.4 -0.3 L2.0 -8.1 M5.25 0.0 L5.25 -8.55\" fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-opacity=\"0.3019608\" stroke-width=\"1\"/>\r\n  </g>\r\n</svg>\r\n",
+      "name": "Symbol168",
+      "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"13.15px\" width=\"6.65px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, -2.25, -23)\">\r\n    <path d=\"M3.55 24.0 L4.5 24.2 6.45 24.95 6.55 25.2 6.5 25.4 7.35 25.95 Q8.15 26.5 7.8 26.5 L7.8 26.6 7.75 26.9 7.1 26.85 4.8 25.7 Q4.35 25.4 3.6 25.2 3.25 25.1 3.25 24.55 3.25 23.95 3.55 24.0 M5.2 29.65 L5.45 30.05 5.9 30.1 Q6.9 32.25 6.3 34.5 L5.95 34.75 5.6 35.05 5.45 35.15 4.6 31.8 4.15 31.5 4.15 30.65 4.45 28.8 5.2 29.65\" fill=\"#ffffff\" fill-opacity=\"0.7019608\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
       "offset": {
-        "x": 6.3,
-        "y": 20.95
+        "x": -2.25,
+        "y": -23
       }
     }
   ],
@@ -19,7 +19,7 @@ const Symbol169: Symbol = {
     [
       {
         "type": "svg",
-        "name": "Symbol169"
+        "name": "Symbol168"
       }
     ]
   ]

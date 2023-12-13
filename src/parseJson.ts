@@ -1,4 +1,4 @@
-import { Svg, Symbol } from './common';
+import { FramePart, Svg, Symbol } from './common';
 import fs from 'fs';
 
 type Json = {
@@ -78,7 +78,6 @@ type script = {
 type DOMShape = {
   name: 'DOMShape';
   attributes?: {
-    correspondingSymbol?: string;
     isFloating?: string;
   };
   elements?: (fills | strokes | edges)[];
@@ -216,87 +215,178 @@ type Color = {
   };
 };
 
-const getSvg = (symbolName: string): Svg => {
+// Some symbols XML call different SVGs, this is a map in their order of appearance
+const SVGLinks: Record<number, number[] | undefined> = {
+  1: [1, 1, 1, 1],
+  15: [7, 14],
+  41: [41],
+  44: [44],
+  45: [45],
+  46: [46],
+  47: [47],
+  48: [48],
+  49: [49],
+  50: [50],
+  51: [51],
+  52: [52],
+  53: [53],
+  54: [54],
+  55: [55],
+  56: [56],
+  57: [57],
+  58: [58],
+  59: [59],
+  60: [60],
+  63: [63],
+  64: [64],
+  65: [65],
+  66: [66],
+  67: [67],
+  68: [39, 40, 42, 43, 50, 53, 56, 57, 58, 59, 63, 64, 65],
+  115: [111],
+  143: [131, 140],
+  163: [162, 159],
+  172: [168, 171],
+  185: [181],
+  206: [196, 205],
+  230: [229, 228],
+  238: [235, 237],
+  259: [254],
+  274: [251],
+  304: [303, 300],
+  328: [327, 322, 321],
+  339: [329],
+  354: [352, 353],
+  375: [368],
+  393: [391, 392],
+  410: [363, 380, 394, 399],
+  464: [463, 460],
+  469: [465, 459],
+  526: [518, 519, 520, 521, 523],
+  541: [533, 539],
+  552: [549, 550, 551],
+  645: [638],
+  678: [675],
+  698: [695],
+  717: [714],
+  729: [720, 705],
+  770: [755, 764],
+  875: [873, 874],
+};
+
+// Some symbols XML define their own SVG in multiple DOMShapes, list them here to override the parts later
+const XMLExportingThemselves = [
+  45,
+  52,
+  54,
+  66,
+  67,
+  114,
+  127,
+  184,
+  212,
+  255,
+  260,
+  270,
+  288,
+  289,
+  319,
+  323,
+  522,
+  524,
+  525,
+  531,
+  532,
+  649,
+  687,
+  735,
+  737,
+  740,
+  753,
+  756,
+  789,
+  793,
+  872,
+  921,
+  929,
+  931,
+  933,
+];
+
+const getSvg = (symbolName: string, svgIndex: number): Svg => {
   const name = symbolName.split(' ').join('');
+  let svgNumber = +name.replace('Symbol', '');
+  let svg = '';
+
+  // Check if svg is in the links
+  const svgLink = SVGLinks[svgNumber]?.[svgIndex];
+
+  if (!svgLink) {
+    // Symbol with multiple SVGs, we need a link to be able to parse it
+    if (svgIndex > 0) {
+      throw new Error(`Missing SVG links for ${name}`);
+    }
+
+    // Use SVG at symbol - 1
+    svgNumber = svgNumber - 1;
+  } else {
+    svgNumber = svgLink;
+  }
+
   try {
     // Get the svg file
-    let svg = fs.readFileSync(`./src/svg/${name}.svg`, 'utf8');
-
-    // Set every stroke-width to 1
-    svg = svg.replace(/stroke-width="[^"]+"/g, 'stroke-width="1"');
-
-    // Increase svg width by 2
-    svg = svg.replace(/width="([^"]+)px"/, (_, width) => `width="${+width + 2}px"`);
-
-    // Increase svg height by 2
-    svg = svg.replace(/height="([^"]+)px"/, (_, height) => `height="${+height + 2}px"`);
-
-    // Increase tx and ty by 1
-    svg = svg.replace(/<g transform="matrix\(1.0, 0.0, 0.0, 1.0, ([^,]+), ([^,]+)\)">/, (_, tx, ty) => `<g transform="matrix(1.0, 0.0, 0.0, 1.0, ${+tx + 1}, ${+ty + 1})">`);
-
-    // Get the offset values from the svg file
-    const offset = svg.match(/<g transform="matrix\(1.0, 0.0, 0.0, 1.0, (.*), (.*)\)">/);
-
-    return {
-      type: 'svg',
-      name,
-      svg,
-      offset: {
-        x: offset ? +offset[1] : 0,
-        y: offset ? +offset[2] : 0,
-      },
-    
-    };
+    svg = fs.readFileSync(`./src/svg/Symbol${svgNumber}.svg`, 'utf8');
   } catch (error) {
-    // Try with name - 1
+    if (svgLink) {
+      throw new Error(`SVG ${svgLink} not found for ${name}. Export it and rerun the script.`);
+    }
+
+    // Try with initial svg number
     try {
-      const nameMinusOne = `Symbol${+name.replace('Symbol', '') - 1}`;
-      let svg = fs.readFileSync(`./src/svg/${nameMinusOne}.svg`, 'utf8');
-
-      // Set every stroke-width to 1
-      svg = svg.replace(/stroke-width="[^"]+"/g, 'stroke-width="1"');
-  
-      // Increase svg width by 2
-      svg = svg.replace(/width="([^"]+)px"/, (_, width) => `width="${+width + 2}px"`);
-  
-      // Increase svg height by 2
-      svg = svg.replace(/height="([^"]+)px"/, (_, height) => `height="${+height + 2}px"`);
-  
-      // Increase tx and ty by 1
-      svg = svg.replace(/<g transform="matrix\(1.0, 0.0, 0.0, 1.0, ([^,]+), ([^,]+)\)">/, (_, tx, ty) => `<g transform="matrix(1.0, 0.0, 0.0, 1.0, ${+tx + 1}, ${+ty + 1})">`);
-
-      // Get the offset values from the svg file
-      const offset = svg.match(/<g transform="matrix\(1.0, 0.0, 0.0, 1.0, (.*), (.*)\)">/);
-
-      return {
-        type: 'svg',
-        name: name,
-        svg,
-        offset: {
-          x: offset ? +offset[1] : 0,
-          y: offset ? +offset[2] : 0,
-        },
-      };
-
+      svgNumber = +name.replace('Symbol', '');
+      svg = fs.readFileSync(`./src/svg/Symbol${svgNumber}.svg`, 'utf8');
     } catch (error) {
-      console.log(`No SVG found for ${name}. Export it and rerun the script.`);
-      return {
-        type: 'svg',
-        name,
-        svg: 'MISSING',
-        offset: {
-          x: 0,
-          y: 0,
-        },
-      };
+      throw new Error(`SVG ${svgNumber} not found for ${name}. Export it and rerun the script.`);
     }
   }
+
+  // Set every stroke-width to 1
+  svg = svg.replace(/stroke-width="[^"]+"/g, 'stroke-width="1"');
+
+  // Increase svg width by 2
+  svg = svg.replace(/width="([^"]+)px"/, (_, width) => `width="${+width + 2}px"`);
+
+  // Increase svg height by 2
+  svg = svg.replace(/height="([^"]+)px"/, (_, height) => `height="${+height + 2}px"`);
+
+  // Increase tx and ty by 1
+  svg = svg.replace(/<g transform="matrix\(1.0, 0.0, 0.0, 1.0, ([^,]+), ([^,]+)\)">/, (_, tx, ty) => `<g transform="matrix(1.0, 0.0, 0.0, 1.0, ${+tx + 1}, ${+ty + 1})">`);
+
+  // Get the offset values from the svg file
+  const offset = svg.match(/<g transform="matrix\(1.0, 0.0, 0.0, 1.0, (.*), (.*)\)">/);
+
+  const object: Svg = {
+    type: 'svg',
+    name: `Symbol${svgNumber}`,
+    svg,
+    offset: {
+      x: offset ? +offset[1] : 0,
+      y: offset ? +offset[2] : 0,
+    },
+  };
+
+  return object;
 };
 
 const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
   if (!symbolItem) {
     throw new Error('No symbolItem');
   }
+
+  const symbolName = symbolItem.attributes?.name || '';
+  const symbolNumber = +symbolName.replace('Symbol', '');
+
+  let svgIndex = 0;
 
   const result: Symbol = {
     type: 'symbol',
@@ -307,6 +397,23 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
 
   if (!result.frames) {
     throw new Error('No frames');
+  }
+
+  // Check if an override exists
+  const override = XMLExportingThemselves.find((number) => number === symbolNumber);
+  if (override) {
+    const svg = getSvg(`Symbol${override}`, svgIndex);
+
+    // Store part details
+    result.parts?.push(svg);
+
+    // Store part frame details
+    result.frames[0] = [{
+      type: 'svg',
+      name: svg.name,
+    }];
+
+    return result;
   }
 
   const layers = symbolItem.elements?.[0].elements?.[0].elements?.[0].elements;
@@ -329,11 +436,11 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
         if (element.name === 'DOMSymbolInstance') {
           const colors = element.elements?.find((element) => element.name === 'color')?.elements?.[0] as Color | undefined;
           const matrix = element.elements?.find((element) => element.name === 'matrix')?.elements?.[0] as Matrix | undefined;
-          
+
           const customIndex = element.attributes?.name;
           const partIdx = customIndex ? customIndex.startsWith('_p') ? +customIndex.replace(/\D/g, '') : undefined : undefined;
           const colorIdx = customIndex ? customIndex.startsWith('_col') ? +customIndex.replace(/\D/g, '') : undefined : undefined;
-        
+
           // Store part details
           result.parts?.push({
             type: 'symbol',
@@ -381,27 +488,54 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
           continue;
         }
 
-        // Svg
-        const svgName = element.attributes?.correspondingSymbol
-          ? `Symbol ${element.attributes.correspondingSymbol}`
-          : (symbolItem.attributes?.name || '');
+        if (element.name === 'DOMShape') {
+          // Svg
+          const svgName = symbolItem.attributes?.name || '';
+  
+          const svg = getSvg(svgName, svgIndex);
+  
+          // Store part details
+          result.parts?.push(svg);
+  
+          // Store part frame details
+          if (!result.frames[index]) {
+            result.frames[index] = [];
+          }
 
-        const svg = getSvg(svgName);
+          const svgObject = {
+            type: 'svg',
+            name: svg.name,
+          } as FramePart;
+  
+          result.frames[index].push(svgObject);
 
-        // Store part details
-        result.parts?.push(svg);
-
-        // Store part frame details
-        if (!result.frames[index]) {
-          result.frames[index] = [];
+          // Add to next frames if duration exists
+          const duration = frame.attributes?.duration;
+          if (duration) {
+            for (let i = 1; i < +duration; i++) {
+              if (!result.frames[index + i]) {
+                result.frames[index + i] = [];
+              }
+              result.frames[index + i].push(svgObject);
+            }
+          }
+  
+          svgIndex++;
         }
-
-        result.frames[index].push({
-          type: 'svg',
-          name: svg.name,
-        });
       }
     }
+  }
+
+  // Special case for 68 (weapons), add mask to 38 when not alone
+  if (symbolNumber === 68) {
+      for (const frame of result.frames) {
+        if (frame.length > 2) {
+          const symbol38 = frame.find((part) => part.name === 'Symbol38');
+          if (symbol38) {
+            symbol38.maskedBy = 39;
+          }
+        }
+      }
   }
 
   // Revert parts
@@ -415,12 +549,12 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
       result.frames[i] = [];
     }
   }
-  
+
   return result;
 };
 
 export const parseJson = (jsonString: string): Symbol => {
   const json: Json = JSON.parse(jsonString);
-  
+
   return parseSymbol(json.elements?.[0]);
 };
