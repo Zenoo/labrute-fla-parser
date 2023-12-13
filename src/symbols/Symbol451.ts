@@ -7,31 +7,31 @@ const Symbol451: Symbol = {
   "parts": [
     {
       ...Symbol450,
-      "partIdx": 5
+      "partIdx": "_p5"
     },
     {
       ...Symbol450,
-      "partIdx": 5
+      "partIdx": "_p5"
     },
     {
       ...Symbol450,
-      "partIdx": 5
+      "partIdx": "_p5"
     },
     {
       ...Symbol450,
-      "partIdx": 5
+      "partIdx": "_p5"
     },
     {
       ...Symbol450,
-      "partIdx": 5
+      "partIdx": "_p5"
     },
     {
       ...Symbol450,
-      "partIdx": 5
+      "partIdx": "_p5"
     },
     {
       ...Symbol450,
-      "partIdx": 5
+      "partIdx": "_p5"
     }
   ],
   "frames": [

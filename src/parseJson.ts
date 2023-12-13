@@ -243,17 +243,28 @@ const SVGLinks: Record<number, number[] | undefined> = {
   66: [66],
   67: [67],
   68: [39, 40, 42, 43, 50, 53, 56, 57, 58, 59, 63, 64, 65],
+  114: [114],
   115: [111],
+  127: [127],
   143: [131, 140],
   163: [162, 159],
   172: [168, 171],
+  184: [184],
   185: [181],
   206: [196, 205],
+  212: [212],
   230: [229, 228],
   238: [235, 237],
+  255: [255],
   259: [254],
+  260: [260],
+  270: [270],
+  288: [288],
+  289: [289],
   274: [251],
   304: [303, 300],
+  319: [319],
+  323: [323],
   328: [327, 322, 321],
   339: [329],
   354: [352, 353],
@@ -262,16 +273,35 @@ const SVGLinks: Record<number, number[] | undefined> = {
   410: [363, 380, 394, 399],
   464: [463, 460],
   469: [465, 459],
+  522: [522],
+  524: [524],
+  525: [525],
   526: [518, 519, 520, 521, 523],
+  531: [531],
+  532: [532],
   541: [533, 539],
   552: [549, 550, 551],
   645: [638],
+  649: [649],
   678: [675],
+  687: [687],
   698: [695],
   717: [714],
   729: [720, 705],
+  735: [735],
+  737: [737],
+  740: [740],
+  753: [753],
+  756: [756],
   770: [755, 764],
+  789: [789],
+  793: [793],
+  872: [872],
   875: [873, 874],
+  921: [921],
+  929: [929],
+  931: [931],
+  933: [933],
 };
 
 // Some symbols XML define their own SVG in multiple DOMShapes, list them here to override the parts later
@@ -312,6 +342,14 @@ const XMLExportingThemselves = [
   931,
   933,
 ];
+
+const customSvgScale: Record<number, number> = {
+  291: 4,
+  352: 4,
+  353: 4,
+  355: 4,
+  357: 4,
+};
 
 const getSvg = (symbolName: string, svgIndex: number): Svg => {
   const name = symbolName.split(' ').join('');
@@ -374,6 +412,11 @@ const getSvg = (symbolName: string, svgIndex: number): Svg => {
       y: offset ? +offset[2] : 0,
     },
   };
+
+  // Custom scale
+  if (customSvgScale[svgNumber]) {
+    object.scale = customSvgScale[svgNumber];
+  }
 
   return object;
 };
@@ -438,8 +481,8 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
           const matrix = element.elements?.find((element) => element.name === 'matrix')?.elements?.[0] as Matrix | undefined;
 
           const customIndex = element.attributes?.name;
-          const partIdx = customIndex ? customIndex.startsWith('_p') ? +customIndex.replace(/\D/g, '') : undefined : undefined;
-          const colorIdx = customIndex ? customIndex.startsWith('_col') ? +customIndex.replace(/\D/g, '') : undefined : undefined;
+          const partIdx = customIndex ? customIndex.startsWith('_p') ? customIndex : undefined : undefined;
+          const colorIdx = customIndex ? customIndex.startsWith('_col') ? customIndex : undefined : undefined;
 
           // Store part details
           result.parts?.push({
@@ -554,6 +597,7 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
 
 export const parseJson = (jsonString: string): Symbol => {
   const json: Json = JSON.parse(jsonString);
+  const symbol = parseSymbol(json.elements?.[0]);
 
-  return parseSymbol(json.elements?.[0]);
+  return symbol;
 };

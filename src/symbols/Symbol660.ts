@@ -9,14 +9,14 @@ const Symbol660: Symbol = {
   "parts": [
     {
       ...Symbol659,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol186
     },
     {
       ...Symbol185,
-      "partIdx": 1
+      "partIdx": "_p1"
     }
   ],
   "frames": [

@@ -8,67 +8,67 @@ const Symbol29: Symbol = {
   "parts": [
     {
       ...Symbol17,
-      "colorIdx": 0
+      "colorIdx": "_col0"
     },
     {
       ...Symbol17,
-      "colorIdx": 0
+      "colorIdx": "_col0"
     },
     {
       ...Symbol17,
-      "colorIdx": 0
+      "colorIdx": "_col0"
     },
     {
       ...Symbol17,
-      "colorIdx": 0
+      "colorIdx": "_col0"
     },
     {
       ...Symbol17,
-      "colorIdx": 0
+      "colorIdx": "_col0"
     },
     {
       ...Symbol17,
-      "colorIdx": 0
+      "colorIdx": "_col0"
     },
     {
       ...Symbol17,
-      "colorIdx": 0
+      "colorIdx": "_col0"
     },
     {
       ...Symbol17,
-      "colorIdx": 0
+      "colorIdx": "_col0"
     },
     {
       ...Symbol28,
-      "partIdx": 7
+      "partIdx": "_p7"
     },
     {
       ...Symbol28,
-      "partIdx": 7
+      "partIdx": "_p7"
     },
     {
       ...Symbol28,
-      "partIdx": 7
+      "partIdx": "_p7"
     },
     {
       ...Symbol28,
-      "partIdx": 7
+      "partIdx": "_p7"
     },
     {
       ...Symbol28,
-      "partIdx": 7
+      "partIdx": "_p7"
     },
     {
       ...Symbol28,
-      "partIdx": 7
+      "partIdx": "_p7"
     },
     {
       ...Symbol28,
-      "partIdx": 7
+      "partIdx": "_p7"
     },
     {
       ...Symbol28,
-      "partIdx": 7
+      "partIdx": "_p7"
     }
   ],
   "frames": [

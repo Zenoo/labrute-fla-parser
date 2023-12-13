@@ -10,15 +10,15 @@ const Symbol375: Symbol = {
   "parts": [
     {
       ...Symbol374,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol372,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol370,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       "type": "svg",
@@ -31,7 +31,7 @@ const Symbol375: Symbol = {
     },
     {
       ...Symbol367,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     }
   ],
   "frames": [

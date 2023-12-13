@@ -13,7 +13,8 @@ const Symbol358: Symbol = {
       "offset": {
         "x": 2.95,
         "y": 1.55
-      }
+      },
+      "scale": 4
     },
     {
       ...Symbol354

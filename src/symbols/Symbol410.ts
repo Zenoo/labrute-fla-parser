@@ -26,34 +26,34 @@ const Symbol410: Symbol = {
   "parts": [
     {
       ...Symbol403,
-      "colorIdx": 1
+      "colorIdx": "_col1b"
     },
     {
       ...Symbol386,
-      "colorIdx": 1
+      "colorIdx": "_col1b"
     },
     {
       ...Symbol379,
-      "colorIdx": 1
+      "colorIdx": "_col1b"
     },
     {
       ...Symbol344,
-      "colorIdx": 0
+      "colorIdx": "_col0a"
     },
     {
       ...Symbol360
     },
     {
       ...Symbol362,
-      "colorIdx": 1
+      "colorIdx": "_col1d"
     },
     {
       ...Symbol409,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol407,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       "type": "svg",
@@ -66,7 +66,7 @@ const Symbol410: Symbol = {
     },
     {
       ...Symbol398,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       "type": "svg",
@@ -79,15 +79,15 @@ const Symbol410: Symbol = {
     },
     {
       ...Symbol393,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol390,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol384,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       "type": "svg",
@@ -109,35 +109,35 @@ const Symbol410: Symbol = {
     },
     {
       ...Symbol401,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol396,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol382,
-      "colorIdx": 1
+      "colorIdx": "_col1a"
     },
     {
       ...Symbol365,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol375,
-      "partIdx": 4
+      "partIdx": "_p4"
     },
     {
       ...Symbol377,
-      "colorIdx": 0
+      "colorIdx": "_col0c"
     },
     {
       ...Symbol405,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol388,
-      "colorIdx": 1
+      "colorIdx": "_col1a"
     }
   ],
   "frames": [

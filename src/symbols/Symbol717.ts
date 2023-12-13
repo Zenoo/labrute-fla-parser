@@ -9,7 +9,7 @@ const Symbol717: Symbol = {
   "parts": [
     {
       ...Symbol711,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       ...Symbol716

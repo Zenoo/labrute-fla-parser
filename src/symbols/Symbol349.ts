@@ -20,7 +20,7 @@ const Symbol349: Symbol = {
     },
     {
       ...Symbol347,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     }
   ],
   "frames": [

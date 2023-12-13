@@ -5,17 +5,17 @@
     {
       "type": "symbol",
       "name": "Symbol267",
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       "type": "symbol",
       "name": "Symbol265",
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       "type": "symbol",
       "name": "Symbol259",
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       "type": "symbol",
@@ -24,17 +24,17 @@
     {
       "type": "symbol",
       "name": "Symbol246",
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       "type": "symbol",
       "name": "Symbol273",
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       "type": "symbol",
       "name": "Symbol250",
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       "type": "svg",

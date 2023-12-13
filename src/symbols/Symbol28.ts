@@ -11,19 +11,19 @@ const Symbol28: Symbol = {
   "parts": [
     {
       ...Symbol17,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       ...Symbol25,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol21,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       ...Symbol19,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       ...Symbol27

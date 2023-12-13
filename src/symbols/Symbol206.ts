@@ -14,34 +14,34 @@ const Symbol206: Symbol = {
   "parts": [
     {
       ...Symbol124,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       ...Symbol204,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       ...Symbol202,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol195,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       ...Symbol128
     },
     {
       ...Symbol193,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       ...Symbol19,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       ...Symbol142,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       "type": "svg",

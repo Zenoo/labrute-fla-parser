@@ -14,19 +14,19 @@ const Symbol842: Symbol = {
     },
     {
       ...Symbol841,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol839,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       ...Symbol837,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol566,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     }
   ],
   "frames": [

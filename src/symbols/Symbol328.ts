@@ -18,11 +18,11 @@ const Symbol328: Symbol = {
     },
     {
       ...Symbol320,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       ...Symbol324,
-      "colorIdx": 3
+      "colorIdx": "_col3b"
     },
     {
       "type": "svg",
@@ -35,7 +35,7 @@ const Symbol328: Symbol = {
     },
     {
       ...Symbol326,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       "type": "svg",

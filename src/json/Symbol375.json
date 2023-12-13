@@ -5,17 +5,17 @@
     {
       "type": "symbol",
       "name": "Symbol374",
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       "type": "symbol",
       "name": "Symbol372",
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       "type": "symbol",
       "name": "Symbol370",
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       "type": "svg",
@@ -29,7 +29,7 @@
     {
       "type": "symbol",
       "name": "Symbol367",
-      "colorIdx": 1
+      "colorIdx": "_col1"
     }
   ],
   "frames": [

@@ -13,15 +13,15 @@ const Symbol574: Symbol = {
     },
     {
       ...Symbol573,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol571,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol566,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     }
   ],
   "frames": [

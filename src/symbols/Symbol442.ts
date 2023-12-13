@@ -8,11 +8,11 @@ const Symbol442: Symbol = {
   "parts": [
     {
       ...Symbol438,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       ...Symbol440,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       "type": "svg",

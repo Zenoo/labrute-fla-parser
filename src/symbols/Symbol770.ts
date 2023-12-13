@@ -15,27 +15,27 @@ const Symbol770: Symbol = {
   "parts": [
     {
       ...Symbol763,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       ...Symbol754,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       ...Symbol752,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol749,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol744,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol741,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol756
@@ -51,11 +51,11 @@ const Symbol770: Symbol = {
     },
     {
       ...Symbol761,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol769,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       "type": "svg",

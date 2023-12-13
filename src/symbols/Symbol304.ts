@@ -8,7 +8,7 @@ const Symbol304: Symbol = {
   "parts": [
     {
       ...Symbol299,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       "type": "svg",
@@ -21,7 +21,7 @@ const Symbol304: Symbol = {
     },
     {
       ...Symbol302,
-      "colorIdx": 3
+      "colorIdx": "_col3b"
     },
     {
       "type": "svg",

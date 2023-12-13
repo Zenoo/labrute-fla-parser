@@ -10,18 +10,18 @@ const Symbol698: Symbol = {
   "parts": [
     {
       ...Symbol697,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       ...Symbol642
     },
     {
       ...Symbol694,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol693,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       "type": "svg",

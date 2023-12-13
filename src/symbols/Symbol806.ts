@@ -24,23 +24,23 @@ const Symbol806: Symbol = {
   "parts": [
     {
       ...Symbol803,
-      "colorIdx": 1
+      "colorIdx": "_col1b"
     },
     {
       ...Symbol790,
-      "colorIdx": 1
+      "colorIdx": "_col1b"
     },
     {
       ...Symbol554,
-      "colorIdx": 1
+      "colorIdx": "_col1b"
     },
     {
       ...Symbol556,
-      "colorIdx": 3
+      "colorIdx": "_col3b"
     },
     {
       ...Symbol344,
-      "colorIdx": 0
+      "colorIdx": "_col0a"
     },
     {
       ...Symbol775
@@ -50,62 +50,62 @@ const Symbol806: Symbol = {
     },
     {
       ...Symbol805,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol801,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol799,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol794,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol792,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol779,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol781,
-      "colorIdx": 0
+      "colorIdx": "_col0c"
     },
     {
       ...Symbol795,
-      "partIdx": 4
+      "partIdx": "_p4"
     },
     {
       ...Symbol795,
-      "partIdx": 4
+      "partIdx": "_p4"
     },
     {
       ...Symbol556,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       ...Symbol797,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       ...Symbol797,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       ...Symbol788,
-      "partIdx": 4
+      "partIdx": "_p4"
     },
     {
       ...Symbol557
     },
     {
       ...Symbol554,
-      "colorIdx": 1
+      "colorIdx": "_col1a"
     }
   ],
   "frames": [

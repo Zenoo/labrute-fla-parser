@@ -15,7 +15,8 @@ const Symbol356: Symbol = {
       "offset": {
         "x": 4,
         "y": 3.15
-      }
+      },
+      "scale": 4
     }
   ],
   "frames": [

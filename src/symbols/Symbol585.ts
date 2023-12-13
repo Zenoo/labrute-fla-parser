@@ -12,7 +12,7 @@ const Symbol585: Symbol = {
     },
     {
       ...Symbol584,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       ...Symbol86

@@ -7,19 +7,19 @@ const Symbol147: Symbol = {
   "parts": [
     {
       ...Symbol146,
-      "partIdx": 6
+      "partIdx": "_p6"
     },
     {
       ...Symbol146,
-      "partIdx": 6
+      "partIdx": "_p6"
     },
     {
       ...Symbol146,
-      "partIdx": 6
+      "partIdx": "_p6"
     },
     {
       ...Symbol146,
-      "partIdx": 6
+      "partIdx": "_p6"
     }
   ],
   "frames": [

@@ -11,19 +11,19 @@ const Symbol562: Symbol = {
   "parts": [
     {
       ...Symbol561,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol559,
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       ...Symbol554,
-      "colorIdx": 1
+      "colorIdx": "_col1a"
     },
     {
       ...Symbol556,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       ...Symbol557

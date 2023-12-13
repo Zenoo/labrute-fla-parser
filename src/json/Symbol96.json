@@ -5,12 +5,12 @@
     {
       "type": "symbol",
       "name": "Symbol93",
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       "type": "symbol",
       "name": "Symbol95",
-      "colorIdx": 2
+      "colorIdx": "_col2"
     }
   ],
   "frames": [

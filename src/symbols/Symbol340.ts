@@ -10,19 +10,19 @@ const Symbol340: Symbol = {
   "parts": [
     {
       ...Symbol285,
-      "partIdx": 7
+      "partIdx": "_p7b"
     },
     {
       ...Symbol287,
-      "colorIdx": 0
+      "colorIdx": "_col0"
     },
     {
       ...Symbol331,
-      "colorIdx": 4
+      "colorIdx": "_col4"
     },
     {
       ...Symbol339,
-      "partIdx": 7
+      "partIdx": "_p7"
     }
   ],
   "frames": [

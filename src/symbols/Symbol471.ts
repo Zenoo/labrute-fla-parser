@@ -7,35 +7,35 @@ const Symbol471: Symbol = {
   "parts": [
     {
       ...Symbol470,
-      "partIdx": 5
+      "partIdx": "_p5"
     },
     {
       ...Symbol470,
-      "partIdx": 5
+      "partIdx": "_p5"
     },
     {
       ...Symbol470,
-      "partIdx": 5
+      "partIdx": "_p5"
     },
     {
       ...Symbol470,
-      "partIdx": 5
+      "partIdx": "_p5"
     },
     {
       ...Symbol470,
-      "partIdx": 5
+      "partIdx": "_p5"
     },
     {
       ...Symbol470,
-      "partIdx": 5
+      "partIdx": "_p5"
     },
     {
       ...Symbol470,
-      "partIdx": 5
+      "partIdx": "_p5"
     },
     {
       ...Symbol470,
-      "partIdx": 5
+      "partIdx": "_p5"
     }
   ],
   "frames": [

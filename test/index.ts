@@ -63,6 +63,24 @@ import Symbol880 from '../src/Symbols/Symbol880';
 import { FramePart, Svg, Symbol } from '../src/common';
 import ColorOffsetShader from './ColorOffsetShader';
 import { PixiHelper } from './PixiHelper';
+import Symbol289 from '../src/Symbols/Symbol289';
+import Symbol284 from '../src/Symbols/Symbol284';
+import Symbol285 from '../src/Symbols/Symbol285';
+import Symbol339 from '../src/Symbols/Symbol339';
+import Symbol419 from '../src/Symbols/Symbol419';
+import Symbol423 from '../src/Symbols/Symbol423';
+import Symbol469 from '../src/Symbols/Symbol469';
+import Symbol591 from '../src/Symbols/Symbol591';
+import Symbol37 from '../src/Symbols/Symbol37';
+import Symbol102 from '../src/Symbols/Symbol102';
+import Symbol75 from '../src/Symbols/Symbol75';
+import Symbol143 from '../src/Symbols/Symbol143';
+import Symbol173 from '../src/Symbols/Symbol173';
+import Symbol206 from '../src/Symbols/Symbol206';
+import Symbol213 from '../src/Symbols/Symbol213';
+import Symbol215 from '../src/Symbols/Symbol215';
+import Symbol239 from '../src/Symbols/Symbol239';
+import Symbol274 from '../src/Symbols/Symbol274';
 
 const bust = {
   male: Symbol504,
@@ -184,6 +202,7 @@ const app = new PIXI.Application<HTMLCanvasElement>({
 });
 
 document.body.appendChild(app.view);
+document.body.style.backgroundColor = '#333';
 
 const viewport = app.stage.addChild(new PIXI.Container());
 app.renderer.render(app.stage);
@@ -195,7 +214,7 @@ let weaponMask: PIXI.Sprite | null = null;
 const initializeParts = (
   bruteState: BruteState,
   parts: (Symbol | Svg)[],
-  colorIdx?: number
+  colorIdx?: string,
 ) => {
   const partContainers: PartContainer[] = [];
 
@@ -220,8 +239,10 @@ const initializeParts = (
         return;
       }
 
-      const svg = new PIXI.Sprite(Texture.from(part.svg));
-      svg.scale.set(SCALE);
+      const svg = new PIXI.Sprite(Texture.from(part.svg, {
+        resourceOptions: { scale: SCALE * (part.scale ?? 1) }
+      }));
+      svg.scale.set(1 / (part.scale ?? 1));
       svgCount++;
 
       // Apply offset
@@ -232,7 +253,7 @@ const initializeParts = (
 
       // Apply color
       if (colorIdx) {
-        const color = bruteState.colorIdx[colorIdx - 1];
+        const color = bruteState.colors[colorIdx];
         if (!color) {
           throw new Error(`Color ${colorIdx} not found`);
         }
@@ -328,7 +349,7 @@ const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
 
   // Display correct part
   if (partContainer.source?.type === 'symbol' && partContainer.source.partIdx) {
-    const partIdx = bruteState.partIdx[partContainer.source.partIdx - 1];
+    const partIdx = bruteState.parts[partContainer.source.partIdx];
 
     if (partIdx === undefined) {
       throw new Error(`Part ${partContainer.source.partIdx} not found`);
@@ -353,6 +374,7 @@ const displaySymbol = (bruteState: BruteState, x?: number, y?: number) => {
 
   // Get animation symbol
   const symbol = animations[bruteState.gender][bruteState.animation] as Symbol | undefined;
+  // const symbol = Symbol285;
 
   if (!symbol) {
     throw new Error(`Animation ${bruteState.animation} not found`);
@@ -363,7 +385,7 @@ const displaySymbol = (bruteState: BruteState, x?: number, y?: number) => {
     symbolContainer.addChild(...initializeParts(bruteState, symbol.parts));
   }
 
-  symbol.frames?.[bruteState.frame].forEach(part => {
+  symbol.frames?.[bruteState.frame]?.forEach(part => {
     displayPart(symbolContainer.children, part);
   });
 
@@ -376,32 +398,47 @@ type BruteState = {
   gender: 'male' | 'female';
   shield: boolean;
   weapon: string | null;
-  colorIdx: string[];
-  partIdx: number[];
+  colors: Record<string, string>;
+  parts: Record<string, number>;
 };
 
 const bruteState: BruteState = {
   animation: 'win',
-  frame: 54,
+  frame: 1,
   gender: 'male',
   shield: false,
   weapon: 'morningStar',
-  colorIdx: [
-    '#ff0000', // Hair
-    '#00ff00', // ?
-    '#0000ff', // ?
-    '#ffff00', // ?
-  ],
-  partIdx: [
-    0, // ?
-    0, // Biceps strength
-    1, // Hair
-    1, // Beard
-    0, // ?
-    0, // ?
-    0, // ?
-    0, // ?
-  ],
+  colors: {
+    _col0: '#800000',  // Skin
+    _col0a: '#aaffc3',  // Face
+    _col0c: '#808000',  // ?
+    _col1: '#e6194b',  // Hair
+    _col1a: '#3cb44b', // ?
+    _col1b: '#ffe119', // ?
+    _col1c: '#4363d8', // ?
+    _col1d: '#f58231', // ?
+    _col2: '#911eb4',  // ??
+    _col2a: '#46f0f0', // ??
+    _col2b: '#f032e6', // ??
+    _col3: '#bcf60c',  // Upper legs + torso accents
+    _col3b: '#fabebe', // ??
+    _col4: '#008080',  // ??
+    _col4a: '#e6beff', // ??
+    _col4b: '#9a6324', // ??
+  },
+  parts: {
+    _p1: 0,  // ? [0-1] 1=BROKEN
+    _p1a: 0, // 1=belt
+    _p1b: 0, // 1=roman belt
+    _p2: 0,  // Biceps strength
+    _p3: 0,  // Hair
+    _p4: 0,  // Beard
+    _p5: 0,  // Body size (small = 0, big = 7)
+    _p6: 0,  // 0 = top legs color, 1 = bottom legs color
+    _p7: 3,  // Main clothing [0-6]
+    _p7b: 0, // ?
+    _p8: 0,  // ?
+  },
 };
 
 const symbol = displaySymbol(bruteState, 200, 200);

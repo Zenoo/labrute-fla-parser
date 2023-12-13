@@ -12,7 +12,8 @@ const Symbol354: Symbol = {
       "offset": {
         "x": 4.85,
         "y": 2.75
-      }
+      },
+      "scale": 4
     },
     {
       "type": "svg",
@@ -21,7 +22,8 @@ const Symbol354: Symbol = {
       "offset": {
         "x": 3.45,
         "y": 3.2
-      }
+      },
+      "scale": 4
     }
   ],
   "frames": [

@@ -17,7 +17,7 @@ const Symbol115: Symbol = {
     },
     {
       ...Symbol113,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       ...Symbol114

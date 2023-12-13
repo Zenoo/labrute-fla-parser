@@ -8,7 +8,7 @@ const Symbol845: Symbol = {
   "parts": [
     {
       ...Symbol844,
-      "partIdx": 2
+      "partIdx": "_p2"
     },
     {
       ...Symbol473

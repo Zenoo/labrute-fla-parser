@@ -7,35 +7,35 @@ const Symbol175: Symbol = {
   "parts": [
     {
       ...Symbol174,
-      "partIdx": 6
+      "partIdx": "_p6"
     },
     {
       ...Symbol174,
-      "partIdx": 6
+      "partIdx": "_p6"
     },
     {
       ...Symbol174,
-      "partIdx": 6
+      "partIdx": "_p6"
     },
     {
       ...Symbol174,
-      "partIdx": 6
+      "partIdx": "_p6"
     },
     {
       ...Symbol174,
-      "partIdx": 6
+      "partIdx": "_p6"
     },
     {
       ...Symbol174,
-      "partIdx": 6
+      "partIdx": "_p6"
     },
     {
       ...Symbol174,
-      "partIdx": 6
+      "partIdx": "_p6"
     },
     {
       ...Symbol174,
-      "partIdx": 6
+      "partIdx": "_p6"
     }
   ],
   "frames": [

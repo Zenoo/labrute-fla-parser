@@ -7,7 +7,7 @@ const Symbol35: Symbol = {
   "parts": [
     {
       ...Symbol34,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     }
   ],
   "frames": [

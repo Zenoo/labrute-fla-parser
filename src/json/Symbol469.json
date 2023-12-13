@@ -5,17 +5,17 @@
     {
       "type": "symbol",
       "name": "Symbol468",
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       "type": "symbol",
       "name": "Symbol464",
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       "type": "symbol",
       "name": "Symbol458",
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       "type": "symbol",
@@ -24,12 +24,12 @@
     {
       "type": "symbol",
       "name": "Symbol73",
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       "type": "symbol",
       "name": "Symbol19",
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       "type": "svg",

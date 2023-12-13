@@ -5,7 +5,7 @@
     {
       "type": "symbol",
       "name": "Symbol188",
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       "type": "symbol",
@@ -14,7 +14,7 @@
     {
       "type": "symbol",
       "name": "Symbol185",
-      "partIdx": 1
+      "partIdx": "_p1"
     }
   ],
   "frames": [

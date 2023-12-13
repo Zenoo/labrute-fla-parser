@@ -5,27 +5,27 @@
     {
       "type": "symbol",
       "name": "Symbol803",
-      "colorIdx": 1
+      "colorIdx": "_col1b"
     },
     {
       "type": "symbol",
       "name": "Symbol790",
-      "colorIdx": 1
+      "colorIdx": "_col1b"
     },
     {
       "type": "symbol",
       "name": "Symbol554",
-      "colorIdx": 1
+      "colorIdx": "_col1b"
     },
     {
       "type": "symbol",
       "name": "Symbol556",
-      "colorIdx": 3
+      "colorIdx": "_col3b"
     },
     {
       "type": "symbol",
       "name": "Symbol344",
-      "colorIdx": 0
+      "colorIdx": "_col0a"
     },
     {
       "type": "symbol",
@@ -38,67 +38,67 @@
     {
       "type": "symbol",
       "name": "Symbol805",
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       "type": "symbol",
       "name": "Symbol801",
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       "type": "symbol",
       "name": "Symbol799",
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       "type": "symbol",
       "name": "Symbol794",
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       "type": "symbol",
       "name": "Symbol792",
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       "type": "symbol",
       "name": "Symbol779",
-      "colorIdx": 1
+      "colorIdx": "_col1"
     },
     {
       "type": "symbol",
       "name": "Symbol781",
-      "colorIdx": 0
+      "colorIdx": "_col0c"
     },
     {
       "type": "symbol",
       "name": "Symbol795",
-      "partIdx": 4
+      "partIdx": "_p4"
     },
     {
       "type": "symbol",
       "name": "Symbol795",
-      "partIdx": 4
+      "partIdx": "_p4"
     },
     {
       "type": "symbol",
       "name": "Symbol556",
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       "type": "symbol",
       "name": "Symbol797",
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       "type": "symbol",
       "name": "Symbol797",
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       "type": "symbol",
       "name": "Symbol788",
-      "partIdx": 4
+      "partIdx": "_p4"
     },
     {
       "type": "symbol",
@@ -107,7 +107,7 @@
     {
       "type": "symbol",
       "name": "Symbol554",
-      "colorIdx": 1
+      "colorIdx": "_col1a"
     }
   ],
   "frames": [

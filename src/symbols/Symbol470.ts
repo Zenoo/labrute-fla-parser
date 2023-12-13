@@ -8,11 +8,11 @@ const Symbol470: Symbol = {
   "parts": [
     {
       ...Symbol17,
-      "colorIdx": 0
+      "colorIdx": "_col0"
     },
     {
       ...Symbol469,
-      "partIdx": 7
+      "partIdx": "_p7"
     }
   ],
   "frames": [

@@ -9,7 +9,7 @@ const Symbol259: Symbol = {
   "parts": [
     {
       ...Symbol253,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       "type": "svg",
@@ -22,11 +22,11 @@ const Symbol259: Symbol = {
     },
     {
       ...Symbol258,
-      "partIdx": 1
+      "partIdx": "_p1b"
     },
     {
       ...Symbol256,
-      "partIdx": 1
+      "partIdx": "_p1a"
     }
   ],
   "frames": [

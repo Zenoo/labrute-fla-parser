@@ -9,14 +9,14 @@ const Symbol120: Symbol = {
   "parts": [
     {
       ...Symbol119,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       ...Symbol117
     },
     {
       ...Symbol115,
-      "partIdx": 1
+      "partIdx": "_p1"
     }
   ],
   "frames": [

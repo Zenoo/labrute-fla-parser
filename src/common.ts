@@ -7,6 +7,7 @@ export type Svg = {
     x: number;
     y: number;
   };
+  scale?: number;
 };
 
 export type FramePart = {
@@ -36,6 +37,6 @@ export type Symbol = {
   parts?: (Symbol | Svg)[];
   frames?: FramePart[][]
   // Sub symbol
-  partIdx?: number;
-  colorIdx?: number;
+  partIdx?: string;
+  colorIdx?: string;
 }

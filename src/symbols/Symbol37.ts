@@ -16,7 +16,7 @@ const Symbol37: Symbol = {
     },
     {
       ...Symbol35,
-      "partIdx": 1
+      "partIdx": "_p1"
     }
   ],
   "frames": [

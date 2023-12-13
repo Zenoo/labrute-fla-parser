@@ -12,27 +12,27 @@ const Symbol679: Symbol = {
   "parts": [
     {
       ...Symbol678,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol672,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol670,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol665,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol664,
-      "colorIdx": 3
+      "colorIdx": "_col3"
     },
     {
       ...Symbol566,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     }
   ],
   "frames": [

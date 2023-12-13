@@ -9,15 +9,15 @@ const Symbol831: Symbol = {
   "parts": [
     {
       ...Symbol830,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol583,
-      "colorIdx": 2
+      "colorIdx": "_col2"
     },
     {
       ...Symbol585,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       "type": "svg",

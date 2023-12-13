@@ -5,17 +5,17 @@
     {
       "type": "symbol",
       "name": "Symbol650",
-      "partIdx": 7
+      "partIdx": "_p7b"
     },
     {
       "type": "symbol",
       "name": "Symbol652",
-      "colorIdx": 0
+      "colorIdx": "_col0"
     },
     {
       "type": "symbol",
       "name": "Symbol660",
-      "partIdx": 7
+      "partIdx": "_p7"
     }
   ],
   "frames": [

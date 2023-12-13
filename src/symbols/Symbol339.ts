@@ -13,30 +13,30 @@ const Symbol339: Symbol = {
   "parts": [
     {
       ...Symbol338,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol328,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol318,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol312,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol304
     },
     {
       ...Symbol297,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       ...Symbol290,
-      "partIdx": 1
+      "partIdx": "_p1"
     },
     {
       "type": "svg",

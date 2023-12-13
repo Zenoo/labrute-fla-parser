@@ -12,7 +12,8 @@ const Symbol292: Symbol = {
       "offset": {
         "x": 5.05,
         "y": 5.9
-      }
+      },
+      "scale": 4
     }
   ],
   "frames": [

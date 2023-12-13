@@ -7,7 +7,7 @@ const Symbol423: Symbol = {
   "parts": [
     {
       ...Symbol422,
-      "partIdx": 1
+      "partIdx": "_p1"
     }
   ],
   "frames": [
