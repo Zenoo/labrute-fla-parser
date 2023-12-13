@@ -191,7 +191,11 @@ app.stage.addChild(viewport);
 
 let svgCount = 0;
 
-const initializeParts = (parts: (Symbol | Svg)[]) => {
+const initializeParts = (
+  bruteState: BruteState,
+  parts: (Symbol | Svg)[],
+  colorIdx?: number
+) => {
   const partContainers: PartContainer[] = [];
 
   parts.forEach((part) => {
@@ -202,15 +206,10 @@ const initializeParts = (parts: (Symbol | Svg)[]) => {
 
     if (part.type === 'symbol') {
       if (part.parts) {
-        const innerParts = initializeParts(part.parts);
+        const innerParts = initializeParts(bruteState, part.parts, part.colorIdx);
         if (innerParts.length) {
           container.addChild(...innerParts);
         }
-      }
-      // Apply color
-      if (part.colorIdx) {
-        // TODO: Apply color from config object
-        // container.color = '#0000ff';
       }
     }
 
@@ -223,6 +222,16 @@ const initializeParts = (parts: (Symbol | Svg)[]) => {
       if (part.offset) {
         svg.x = -(part.offset.x ?? 0) * SCALE;
         svg.y = -(part.offset.y ?? 0) * SCALE;
+      }
+
+      // Apply color
+      if (colorIdx) {
+        const color = bruteState.colorIdx[colorIdx - 1];
+        if (!color) {
+          throw new Error(`Color ${colorIdx} not found`);
+        }
+
+        svg.tint = parseInt(color.replace('#', ''), 16);
       }
 
       container.addChild(svg);
@@ -306,6 +315,17 @@ const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
     partContainer.visible = bruteState.shield;
   }
 
+  // Display correct part
+  if (partContainer.source?.type === 'symbol' && partContainer.source.partIdx) {
+    const partIdx = bruteState.partIdx[partContainer.source.partIdx - 1];
+
+    if (partIdx === undefined) {
+      throw new Error(`Part ${partContainer.source.partIdx} not found`);
+    }
+
+    frameToDisplay = partIdx;
+  }
+
   if (source.type === 'symbol' && source.frames?.[frameToDisplay]) {
     source.frames?.[frameToDisplay].forEach(childPart => {
       displayPart(partContainer.children as PIXI.DisplayObject[], childPart);
@@ -329,7 +349,7 @@ const displaySymbol = (bruteState: BruteState, x?: number, y?: number) => {
 
   // Initialize all parts
   if (symbol.parts) {
-    symbolContainer.addChild(...initializeParts(symbol.parts));
+    symbolContainer.addChild(...initializeParts(bruteState, symbol.parts));
   }
 
   symbol.frames?.[bruteState.frame].forEach(part => {
@@ -345,6 +365,8 @@ type BruteState = {
   gender: 'male' | 'female';
   shield: boolean;
   weapon: string | null;
+  colorIdx: string[];
+  partIdx: number[];
 };
 
 const bruteState: BruteState = {
@@ -353,6 +375,22 @@ const bruteState: BruteState = {
   gender: 'male',
   shield: false,
   weapon: 'morningStar',
+  colorIdx: [
+    '#ff0000', // Hair
+    '#00ff00', // ?
+    '#0000ff', // ?
+    '#ffff00', // ?
+  ],
+  partIdx: [
+    0, // ?
+    0, // Biceps
+    1, // Hair
+    1, // Beard
+    0, // ?
+    0, // ?
+    0, // ?
+    0, // ?
+  ],
 };
 
 const symbol = displaySymbol(bruteState, 200, 200);
