@@ -444,6 +444,10 @@ const displaySymbol = (bruteState: BruteState, x?: number, y?: number) => {
 
   // TODO: Add filter to replace color by grey if panther
   if (bruteState.type === 'panther') {
+    symbolContainer.filters = [new Filter(undefined, ColorOffsetShader, {
+      offset: new Float32Array([-82, -97, -82]),
+      mult: new Float32Array([1, 1, 1])
+    })];
   }
 
   return symbolContainer;
