@@ -60,27 +60,29 @@ import Symbol877 from '../src/Symbols/Symbol877';
 import Symbol878 from '../src/Symbols/Symbol878';
 import Symbol879 from '../src/Symbols/Symbol879';
 import Symbol880 from '../src/Symbols/Symbol880';
+import Symbol894 from '../src/Symbols/Symbol894';
+import Symbol903 from '../src/Symbols/Symbol903';
+import Symbol904 from '../src/Symbols/Symbol904';
+import Symbol905 from '../src/Symbols/Symbol905';
+import Symbol906 from '../src/Symbols/Symbol906';
+import Symbol907 from '../src/Symbols/Symbol907';
+import Symbol910 from '../src/Symbols/Symbol910';
+import Symbol911 from '../src/Symbols/Symbol911';
+import Symbol912 from '../src/Symbols/Symbol912';
+import Symbol913 from '../src/Symbols/Symbol913';
+import Symbol935 from '../src/Symbols/Symbol935';
+import Symbol936 from '../src/Symbols/Symbol936';
+import Symbol937 from '../src/Symbols/Symbol937';
+import Symbol938 from '../src/Symbols/Symbol938';
+import Symbol939 from '../src/Symbols/Symbol939';
+import Symbol940 from '../src/Symbols/Symbol940';
+import Symbol941 from '../src/Symbols/Symbol941';
+import Symbol942 from '../src/Symbols/Symbol942';
+import Symbol943 from '../src/Symbols/Symbol943';
+import Symbol944 from '../src/Symbols/Symbol944';
 import { FramePart, Svg, Symbol } from '../src/common';
 import ColorOffsetShader from './ColorOffsetShader';
 import { PixiHelper } from './PixiHelper';
-import Symbol289 from '../src/Symbols/Symbol289';
-import Symbol284 from '../src/Symbols/Symbol284';
-import Symbol285 from '../src/Symbols/Symbol285';
-import Symbol339 from '../src/Symbols/Symbol339';
-import Symbol419 from '../src/Symbols/Symbol419';
-import Symbol423 from '../src/Symbols/Symbol423';
-import Symbol469 from '../src/Symbols/Symbol469';
-import Symbol591 from '../src/Symbols/Symbol591';
-import Symbol37 from '../src/Symbols/Symbol37';
-import Symbol102 from '../src/Symbols/Symbol102';
-import Symbol75 from '../src/Symbols/Symbol75';
-import Symbol143 from '../src/Symbols/Symbol143';
-import Symbol173 from '../src/Symbols/Symbol173';
-import Symbol206 from '../src/Symbols/Symbol206';
-import Symbol213 from '../src/Symbols/Symbol213';
-import Symbol215 from '../src/Symbols/Symbol215';
-import Symbol239 from '../src/Symbols/Symbol239';
-import Symbol274 from '../src/Symbols/Symbol274';
 
 const bust = {
   male: Symbol504,
@@ -150,6 +152,30 @@ const animations = {
     train2: Symbol879,
     eat: Symbol880,
   },
+  dog: {
+    idle: Symbol894,
+    attack: Symbol903,
+    arrive: Symbol904,
+    hit: Symbol905,
+    run: Symbol906,
+    evade: Symbol907,
+    death: Symbol910,
+    grab: Symbol911,
+    grabbed: Symbol912,
+    trapped: Symbol913,
+  },
+  bear: {
+    idle: Symbol935,
+    attack: Symbol936,
+    arrive: Symbol937,
+    hit: Symbol938,
+    run: Symbol939,
+    evade: Symbol940,
+    death: Symbol941,
+    grab: Symbol942,
+    grabbed: Symbol943,
+    trapped: Symbol944,
+  },
 };
 
 const WEAPON_SYMBOL = 'Symbol68';
@@ -190,7 +216,7 @@ type PartContainer = PIXI.Container & {
   source?: Symbol | Svg;
 };
 
-const SCALE = 2;
+const SCALE = 1;
 
 const app = new PIXI.Application<HTMLCanvasElement>({
   backgroundColor: 0xfbf7c0,
@@ -239,16 +265,25 @@ const initializeParts = (
         return;
       }
 
+      // Custom scale
+      let customScale = part.scale ?? 1;
+      const size = SCALE * (bruteState.type === 'panther' ? 1.5 : 1);
+
+      // Special case for pets
+      if (bruteState.type === 'dog' || bruteState.type === 'bear' || bruteState.type === 'panther') {
+        customScale = 4;
+      }
+
       const svg = new PIXI.Sprite(Texture.from(part.svg, {
-        resourceOptions: { scale: SCALE * (part.scale ?? 1) }
+        resourceOptions: { scale: size * customScale }
       }));
-      svg.scale.set(1 / (part.scale ?? 1));
+      svg.scale.set(1 / customScale);
       svgCount++;
 
       // Apply offset
       if (part.offset) {
-        svg.x = -(part.offset.x ?? 0) * SCALE;
-        svg.y = -(part.offset.y ?? 0) * SCALE;
+        svg.x = -(part.offset.x ?? 0) * size;
+        svg.y = -(part.offset.y ?? 0) * size;
       }
 
       // Apply color
@@ -283,7 +318,7 @@ const getPartContainer = (parts: PIXI.DisplayObject[], type: 'symbol' | 'svg', n
   return (parts as PartContainer[]).find(part => part.source?.type === type && part.name === name);
 };
 
-const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
+const displayPart = (bruteState: BruteState, parts: PIXI.DisplayObject[], part: FramePart) => {
   // Skip 39 as it's a mask
   if (part.name === 'Symbol39') {
     return;
@@ -297,7 +332,8 @@ const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
 
   // Apply transform
   if (part.transform) {
-    partContainer.transform.setFromMatrix(PixiHelper.matrixFromObject(part.transform, SCALE));
+    const size = SCALE * (bruteState.type === 'panther' ? 1.5 : 1);
+    partContainer.transform.setFromMatrix(PixiHelper.matrixFromObject(part.transform, size));
   }
 
   // Apply color offset
@@ -364,7 +400,7 @@ const displayPart = (parts: PIXI.DisplayObject[], part: FramePart) => {
 
   if (source.type === 'symbol' && source.frames?.[frameToDisplay]) {
     source.frames?.[frameToDisplay].forEach(childPart => {
-      displayPart(partContainer.children as PIXI.DisplayObject[], childPart);
+      displayPart(bruteState, partContainer.children as PIXI.DisplayObject[], childPart);
     });
   }
 };
@@ -376,8 +412,10 @@ const displaySymbol = (bruteState: BruteState, x?: number, y?: number) => {
   symbolContainer.x = x ?? 0;
   symbolContainer.y = y ?? 0;
 
+  const type = bruteState.type === 'panther' ? 'dog' : bruteState.type;
+
   // Get animation symbol
-  const symbol = animations[bruteState.gender][bruteState.animation] as Symbol | undefined;
+  const symbol = animations[type][bruteState.animation] as Symbol | undefined;
   // const symbol = Symbol285;
 
   if (!symbol) {
@@ -390,8 +428,12 @@ const displaySymbol = (bruteState: BruteState, x?: number, y?: number) => {
   }
 
   symbol.frames?.[bruteState.frame]?.forEach(part => {
-    displayPart(symbolContainer.children, part);
+    displayPart(bruteState, symbolContainer.children, part);
   });
+
+  // TODO: Add filter to replace color by grey if panther
+  if (bruteState.type === 'panther') {
+  }
 
   return symbolContainer;
 };
@@ -399,7 +441,7 @@ const displaySymbol = (bruteState: BruteState, x?: number, y?: number) => {
 type BruteState = {
   animation: string;
   frame: number;
-  gender: 'male' | 'female';
+  type: 'male' | 'female' | 'dog' | 'bear' | 'panther';
   shield: boolean;
   weapon: string | null;
   colors: Record<string, string>;
@@ -407,9 +449,9 @@ type BruteState = {
 };
 
 const bruteState: BruteState = {
-  animation: 'win',
-  frame: 40,
-  gender: 'male',
+  animation: 'idle',
+  frame: 0,
+  type: 'panther',
   shield: false,
   weapon: 'axe',
   colors: {
@@ -451,4 +493,4 @@ console.log(`SVG count: ${svgCount}`);
 
 viewport.addChild(symbol);
 
-// bottom leg clothes: 628 > 627 > 626 > 625
+// TODO: bear and dog are missing parts
