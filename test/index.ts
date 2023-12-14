@@ -226,7 +226,7 @@ const initializeParts = (
 
     if (part.type === 'symbol') {
       if (part.parts) {
-        const innerParts = initializeParts(bruteState, part.parts, part.colorIdx);
+        const innerParts = initializeParts(bruteState, part.parts, part.colorIdx ?? colorIdx);
         if (innerParts.length) {
           container.addChild(...innerParts);
         }
@@ -256,6 +256,10 @@ const initializeParts = (
         const color = bruteState.colors[colorIdx];
         if (!color) {
           throw new Error(`Color ${colorIdx} not found`);
+        }
+
+        if (part.name === 'Symbol566') {
+          console.log(color);
         }
 
         svg.tint = parseInt(color.replace('#', ''), 16);
@@ -404,40 +408,40 @@ type BruteState = {
 
 const bruteState: BruteState = {
   animation: 'win',
-  frame: 1,
-  gender: 'female',
+  frame: 40,
+  gender: 'male',
   shield: false,
   weapon: 'axe',
   colors: {
-    _col0: '#800000',  // Skin
-    _col0a: '#aaffc3',  // Face
-    _col0c: '#808000',  // ?
-    _col1: '#e6194b',  // Hair
-    _col1a: '#3cb44b', // Hait back
-    _col1b: '#ffe119', // ?
-    _col1c: '#4363d8', // Hair front
-    _col1d: '#f58231', // ?
-    _col2: '#911eb4',  // ??
-    _col2a: '#46f0f0', // ??
-    _col2b: '#f032e6', // ??
-    _col3: '#bcf60c',  // Upper legs + torso accents
-    _col3b: '#fabebe', // Other torso accents
-    _col4: '#008080',  // ??
-    _col4a: '#e6beff', // ??
-    _col4b: '#9a6324', // ??
+    _col0: '#eaaca6',  // Skin
+    _col0a: '#eaaca6',  // Face
+    _col0c: '#eaaca6',  // Ear
+    _col1: '#ffaa1e',  // Hair
+    _col1a: '#ffaa1e', // Hair back
+    _col1b: '#ffaa1e', // Hair back 2
+    _col1c: '#ffaa1e', // Hair front
+    _col1d: '#ffaa1e', // Eyebrows
+    _col3: '#bb1111',  // Primary (includes eyes)
+    _col2: '#8ba3d7',  // Secondary
+    _col2b: '#7a73c8', // Accent 1
+    _col3b: '#fae31f', // Accent 2
+    _col2a: '#fff9ae', // Accent 3
+    _col4: '#559399',  // Shirt
+    _col4a: '#00ff00', // Shoes accent ?
+    _col4b: '#0000ff', // ??
   },
   parts: {
-    _p1: 1,  // Armor variation [0-1] (dosn't work with p7=0)
-    _p1a: 0, // [0-1] 0=belt (only with p7=2)
-    _p1b: 0, // 0=roman belt (only with p7=2)
-    _p2: 0,  // Biceps strength
-    _p3: 0,  // Hair
-    _p4: 0,  // Beard
-    _p5: 0,  // Body size (small = 0, big = 7)
-    _p6: 0,  // 0 = top legs color, 1 = bottom legs color
-    _p7: 2,  // Main clothing [0-6]
-    _p7b: 2, // Shoes (2 = sandals, others nothing?)
-    _p8: 0,  // ?
+    _p2: 7,  // Body size (small = 0, big = 7)
+    _p3: 5,  // Hair [0-11] 12 = no head
+    _p4: 3,  // (male) Beard [0-4] 5 = nothing / (female) Front hair [0-2] 3 = nothing
+    _p7: 0,  // Main clothing [0-6] 7 = naked
+    _p1: 0,  // Armor variation [0-1]
+    _p1a: 0, // [0-1] 0=belt, 1=nothing
+    _p1b: 0, // 0=roman belt, 1=nothing
+    _p6: 0,  // (male) 0=shorts, 1=trousers / (female) 0=shorts, 1=nothing
+    _p8: 0,  // [0-4] Supposed to be shoes but doesn't change anything ??
+    _p7b: 2, // Shoes underside (2 = visible, others = hidden)
+    _p5: 0,  // ?? broken after 0
   },
 };
 
@@ -446,3 +450,5 @@ const symbol = displaySymbol(bruteState, 200, 200);
 console.log(`SVG count: ${svgCount}`);
 
 viewport.addChild(symbol);
+
+// bottom leg clothes: 628 > 627 > 626 > 625
