@@ -314,17 +314,22 @@ const initializeParts = (
   return partContainers;
 };
 
-const getPartContainer = (parts: PIXI.DisplayObject[], type: 'symbol' | 'svg', name: string) => {
-  return (parts as PartContainer[]).find(part => part.source?.type === type && part.name === name);
+const getPartContainer = (
+  parts: PIXI.DisplayObject[],
+  type: 'symbol' | 'svg',
+  name: string,
+  twinIndex: number,
+) => {
+  return (parts as PartContainer[]).filter(part => part.source?.type === type && part.name === name)[twinIndex];
 };
 
-const displayPart = (bruteState: BruteState, parts: PIXI.DisplayObject[], part: FramePart) => {
+const displayPart = (bruteState: BruteState, parts: PIXI.DisplayObject[], part: FramePart, twinIndex: number) => {
   // Skip 39 as it's a mask
   if (part.name === 'Symbol39') {
     return;
   }
 
-  const partContainer = getPartContainer(parts, part.type, part.name);
+  const partContainer = getPartContainer(parts, part.type, part.name, twinIndex);
 
   if (!partContainer) {
     throw new Error(`Part ${part.type}:${part.name} not found`);
@@ -400,7 +405,10 @@ const displayPart = (bruteState: BruteState, parts: PIXI.DisplayObject[], part: 
 
   if (source.type === 'symbol' && source.frames?.[frameToDisplay]) {
     source.frames?.[frameToDisplay].forEach(childPart => {
-      displayPart(bruteState, partContainer.children as PIXI.DisplayObject[], childPart);
+      // Get amount of same symbols
+      const twinParts = source.frames?.[frameToDisplay].filter(part => part.name === childPart.name && part.type === childPart.type);
+
+      displayPart(bruteState, partContainer.children as PIXI.DisplayObject[], childPart, (twinParts?.length || 0) - 1);
     });
   }
 };
@@ -428,7 +436,10 @@ const displaySymbol = (bruteState: BruteState, x?: number, y?: number) => {
   }
 
   symbol.frames?.[bruteState.frame]?.forEach(part => {
-    displayPart(bruteState, symbolContainer.children, part);
+    // Get amount of same symbols
+    const twinParts = symbol.frames?.[bruteState.frame].filter(p => p.name === part.name && p.type === part.type);
+
+    displayPart(bruteState, symbolContainer.children, part, (twinParts?.length || 0) - 1);
   });
 
   // TODO: Add filter to replace color by grey if panther
