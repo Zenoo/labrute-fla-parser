@@ -405,38 +405,38 @@ type BruteState = {
 const bruteState: BruteState = {
   animation: 'win',
   frame: 1,
-  gender: 'male',
+  gender: 'female',
   shield: false,
-  weapon: 'morningStar',
+  weapon: 'axe',
   colors: {
     _col0: '#800000',  // Skin
     _col0a: '#aaffc3',  // Face
     _col0c: '#808000',  // ?
     _col1: '#e6194b',  // Hair
-    _col1a: '#3cb44b', // ?
+    _col1a: '#3cb44b', // Hait back
     _col1b: '#ffe119', // ?
-    _col1c: '#4363d8', // ?
+    _col1c: '#4363d8', // Hair front
     _col1d: '#f58231', // ?
     _col2: '#911eb4',  // ??
     _col2a: '#46f0f0', // ??
     _col2b: '#f032e6', // ??
     _col3: '#bcf60c',  // Upper legs + torso accents
-    _col3b: '#fabebe', // ??
+    _col3b: '#fabebe', // Other torso accents
     _col4: '#008080',  // ??
     _col4a: '#e6beff', // ??
     _col4b: '#9a6324', // ??
   },
   parts: {
-    _p1: 0,  // ? [0-1] 1=BROKEN
-    _p1a: 0, // 1=belt
-    _p1b: 0, // 1=roman belt
+    _p1: 1,  // Armor variation [0-1] (dosn't work with p7=0)
+    _p1a: 0, // [0-1] 0=belt (only with p7=2)
+    _p1b: 0, // 0=roman belt (only with p7=2)
     _p2: 0,  // Biceps strength
     _p3: 0,  // Hair
     _p4: 0,  // Beard
     _p5: 0,  // Body size (small = 0, big = 7)
     _p6: 0,  // 0 = top legs color, 1 = bottom legs color
-    _p7: 3,  // Main clothing [0-6]
-    _p7b: 0, // ?
+    _p7: 2,  // Main clothing [0-6]
+    _p7b: 2, // Shoes (2 = sandals, others nothing?)
     _p8: 0,  // ?
   },
 };

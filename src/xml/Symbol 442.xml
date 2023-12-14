@@ -1,69 +1,74 @@
-<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 442" lastModified="1701887458">
-<timeline>
-<DOMTimeline name="Symbol 442">
-<layers>
-<DOMLayer name="Layer 1" color="#85e0ef">
-<frames>
-<DOMFrame index="0" keyMode="9728">
-<elements/>
-</DOMFrame>
-<DOMFrame index="1" keyMode="9728">
-<elements>
-<DOMShape isFloating="true">
-<fills>
-<FillStyle index="1">
-<SolidColor color="#ffffff"/>
-</FillStyle>
-</fills>
-<strokes/>
-<edges>
-<Edge fillStyle1="1" edges="! 202 -136[ 283 -114 283 -91| 275 -81[ 264 -73 250 -73| 173 -85| 98 -112| 4 -144| -19 -150| 5 -161| 43 -164| 44 -162| 76 -161| 76 -159| 87 -158| 115 -153| 202 -136"/>
-<Edge fillStyle1="1" edges="! 76 -75| 90 -61[ 90 -50 57 -50| 3 -57[ -19 -63 -19 -71[ -19 -85 24 -85| 76 -75"/>
-</edges>
-</DOMShape>
-</elements>
-</DOMFrame>
-</frames>
-</DOMLayer>
-<DOMLayer name="Layer 2" color="#d6c99b">
-<frames>
-<DOMFrame index="0" keyMode="9728">
-<elements/>
-</DOMFrame>
-<DOMFrame index="1" keyMode="9728">
-<elements>
-<DOMSymbolInstance libraryItemName="Symbol 440" name="_col2" centerPoint3DX="22.1" centerPoint3DY="10.0">
-<matrix>
-<Matrix tx="1.6" ty="2.4"/>
-</matrix>
-<transformationPoint>
-<Point/>
-</transformationPoint>
-</DOMSymbolInstance>
-</elements>
-</DOMFrame>
-</frames>
-</DOMLayer>
-<DOMLayer name="Layer 3" color="#16feea" current="true" isSelected="true">
-<frames>
-<DOMFrame index="0" keyMode="9728">
-<elements/>
-</DOMFrame>
-<DOMFrame index="1" keyMode="9728">
-<elements>
-<DOMSymbolInstance libraryItemName="Symbol 438" name="_col3" centerPoint3DX="18.15" centerPoint3DY="9.05">
-<matrix>
-<Matrix tx="-0.75" ty="0.0"/>
-</matrix>
-<transformationPoint>
-<Point/>
-</transformationPoint>
-</DOMSymbolInstance>
-</elements>
-</DOMFrame>
-</frames>
-</DOMLayer>
-</layers>
-</DOMTimeline>
-</timeline>
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 442" lastModified="1701887458">
+  <timeline>
+    <DOMTimeline name="Symbol 442">
+      <layers>
+        <DOMLayer name="Layer 1" color="#85e0ef">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements />
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#ffffff" />
+                    </FillStyle>
+                  </fills>
+                  <strokes />
+                  <edges>
+                    <Edge fillStyle1="1"
+                      edges="! 202 -136[ 283 -114 283 -91| 275 -81[ 264 -73 250 -73| 173 -85| 98 -112| 4 -144| -19 -150| 5 -161| 43 -164| 44 -162| 76 -161| 76 -159| 87 -158| 115 -153| 202 -136" />
+                    <Edge fillStyle1="1"
+                      edges="! 76 -75| 90 -61[ 90 -50 57 -50| 3 -57[ -19 -63 -19 -71[ -19 -85 24 -85| 76 -75" />
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#d6c99b">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements />
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 440" name="_col2" centerPoint3DX="22.1"
+                  centerPoint3DY="10.0">
+                  <matrix>
+                    <Matrix tx="1.6" ty="2.4" />
+                  </matrix>
+                  <transformationPoint>
+                    <Point />
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#16feea" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements />
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 438" name="_col3" centerPoint3DX="18.15"
+                  centerPoint3DY="9.05">
+                  <matrix>
+                    <Matrix tx="-0.75" ty="0.0" />
+                  </matrix>
+                  <transformationPoint>
+                    <Point />
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
 </DOMSymbolItem>

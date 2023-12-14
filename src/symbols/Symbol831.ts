@@ -21,7 +21,7 @@ const Symbol831: Symbol = {
     },
     {
       "type": "svg",
-      "name": "Symbol831",
+      "name": "Symbol822",
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<svg xmlns:ffdec=\"https://www.free-decompiler.com/flash\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" ffdec:objectType=\"shape\" height=\"3.8px\" width=\"4.7px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n  <g transform=\"matrix(1.0, 0.0, 0.0, 1.0, 5.65, 5.4)\">\r\n    <path d=\"M-2.5 -2.6 Q-3.1 -2.6 -3.9 -3.05 L-4.65 -3.8 Q-4.65 -4.7 -3.3 -4.3 -1.95 -3.85 -1.95 -3.2 -1.95 -2.6 -2.5 -2.6\" fill=\"#ffffff\" fill-rule=\"evenodd\" stroke=\"none\"/>\r\n  </g>\r\n</svg>\r\n",
       "offset": {
         "x": 5.65,
@@ -50,7 +50,7 @@ const Symbol831: Symbol = {
     [
       {
         "type": "svg",
-        "name": "Symbol831"
+        "name": "Symbol822"
       },
       {
         "type": "symbol",
