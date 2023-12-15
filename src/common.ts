@@ -2,7 +2,6 @@ export type Svg = {
   type: 'svg';
   name: string;
   svg: string;
-  appearsOnFrames?: number[];
   offset: {
     x: number;
     y: number;
