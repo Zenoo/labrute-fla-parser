@@ -303,26 +303,26 @@ const initializeContainersAndGetSvgsToLoad = (
       }
     } else {
       // Symbol
-  
+
       const container = new PIXI.Container();
       container.sortableChildren = true;
       container.name = symbol.name;
       container.visible = false;
       container.zIndex = frame.length - i;
-  
+
       symbolContainer.addChild(container);
-  
+
       // Get frames to load
       let framesToLoad: number[] = [];
-  
+
       // If symbol has partIdx, only load the corresponding frame
       if (symbol.partIdx) {
         const partValue = bruteState.parts[symbol.partIdx];
-  
+
         if (partValue === undefined) {
           throw new Error(`Part ${symbol.partIdx} not found in fighter config`);
         }
-  
+
         framesToLoad = [partValue];
       } else if (symbol.name === WEAPON_SYMBOL) {
         // Load all weapon frames
@@ -331,7 +331,7 @@ const initializeContainersAndGetSvgsToLoad = (
         // Load only the first frame
         framesToLoad = [0];
       }
-  
+
       // For each frame, load the corresponding SVGs
       const svgs: SvgsToLoad = [];
       for (const frameIdx of framesToLoad) {
@@ -352,7 +352,7 @@ const initializeContainersAndGetSvgsToLoad = (
           }
         }
       }
-  
+
       svgsToLoad.push(...svgs);
     }
   });
@@ -366,6 +366,7 @@ const displayFrame = (
   loadedSvgs: PIXI.Sprite[],
   symbolContainer: PIXI.Container,
   symbol: Symbol | Svg,
+  frame: number,
   colorIdx?: string,
   zIndex?: number,
 ) => {
@@ -377,7 +378,6 @@ const displayFrame = (
     }
 
     // Hide shield if needed
-    console.log(sprite.name);
     if (sprite.name === SHIELD_SYMBOL) {
       sprite.visible = bruteState.shield;
       return;
@@ -423,8 +423,8 @@ const displayFrame = (
       // Load current weapon frame
       frameToLoad = weaponFrames.indexOf(bruteState.weapon);
     } else {
-      // Load only the first frame
-      frameToLoad = 0;
+      // Load the current frame
+      frameToLoad = frame;
     }
 
     const frameParts = symbol.frames?.[frameToLoad] ?? [];
@@ -447,9 +447,10 @@ const displayFrame = (
         displayFrame(
           usedSvgs,
           bruteState,
-          loadedSvgs, 
+          loadedSvgs,
           symbolContainer,
           framePartSymbol,
+          frame,
           colorIdx,
           frameParts.length - i,
         );
@@ -459,7 +460,7 @@ const displayFrame = (
       // Get corresponding container
       const framePartContainer = symbolContainer.children
         .filter((child) => child instanceof PIXI.Container && child.name === framePart.name)
-        [usedContainers[framePart.name] ?? 0] as PIXI.Container | undefined;
+      [usedContainers[framePart.name] ?? 0] as PIXI.Container | undefined;
 
       if (!framePartContainer) {
         throw new Error(`Container ${framePart.name} not found`);
@@ -516,7 +517,7 @@ const displayFrame = (
       }
 
       // Handle children
-      displayFrame(usedSvgs, bruteState, loadedSvgs, framePartContainer, framePartSymbol, framePartSymbol.colorIdx ?? colorIdx);
+      displayFrame(usedSvgs, bruteState, loadedSvgs, framePartContainer, framePartSymbol, frame, framePartSymbol.colorIdx ?? colorIdx);
     }
   }
 };
@@ -563,9 +564,27 @@ const displayFighter = (bruteState: BruteState, x?: number, y?: number) => {
   // Load SVGs
   const loadedSvgs = loadSvgs(bruteState, symbolContainer, maxSvgs);
 
-  // Display frame
-  const usedSvgs: Record<string, number> = {};
-  displayFrame(usedSvgs, bruteState, loadedSvgs, symbolContainer, symbol);
+  // Play animation (loop on frames with PIXI ticker)
+  const tickRate = 1000 / 24;
+  let frameIndex = 0;
+  let time = 0;
+
+  app.ticker.add(() => {
+    time += app.ticker.elapsedMS;
+    if (time === 0 || time >= tickRate) {
+      time = time % tickRate;
+
+      if (frameIndex >= (symbol.frames?.length ?? 0)) {
+        frameIndex = 0;
+      }
+  
+      // Display frame
+      const usedSvgs: Record<string, number> = {};
+      displayFrame(usedSvgs, bruteState, loadedSvgs, symbolContainer, symbol, frameIndex, undefined, symbolContainer.children.length);
+  
+      frameIndex++;
+    }
+  });
 
   return {
     container: symbolContainer,
@@ -584,7 +603,7 @@ type BruteState = {
 };
 
 const bruteState: BruteState = {
-  animation: 'idle',
+  animation: 'win',
   frame: 2,
   type: 'male',
   shield: false,
