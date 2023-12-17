@@ -434,7 +434,15 @@ const displayFrame = (
       }
 
       if (framePartSymbol.type === 'svg') {
-        displayFrame(usedSvgs, bruteState, loadedSvgs, symbolContainer, framePartSymbol, colorIdx, i);
+        displayFrame(
+          usedSvgs,
+          bruteState,
+          loadedSvgs,
+          symbolContainer,
+          framePartSymbol,
+          colorIdx,
+          i
+        );
         continue;
       }
 
