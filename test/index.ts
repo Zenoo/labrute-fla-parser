@@ -611,7 +611,7 @@ const bruteState: BruteState = {
     _p2: 7,  // Body size (small = 0, big = 7)
     _p3: 5,  // Hair [0-11] 12 = no head
     _p4: 3,  // (male) Beard [0-4] 5 = nothing / (female) Front hair [0-2] 3 = nothing
-    _p7: 0,  // Main clothing [0-6] 7 = naked
+    _p7: 1,  // Main clothing [0-6] 7 = naked
     _p1: 0,  // Armor variation [0-1]
     _p1a: 0, // [0-1] 0=belt, 1=nothing
     _p1b: 0, // 0=roman belt, 1=nothing

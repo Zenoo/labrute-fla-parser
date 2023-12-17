@@ -13,7 +13,7 @@ const Symbol292: Symbol = {
         "x": 5.05,
         "y": 5.9
       },
-      "scale": 4
+      "scale": 1.5
     }
   ],
   "frames": [

@@ -14,7 +14,7 @@ const Symbol358: Symbol = {
         "x": 2.95,
         "y": 1.55
       },
-      "scale": 4
+      "scale": 1.5
     },
     {
       ...Symbol354

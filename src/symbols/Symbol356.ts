@@ -16,7 +16,7 @@ const Symbol356: Symbol = {
         "x": 4,
         "y": 3.15
       },
-      "scale": 4
+      "scale": 1.5
     }
   ],
   "frames": [

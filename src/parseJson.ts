@@ -610,11 +610,11 @@ const XMLExportingThemselves = [
 ];
 
 const customSvgScale: Record<number, number> = {
-  291: 4,
-  352: 4,
-  353: 4,
-  355: 4,
-  357: 4,
+  291: 1.5,
+  352: 1.5,
+  353: 1.5,
+  355: 1.5,
+  357: 1.5,
 };
 
 const getSvg = (symbolName: string, svgIndex: number): Svg => {
