@@ -276,13 +276,12 @@ type SvgsToLoad = {
 }[];
 
 const initializeContainersAndGetSvgsToLoad = (
+  svgsToLoad: SvgsToLoad,
   bruteState: BruteState,
   symbolContainer: PIXI.Container,
   parts: Symbol['parts'],
   frame: FramePart[] = [],
 ) => {
-  const svgsToLoad: SvgsToLoad = [];
-
   frame.forEach((framePart) => {
     const symbol = parts?.find(p => p.name === framePart.name);
 
@@ -292,14 +291,17 @@ const initializeContainersAndGetSvgsToLoad = (
 
     // SVG
     if (symbol.type === 'svg') {
-      svgsToLoad.push({
-        svg: symbol,
-        count: 1,
-      });
+      const existingSvg = svgsToLoad.find(s => s.svg.name === symbol.name);
+      if (existingSvg) {
+        existingSvg.count++;
+      } else {
+        svgsToLoad.push({
+          svg: symbol,
+          count: 1,
+        });
+      }
     } else {
       // Symbol
-  
-      console.log(`Initializing container ${symbol.name}`);
   
       const container = new PIXI.Container();
       container.name = symbol.name;
@@ -327,8 +329,6 @@ const initializeContainersAndGetSvgsToLoad = (
         framesToLoad = [0];
       }
   
-      console.log(`Frames to load: ${framesToLoad.join(', ')}`);
-  
       // For each frame, load the corresponding SVGs
       const svgs: SvgsToLoad = [];
       for (const frameIdx of framesToLoad) {
@@ -338,7 +338,7 @@ const initializeContainersAndGetSvgsToLoad = (
           continue;
         }
 
-        const frameSvgs = initializeContainersAndGetSvgsToLoad(bruteState, container, symbol.parts, frame);
+        const frameSvgs = initializeContainersAndGetSvgsToLoad(svgsToLoad, bruteState, container, symbol.parts, frame);
 
         // Merge svgs
         for (const svg of frameSvgs) {
@@ -359,17 +359,16 @@ const initializeContainersAndGetSvgsToLoad = (
 };
 
 const displayFrame = (
+  usedSvgs: Record<string, number>,
   bruteState: BruteState,
   loadedSvgs: PIXI.Sprite[],
   symbolContainer: PIXI.Container,
   symbol: Symbol | Svg,
   colorIdx?: string,
+  zIndex?: number,
 ) => {
-  console.log('--------')
-  console.log(symbolContainer);
-  console.log(symbol);
   if (symbol.type === 'svg') {
-    const sprite = loadedSvgs.find(s => s.name === symbol.name);
+    const sprite = loadedSvgs.filter(s => s.name === symbol.name)[usedSvgs[symbol.name] ?? 0];
 
     if (!sprite) {
       throw new Error(`Sprite ${symbol.name} not found`);
@@ -387,7 +386,17 @@ const displayFrame = (
 
     // Add to current container
     sprite.visible = true;
+    sprite.zIndex = zIndex ?? 0;
     symbolContainer.addChild(sprite);
+
+    console.log(`Displaying sprite ${symbol.name} n°${usedSvgs[symbol.name] ?? 0}`);
+
+    // Increment used count
+    if (usedSvgs[symbol.name]) {
+      usedSvgs[symbol.name]++;
+    } else {
+      usedSvgs[symbol.name] = 1;
+    }
   } else {
     const usedSymbols: string[] = [];
 
@@ -411,21 +420,14 @@ const displayFrame = (
       frameToLoad = 0;
     }
 
-    console.log(`Frame to load: ${frameToLoad}`)
-
     const frameParts = symbol.frames?.[frameToLoad] ?? [];
 
     for (let i = 0; i < frameParts.length; i++) {
       const framePart = frameParts[i];
 
-      console.log(`Frame part ${i}: ${framePart.name}`);
-
       // Count identic symbols already used
       const identicSymbolsCount = usedSymbols.filter(s => s === framePart.name).length;
 
-      console.log(`Identical symbols count: ${identicSymbolsCount}`);
-
-      console.log('symbol.parts', symbol.parts);
       // Get corresponding symbol
       const framePartSymbol = symbol.parts?.filter(p => p.name === framePart.name)[identicSymbolsCount];
 
@@ -434,11 +436,9 @@ const displayFrame = (
       }
 
       if (framePartSymbol.type === 'svg') {
-        displayFrame(bruteState, loadedSvgs, symbolContainer, framePartSymbol, colorIdx);
+        displayFrame(usedSvgs, bruteState, loadedSvgs, symbolContainer, framePartSymbol, colorIdx, i);
         continue;
       }
-
-      console.log('symbol container children: ', symbolContainer.children.map(c => c.name).join(', '));
 
       // Get corresponding container
       const framePartContainer = symbolContainer.children.find((child) => child instanceof PIXI.Container && child.name === framePart.name) as PIXI.Container | undefined;
@@ -493,7 +493,7 @@ const displayFrame = (
       framePartContainer.visible = true;
 
       // Handle children
-      displayFrame(bruteState, loadedSvgs, framePartContainer, framePartSymbol, framePartSymbol.colorIdx ?? colorIdx);
+      displayFrame(usedSvgs, bruteState, loadedSvgs, framePartContainer, framePartSymbol, framePartSymbol.colorIdx ?? colorIdx);
     }
   }
 };
@@ -520,10 +520,11 @@ const displayFighter = (bruteState: BruteState, x?: number, y?: number) => {
 
   // For each frame
   symbol.frames?.forEach((frame) => {
-    const svgs = initializeContainersAndGetSvgsToLoad(bruteState, symbolContainer, symbol.parts, frame);
+    const svgsToLoad: SvgsToLoad = [];
+    initializeContainersAndGetSvgsToLoad(svgsToLoad, bruteState, symbolContainer, symbol.parts, frame);
 
     // Merge svgs
-    for (const svg of svgs) {
+    for (const svg of svgsToLoad) {
       const existingSvg = maxSvgs.find(s => s.svg.name === svg.svg.name);
       if (!existingSvg) {
         maxSvgs.push(svg);
@@ -539,7 +540,8 @@ const displayFighter = (bruteState: BruteState, x?: number, y?: number) => {
   const loadedSvgs = loadSvgs(bruteState, symbolContainer, maxSvgs);
 
   // Display frame
-  displayFrame(bruteState, loadedSvgs, symbolContainer, symbol);
+  const usedSvgs: Record<string, number> = {};
+  displayFrame(usedSvgs, bruteState, loadedSvgs, symbolContainer, symbol);
 
   return {
     container: symbolContainer,
@@ -560,7 +562,7 @@ type BruteState = {
 const bruteState: BruteState = {
   animation: 'idle',
   frame: 2,
-  type: 'male',
+  type: 'panther',
   shield: false,
   weapon: 'axe',
   colors: {
