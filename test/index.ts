@@ -227,6 +227,7 @@ document.body.appendChild(app.view);
 document.body.style.backgroundColor = '#333';
 
 const viewport = app.stage.addChild(new PIXI.Container());
+viewport.sortableChildren = true;
 app.renderer.render(app.stage);
 app.stage.addChild(viewport);
 
@@ -304,6 +305,7 @@ const initializeContainersAndGetSvgsToLoad = (
       // Symbol
   
       const container = new PIXI.Container();
+      container.sortableChildren = true;
       container.name = symbol.name;
       container.visible = false;
   
@@ -441,7 +443,7 @@ const displayFrame = (
           symbolContainer,
           framePartSymbol,
           colorIdx,
-          i
+          frameParts.length - i,
         );
         continue;
       }
@@ -522,6 +524,7 @@ const displayFighter = (bruteState: BruteState, x?: number, y?: number) => {
     throw new Error(`Animation ${bruteState.animation} not found`);
   }
   const symbolContainer = new PIXI.Container();
+  symbolContainer.sortableChildren = true;
   symbolContainer.name = symbol.name;
   symbolContainer.x = x ?? 0;
   symbolContainer.y = y ?? 0;
