@@ -179,7 +179,7 @@ const animations = {
 };
 
 const WEAPON_SYMBOL = 'Symbol68';
-const SHIELD_SYMBOL = 'Symbol473';
+const SHIELD_SYMBOL = 'Symbol472';
 
 const weaponFrames = [
   null,
@@ -374,6 +374,13 @@ const displayFrame = (
 
     if (!sprite) {
       throw new Error(`Sprite ${symbol.name} not found`);
+    }
+
+    // Hide shield if needed
+    console.log(sprite.name);
+    if (sprite.name === SHIELD_SYMBOL) {
+      sprite.visible = bruteState.shield;
+      return;
     }
 
     // Apply color
@@ -581,7 +588,7 @@ const bruteState: BruteState = {
   frame: 2,
   type: 'male',
   shield: false,
-  weapon: 'axe',
+  weapon: 'bumps',
   colors: {
     _col0: '#eaaca6',  // Skin
     _col0a: '#eaaca6',  // Face
