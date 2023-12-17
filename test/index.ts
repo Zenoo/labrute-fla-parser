@@ -231,366 +231,391 @@ viewport.sortableChildren = true;
 app.renderer.render(app.stage);
 app.stage.addChild(viewport);
 
-let svgCount = 0;
-
-const loadSvgs = (bruteState: BruteState, symbolContainer: PIXI.Container, svgs: SvgsToLoad) => {
-  const loadedSvgs: PIXI.Sprite[] = [];
-
-  for (const svgToLoad of svgs) {
-    const svg = svgToLoad.svg;
-
-    for (let i = 0; i < svgToLoad.count; i++) {
-      // Custom scale
-      let customScale = svg.scale ?? 1;
-      const size = SCALE * (bruteState.type === 'panther' ? 1.5 : 1);
-
-      // Special case for pets
-      if (bruteState.type === 'dog' || bruteState.type === 'bear' || bruteState.type === 'panther') {
-        customScale = 4;
-      }
-
-      const svgSprite = new PIXI.Sprite(Texture.from(svg.svg, {
-        resourceOptions: { scale: size * customScale }
-      }));
-      svgSprite.name = svg.name;
-      svgSprite.scale.set(1 / customScale);
-      svgSprite.visible = false;
-      svgCount++;
-
-      // Apply offset
-      if (svg.offset) {
-        svgSprite.x = -(svg.offset.x ?? 0) * size;
-        svgSprite.y = -(svg.offset.y ?? 0) * size;
-      }
-
-      symbolContainer.addChild(svgSprite);
-      loadedSvgs.push(svgSprite);
-    }
-  }
-
-  return loadedSvgs;
-};
-
 type SvgsToLoad = {
   svg: Svg;
   count: number;
 }[];
 
-const initializeContainersAndGetSvgsToLoad = (
-  svgsToLoad: SvgsToLoad,
-  bruteState: BruteState,
-  symbolContainer: PIXI.Container,
-  parts: Symbol['parts'],
-  frame: FramePart[] = [],
-) => {
-  frame.forEach((framePart, i) => {
-    const symbol = parts?.find(p => p.name === framePart.name);
+class Fighter {
+  // Setup data
+  readonly type: 'male' | 'female' | 'dog' | 'panther' | 'bear';
+  readonly #colors: Record<string, string> = {};
+  readonly #parts: Record<string, number> = {};
 
-    if (!symbol) {
-      throw new Error(`Part ${framePart.name} not found in symbol ${symbolContainer.name}`);
-    }
+  // Those can change mid-fight
+  animation: string = 'idle';
+  shield: boolean = false;
+  weapon: string | null = null;
+  
+  // PIXI
+  readonly container: PIXI.Container;
+  #animationContainer: PIXI.Container;
+  #animationSymbol: Symbol;
 
-    // SVG
-    if (symbol.type === 'svg') {
-      const existingSvg = svgsToLoad.find(s => s.svg.name === symbol.name);
-      if (existingSvg) {
-        existingSvg.count++;
-      } else {
-        svgsToLoad.push({
-          svg: symbol,
-          count: 1,
-        });
+  #frame: number = 0;
+  svgs: PIXI.Sprite[] = [];
+  #tickRate = 1000 / 24;
+  #frameCount = 0;
+  #usedSvgs: Record<string, number> = {};
+
+  constructor(bruteState: BruteState, x?: number, y?: number) {
+    this.type = bruteState.type;
+    this.animation = bruteState.animation;
+    this.shield = bruteState.shield;
+    this.weapon = bruteState.weapon;
+    this.#colors = bruteState.colors;
+    this.#parts = bruteState.parts;
+    this.#frame = bruteState.frame;
+
+    // Get all animations
+    const animationsByType = Object.values(animations[this.type === 'panther' ? 'dog' : this.type]);
+
+    const symbolContainer = new PIXI.Container();
+    symbolContainer.sortableChildren = true;
+    symbolContainer.x = x ?? 0;
+    symbolContainer.y = y ?? 0;
+
+    this.container = symbolContainer;
+
+    const maxSvgs: SvgsToLoad = [];
+
+    // For each animation
+    animationsByType.forEach((animation) => {
+      const animationContainer = new PIXI.Container();
+      animationContainer.name = animation.name;
+      animationContainer.sortableChildren = true;
+      animationContainer.visible = false;
+      this.container.addChild(animationContainer);
+
+      if (animation.name === animations[this.type === 'panther' ? 'dog' : this.type][this.animation].name) {
+        animationContainer.visible = true;
+        this.#animationContainer = animationContainer;
+        this.#animationSymbol = animation;
+        this.#frameCount = animation.frames?.length ?? 0;
       }
-    } else {
-      // Symbol
 
-      const container = new PIXI.Container();
-      container.sortableChildren = true;
-      container.name = symbol.name;
-      container.visible = false;
-      container.zIndex = frame.length - i;
-
-      symbolContainer.addChild(container);
-
-      // Get frames to load
-      let framesToLoad: number[] = [];
-
-      // If symbol has partIdx, only load the corresponding frame
-      if (symbol.partIdx) {
-        const partValue = bruteState.parts[symbol.partIdx];
-
-        if (partValue === undefined) {
-          throw new Error(`Part ${symbol.partIdx} not found in fighter config`);
-        }
-
-        framesToLoad = [partValue];
-      } else if (symbol.name === WEAPON_SYMBOL) {
-        // Load all weapon frames
-        framesToLoad = weaponFrames.map((_, i) => i);
-      } else {
-        // Load only the first frame
-        framesToLoad = [0];
-      }
-
-      // For each frame, load the corresponding SVGs
-      const svgs: SvgsToLoad = [];
-      for (const frameIdx of framesToLoad) {
-        const frame = symbol.frames?.[frameIdx];
-        if (!frame) {
-          continue;
-        }
-
-        const frameSvgs = initializeContainersAndGetSvgsToLoad(svgsToLoad, bruteState, container, symbol.parts, frame);
+      // For each frame
+      animation.frames?.forEach((frame) => {
+        let svgsToLoad: SvgsToLoad = [];
+        this.#initializeContainersAndGetSvgsToLoad(svgsToLoad, animationContainer, animation.parts, frame);
 
         // Merge svgs
-        for (const svg of frameSvgs) {
-          const existingSvg = svgs.find(s => s.svg.name === svg.svg.name);
+        for (const svg of svgsToLoad) {
+          const existingSvg = maxSvgs.find(s => s.svg.name === svg.svg.name);
           if (!existingSvg) {
-            svgs.push(svg);
+            maxSvgs.push(svg);
           } else {
             existingSvg.count = Math.max(existingSvg.count, svg.count);
           }
         }
+      });
+    });
+
+    // Load SVGs
+    this.#loadSvgs(maxSvgs);
+
+    // Play animation (loop on frames with PIXI ticker)
+    let frameIndex = 0;
+    let time = 0;
+
+    app.ticker.add(() => {
+      time += app.ticker.elapsedMS;
+      if (time === 0 || time >= this.#tickRate) {
+        time = time % this.#tickRate;
+
+        if (frameIndex >= this.#frameCount) {
+          frameIndex = 0;
+        }
+
+        // Display frame
+        this.#usedSvgs = {};
+        this.#displayFrame(this.#animationContainer, this.#animationSymbol, frameIndex);
+
+        frameIndex++;
+      }
+    });
+  }
+
+  setAnimation(animation: string) {
+    this.animation = animation;
+
+    // Hide all animations
+    this.container.children.forEach((child) => {
+      if (child instanceof PIXI.Container) {
+        child.visible = false;
+      }
+    });
+
+    // Update current animation
+    this.#animationContainer = this.container.children.find((child) => child.name === animations[this.type === 'panther' ? 'dog' : this.type][animation].name) as PIXI.Container;
+    this.#animationSymbol = animations[this.type === 'panther' ? 'dog' : this.type][animation];
+
+    // Show current animation
+    this.#animationContainer.visible = true;
+
+    // Reset frame
+    this.#frame = 0;
+    this.#frameCount = this.#animationSymbol.frames?.length ?? 0;
+  }
+
+  #initializeContainersAndGetSvgsToLoad = (
+    svgsToLoad: SvgsToLoad,
+    symbolContainer: PIXI.Container,
+    parts: Symbol['parts'],
+    frame: FramePart[] = [],
+  ) => {
+    frame.forEach((framePart, i) => {
+      const symbol = parts?.find(p => p.name === framePart.name);
+
+      if (!symbol) {
+        throw new Error(`Part ${framePart.name} not found in symbol ${symbolContainer.name}`);
       }
 
-      svgsToLoad.push(...svgs);
-    }
-  });
-
-  return svgsToLoad;
-};
-
-const displayFrame = (
-  usedSvgs: Record<string, number>,
-  bruteState: BruteState,
-  loadedSvgs: PIXI.Sprite[],
-  symbolContainer: PIXI.Container,
-  symbol: Symbol | Svg,
-  frame: number,
-  colorIdx?: string,
-  zIndex?: number,
-) => {
-  if (symbol.type === 'svg') {
-    const sprite = loadedSvgs.filter(s => s.name === symbol.name)[usedSvgs[symbol.name] ?? 0];
-
-    if (!sprite) {
-      throw new Error(`Sprite ${symbol.name} not found`);
-    }
-
-    // Hide shield if needed
-    if (sprite.name === SHIELD_SYMBOL) {
-      sprite.visible = bruteState.shield;
-      return;
-    }
-
-    // Apply color
-    if (colorIdx) {
-      const color = bruteState.colors[colorIdx];
-      if (!color) {
-        throw new Error(`Color ${colorIdx} not found`);
-      }
-
-      sprite.tint = parseInt(color.replace('#', ''), 16);
-    }
-
-    // Add to current container
-    sprite.visible = true;
-    sprite.zIndex = zIndex ?? 0;
-    symbolContainer.addChild(sprite);
-
-    // Increment used count
-    if (usedSvgs[symbol.name]) {
-      usedSvgs[symbol.name]++;
-    } else {
-      usedSvgs[symbol.name] = 1;
-    }
-  } else {
-    const usedSymbols: string[] = [];
-
-    // Get frame to load
-    let frameToLoad: number;
-
-    // If symbol has partIdx, only load the corresponding frame
-    if (symbol.partIdx) {
-      const partValue = bruteState.parts[symbol.partIdx];
-
-      if (partValue === undefined) {
-        throw new Error(`Part ${symbol.partIdx} not found in fighter config`);
-      }
-
-      frameToLoad = partValue;
-    } else if (symbol.name === WEAPON_SYMBOL) {
-      // Load current weapon frame
-      frameToLoad = weaponFrames.indexOf(bruteState.weapon);
-    } else {
-      // Load the current frame
-      frameToLoad = frame;
-    }
-
-    const frameParts = symbol.frames?.[frameToLoad] ?? [];
-    const usedContainers: Record<string, number> = {};
-
-    for (let i = 0; i < frameParts.length; i++) {
-      const framePart = frameParts[i];
-
-      // Count identic symbols already used
-      const identicSymbolsCount = usedSymbols.filter(s => s === framePart.name).length;
-
-      // Get corresponding symbol
-      const framePartSymbol = symbol.parts?.filter(p => p.name === framePart.name)[identicSymbolsCount];
-
-      if (!framePartSymbol) {
-        throw new Error(`Part ${framePart.name} not found in symbol ${symbol.name}`);
-      }
-
-      if (framePartSymbol.type === 'svg') {
-        displayFrame(
-          usedSvgs,
-          bruteState,
-          loadedSvgs,
-          symbolContainer,
-          framePartSymbol,
-          frame,
-          colorIdx,
-          frameParts.length - i,
-        );
-        continue;
-      }
-
-      // Get corresponding container
-      const framePartContainer = symbolContainer.children
-        .filter((child) => child instanceof PIXI.Container && child.name === framePart.name)
-      [usedContainers[framePart.name] ?? 0] as PIXI.Container | undefined;
-
-      if (!framePartContainer) {
-        throw new Error(`Container ${framePart.name} not found`);
-      }
-
-      // Apply transform
-      if (framePart.transform) {
-        const size = SCALE * (bruteState.type === 'panther' ? 1.5 : 1);
-        framePartContainer.transform.setFromMatrix(PixiHelper.matrixFromObject(framePart.transform, size));
-      }
-
-      // Apply color offset
-      if (framePart.colorOffset) {
-        if (bruteState.type === 'panther') {
-          framePartContainer.filters = [new Filter(undefined, ColorOffsetShader, {
-            offset: new Float32Array([-82, -97, -82]),
-            mult: new Float32Array([1, 1, 1])
-          })];
+      // SVG
+      if (symbol.type === 'svg') {
+        const existingSvg = svgsToLoad.find(s => s.svg.name === symbol.name);
+        if (existingSvg) {
+          existingSvg.count++;
         } else {
-          framePartContainer.filters = [new Filter(undefined, ColorOffsetShader, {
-            offset: new Float32Array([
-              framePart.colorOffset.r ?? 0,
-              framePart.colorOffset.g ?? 0,
-              framePart.colorOffset.b ?? 0
-            ]),
-            mult: new Float32Array([1, 1, 1])
-          })];
+          svgsToLoad.push({
+            svg: symbol,
+            count: 1,
+          });
+        }
+      } else {
+        // Symbol
+
+        const container = new PIXI.Container();
+        container.sortableChildren = true;
+        container.name = symbol.name;
+        container.visible = false;
+        container.zIndex = frame.length - i;
+
+        symbolContainer.addChild(container);
+
+        // Get frames to load
+        let framesToLoad: number[] = [];
+
+        // If symbol has partIdx, only load the corresponding frame
+        if (symbol.partIdx) {
+          const partValue = this.#parts[symbol.partIdx];
+
+          if (partValue === undefined) {
+            throw new Error(`Part ${symbol.partIdx} not found in fighter config`);
+          }
+
+          framesToLoad = [partValue];
+        } else if (symbol.name === WEAPON_SYMBOL) {
+          // Load all weapon frames
+          framesToLoad = weaponFrames.map((_, i) => i);
+        } else {
+          // Load only the first frame
+          framesToLoad = [0];
+        }
+
+        // For each frame, load the corresponding SVGs
+        const svgs: SvgsToLoad = [];
+        for (const frameIdx of framesToLoad) {
+          const frame = symbol.frames?.[frameIdx];
+          if (!frame) {
+            continue;
+          }
+
+          this.#initializeContainersAndGetSvgsToLoad(svgsToLoad, container, symbol.parts, frame);
         }
       }
+    });
+  }
 
-      // Apply alpha
-      if (framePart.alpha) {
-        framePartContainer.alpha = framePart.alpha;
-      }
+  #loadSvgs = (svgsToLoad: SvgsToLoad) => {
+    for (const svgToLoad of svgsToLoad) {
+      const svg = svgToLoad.svg;
 
-      // Apply masking
-      if (framePart.maskedBy) {
-        // Get mask sprite
-        const maskSprite = loadedSvgs.find((svg) => svg.name === `Symbol${framePart.maskedBy}`);
-        if (!maskSprite) {
-          throw new Error(`Mask sprite Symbol${framePart.maskedBy} not found`);
+      for (let i = 0; i < svgToLoad.count; i++) {
+        // Custom scale
+        let customScale = svg.scale ?? 1;
+        const size = SCALE * (this.type === 'panther' ? 1.5 : 1);
+
+        // Special case for pets
+        if (this.type === 'dog' || this.type === 'bear' || this.type === 'panther') {
+          customScale = 1.5;
         }
 
-        framePartContainer.addChild(maskSprite);
-        framePartContainer.mask = maskSprite;
-      }
+        const svgSprite = new PIXI.Sprite(Texture.from(svg.svg, {
+          resourceOptions: { scale: size * customScale }
+        }));
+        svgSprite.name = svg.name;
+        svgSprite.scale.set(1 / customScale);
+        svgSprite.visible = false;
 
-      // Apply visibility
-      framePartContainer.visible = true;
-      if (usedContainers[framePart.name]) {
-        usedContainers[framePart.name]++;
-      } else {
-        usedContainers[framePart.name] = 1;
-      }
+        // Apply offset
+        if (svg.offset) {
+          svgSprite.x = -(svg.offset.x ?? 0) * size;
+          svgSprite.y = -(svg.offset.y ?? 0) * size;
+        }
 
-      // Handle children
-      displayFrame(usedSvgs, bruteState, loadedSvgs, framePartContainer, framePartSymbol, frame, framePartSymbol.colorIdx ?? colorIdx);
+        this.container.addChild(svgSprite);
+        this.svgs.push(svgSprite);
+      }
     }
   }
-};
 
-const displayFighter = (bruteState: BruteState, x?: number, y?: number) => {
-  const type = bruteState.type === 'panther' ? 'dog' : bruteState.type;
-
-  // Get animation symbol
-  const symbol = animations[type][bruteState.animation] as Symbol | undefined;
-  // const symbol = Symbol285;
-
-  if (!symbol) {
-    throw new Error(`Animation ${bruteState.animation} not found`);
-  }
-  const symbolContainer = new PIXI.Container();
-  symbolContainer.sortableChildren = true;
-  symbolContainer.name = symbol.name;
-  symbolContainer.x = x ?? 0;
-  symbolContainer.y = y ?? 0;
-
-  const maxSvgs: {
-    svg: Svg;
-    count: number;
-  }[] = [];
-
-  // For each frame
-  symbol.frames?.forEach((frame) => {
-    const svgsToLoad: SvgsToLoad = [];
-    initializeContainersAndGetSvgsToLoad(svgsToLoad, bruteState, symbolContainer, symbol.parts, frame);
-
-    // Merge svgs
-    for (const svg of svgsToLoad) {
-      const existingSvg = maxSvgs.find(s => s.svg.name === svg.svg.name);
-      if (!existingSvg) {
-        maxSvgs.push(svg);
+  #displayFrame = (
+    symbolContainer: PIXI.Container,
+    symbol: Symbol | Svg,
+    frame: number,
+    colorIdx?: string,
+    zIndex?: number,
+  ) => {
+    if (symbol.type === 'svg') {
+      const sprite = this.svgs.filter(s => s.name === symbol.name)[this.#usedSvgs[symbol.name] ?? 0];
+  
+      if (!sprite) {
+        throw new Error(`Sprite ${symbol.name} not found`);
+      }
+  
+      // Hide shield if needed
+      if (sprite.name === SHIELD_SYMBOL) {
+        sprite.visible = this.shield;
+        return;
+      }
+  
+      // Apply color
+      if (colorIdx) {
+        const color = this.#colors[colorIdx];
+        if (!color) {
+          throw new Error(`Color ${colorIdx} not found`);
+        }
+  
+        sprite.tint = parseInt(color.replace('#', ''), 16);
+      }
+  
+      // Add to current container
+      sprite.visible = true;
+      sprite.zIndex = zIndex ?? 0;
+      symbolContainer.addChild(sprite);
+  
+      // Increment used count
+      if (this.#usedSvgs[symbol.name]) {
+        this.#usedSvgs[symbol.name]++;
       } else {
-        existingSvg.count = Math.max(existingSvg.count, svg.count);
+        this.#usedSvgs[symbol.name] = 1;
       }
-    }
-  });
-
-  console.log(maxSvgs);
-
-  // Load SVGs
-  const loadedSvgs = loadSvgs(bruteState, symbolContainer, maxSvgs);
-
-  // Play animation (loop on frames with PIXI ticker)
-  const tickRate = 1000 / 24;
-  let frameIndex = 0;
-  let time = 0;
-
-  app.ticker.add(() => {
-    time += app.ticker.elapsedMS;
-    if (time === 0 || time >= tickRate) {
-      time = time % tickRate;
-
-      if (frameIndex >= (symbol.frames?.length ?? 0)) {
-        frameIndex = 0;
+    } else {
+      const usedSymbols: string[] = [];
+  
+      // Get frame to load
+      let frameToLoad: number;
+  
+      // If symbol has partIdx, only load the corresponding frame
+      if (symbol.partIdx) {
+        const partValue = this.#parts[symbol.partIdx];
+  
+        if (partValue === undefined) {
+          throw new Error(`Part ${symbol.partIdx} not found in fighter config`);
+        }
+  
+        frameToLoad = partValue;
+      } else if (symbol.name === WEAPON_SYMBOL) {
+        // Load current weapon frame
+        frameToLoad = weaponFrames.indexOf(this.weapon);
+      } else {
+        // Load the current frame
+        frameToLoad = frame;
       }
   
-      // Display frame
-      const usedSvgs: Record<string, number> = {};
-      displayFrame(usedSvgs, bruteState, loadedSvgs, symbolContainer, symbol, frameIndex, undefined, symbolContainer.children.length);
+      const frameParts = symbol.frames?.[frameToLoad] ?? [];
+      const usedContainers: Record<string, number> = {};
   
-      frameIndex++;
+      for (let i = 0; i < frameParts.length; i++) {
+        const framePart = frameParts[i];
+  
+        // Count identic symbols already used
+        const identicSymbolsCount = usedSymbols.filter(s => s === framePart.name).length;
+  
+        // Get corresponding symbol
+        const framePartSymbol = symbol.parts?.filter(p => p.name === framePart.name)[identicSymbolsCount];
+  
+        if (!framePartSymbol) {
+          throw new Error(`Part ${framePart.name} not found in symbol ${symbol.name}`);
+        }
+  
+        if (framePartSymbol.type === 'svg') {
+          this.#displayFrame(
+            symbolContainer,
+            framePartSymbol,
+            frame,
+            colorIdx,
+            frameParts.length - i,
+          );
+          continue;
+        }
+  
+        // Get corresponding container
+        const framePartContainer = symbolContainer.children
+          .filter((child) => child instanceof PIXI.Container && child.name === framePart.name)
+        [usedContainers[framePart.name] ?? 0] as PIXI.Container | undefined;
+  
+        if (!framePartContainer) {
+          throw new Error(`Container ${framePart.name} not found`);
+        }
+  
+        // Apply transform
+        if (framePart.transform) {
+          const size = SCALE * (this.type === 'panther' ? 1.5 : 1);
+          framePartContainer.transform.setFromMatrix(PixiHelper.matrixFromObject(framePart.transform, size));
+        }
+  
+        // Apply color offset
+        if (framePart.colorOffset) {
+          if (this.type === 'panther') {
+            framePartContainer.filters = [new Filter(undefined, ColorOffsetShader, {
+              offset: new Float32Array([-82, -97, -82]),
+              mult: new Float32Array([1, 1, 1])
+            })];
+          } else {
+            framePartContainer.filters = [new Filter(undefined, ColorOffsetShader, {
+              offset: new Float32Array([
+                framePart.colorOffset.r ?? 0,
+                framePart.colorOffset.g ?? 0,
+                framePart.colorOffset.b ?? 0
+              ]),
+              mult: new Float32Array([1, 1, 1])
+            })];
+          }
+        }
+  
+        // Apply alpha
+        if (framePart.alpha) {
+          framePartContainer.alpha = framePart.alpha;
+        }
+  
+        // Apply masking
+        if (framePart.maskedBy) {
+          // Get mask sprite
+          const maskSprite = this.svgs.find((svg) => svg.name === `Symbol${framePart.maskedBy}`);
+          if (!maskSprite) {
+            throw new Error(`Mask sprite Symbol${framePart.maskedBy} not found`);
+          }
+  
+          framePartContainer.addChild(maskSprite);
+          framePartContainer.mask = maskSprite;
+        }
+  
+        // Apply visibility
+        framePartContainer.visible = true;
+        if (usedContainers[framePart.name]) {
+          usedContainers[framePart.name]++;
+        } else {
+          usedContainers[framePart.name] = 1;
+        }
+  
+        // Handle children
+        this.#displayFrame(framePartContainer, framePartSymbol, frame, framePartSymbol.colorIdx ?? colorIdx);
+      }
     }
-  });
-
-  return {
-    container: symbolContainer,
-    maxSvgs,
-  };
-};
+  }
+}
 
 type BruteState = {
   animation: string;
@@ -602,7 +627,7 @@ type BruteState = {
   parts: Record<string, number>;
 };
 
-const bruteState: BruteState = {
+const fighter = new Fighter({
   animation: 'win',
   frame: 2,
   type: 'male',
@@ -639,10 +664,13 @@ const bruteState: BruteState = {
     _p7b: 2, // Shoes underside (2 = visible, others = hidden)
     _p5: 0,  // 0=Nothing, 1=Shirt. Doesn't work
   },
-};
+}, 200, 200);
 
-const fighter = displayFighter(bruteState, 200, 200);
-
-console.log(`SVG count: ${svgCount}`);
+console.log(`SVG count: ${fighter.svgs.length}`);
 
 viewport.addChild(fighter.container);
+
+declare global {
+  interface Window { fighter: Fighter; }
+}
+window.fighter = fighter;
