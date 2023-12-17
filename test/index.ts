@@ -283,7 +283,7 @@ const initializeContainersAndGetSvgsToLoad = (
   parts: Symbol['parts'],
   frame: FramePart[] = [],
 ) => {
-  frame.forEach((framePart) => {
+  frame.forEach((framePart, i) => {
     const symbol = parts?.find(p => p.name === framePart.name);
 
     if (!symbol) {
@@ -308,6 +308,7 @@ const initializeContainersAndGetSvgsToLoad = (
       container.sortableChildren = true;
       container.name = symbol.name;
       container.visible = false;
+      container.zIndex = frame.length - i;
   
       symbolContainer.addChild(container);
   
@@ -439,7 +440,7 @@ const displayFrame = (
         displayFrame(
           usedSvgs,
           bruteState,
-          loadedSvgs,
+          loadedSvgs, 
           symbolContainer,
           framePartSymbol,
           colorIdx,
