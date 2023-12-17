@@ -421,6 +421,7 @@ const displayFrame = (
     }
 
     const frameParts = symbol.frames?.[frameToLoad] ?? [];
+    const usedContainers: Record<string, number> = {};
 
     for (let i = 0; i < frameParts.length; i++) {
       const framePart = frameParts[i];
@@ -441,7 +442,9 @@ const displayFrame = (
       }
 
       // Get corresponding container
-      const framePartContainer = symbolContainer.children.find((child) => child instanceof PIXI.Container && child.name === framePart.name) as PIXI.Container | undefined;
+      const framePartContainer = symbolContainer.children
+        .filter((child) => child instanceof PIXI.Container && child.name === framePart.name)
+        [usedContainers[framePart.name] ?? 0] as PIXI.Container | undefined;
 
       if (!framePartContainer) {
         throw new Error(`Container ${framePart.name} not found`);
@@ -491,6 +494,11 @@ const displayFrame = (
 
       // Apply visibility
       framePartContainer.visible = true;
+      if (usedContainers[framePart.name]) {
+        usedContainers[framePart.name]++;
+      } else {
+        usedContainers[framePart.name] = 1;
+      }
 
       // Handle children
       displayFrame(usedSvgs, bruteState, loadedSvgs, framePartContainer, framePartSymbol, framePartSymbol.colorIdx ?? colorIdx);
@@ -562,7 +570,7 @@ type BruteState = {
 const bruteState: BruteState = {
   animation: 'idle',
   frame: 2,
-  type: 'panther',
+  type: 'male',
   shield: false,
   weapon: 'axe',
   colors: {
