@@ -334,7 +334,6 @@ const initializeContainersAndGetSvgsToLoad = (
       for (const frameIdx of framesToLoad) {
         const frame = symbol.frames?.[frameIdx];
         if (!frame) {
-          console.warn(`Frame ${frameIdx} not found in symbol ${symbol.name}`);
           continue;
         }
 
@@ -388,8 +387,6 @@ const displayFrame = (
     sprite.visible = true;
     sprite.zIndex = zIndex ?? 0;
     symbolContainer.addChild(sprite);
-
-    console.log(`Displaying sprite ${symbol.name} n°${usedSvgs[symbol.name] ?? 0}`);
 
     // Increment used count
     if (usedSvgs[symbol.name]) {
@@ -611,5 +608,3 @@ const fighter = displayFighter(bruteState, 200, 200);
 console.log(`SVG count: ${svgCount}`);
 
 viewport.addChild(fighter.container);
-
-console.log(svgCount);
