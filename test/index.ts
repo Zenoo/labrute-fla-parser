@@ -253,6 +253,7 @@ class Fighter {
   #animationSymbol: Symbol;
 
   #frame: number = 0;
+  #timer: number = 0;
   svgs: PIXI.Sprite[] = [];
   #tickRate = 1000 / 24;
   #frameCount = 0;
@@ -315,23 +316,20 @@ class Fighter {
     this.#loadSvgs(maxSvgs);
 
     // Play animation (loop on frames with PIXI ticker)
-    let frameIndex = 0;
-    let time = 0;
-
     app.ticker.add(() => {
-      time += app.ticker.elapsedMS;
-      if (time === 0 || time >= this.#tickRate) {
-        time = time % this.#tickRate;
+      this.#timer += app.ticker.elapsedMS;
+      if (this.#timer === 0 || this.#timer >= this.#tickRate) {
+        this.#timer = this.#timer % this.#tickRate;
 
-        if (frameIndex >= this.#frameCount) {
-          frameIndex = 0;
+        if (this.#frame >= this.#frameCount) {
+          this.#frame = 0;
         }
 
         // Display frame
         this.#usedSvgs = {};
-        this.#displayFrame(this.#animationContainer, this.#animationSymbol, frameIndex);
+        this.#displayFrame(this.#animationContainer, this.#animationSymbol);
 
-        frameIndex++;
+        this.#frame++;
       }
     });
   }
@@ -356,6 +354,11 @@ class Fighter {
     // Reset frame
     this.#frame = 0;
     this.#frameCount = this.#animationSymbol.frames?.length ?? 0;
+    this.#timer = 0;
+
+    // Display frame
+    this.#usedSvgs = {};
+    this.#displayFrame(this.#animationContainer, this.#animationSymbol);
   }
 
   #initializeContainersAndGetSvgsToLoad = (
@@ -463,7 +466,6 @@ class Fighter {
   #displayFrame = (
     symbolContainer: PIXI.Container,
     symbol: Symbol | Svg,
-    frame: number,
     colorIdx?: string,
     zIndex?: number,
   ) => {
@@ -521,7 +523,7 @@ class Fighter {
         frameToLoad = weaponFrames.indexOf(this.weapon);
       } else {
         // Load the current frame
-        frameToLoad = frame;
+        frameToLoad = this.#frame;
       }
   
       const frameParts = symbol.frames?.[frameToLoad] ?? [];
@@ -544,7 +546,6 @@ class Fighter {
           this.#displayFrame(
             symbolContainer,
             framePartSymbol,
-            frame,
             colorIdx,
             frameParts.length - i,
           );
@@ -611,7 +612,7 @@ class Fighter {
         }
   
         // Handle children
-        this.#displayFrame(framePartContainer, framePartSymbol, frame, framePartSymbol.colorIdx ?? colorIdx);
+        this.#displayFrame(framePartContainer, framePartSymbol, framePartSymbol.colorIdx ?? colorIdx);
       }
     }
   }
