@@ -178,6 +178,13 @@ const animations = {
   },
 };
 
+const animationSymbolNames = {
+  male: Object.values(animations.male).map(a => a.name),
+  female: Object.values(animations.female).map(a => a.name),
+  dog: Object.values(animations.dog).map(a => a.name),
+  bear: Object.values(animations.bear).map(a => a.name),
+};
+
 const WEAPON_SYMBOL = 'Symbol68';
 const SHIELD_SYMBOL = 'Symbol472';
 
@@ -281,7 +288,7 @@ class Fighter {
     const maxSvgs: SvgsToLoad = [];
 
     // For each animation
-    animationsByType.forEach((animation) => {
+    for (const animation of animationsByType) {
       const animationContainer = new PIXI.Container();
       animationContainer.name = animation.name;
       animationContainer.sortableChildren = true;
@@ -296,7 +303,7 @@ class Fighter {
       }
 
       // For each frame
-      animation.frames?.forEach((frame) => {
+      for (const frame of animation.frames ?? []) {
         let svgsToLoad: SvgsToLoad = [];
         this.#initializeContainersAndGetSvgsToLoad(svgsToLoad, animationContainer, animation.parts, frame);
 
@@ -309,8 +316,8 @@ class Fighter {
             existingSvg.count = Math.max(existingSvg.count, svg.count);
           }
         }
-      });
-    });
+      };
+    }
 
     // Load SVGs
     this.#loadSvgs(maxSvgs);
@@ -325,6 +332,11 @@ class Fighter {
           this.#frame = 0;
         }
 
+        // Hide all svgs
+        // for (const svg of this.svgs) {
+        //   svg.visible = false;
+        // }
+
         // Display frame
         this.#usedSvgs = {};
         this.#displayFrame(this.#animationContainer, this.#animationSymbol);
@@ -338,11 +350,11 @@ class Fighter {
     this.animation = animation;
 
     // Hide all animations
-    this.container.children.forEach((child) => {
+    for (const child of this.container.children) {
       if (child instanceof PIXI.Container) {
         child.visible = false;
       }
-    });
+    }
 
     // Update current animation
     this.#animationContainer = this.container.children.find((child) => child.name === animations[this.type === 'panther' ? 'dog' : this.type][animation].name) as PIXI.Container;
@@ -522,8 +534,13 @@ class Fighter {
         // Load current weapon frame
         frameToLoad = weaponFrames.indexOf(this.weapon);
       } else {
-        // Load the current frame
-        frameToLoad = this.#frame;
+        // If the symbol is an animation, load the current frame
+        if (animationSymbolNames[this.type].includes(symbol.name)) {
+          frameToLoad = this.#frame;
+        } else {
+          // Else load the first frame
+          frameToLoad = 0;
+        }
       }
   
       const frameParts = symbol.frames?.[frameToLoad] ?? [];
