@@ -289,6 +289,10 @@ class Fighter {
   #tickRate = 1000 / 24;
   #frameCount = 0;
   #usedSvgs: Record<string, number> = {};
+  
+  // Events
+  events: Record<string, ((event: string) => void)[]> = {};
+  onceEvents: Record<string, ((event: string) => void)[]> = {};
 
   constructor(bruteState: BruteState, x?: number, y?: number) {
     this.type = bruteState.type;
@@ -371,8 +375,45 @@ class Fighter {
         this.#displayFrame(this.#animationContainer, this.#animationSymbol);
 
         this.#frame++;
+
+        // :end event
+        if (this.#frame >= this.#frameCount && loopStart[this.type]?.[this.animation] === undefined) {
+          this.#triggerEvents(`${this.animation}:end`);
+        }
       }
     });
+  }
+
+  #triggerEvents = (event: string) => {
+    // Trigger events
+    if (this.events[event]) {
+      for (const callback of this.events[event]) {
+        callback(event);
+      }
+    }
+  
+    // Trigger once events
+    if (this.onceEvents[event]) {
+      for (const callback of this.onceEvents[event]) {
+        callback(event);
+      }
+      delete this.onceEvents[event];
+    }
+
+    // Trigger global events
+    if (this.events['*']) {
+      for (const callback of this.events['*']) {
+        callback(event);
+      }
+    }
+
+    // Trigger global once events
+    if (this.onceEvents['*']) {
+      for (const callback of this.onceEvents['*']) {
+        callback(event);
+      }
+      delete this.onceEvents['*'];
+    }
   }
 
   setAnimation(animation: string) {
@@ -662,6 +703,22 @@ class Fighter {
       }
     }
   }
+
+  once = (event: string, callback: (event: string) => void) => {
+    if (!this.onceEvents[event]) {
+      this.onceEvents[event] = [];
+    }
+
+    this.onceEvents[event].push(callback);
+  }
+
+  on = (event: string, callback: (event: string) => void) => {
+    if (!this.events[event]) {
+      this.events[event] = [];
+    }
+
+    this.events[event].push(callback);
+  }
 }
 
 type BruteState = {
@@ -714,6 +771,13 @@ const fighter = new Fighter({
 }, 200, 200);
 
 console.log(`SVG count: ${fighter.svgs.length}`);
+
+fighter.on('*', (event) => {
+  console.log(event);
+});
+fighter.once('*', (event) => {
+  console.log(event);
+});
 
 viewport.addChild(fighter.container);
 
