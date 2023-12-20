@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.0...v1.0.1) (2023-12-20)
+
+
+### Bug Fixes
+
+* Wrong npm package name ([9c46597](https://github.com/Zenoo/labrute-fla-parser/commit/9c465973b42543eaa06941af78b6e3c632ebf62a))
+
 ## 1.0.0 (2023-12-20)
 
 
