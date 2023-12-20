@@ -196,7 +196,18 @@ const loopStart = {
     trapped: 11,
     train: 0,
     train2: 0,
-  }
+  },
+  dog: {
+    idle: 0,
+    run: 0,
+    evade: 0,
+    trapped: 11,
+  },
+  bear: {
+    idle: 0,
+    run: 0,
+    trapped: 11,
+  },
 };
 
 const animationSymbolNames = {
