@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.2...v1.0.3) (2023-12-20)
+
+
+### Bug Fixes
+
+* Export format ([0184c0d](https://github.com/Zenoo/labrute-fla-parser/commit/0184c0db986cb0414964bcbc29642360f0d78993))
+
 ## [1.0.2](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.1...v1.0.2) (2023-12-20)
 
 
