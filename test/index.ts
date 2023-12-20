@@ -294,6 +294,7 @@ class Fighter {
   #animationContainer: PIXI.Container;
   #animationSymbol: Symbol;
 
+  #playing: boolean = true;
   #frame: number = 0;
   #timer: number = 0;
   svgs: PIXI.Sprite[] = [];
@@ -363,8 +364,8 @@ class Fighter {
 
     // Play animation (loop on frames with PIXI ticker)
     app.ticker.add(() => {
-      // Stop if animation ended and no loop
-      if (this.#frame >= this.#frameCount && loopStart[this.type]?.[this.animation] === undefined) {
+      // Do nothing if not playing
+      if (!this.#playing) {
         return;
       }
 
@@ -385,10 +386,16 @@ class Fighter {
         this.#usedSvgs = {};
         this.#displayFrame(this.#animationContainer, this.#animationSymbol);
 
+        // :start event
+        if (this.#frame === 0) {
+          this.#triggerEvents(`${this.animation}:start`);
+        }
+
         this.#frame++;
 
         // :end event
         if (this.#frame >= this.#frameCount && loopStart[this.type]?.[this.animation] === undefined) {
+          this.#playing = false;
           this.#triggerEvents(`${this.animation}:end`);
         }
       }
@@ -448,6 +455,7 @@ class Fighter {
     this.#frame = 0;
     this.#frameCount = this.#animationSymbol.frames?.length ?? 0;
     this.#timer = 0;
+    this.#playing = true;
 
     // Display frame
     this.#usedSvgs = {};
@@ -730,6 +738,14 @@ class Fighter {
 
     this.events[event].push(callback);
   }
+
+  play = () => {
+    this.#playing = true;
+  }
+
+  pause = () => {
+    this.#playing = false;
+  }
 }
 
 type BruteState = {
@@ -743,9 +759,9 @@ type BruteState = {
 };
 
 const fighter = new Fighter({
-  animation: 'win',
+  animation: 'death',
   frame: 2,
-  type: 'female',
+  type: 'dog',
   shield: false,
   weapon: 'bumps',
   colors: {
@@ -788,6 +804,15 @@ fighter.on('*', (event) => {
 });
 fighter.once('*', (event) => {
   console.log(event);
+});
+
+fighter.on('arrive:start', () => {
+  fighter.pause();
+  
+  // Delay next frames
+  setTimeout(() => {
+    fighter.play();
+  }, 1000);
 });
 
 viewport.addChild(fighter.container);
