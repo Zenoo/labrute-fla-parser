@@ -1,37 +1,37 @@
 import { Symbol } from '../common';
-import Symbol563 from './Symbol563';
-import Symbol581 from './Symbol581';
-import Symbol594 from './Symbol594';
-import Symbol607 from './Symbol607';
-import Symbol628 from './Symbol628';
-import Symbol648 from './Symbol648';
-import Symbol662 from './Symbol662';
-import Symbol682 from './Symbol682';
-import Symbol692 from './Symbol692';
-import Symbol701 from './Symbol701';
-import Symbol732 from './Symbol732';
-import Symbol773 from './Symbol773';
-import Symbol807 from './Symbol807';
-import Symbol817 from './Symbol817';
-import Symbol821 from './Symbol821';
-import Symbol834 from './Symbol834';
-import Symbol845 from './Symbol845';
-import Symbol575 from './Symbol575';
-import Symbol68 from './Symbol68';
-import Symbol540 from './Symbol540';
-import Symbol538 from './Symbol538';
-import Symbol537 from './Symbol537';
-import Symbol536 from './Symbol536';
-import Symbol535 from './Symbol535';
-import Symbol534 from './Symbol534';
-import Symbol530 from './Symbol530';
-import Symbol529 from './Symbol529';
-import Symbol528 from './Symbol528';
-import Symbol527 from './Symbol527';
-import Symbol532 from './Symbol532';
-import Symbol872 from './Symbol872';
+import { Symbol563 } from './Symbol563';
+import { Symbol581 } from './Symbol581';
+import { Symbol594 } from './Symbol594';
+import { Symbol607 } from './Symbol607';
+import { Symbol628 } from './Symbol628';
+import { Symbol648 } from './Symbol648';
+import { Symbol662 } from './Symbol662';
+import { Symbol682 } from './Symbol682';
+import { Symbol692 } from './Symbol692';
+import { Symbol701 } from './Symbol701';
+import { Symbol732 } from './Symbol732';
+import { Symbol773 } from './Symbol773';
+import { Symbol807 } from './Symbol807';
+import { Symbol817 } from './Symbol817';
+import { Symbol821 } from './Symbol821';
+import { Symbol834 } from './Symbol834';
+import { Symbol845 } from './Symbol845';
+import { Symbol575 } from './Symbol575';
+import { Symbol68 } from './Symbol68';
+import { Symbol540 } from './Symbol540';
+import { Symbol538 } from './Symbol538';
+import { Symbol537 } from './Symbol537';
+import { Symbol536 } from './Symbol536';
+import { Symbol535 } from './Symbol535';
+import { Symbol534 } from './Symbol534';
+import { Symbol530 } from './Symbol530';
+import { Symbol529 } from './Symbol529';
+import { Symbol528 } from './Symbol528';
+import { Symbol527 } from './Symbol527';
+import { Symbol532 } from './Symbol532';
+import { Symbol872 } from './Symbol872';
 
-const Symbol875: Symbol = {
+export const Symbol875: Symbol = {
   "type": "symbol",
   "name": "Symbol875",
   "parts": [
@@ -4523,5 +4523,3 @@ const Symbol875: Symbol = {
     ]
   ]
 };
-
-export default Symbol875;

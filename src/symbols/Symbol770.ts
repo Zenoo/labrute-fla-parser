@@ -1,15 +1,15 @@
 import { Symbol } from '../common';
-import Symbol763 from './Symbol763';
-import Symbol754 from './Symbol754';
-import Symbol752 from './Symbol752';
-import Symbol749 from './Symbol749';
-import Symbol744 from './Symbol744';
-import Symbol741 from './Symbol741';
-import Symbol756 from './Symbol756';
-import Symbol761 from './Symbol761';
-import Symbol769 from './Symbol769';
+import { Symbol763 } from './Symbol763';
+import { Symbol754 } from './Symbol754';
+import { Symbol752 } from './Symbol752';
+import { Symbol749 } from './Symbol749';
+import { Symbol744 } from './Symbol744';
+import { Symbol741 } from './Symbol741';
+import { Symbol756 } from './Symbol756';
+import { Symbol761 } from './Symbol761';
+import { Symbol769 } from './Symbol769';
 
-const Symbol770: Symbol = {
+export const Symbol770: Symbol = {
   "type": "symbol",
   "name": "Symbol770",
   "parts": [
@@ -166,5 +166,3 @@ const Symbol770: Symbol = {
     ]
   ]
 };
-
-export default Symbol770;

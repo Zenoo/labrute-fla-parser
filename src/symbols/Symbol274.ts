@@ -1,13 +1,13 @@
 import { Symbol } from '../common';
-import Symbol267 from './Symbol267';
-import Symbol265 from './Symbol265';
-import Symbol259 from './Symbol259';
-import Symbol248 from './Symbol248';
-import Symbol246 from './Symbol246';
-import Symbol273 from './Symbol273';
-import Symbol250 from './Symbol250';
+import { Symbol267 } from './Symbol267';
+import { Symbol265 } from './Symbol265';
+import { Symbol259 } from './Symbol259';
+import { Symbol248 } from './Symbol248';
+import { Symbol246 } from './Symbol246';
+import { Symbol273 } from './Symbol273';
+import { Symbol250 } from './Symbol250';
 
-const Symbol274: Symbol = {
+export const Symbol274: Symbol = {
   "type": "symbol",
   "name": "Symbol274",
   "parts": [
@@ -139,5 +139,3 @@ const Symbol274: Symbol = {
     ]
   ]
 };
-
-export default Symbol274;

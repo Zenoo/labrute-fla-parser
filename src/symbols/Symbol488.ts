@@ -1,31 +1,31 @@
 import { Symbol } from '../common';
-import Symbol30 from './Symbol30';
-import Symbol68 from './Symbol68';
-import Symbol80 from './Symbol80';
-import Symbol105 from './Symbol105';
-import Symbol122 from './Symbol122';
-import Symbol148 from './Symbol148';
-import Symbol176 from './Symbol176';
-import Symbol191 from './Symbol191';
-import Symbol209 from './Symbol209';
-import Symbol218 from './Symbol218';
-import Symbol242 from './Symbol242';
-import Symbol277 from './Symbol277';
-import Symbol342 from './Symbol342';
-import Symbol421 from './Symbol421';
-import Symbol426 from './Symbol426';
-import Symbol452 from './Symbol452';
-import Symbol474 from './Symbol474';
-import Symbol411 from './Symbol411';
-import Symbol487 from './Symbol487';
-import Symbol485 from './Symbol485';
-import Symbol484 from './Symbol484';
-import Symbol483 from './Symbol483';
-import Symbol482 from './Symbol482';
-import Symbol481 from './Symbol481';
-import Symbol480 from './Symbol480';
+import { Symbol30 } from './Symbol30';
+import { Symbol68 } from './Symbol68';
+import { Symbol80 } from './Symbol80';
+import { Symbol105 } from './Symbol105';
+import { Symbol122 } from './Symbol122';
+import { Symbol148 } from './Symbol148';
+import { Symbol176 } from './Symbol176';
+import { Symbol191 } from './Symbol191';
+import { Symbol209 } from './Symbol209';
+import { Symbol218 } from './Symbol218';
+import { Symbol242 } from './Symbol242';
+import { Symbol277 } from './Symbol277';
+import { Symbol342 } from './Symbol342';
+import { Symbol421 } from './Symbol421';
+import { Symbol426 } from './Symbol426';
+import { Symbol452 } from './Symbol452';
+import { Symbol474 } from './Symbol474';
+import { Symbol411 } from './Symbol411';
+import { Symbol487 } from './Symbol487';
+import { Symbol485 } from './Symbol485';
+import { Symbol484 } from './Symbol484';
+import { Symbol483 } from './Symbol483';
+import { Symbol482 } from './Symbol482';
+import { Symbol481 } from './Symbol481';
+import { Symbol480 } from './Symbol480';
 
-const Symbol488: Symbol = {
+export const Symbol488: Symbol = {
   "type": "symbol",
   "name": "Symbol488",
   "parts": [
@@ -4203,5 +4203,3 @@ const Symbol488: Symbol = {
     ]
   ]
 };
-
-export default Symbol488;

@@ -1,16 +1,16 @@
 import { Symbol } from '../common';
-import Symbol883 from './Symbol883';
-import Symbol885 from './Symbol885';
-import Symbol887 from './Symbol887';
-import Symbol889 from './Symbol889';
-import Symbol891 from './Symbol891';
-import Symbol893 from './Symbol893';
-import Symbol896 from './Symbol896';
-import Symbol902 from './Symbol902';
-import Symbol900 from './Symbol900';
-import Symbol898 from './Symbol898';
+import { Symbol883 } from './Symbol883';
+import { Symbol885 } from './Symbol885';
+import { Symbol887 } from './Symbol887';
+import { Symbol889 } from './Symbol889';
+import { Symbol891 } from './Symbol891';
+import { Symbol893 } from './Symbol893';
+import { Symbol896 } from './Symbol896';
+import { Symbol902 } from './Symbol902';
+import { Symbol900 } from './Symbol900';
+import { Symbol898 } from './Symbol898';
 
-const Symbol903: Symbol = {
+export const Symbol903: Symbol = {
   "type": "symbol",
   "name": "Symbol903",
   "parts": [
@@ -2097,5 +2097,3 @@ const Symbol903: Symbol = {
     ]
   ]
 };
-
-export default Symbol903;

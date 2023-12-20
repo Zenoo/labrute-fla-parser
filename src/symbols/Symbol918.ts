@@ -1,18 +1,18 @@
 import { Symbol } from '../common';
-import Symbol917 from './Symbol917';
-import Symbol914 from './Symbol914';
-import Symbol894 from './Symbol894';
-import Symbol913 from './Symbol913';
-import Symbol912 from './Symbol912';
-import Symbol911 from './Symbol911';
-import Symbol910 from './Symbol910';
-import Symbol907 from './Symbol907';
-import Symbol906 from './Symbol906';
-import Symbol905 from './Symbol905';
-import Symbol904 from './Symbol904';
-import Symbol903 from './Symbol903';
+import { Symbol917 } from './Symbol917';
+import { Symbol914 } from './Symbol914';
+import { Symbol894 } from './Symbol894';
+import { Symbol913 } from './Symbol913';
+import { Symbol912 } from './Symbol912';
+import { Symbol911 } from './Symbol911';
+import { Symbol910 } from './Symbol910';
+import { Symbol907 } from './Symbol907';
+import { Symbol906 } from './Symbol906';
+import { Symbol905 } from './Symbol905';
+import { Symbol904 } from './Symbol904';
+import { Symbol903 } from './Symbol903';
 
-const Symbol918: Symbol = {
+export const Symbol918: Symbol = {
   "type": "symbol",
   "name": "Symbol918",
   "parts": [
@@ -2005,5 +2005,3 @@ const Symbol918: Symbol = {
     ]
   ]
 };
-
-export default Symbol918;

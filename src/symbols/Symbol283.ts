@@ -1,7 +1,7 @@
 import { Symbol } from '../common';
 
 
-const Symbol283: Symbol = {
+export const Symbol283: Symbol = {
   "type": "symbol",
   "name": "Symbol283",
   "parts": [
@@ -24,5 +24,3 @@ const Symbol283: Symbol = {
     ]
   ]
 };
-
-export default Symbol283;

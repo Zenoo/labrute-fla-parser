@@ -1,24 +1,24 @@
 import { Symbol } from '../common';
-import Symbol803 from './Symbol803';
-import Symbol790 from './Symbol790';
-import Symbol554 from './Symbol554';
-import Symbol556 from './Symbol556';
-import Symbol344 from './Symbol344';
-import Symbol775 from './Symbol775';
-import Symbol777 from './Symbol777';
-import Symbol805 from './Symbol805';
-import Symbol801 from './Symbol801';
-import Symbol799 from './Symbol799';
-import Symbol794 from './Symbol794';
-import Symbol792 from './Symbol792';
-import Symbol779 from './Symbol779';
-import Symbol781 from './Symbol781';
-import Symbol795 from './Symbol795';
-import Symbol797 from './Symbol797';
-import Symbol788 from './Symbol788';
-import Symbol557 from './Symbol557';
+import { Symbol803 } from './Symbol803';
+import { Symbol790 } from './Symbol790';
+import { Symbol554 } from './Symbol554';
+import { Symbol556 } from './Symbol556';
+import { Symbol344 } from './Symbol344';
+import { Symbol775 } from './Symbol775';
+import { Symbol777 } from './Symbol777';
+import { Symbol805 } from './Symbol805';
+import { Symbol801 } from './Symbol801';
+import { Symbol799 } from './Symbol799';
+import { Symbol794 } from './Symbol794';
+import { Symbol792 } from './Symbol792';
+import { Symbol779 } from './Symbol779';
+import { Symbol781 } from './Symbol781';
+import { Symbol795 } from './Symbol795';
+import { Symbol797 } from './Symbol797';
+import { Symbol788 } from './Symbol788';
+import { Symbol557 } from './Symbol557';
 
-const Symbol806: Symbol = {
+export const Symbol806: Symbol = {
   "type": "symbol",
   "name": "Symbol806",
   "parts": [
@@ -1109,5 +1109,3 @@ const Symbol806: Symbol = {
     ]
   ]
 };
-
-export default Symbol806;

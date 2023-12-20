@@ -82,24 +82,20 @@ for (const file of files) {
 
   let stringifiedSymbol = JSON.stringify(symbol, null, 2);
 
-  // Replace `"type": "symbol", "name": "REPLACE|{name}|REPLACE"` with `...{name}`
+    // Replace `"type": "symbol", "name": "REPLACE|{name}|REPLACE"` with `...{name}`
   stringifiedSymbol = stringifiedSymbol.replace(/"type": "symbol",\n\s+"name": "REPLACE\|(.*)\|REPLACE"/g, '...$1');
 
   const newFileContent = `import { Symbol } from '../common';
-${[...dependencies].map((dependency) => `import ${dependency.split(' ').join('')} from './${dependency}';`).join('\n')}
+${[...dependencies].map((dependency) => `import { ${dependency.split(' ').join('')} } from './${dependency}';`).join('\n')}
 
-const ${symbol.name.split(' ').join('')}: Symbol = ${stringifiedSymbol};
-
-export default ${symbol.name.split(' ').join('')};
-`;
+export const ${symbol.name.split(' ').join('')}: Symbol = ${stringifiedSymbol};`;
 
   // Write Typescript file
   fs.writeFileSync(`./src/symbols/${file.split('.')[0]}.ts`, newFileContent);
 };
 
 // Create index.ts file
-let indexFileContent = files.map((file) => `import ${file.split('.')[0]} from './${file.split('.')[0]}';`).join('\n');
-indexFileContent += `\n\nexport default {\n${files.map((file) => `  ${file.split('.')[0]},`).join('\n')}\n};`;
+let indexFileContent = files.map((file) => `export { ${file.split('.')[0]} } from './${file.split('.')[0]}';`).join('\n');
 
 // Write index.ts file
 fs.writeFileSync('./src/symbols/index.ts', indexFileContent);
