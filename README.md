@@ -10,7 +10,7 @@ npm i labrute-fla-parser
 ## Usage
 
 ```ts
-import { e105 } from 'labrute-fla-parser';
+import { Symbol475 } from 'labrute-fla-parser';
 
-console.log(e105);
+console.log(Symbol475);
 ```
