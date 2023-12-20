@@ -178,6 +178,27 @@ const animations = {
   },
 };
 
+const loopStart = {
+  male: {
+    idle: 0,
+    monk: 6,
+    run: 0,
+    death: 24,
+    trapped: 11,
+    train: 0,
+    train2: 0,
+  },
+  female: {
+    idle: 0,
+    monk: 12,
+    run: 0,
+    death: 24,
+    trapped: 11,
+    train: 0,
+    train2: 0,
+  }
+};
+
 const animationSymbolNames = {
   male: Object.values(animations.male).map(a => a.name),
   female: Object.values(animations.female).map(a => a.name),
@@ -186,7 +207,10 @@ const animationSymbolNames = {
 };
 
 const WEAPON_SYMBOL = 'Symbol68';
-const SHIELD_SYMBOL = 'Symbol472';
+const SHIELD_SYMBOL = {
+  male: 'Symbol472',
+  female: 'Symbol472',
+};
 
 const weaponFrames = [
   null,
@@ -324,18 +348,23 @@ class Fighter {
 
     // Play animation (loop on frames with PIXI ticker)
     app.ticker.add(() => {
+      // Stop if animation ended and no loop
+      if (this.#frame >= this.#frameCount && loopStart[this.type]?.[this.animation] === undefined) {
+        return;
+      }
+
       this.#timer += app.ticker.elapsedMS;
       if (this.#timer === 0 || this.#timer >= this.#tickRate) {
         this.#timer = this.#timer % this.#tickRate;
 
         if (this.#frame >= this.#frameCount) {
-          this.#frame = 0;
+          this.#frame = loopStart[this.type][this.animation];
         }
 
         // Hide all svgs
-        // for (const svg of this.svgs) {
-        //   svg.visible = false;
-        // }
+        for (const svg of this.svgs) {
+          svg.visible = false;
+        }
 
         // Display frame
         this.#usedSvgs = {};
@@ -489,9 +518,10 @@ class Fighter {
       }
   
       // Hide shield if needed
-      if (sprite.name === SHIELD_SYMBOL) {
+      if (sprite.name === SHIELD_SYMBOL[this.type]) {
         sprite.visible = this.shield;
-        return;
+      } else {
+        sprite.visible = true;
       }
   
       // Apply color
@@ -505,7 +535,6 @@ class Fighter {
       }
   
       // Add to current container
-      sprite.visible = true;
       sprite.zIndex = zIndex ?? 0;
       symbolContainer.addChild(sprite);
   
@@ -648,7 +677,7 @@ type BruteState = {
 const fighter = new Fighter({
   animation: 'win',
   frame: 2,
-  type: 'male',
+  type: 'female',
   shield: false,
   weapon: 'bumps',
   colors: {
@@ -670,7 +699,7 @@ const fighter = new Fighter({
     _col4b: '#0000ff', // ??
   },
   parts: {
-    _p2: 7,  // Body size (small = 0, big = 7)
+    _p2: 0,  // Body size (small = 0, big = 7) (male only, 0 for females)
     _p3: 5,  // Hair [0-11] 12 = no head
     _p4: 3,  // (male) Beard [0-4] 5 = nothing / (female) Front hair [0-2] 3 = nothing
     _p7: 1,  // Main clothing [0-6] 7 = naked

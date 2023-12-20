@@ -636,17 +636,7 @@ const getSvg = (symbolName: string, svgIndex: number): Svg => {
     // Get the svg file
     svg = fs.readFileSync(`./src/svg/Symbol${svgNumber}.svg`, 'utf8');
   } catch (error) {
-    // if (svgLink) {
-      throw new Error(`SVG ${svgLink} not found for ${name}. Export it and rerun the script.`);
-    // }
-
-    // Try with initial svg number
-    // try {
-    //   svgNumber = +name.replace('Symbol', '');
-    //   svg = fs.readFileSync(`./src/svg/Symbol${svgNumber}.svg`, 'utf8');
-    // } catch (error) {
-    //   throw new Error(`SVG ${svgNumber} not found for ${name}. Export it and rerun the script.`);
-    // }
+    throw new Error(`SVG ${svgLink} not found for ${name}. Export it and rerun the script.`);
   }
 
   // Set every stroke-width to 1
@@ -795,12 +785,12 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
         if (element.name === 'DOMShape') {
           // Svg
           const svgName = symbolItem.attributes?.name || '';
-  
+
           const svg = getSvg(svgName, svgIndex);
-  
+
           // Store part details
           result.parts?.push(svg);
-  
+
           // Store part frame details
           if (!result.frames[index]) {
             result.frames[index] = [];
@@ -810,7 +800,7 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
             type: 'svg',
             name: svg.name,
           } as FramePart;
-  
+
           result.frames[index].push(svgObject);
 
           // Add to next frames if duration exists
@@ -823,7 +813,7 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
               result.frames[index + i].push(svgObject);
             }
           }
-  
+
           svgIndex++;
         }
       }
@@ -832,13 +822,18 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
 
   // Special case for 68 (weapons), add mask to every symbol except 38 and 39
   if (symbolNumber === 68) {
-      for (const frame of result.frames) {
-        for (const part of frame) {
-          if (part.type === 'symbol' && part.name !== 'Symbol38' && part.name !== 'Symbol39') {
-            part.maskedBy = 39;
-          }
+    for (const frame of result.frames) {
+      for (const part of frame) {
+        if (part.type === 'symbol' && part.name !== 'Symbol38' && part.name !== 'Symbol39') {
+          part.maskedBy = 39;
         }
       }
+    }
+  }
+
+  // Special case for 476 (monk), remove last 5 frames
+  if (symbolNumber === 476) {
+    result.frames = result.frames.slice(0, -5);
   }
 
   // Revert parts
