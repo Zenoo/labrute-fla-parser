@@ -831,6 +831,17 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
     }
   }
 
+  // Special case for 526 (weapons for the whip animation), add mask to every symbol except 38 and 518
+  if (symbolNumber === 526) {
+    for (const frame of result.frames) {
+      for (const part of frame) {
+        if (part.type === 'symbol' && part.name !== 'Symbol38' && part.name !== 'Symbol518') {
+          part.maskedBy = 518;
+        }
+      }
+    }
+  }
+
   // Special case for 476 (monk), remove last 5 frames
   if (symbolNumber === 476) {
     result.frames = result.frames.slice(0, -5);

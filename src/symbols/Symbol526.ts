@@ -142,7 +142,8 @@ export const Symbol526: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 518
       },
       {
         "type": "symbol",
@@ -200,7 +201,8 @@ export const Symbol526: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 518
       },
       {
         "type": "symbol",
@@ -222,7 +224,8 @@ export const Symbol526: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 518
       },
       {
         "type": "symbol",
@@ -244,7 +247,8 @@ export const Symbol526: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 518
       },
       {
         "type": "symbol",
@@ -266,7 +270,8 @@ export const Symbol526: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 518
       },
       {
         "type": "symbol",
@@ -288,7 +293,8 @@ export const Symbol526: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 518
       },
       {
         "type": "symbol",
@@ -310,7 +316,8 @@ export const Symbol526: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 518
       },
       {
         "type": "symbol",
@@ -364,7 +371,8 @@ export const Symbol526: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 518
       },
       {
         "type": "symbol",
@@ -386,7 +394,8 @@ export const Symbol526: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 518
       },
       {
         "type": "symbol",
@@ -408,7 +417,8 @@ export const Symbol526: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 518
       },
       {
         "type": "symbol",
@@ -430,7 +440,8 @@ export const Symbol526: Symbol = {
         "transform": {
           "tx": 0,
           "ty": 0
-        }
+        },
+        "maskedBy": 518
       },
       {
         "type": "symbol",
