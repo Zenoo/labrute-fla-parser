@@ -824,7 +824,7 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
   if (symbolNumber === 68) {
     for (const frame of result.frames) {
       for (const part of frame) {
-        if (part.type === 'symbol' && part.name !== 'Symbol38' && part.name !== 'Symbol39') {
+        if (part.name !== 'Symbol38' && part.name !== 'Symbol39') {
           part.maskedBy = 39;
         }
       }

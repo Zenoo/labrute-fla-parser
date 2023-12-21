@@ -204,7 +204,8 @@ export const Symbol68: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol40"
+        "name": "Symbol40",
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -245,7 +246,8 @@ export const Symbol68: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol42"
+        "name": "Symbol42",
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -263,7 +265,8 @@ export const Symbol68: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol43"
+        "name": "Symbol43",
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -419,7 +422,8 @@ export const Symbol68: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol50"
+        "name": "Symbol50",
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -497,7 +501,8 @@ export const Symbol68: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol53"
+        "name": "Symbol53",
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -561,7 +566,8 @@ export const Symbol68: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol56"
+        "name": "Symbol56",
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -579,7 +585,8 @@ export const Symbol68: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol57"
+        "name": "Symbol57",
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -597,7 +604,8 @@ export const Symbol68: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol58"
+        "name": "Symbol58",
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -615,7 +623,8 @@ export const Symbol68: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol59"
+        "name": "Symbol59",
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -656,7 +665,8 @@ export const Symbol68: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol63"
+        "name": "Symbol63",
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -674,7 +684,8 @@ export const Symbol68: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol64"
+        "name": "Symbol64",
+        "maskedBy": 39
       },
       {
         "type": "symbol",
@@ -692,7 +703,8 @@ export const Symbol68: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol65"
+        "name": "Symbol65",
+        "maskedBy": 39
       },
       {
         "type": "symbol",

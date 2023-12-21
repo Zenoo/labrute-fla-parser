@@ -681,8 +681,8 @@ type BruteState = {
 
 const fighter = new Fighter({
   animation: 'death',
-  frame: 2,
-  type: 'dog',
+  frame: 0,
+  type: 'female',
   shield: false,
   weapon: 'bumps',
   colors: {
@@ -705,7 +705,7 @@ const fighter = new Fighter({
   },
   parts: {
     _p2: 0,  // Body size (small = 0, big = 7) (male only, 0 for females)
-    _p3: 5,  // Hair [0-11] 12 = no head
+    _p3: 4,  // Hair [0-11] 12 = no head
     _p4: 3,  // (male) Beard [0-4] 5 = nothing / (female) Front hair [0-2] 3 = nothing
     _p7: 1,  // Main clothing [0-6] 7 = naked
     _p1: 0,  // Armor variation [0-1]
