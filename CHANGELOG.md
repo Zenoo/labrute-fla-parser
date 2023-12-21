@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.4](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.3...v1.0.4) (2023-12-21)
+
+
+### Bug Fixes
+
+* Wrong deployment name ([f7cd874](https://github.com/Zenoo/labrute-fla-parser/commit/f7cd8742a3a797757af78063726384fdfe22fd61))
+* Wrong mask color ([907e378](https://github.com/Zenoo/labrute-fla-parser/commit/907e378d45b9b206b48c3391b598df15815190ca))
+
 ## [1.0.3](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.2...v1.0.3) (2023-12-20)
 
 
