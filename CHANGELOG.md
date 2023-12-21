@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.4...v1.0.5) (2023-12-21)
+
+
+### Bug Fixes
+
+* Mask weapons on whip animation ([1a8c717](https://github.com/Zenoo/labrute-fla-parser/commit/1a8c717906d2233a30882d47cd674d4808c30602))
+
 ## [1.0.4](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.3...v1.0.4) (2023-12-21)
 
 
