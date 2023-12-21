@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.8](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.7...v1.0.8) (2023-12-21)
+
+
+### Bug Fixes
+
+* Some weapons were not masked ([f6612cf](https://github.com/Zenoo/labrute-fla-parser/commit/f6612cfd45a99c86ba1d7e03d03a066f1614b7fc))
+
 ## [1.0.7](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.6...v1.0.7) (2023-12-21)
 
 
