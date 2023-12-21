@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.5...v1.0.6) (2023-12-21)
+
+
+### Bug Fixes
+
+* Mask not working for whip animation ([8cb52ee](https://github.com/Zenoo/labrute-fla-parser/commit/8cb52eebfca88439ec1c081cab6517356c99960d))
+
 ## [1.0.5](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.4...v1.0.5) (2023-12-21)
 
 
