@@ -120,7 +120,8 @@ export const Symbol526: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol519"
+        "name": "Symbol519",
+        "maskedBy": 518
       },
       {
         "type": "symbol",
@@ -161,7 +162,8 @@ export const Symbol526: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol520"
+        "name": "Symbol520",
+        "maskedBy": 518
       },
       {
         "type": "symbol",
@@ -179,7 +181,8 @@ export const Symbol526: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol521"
+        "name": "Symbol521",
+        "maskedBy": 518
       },
       {
         "type": "symbol",
@@ -335,7 +338,8 @@ export const Symbol526: Symbol = {
       },
       {
         "type": "svg",
-        "name": "Symbol523"
+        "name": "Symbol523",
+        "maskedBy": 518
       },
       {
         "type": "symbol",

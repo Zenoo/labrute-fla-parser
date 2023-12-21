@@ -835,7 +835,7 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
   if (symbolNumber === 526) {
     for (const frame of result.frames) {
       for (const part of frame) {
-        if (part.type === 'symbol' && part.name !== 'Symbol38' && part.name !== 'Symbol518') {
+        if (part.name !== 'Symbol38' && part.name !== 'Symbol518') {
           part.maskedBy = 518;
         }
       }
