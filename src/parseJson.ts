@@ -617,6 +617,14 @@ const customSvgScale: Record<number, number> = {
   357: 1.5,
 };
 
+// Some parts only have one frame even though they depend on a partIdx, so ignore them
+const ignoreParts: number[] = [
+  420,
+  470,
+  819,
+  843,
+];
+
 const getSvg = (symbolName: string, svgIndex: number): Svg => {
   const name = symbolName.split(' ').join('');
   let svgNumber = +name.replace('Symbol', '');
@@ -732,8 +740,13 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
           const matrix = element.elements?.find((element) => element.name === 'matrix')?.elements?.[0] as Matrix | undefined;
 
           const customIndex = element.attributes?.name;
-          const partIdx = customIndex ? customIndex.startsWith('_p') ? customIndex : undefined : undefined;
+          let partIdx = customIndex ? customIndex.startsWith('_p') ? customIndex : undefined : undefined;
           const colorIdx = customIndex ? customIndex.startsWith('_col') ? customIndex : undefined : undefined;
+
+          // Check if part is ignored
+          if (ignoreParts.includes(+(element.attributes?.libraryItemName || '').split(' ')[1])) {
+            partIdx = undefined;
+          }
 
           // Store part details
           result.parts?.push({

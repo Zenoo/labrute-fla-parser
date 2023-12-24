@@ -680,9 +680,9 @@ type BruteState = {
 };
 
 const fighter = new Fighter({
-  animation: 'death',
+  animation: 'trapped',
   frame: 0,
-  type: 'female',
+  type: 'dog',
   shield: false,
   weapon: 'bumps',
   colors: {
@@ -714,7 +714,7 @@ const fighter = new Fighter({
     _p6: 0,  // (male) 0=shorts, 1=trousers / (female) 0=shorts, 1=nothing
     _p8: 0,  // [0-4] Supposed to be shoes but doesn't change anything ??
     _p7b: 2, // Shoes underside (2 = visible, others = hidden)
-    _p5: 0,  // 0=Nothing, 1=Shirt. Doesn't work
+    _p5: 1,  // 0=Nothing, 1=Shirt. Doesn't work
   },
 }, 200, 200);
 
