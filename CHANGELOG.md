@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.9](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.8...v1.0.9) (2023-12-24)
+
+
+### Bug Fixes
+
+* Missing arms ([dae3a3a](https://github.com/Zenoo/labrute-fla-parser/commit/dae3a3a142b5d9d7617af70115787eb6848a3418))
+
 ## [1.0.8](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.7...v1.0.8) (2023-12-21)
 
 
