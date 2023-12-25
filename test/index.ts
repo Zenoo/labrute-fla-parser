@@ -461,11 +461,6 @@ class Fighter {
         let customScale = svg.scale ?? 1;
         const size = SCALE * (this.type === 'panther' ? 1.5 : 1);
 
-        // Special case for pets
-        if (this.type === 'dog' || this.type === 'bear' || this.type === 'panther') {
-          customScale = 1.5;
-        }
-
         const svgSprite = new PIXI.Sprite(Texture.from(svg.svg, {
           resourceOptions: { scale: size * customScale }
         }));
@@ -545,7 +540,7 @@ class Fighter {
         frameToLoad = weaponFrames.indexOf(this.weapon);
       } else {
         // If the symbol is an animation, load the current frame
-        if (animationSymbolNames[this.type].includes(symbol.name)) {
+        if (animationSymbolNames[this.type === 'panther' ? 'dog' : this.type].includes(symbol.name)) {
           frameToLoad = this.#frame;
         } else {
           // Else load the first frame
@@ -680,9 +675,9 @@ type BruteState = {
 };
 
 const fighter = new Fighter({
-  animation: 'trapped',
+  animation: 'idle',
   frame: 0,
-  type: 'dog',
+  type: 'bear',
   shield: false,
   weapon: 'bumps',
   colors: {
