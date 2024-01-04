@@ -631,6 +631,9 @@ const customSvgScale: Record<number, number> = {
   929: 2,
   931: 2,
   933: 2,
+  // Male hair
+  385: 2,
+  387: 2,
 };
 
 // Some parts only have one frame even though they depend on a partIdx, so ignore them
@@ -640,6 +643,18 @@ const ignoreParts: number[] = [
   819,
   843,
 ];
+
+// Some color transforms should be ignored
+// Symbol number: [frameNumber, partIdx][]
+const ignoreColorTransforms: Record<number, [number, number][] | undefined> = {
+  
+};
+
+// Some color transforms are missing
+// Symbol number: [frameNumber, partIdx, r, g, b][]
+const missingColorTransforms: Record<number, [number, number, number, number, number][] | undefined> = {
+  
+};
 
 const getSvg = (symbolName: string, svgIndex: number): Svg => {
   const name = symbolName.split(' ').join('');
@@ -755,7 +770,7 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
 
         // Sub symbol
         if (element.name === 'DOMSymbolInstance') {
-          const colors = element.elements?.find((element) => element.name === 'color')?.elements?.[0] as Color | undefined;
+          let colors = element.elements?.find((element) => element.name === 'color')?.elements?.[0] as Color | undefined;
           const matrix = element.elements?.find((element) => element.name === 'matrix')?.elements?.[0] as Matrix | undefined;
 
           const customIndex = element.attributes?.name;
@@ -765,6 +780,33 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
           // Check if part is ignored
           if (ignoreParts.includes(+(element.attributes?.libraryItemName || '').split(' ')[1])) {
             partIdx = undefined;
+          }
+
+          const elementNumber = +(element.attributes?.libraryItemName || '').split(' ')[1];
+
+          // Check if color transform is ignored
+          if (ignoreColorTransforms[symbolNumber]) {
+            const ignore = ignoreColorTransforms[symbolNumber]?.find((ignore) => ignore[0] === index && ignore[1] === elementNumber);
+
+            if (ignore) {
+              colors = undefined;
+            }
+          }
+
+          // Check if color transform is missing
+          if (missingColorTransforms[symbolNumber]) {
+            const missing = missingColorTransforms[symbolNumber]?.find((missing) => missing[0] === index && missing[1] === elementNumber);
+
+            if (missing) {
+              colors = {
+                name: 'Color',
+                attributes: {
+                  redOffset: `${missing[2]}`,
+                  greenOffset: `${missing[3]}`,
+                  blueOffset: `${missing[4]}`,
+                },
+              };
+            }
           }
 
           // Store part details
