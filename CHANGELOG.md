@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.11](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.10...v1.0.11) (2024-01-04)
+
+
+### Bug Fixes
+
+* Blurry hairstyles in fights ([117451c](https://github.com/Zenoo/labrute-fla-parser/commit/117451c7555aa5969ab7c46a2303de3f75ec3056))
+
 ## [1.0.10](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.9...v1.0.10) (2023-12-25)
 
 
