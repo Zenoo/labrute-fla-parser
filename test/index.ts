@@ -485,6 +485,7 @@ class Fighter {
     symbol: Symbol | Svg,
     colorIdx?: string,
     zIndex?: number,
+    svgMaskedBy?: number,
   ) => {
     if (symbol.type === 'svg') {
       const sprite = this.svgs.filter(s => s.name === symbol.name)[this.#usedSvgs[symbol.name] ?? 0];
@@ -498,6 +499,18 @@ class Fighter {
         sprite.visible = this.shield;
       } else {
         sprite.visible = true;
+      }
+
+      // Apply masking
+      if (svgMaskedBy) {
+        // Get mask sprite
+        const maskSprite = this.svgs.find((svg) => svg.name === `Symbol${svgMaskedBy}`);
+        if (!maskSprite) {
+          throw new Error(`Mask sprite Symbol${svgMaskedBy} not found`);
+        }
+
+        symbolContainer.addChild(maskSprite);
+        sprite.mask = maskSprite;
       }
   
       // Apply color
@@ -570,6 +583,7 @@ class Fighter {
             framePartSymbol,
             colorIdx,
             frameParts.length - i,
+            framePart.maskedBy,
           );
           continue;
         }
@@ -681,9 +695,9 @@ type BruteState = {
 const fighter = new Fighter({
   animation: 'idle',
   frame: 0,
-  type: 'bear',
+  type: 'male',
   shield: false,
-  weapon: 'bumps',
+  weapon: 'piopio',
   colors: {
     _col0: '#eaaca6',  // Skin
     _col0a: '#eaaca6',  // Face
