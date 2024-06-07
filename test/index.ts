@@ -509,7 +509,6 @@ class Fighter {
           throw new Error(`Mask sprite Symbol${svgMaskedBy} not found`);
         }
 
-        symbolContainer.addChild(maskSprite);
         sprite.mask = maskSprite;
       }
   
@@ -638,8 +637,7 @@ class Fighter {
           if (!maskSprite) {
             throw new Error(`Mask sprite Symbol${framePart.maskedBy} not found`);
           }
-  
-          framePartContainer.addChild(maskSprite);
+
           framePartContainer.mask = maskSprite;
         }
   
