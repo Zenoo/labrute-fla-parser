@@ -647,7 +647,20 @@ const ignoreParts: number[] = [
 // Some color transforms should be ignored
 // Symbol number: [frameNumber, partIdx][]
 const ignoreColorTransforms: Record<number, [number, number][] | undefined> = {
-  
+  // Male armor 6
+  28: [[6, 17]],
+  75: [[6, 74]],
+  102: [[6, 82]],
+  143: [[6, 124]],
+  173: [[6, 149]],
+  206: [[6, 124]],
+  214: [[0, 211]],
+  239: [[6, 149]],
+  274: [[6, 267]],
+  338: [[0, 331]],
+  422: [[0, 70]],
+  449: [[6, 448]],
+  468: [[0, 17]],
 };
 
 // Some color transforms are missing
