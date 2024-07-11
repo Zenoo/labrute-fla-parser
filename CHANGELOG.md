@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.12](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.11...v1.0.12) (2024-07-11)
+
+
+### Bug Fixes
+
+* Mask svgs in test ([d904856](https://github.com/Zenoo/labrute-fla-parser/commit/d904856978c1dd98960244171b64f677e5c783c4))
+* Missing pio texture ([d989dcc](https://github.com/Zenoo/labrute-fla-parser/commit/d989dcc83da0b45c609aaf853f62ae070e4ffdbe))
+* Pigtails display issue ([f6be6e3](https://github.com/Zenoo/labrute-fla-parser/commit/f6be6e3e034604d9d8dc6d42809a542ba4a0cb71))
+* Wrong color on male clothing 6. Fixes [#21](https://github.com/Zenoo/labrute-fla-parser/issues/21) ([2f91760](https://github.com/Zenoo/labrute-fla-parser/commit/2f91760d57e3995b058928d5952590d22ae9cc38))
+
 ## [1.0.11](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.10...v1.0.11) (2024-01-04)
 
 
