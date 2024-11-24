@@ -717,7 +717,7 @@ const fighter = new Fighter({
   frame: 0,
   type: 'male',
   shield: false,
-  weapon: null,
+  weapon: 'sword',
   colors: readColorString('male', '03030301010101010803151401191418'),
   parts: readBodyString('01013100611'),
 }, 200, 200);
