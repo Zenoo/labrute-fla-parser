@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.13](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.12...v1.0.13) (2024-11-24)
+
+
+### Bug Fixes
+
+* New symbol offsets ([fff74c2](https://github.com/Zenoo/labrute-fla-parser/commit/fff74c22745985e3ba160dc0fe3dc9bd257ead9f))
+
 ## [1.0.12](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.11...v1.0.12) (2024-07-11)
 
 
