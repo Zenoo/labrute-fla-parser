@@ -644,6 +644,36 @@ const ignoreParts: number[] = [
   843,
 ];
 
+// Some entire symbols are mispositionned
+const globalOffset: Record<number, {x?: number, y?: number}> = {
+  // Dog
+  894: {y: -11.2},
+  903: {y: -11.2},
+  904: {y: -11.2},
+  905: {y: -11.2},
+  906: {y: -11.2},
+  907: {y: -11.2},
+  910: {y: -11.2},
+  911: {y: -11.2},
+  912: {y: -11.2},
+  913: {y: -11.2},
+  // Bear
+  935: {y: -32.5},
+  936: {y: -32.5},
+  937: {y: -32.5},
+  938: {y: -32.5},
+  939: {y: -32.5},
+  940: {y: -32.5},
+  941: {y: -32.5},
+  942: {y: -32.5},
+  943: {y: -32.5},
+  944: {y: -32.5},
+  // Male hit
+  488: {y: -17},
+  // Female hit
+  851: {y: -17},
+};
+
 // Some color transforms should be ignored
 // Symbol number: [frameNumber, partIdx][]
 const ignoreColorTransforms: Record<number, [number, number][] | undefined> = {
@@ -743,6 +773,15 @@ const parseSymbol = (symbolItem?: DOMSymbolItem): Symbol => {
     parts: [],
     frames: [],
   };
+
+  // Check if entire Symbol has an offset
+  const offset = globalOffset[symbolNumber];
+  if (offset) {
+    result.offset = {
+      x: offset.x ?? 0,
+      y: offset.y ?? 0,
+    };
+  }
 
   if (!result.frames) {
     throw new Error('No frames');

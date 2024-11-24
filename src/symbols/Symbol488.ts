@@ -4201,5 +4201,9 @@ export const Symbol488: Symbol = {
         }
       }
     ]
-  ]
+  ],
+  "offset": {
+    "x": 0,
+    "y": -17
+  }
 };

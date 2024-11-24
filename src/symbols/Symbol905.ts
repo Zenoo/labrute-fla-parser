@@ -326,5 +326,9 @@ export const Symbol905: Symbol = {
         }
       }
     ]
-  ]
+  ],
+  "offset": {
+    "x": 0,
+    "y": -11.2
+  }
 };

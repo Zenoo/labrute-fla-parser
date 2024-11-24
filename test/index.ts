@@ -195,6 +195,21 @@ viewport.sortableChildren = true;
 app.renderer.render(app.stage);
 app.stage.addChild(viewport);
 
+// Add target lines
+const horizontal = new PIXI.Graphics();
+horizontal.lineStyle(1, 0x000000, 1);
+horizontal.moveTo(0, 200);
+horizontal.lineTo(app.view.width, 200);
+horizontal.endFill();
+viewport.addChild(horizontal);
+
+const vertical = new PIXI.Graphics();
+vertical.lineStyle(1, 0x000000, 1);
+vertical.moveTo(200, 0);
+vertical.lineTo(200, app.view.height);
+vertical.endFill();
+viewport.addChild(vertical);
+
 type SvgsToLoad = {
   svg: Svg;
   count: number;
@@ -538,6 +553,12 @@ class Fighter {
   
       // Get frame to load
       let frameToLoad: number;
+
+      // Check if symbol has an offset
+      if (symbol.offset) {
+        symbolContainer.x = symbol.offset.x ?? 0;
+        symbolContainer.y = symbol.offset.y ?? 0;
+      }
   
       // If symbol has partIdx, only load the corresponding frame
       if (symbol.partIdx) {
@@ -692,11 +713,11 @@ type BruteState = {
 };
 
 const fighter = new Fighter({
-  animation: 'idle',
+  animation: 'hit-0',
   frame: 0,
   type: 'male',
   shield: false,
-  weapon: 'piopio',
+  weapon: null,
   colors: readColorString('male', '03030301010101010803151401191418'),
   parts: readBodyString('01013100611'),
 }, 200, 200);

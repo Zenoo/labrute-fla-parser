@@ -3636,5 +3636,9 @@ export const Symbol936: Symbol = {
         }
       }
     ]
-  ]
+  ],
+  "offset": {
+    "x": 0,
+    "y": -32.5
+  }
 };
