@@ -38,4 +38,8 @@ export type Symbol = {
   // Sub symbol
   partIdx?: string;
   colorIdx?: string;
+  offset?: {
+    x?: number;
+    y?: number;
+  };
 }
