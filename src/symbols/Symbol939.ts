@@ -1787,5 +1787,9 @@ export const Symbol939: Symbol = {
         }
       }
     ]
-  ]
+  ],
+  "offset": {
+    "x": 0,
+    "y": -32.5
+  }
 };

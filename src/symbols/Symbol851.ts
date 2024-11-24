@@ -4379,5 +4379,9 @@ export const Symbol851: Symbol = {
         }
       }
     ]
-  ]
+  ],
+  "offset": {
+    "x": 0,
+    "y": -17
+  }
 };

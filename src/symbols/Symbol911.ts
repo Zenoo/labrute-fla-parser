@@ -968,5 +968,9 @@ export const Symbol911: Symbol = {
         }
       }
     ]
-  ]
+  ],
+  "offset": {
+    "x": 0,
+    "y": -11.2
+  }
 };

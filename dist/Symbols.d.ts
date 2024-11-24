@@ -34,6 +34,10 @@ type Symbol = {
     frames?: FramePart[][];
     partIdx?: string;
     colorIdx?: string;
+    offset?: {
+        x?: number;
+        y?: number;
+    };
 };
 
 declare const Symbol1: Symbol;
