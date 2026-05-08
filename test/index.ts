@@ -1,25 +1,35 @@
 import * as PIXI from 'pixi.js';
-import { Filter, Texture } from 'pixi.js';
+import { Filter, Matrix, Texture } from 'pixi.js';
 import { Symbol475, Symbol476, Symbol478, Symbol479, Symbol488, Symbol489, Symbol490, Symbol491, Symbol493, Symbol494, Symbol495, Symbol496, Symbol497, Symbol498, Symbol503, Symbol504, Symbol505, Symbol506, Symbol507, Symbol508, Symbol509, Symbol510, Symbol513, Symbol516, Symbol517, Symbol541, Symbol542, Symbol543, Symbol544, Symbol545, Symbol546, Symbol846, Symbol847, Symbol848, Symbol849, Symbol851, Symbol854, Symbol855, Symbol856, Symbol857, Symbol858, Symbol859, Symbol860, Symbol861, Symbol862, Symbol863, Symbol864, Symbol865, Symbol866, Symbol867, Symbol868, Symbol869, Symbol870, Symbol871, Symbol875, Symbol876, Symbol877, Symbol878, Symbol879, Symbol880, Symbol894, Symbol903, Symbol904, Symbol905, Symbol906, Symbol907, Symbol910, Symbol911, Symbol912, Symbol913, Symbol935, Symbol936, Symbol937, Symbol938, Symbol939, Symbol940, Symbol941, Symbol942, Symbol943, Symbol944 } from '../src/Symbols';
 import { FramePart, Svg, Symbol } from '../src/common';
 import ColorOffsetShader from './ColorOffsetShader';
-import { PixiHelper } from './PixiHelper';
 import { readBodyString, readColorString } from './utils';
+
+// Simple MutableRefObject type definition (similar to React's)
+type MutableRefObject<T> = {
+  current: T;
+};
+
+type Animation = 'idle' | 'monk' | 'fist' | 'arrive' | 'hit-0' | 'hit-1' | 'hit-2' | 'run' | 'equip' | 'evade' | 'block' | 'trash' | 'death' | 'estoc' | 'slash' | 'throw' | 'prepare-throw' | 'grab' | 'steal' | 'grabbed' | 'stolen' | 'trapped' | 'drink' | 'strengthen' | 'whip' | 'launch' | 'win' | 'train' | 'train2' | 'eat' | 'attack' | 'hit';
+type Gender = 'male' | 'female';
 
 const bust = {
   male: Symbol504,
   female: Symbol862,
 };
 
-const animations = {
+const ANIMATIONS: Record<
+  Gender | 'dog' | 'bear' | 'panther',
+  Record<Animation, Symbol | null>
+> = {
   male: {
     idle: Symbol475,
     monk: Symbol476,
     fist: Symbol478,
     arrive: Symbol479,
-    ['hit-0']: Symbol488,
-    ['hit-1']: Symbol489,
-    ['hit-2']: Symbol490,
+    'hit-0': Symbol488,
+    'hit-1': Symbol489,
+    'hit-2': Symbol490,
     run: Symbol491,
     equip: Symbol493,
     evade: Symbol494,
@@ -29,7 +39,7 @@ const animations = {
     estoc: Symbol498,
     slash: Symbol503,
     throw: Symbol505,
-    ['prepare-throw']: Symbol506,
+    'prepare-throw': Symbol506,
     grab: Symbol507,
     steal: Symbol508,
     grabbed: Symbol509,
@@ -43,6 +53,8 @@ const animations = {
     train: Symbol544,
     train2: Symbol545,
     eat: Symbol546,
+    attack: null,
+    hit: null,
   },
   female: {
     idle: Symbol846,
@@ -59,7 +71,7 @@ const animations = {
     estoc: Symbol860,
     slash: Symbol861,
     throw: Symbol863,
-    ['prepare-throw']: Symbol864,
+    'prepare-throw': Symbol864,
     grab: Symbol865,
     steal: Symbol866,
     grabbed: Symbol867,
@@ -73,6 +85,10 @@ const animations = {
     train: Symbol878,
     train2: Symbol879,
     eat: Symbol880,
+    attack: null,
+    'hit-0': null,
+    'hit-1': null,
+    'hit-2': null,
   },
   dog: {
     idle: Symbol894,
@@ -85,6 +101,28 @@ const animations = {
     grab: Symbol911,
     grabbed: Symbol912,
     trapped: Symbol913,
+    block: null,
+    drink: null,
+    'hit-0': null,
+    'hit-1': null,
+    'hit-2': null,
+    equip: null,
+    estoc: null,
+    fist: null,
+    launch: null,
+    monk: null,
+    'prepare-throw': null,
+    slash: null,
+    steal: null,
+    strengthen: null,
+    throw: null,
+    trash: null,
+    whip: null,
+    win: null,
+    train: null,
+    train2: null,
+    eat: null,
+    stolen: null,
   },
   bear: {
     idle: Symbol935,
@@ -97,10 +135,69 @@ const animations = {
     grab: Symbol942,
     grabbed: Symbol943,
     trapped: Symbol944,
+    block: null,
+    drink: null,
+    'hit-0': null,
+    'hit-1': null,
+    'hit-2': null,
+    equip: null,
+    estoc: null,
+    fist: null,
+    launch: null,
+    monk: null,
+    'prepare-throw': null,
+    slash: null,
+    steal: null,
+    strengthen: null,
+    throw: null,
+    trash: null,
+    whip: null,
+    win: null,
+    train: null,
+    train2: null,
+    eat: null,
+    stolen: null,
+  },
+  panther: {
+    idle: Symbol894,
+    attack: Symbol903,
+    arrive: Symbol904,
+    hit: Symbol905,
+    run: Symbol906,
+    evade: Symbol907,
+    death: Symbol910,
+    grab: Symbol911,
+    grabbed: Symbol912,
+    trapped: Symbol913,
+    block: null,
+    drink: null,
+    'hit-0': null,
+    'hit-1': null,
+    'hit-2': null,
+    equip: null,
+    estoc: null,
+    fist: null,
+    launch: null,
+    monk: null,
+    'prepare-throw': null,
+    slash: null,
+    steal: null,
+    strengthen: null,
+    throw: null,
+    trash: null,
+    whip: null,
+    win: null,
+    train: null,
+    train2: null,
+    eat: null,
+    stolen: null,
   },
 };
 
-const loopStart = {
+const LOOP_START: Record<
+  Gender | 'dog' | 'bear' | 'panther',
+  Record<Animation, number | null>
+> = {
   male: {
     idle: 0,
     monk: 6,
@@ -109,6 +206,31 @@ const loopStart = {
     trapped: 11,
     train: 0,
     train2: 0,
+    'hit-0': null,
+    'hit-1': null,
+    'hit-2': null,
+    'prepare-throw': null,
+    grab: null,
+    grabbed: null,
+    stolen: null,
+    steal: null,
+    drink: null,
+    strengthen: null,
+    whip: null,
+    launch: null,
+    win: null,
+    eat: null,
+    arrive: null,
+    fist: null,
+    estoc: null,
+    slash: null,
+    throw: null,
+    trash: null,
+    equip: null,
+    block: null,
+    evade: null,
+    attack: null,
+    hit: null,
   },
   female: {
     idle: 0,
@@ -118,34 +240,154 @@ const loopStart = {
     trapped: 11,
     train: 0,
     train2: 0,
+    'hit-0': null,
+    'hit-1': null,
+    'hit-2': null,
+    'prepare-throw': null,
+    grab: null,
+    grabbed: null,
+    stolen: null,
+    steal: null,
+    drink: null,
+    strengthen: null,
+    whip: null,
+    launch: null,
+    win: null,
+    eat: null,
+    arrive: null,
+    fist: null,
+    estoc: null,
+    slash: null,
+    throw: null,
+    trash: null,
+    equip: null,
+    block: null,
+    evade: null,
+    attack: null,
+    hit: null,
   },
   dog: {
     idle: 0,
     run: 0,
     evade: 0,
     trapped: 11,
+    'hit-0': null,
+    'hit-1': null,
+    'hit-2': null,
+    'prepare-throw': null,
+    grab: null,
+    grabbed: null,
+    stolen: null,
+    steal: null,
+    drink: null,
+    strengthen: null,
+    whip: null,
+    launch: null,
+    win: null,
+    eat: null,
+    arrive: null,
+    fist: null,
+    estoc: null,
+    slash: null,
+    throw: null,
+    trash: null,
+    equip: null,
+    block: null,
+    attack: null,
+    hit: null,
+    death: null,
+    monk: null,
+    train: null,
+    train2: null,
   },
   bear: {
     idle: 0,
     run: 0,
     trapped: 11,
+    'hit-0': null,
+    'hit-1': null,
+    'hit-2': null,
+    'prepare-throw': null,
+    grab: null,
+    grabbed: null,
+    stolen: null,
+    steal: null,
+    drink: null,
+    strengthen: null,
+    whip: null,
+    launch: null,
+    win: null,
+    eat: null,
+    arrive: null,
+    fist: null,
+    estoc: null,
+    slash: null,
+    throw: null,
+    trash: null,
+    equip: null,
+    block: null,
+    attack: null,
+    hit: null,
+    death: null,
+    monk: null,
+    train: null,
+    train2: null,
+    evade: null,
+  },
+  panther: {
+    idle: 0,
+    run: 0,
+    evade: 0,
+    trapped: 11,
+    'hit-0': null,
+    'hit-1': null,
+    'hit-2': null,
+    'prepare-throw': null,
+    grab: null,
+    grabbed: null,
+    stolen: null,
+    steal: null,
+    drink: null,
+    strengthen: null,
+    whip: null,
+    launch: null,
+    win: null,
+    eat: null,
+    arrive: null,
+    fist: null,
+    estoc: null,
+    slash: null,
+    throw: null,
+    trash: null,
+    equip: null,
+    block: null,
+    attack: null,
+    hit: null,
+    death: null,
+    monk: null,
+    train: null,
+    train2: null,
   },
 };
 
-const animationSymbolNames = {
-  male: Object.values(animations.male).map(a => a.name),
-  female: Object.values(animations.female).map(a => a.name),
-  dog: Object.values(animations.dog).map(a => a.name),
-  bear: Object.values(animations.bear).map(a => a.name),
+const ANIMATION_SYMBOL_NAMES = {
+  male: Object.values(ANIMATIONS.male).filter(Boolean).map((a) => a?.name ?? ''),
+  female: Object.values(ANIMATIONS.female).filter(Boolean).map((a) => a?.name ?? ''),
+  dog: Object.values(ANIMATIONS.dog).filter(Boolean).map((a) => a?.name ?? ''),
+  bear: Object.values(ANIMATIONS.bear).filter(Boolean).map((a) => a?.name ?? ''),
+  panther: Object.values(ANIMATIONS.dog).filter(Boolean).map((a) => a?.name ?? ''),
 };
 
 const WEAPON_SYMBOL = 'Symbol68';
-const SHIELD_SYMBOL = {
+const SHIELD_SYMBOL: Record<Gender | 'dog' | 'bear' | 'panther', string> = {
   male: 'Symbol472',
   female: 'Symbol472',
+  dog: '',
+  bear: '',
+  panther: '',
 };
 
-const weaponFrames = [
+const WEAPON_FRAMES: (string | null)[] = [
   null,
   'knife',
   'broadsword',
@@ -170,13 +412,20 @@ const weaponFrames = [
   'fryingPan',
   'piopio',
   'halbard',
-  'trumpet',
+  'trombone',
   'keyboard',
   'noodleBowl',
   'racquet',
 ];
 
 const SCALE = 1;
+
+type SvgsToLoad = {
+  svg: Svg;
+  count: number;
+}[];
+
+const matrixFromObject = (obj: FramePart['transform'], scale = 1) => new Matrix(obj?.a ?? 1, obj?.b ?? 0, obj?.c ?? 0, obj?.d ?? 1, (obj?.tx ?? 0) * scale, (obj?.ty ?? 0) * scale);
 
 const app = new PIXI.Application<HTMLCanvasElement>({
   backgroundColor: 0xfbf7c0,
@@ -210,69 +459,209 @@ vertical.lineTo(200, app.view.height);
 vertical.endFill();
 viewport.addChild(vertical);
 
-type SvgsToLoad = {
-  svg: Svg;
-  count: number;
-}[];
+type FighterType = 'brute' | 'pet' | 'boss';
+type FighterName = string;
 
-class Fighter {
+type FighterData = {
+  type: FighterType;
+  name: FighterName;
+  gender?: Gender;
+  team: 'L' | 'R';
+  colors?: string;
+  body?: string;
+  skills: string[];
+  shield: boolean;
+};
+
+const FIGHTER_WIDTH = {
+  brute: 100,
+  dog: 100,
+  bear: 100,
+};
+
+const FIGHTER_HEIGHT = {
+  brute: 130,
+  dog: 90,
+  bear: 110,
+};
+
+export default class FighterHolder {
   // Setup data
-  readonly type: 'male' | 'female' | 'dog' | 'panther' | 'bear';
-  readonly #colors: Record<string, string> = {};
-  readonly #parts: Record<string, number> = {};
+  readonly type: FighterType;
+
+  readonly #animationType: Gender | 'dog' | 'bear';
+
+  readonly name: FighterName;
+
+  readonly #colors: Record<string, string>;
+
+  readonly #parts: Record<string, number>;
+
+  readonly skills: string[];
 
   // Those can change mid-fight
-  animation: string = 'idle';
-  shield: boolean = false;
+  animation: Animation = 'arrive';
+
+  shield = false;
+
   weapon: string | null = null;
-  
+
+  readonly baseWidth: number;
+
+  readonly baseHeight: number;
+
   // PIXI
   readonly container: PIXI.Container;
-  #animationContainer: PIXI.Container;
-  #animationSymbol: Symbol;
 
-  #playing: boolean = true;
-  #frame: number = 0;
-  #timer: number = 0;
+  #animationContainer: PIXI.Container | null = null;
+
+  #animationSymbol: Symbol | null = null;
+
+  shadow: PIXI.Container = new PIXI.Container();
+
+  #isAirborn = false;
+
+  #scale = 1;
+
+  #playing = true;
+
+  #frame = 0;
+
+  #timer = 0;
+
+  animationSpeed = 1;
+
   svgs: PIXI.Sprite[] = [];
-  #tickRate = 1000 / 24;
+
+  speed: MutableRefObject<number>;
+
   #frameCount = 0;
+
   #usedSvgs: Record<string, number> = {};
-  
+
+  readonly loaded: boolean = false;
+
   // Events
   events: Record<string, ((event: string) => void)[]> = {};
+
   onceEvents: Record<string, ((event: string) => void)[]> = {};
 
-  constructor(bruteState: BruteState, x?: number, y?: number) {
-    this.type = bruteState.type;
-    this.animation = bruteState.animation;
-    this.shield = bruteState.shield;
-    this.weapon = bruteState.weapon;
-    this.#colors = bruteState.colors;
-    this.#parts = bruteState.parts;
-    this.#frame = bruteState.frame;
+  constructor(
+    application: PIXI.Application,
+    fighter: FighterData,
+    speed: MutableRefObject<number>,
+    scale = 1,
+  ) {
+    this.type = fighter.type;
+    this.name = fighter.name;
+    this.shield = fighter.shield;
+    this.weapon = null;
+    this.skills = fighter.skills;
+    this.#colors = readColorString(fighter.gender || 'male', fighter.colors || '0'.repeat(32));
+    this.#parts = readBodyString(fighter.body || '0'.repeat(11));
+    this.speed = speed;
+
+    // Apply custom scale
+    this.#scale = scale;
+
+    // Get animation type
+    if (this.type === 'brute') {
+      this.#animationType = fighter.gender || 'male';
+    } else if (this.type === 'pet') {
+      this.#animationType = (fighter.name.startsWith('dog') || fighter.name === 'panther') ? 'dog' : 'bear';
+    } else {
+      // Boss - default to bear for now
+      this.#animationType = 'bear';
+    }
 
     // Get all animations
-    const animationsByType = Object.values(animations[this.type === 'panther' ? 'dog' : this.type]);
+    const animationsByType = Object.values(ANIMATIONS[this.#animationType]);
 
     const symbolContainer = new PIXI.Container();
     symbolContainer.sortableChildren = true;
-    symbolContainer.x = x ?? 0;
-    symbolContainer.y = y ?? 0;
+    symbolContainer.x = 0;
+    symbolContainer.y = 0;
+
+    // Handle team side
+    symbolContainer.scale.x = fighter.team === 'L' ? 1 : -1;
+
+    // Reverse X for dog
+    if (this.#animationType === 'dog') {
+      symbolContainer.scale.x *= -1;
+    }
 
     this.container = symbolContainer;
+
+    // Custom scale for panther
+    if (this.type === 'pet' && this.name === 'panther') {
+      this.#scale *= 1.5;
+    }
+
+    // Get fighter model type
+    let fighterModelType: 'brute' | 'dog' | 'bear' = 'brute';
+
+    if (this.type === 'pet') {
+      if (fighter.name === 'panther' || fighter.name.startsWith('dog')) {
+        fighterModelType = 'dog';
+      } else if (fighter.name === 'bear') {
+        fighterModelType = 'bear';
+      }
+    } else if (this.type === 'boss') {
+      // Default to bear for bosses
+      fighterModelType = 'bear';
+    }
+
+    // Set the base width and height information
+    this.baseWidth = FIGHTER_WIDTH[fighterModelType] * SCALE * this.#scale;
+    this.baseHeight = FIGHTER_HEIGHT[fighterModelType] * SCALE * this.#scale;
+
+    // Create Shadow Graphics
+    const shadowGraphics = new PIXI.Graphics();
+    shadowGraphics.beginFill(0x000000, 0.4);
+    shadowGraphics.drawEllipse(0, 0, 30, 10);
+    shadowGraphics.endFill();
+
+    // Create Shadow Sprite
+    const shadowSprite = new PIXI.Sprite();
+    shadowSprite.texture = application.renderer.generateTexture(shadowGraphics);
+    shadowSprite.anchor.set(0.5, 0.5);
+    shadowSprite.width = this.baseWidth;
+    shadowSprite.height = (this.baseHeight * 30) / this.baseWidth;
+
+    if (fighterModelType === 'brute') {
+      // Brute shadow
+      shadowSprite.position.set(0, -0.02 * this.baseHeight);
+      shadowSprite.scale.set(0.72 * this.#scale, 0.7 * this.#scale);
+    } else if (fighterModelType === 'bear') {
+      // Bear shadow
+      shadowSprite.scale.set(1.3 * this.#scale, 1.1 * this.#scale);
+    } else {
+      // Dog shadow
+      shadowSprite.position.set(-0.2 * this.baseHeight, 0);
+      shadowSprite.scale.set(0.7 * this.#scale, 0.5 * this.#scale);
+    }
+
+    // Blur shadow depending on it's size
+    shadowSprite.filters = [new PIXI.filters.BlurFilter(this.baseWidth * 0.065)];
+    // Add shadowSprite to shadow container
+    this.shadow.addChild(shadowSprite);
+    this.shadow.alpha = 0;
+    // Add shadow Container to fightHolder
+    this.container.addChild(this.shadow);
 
     const maxSvgs: SvgsToLoad = [];
 
     // For each animation
     for (const animation of animationsByType) {
+      if (!animation) continue;
+
       const animationContainer = new PIXI.Container();
       animationContainer.name = animation.name;
       animationContainer.sortableChildren = true;
       animationContainer.visible = false;
       this.container.addChild(animationContainer);
 
-      if (animation.name === animations[this.type === 'panther' ? 'dog' : this.type][this.animation].name) {
+      if (animation.name === ANIMATIONS[this.#animationType][this.animation]?.name) {
         animationContainer.visible = true;
         this.#animationContainer = animationContainer;
         this.#animationSymbol = animation;
@@ -281,37 +670,55 @@ class Fighter {
 
       // For each frame
       for (const frame of animation.frames ?? []) {
-        let svgsToLoad: SvgsToLoad = [];
-        this.#initializeContainersAndGetSvgsToLoad(svgsToLoad, animationContainer, animation.parts, frame);
+        const svgsToLoad: SvgsToLoad = [];
+        this.#initializeContainersAndGetSvgsToLoad(
+          svgsToLoad,
+          animationContainer,
+          animation.parts,
+          frame,
+        );
 
         // Merge svgs
         for (const svg of svgsToLoad) {
-          const existingSvg = maxSvgs.find(s => s.svg.name === svg.svg.name);
+          const existingSvg = maxSvgs.find((s) => s.svg.name === svg.svg.name);
           if (!existingSvg) {
             maxSvgs.push(svg);
           } else {
             existingSvg.count = Math.max(existingSvg.count, svg.count);
           }
         }
-      };
+      }
     }
 
     // Load SVGs
     this.#loadSvgs(maxSvgs);
 
+    // Loaded event
+    this.loaded = true;
+
     // Play animation (loop on frames with PIXI ticker)
-    app.ticker.add(() => {
+    application.ticker?.add(() => {
+      if (this.container.destroyed) return;
+
+      // Update zIndex if not airborn
+      if (!this.#isAirborn) {
+        this.container.zIndex = this.container.y;
+      }
+
       // Do nothing if not playing
       if (!this.#playing) {
         return;
       }
 
-      this.#timer += app.ticker.elapsedMS;
-      if (this.#timer === 0 || this.#timer >= this.#tickRate) {
-        this.#timer = this.#timer % this.#tickRate;
+      const tickRate = 1000 / (30 * this.speed.current);
 
-        if (this.#frame >= this.#frameCount) {
-          this.#frame = loopStart[this.type][this.animation];
+      this.#timer += application.ticker.elapsedMS;
+      if (this.#timer === 0 || this.#timer >= tickRate) {
+        this.#timer %= tickRate;
+
+        const loopStart = LOOP_START[this.#animationType][this.animation];
+        if (this.#frame >= this.#frameCount && loopStart !== null) {
+          this.#frame = loopStart;
         }
 
         // Hide all svgs
@@ -328,12 +735,44 @@ class Fighter {
           this.#triggerEvents(`${this.animation}:start`);
         }
 
-        this.#frame++;
+        // :trashed event
+        if (this.animation === 'trash' && this.#frame === 3) {
+          this.#triggerEvents(`${this.animation}:trashed`);
+        }
+
+        // :hand-raised event (win animation is faster for female)
+        if (this.animation === 'win'
+          && this.#frame === (this.#animationType === 'male' ? 52 : 27)) {
+          this.#triggerEvents(`${this.animation}:hand-raised`);
+        }
+
+        // :hit event
+        if (this.animation === 'fist' && this.#frame === 2) {
+          this.#triggerEvents(`${this.animation}:hit`);
+        } else if (this.animation === 'estoc' && this.#frame === 4) {
+          this.#triggerEvents(`${this.animation}:hit`);
+        } else if (this.animation === 'slash' && this.#frame === 5) {
+          this.#triggerEvents(`${this.animation}:hit`);
+        } else if (this.animation === 'whip' && this.#frame === 4) {
+          this.#triggerEvents(`${this.animation}:hit`);
+        } else if (this.animation === 'attack' && this.#animationType === 'dog' && this.#frame === 2) {
+          this.#triggerEvents(`${this.animation}:hit`);
+        } else if (this.animation === 'attack' && this.#animationType === 'bear' && this.#frame === 4) {
+          this.#triggerEvents(`${this.animation}:hit`);
+        }
+
+        // :drop event
+        if (this.animation === 'death' && this.#frame === LOOP_START[this.#animationType].death) {
+          this.#triggerEvents(`${this.animation}:drop`);
+        }
+
+        this.#frame += this.animationSpeed;
 
         // :end event
-        if (this.#frame >= this.#frameCount && loopStart[this.type]?.[this.animation] === undefined) {
+        if ((this.#frame >= this.#frameCount || this.#frame < 0)
+          && LOOP_START[this.#animationType]?.[this.animation] === null) {
           this.#playing = false;
-          this.#triggerEvents(`${this.animation}:end`);
+          this.#triggerEvents(`${this.animation}:${this.#frame < 0 ? 'start' : 'end'}`);
         }
       }
     });
@@ -342,14 +781,14 @@ class Fighter {
   #triggerEvents = (event: string) => {
     // Trigger events
     if (this.events[event]) {
-      for (const callback of this.events[event]) {
+      for (const callback of this.events[event] ?? []) {
         callback(event);
       }
     }
-  
+
     // Trigger once events
     if (this.onceEvents[event]) {
-      for (const callback of this.onceEvents[event]) {
+      for (const callback of this.onceEvents[event] ?? []) {
         callback(event);
       }
       delete this.onceEvents[event];
@@ -369,28 +808,39 @@ class Fighter {
       }
       delete this.onceEvents['*'];
     }
-  }
+  };
 
-  setAnimation(animation: string) {
-    this.animation = animation;
+  setAnimation(animation: Animation, frame = 0) {
+    // Handle idle differently for monks
+    if (animation === 'idle' && this.skills.includes('monk')) {
+      this.animation = 'monk';
+    } else if (animation === 'win' && this.type !== 'brute') {
+      // Skip win animation for pets and bosses
+      return;
+    } else {
+      this.animation = animation;
+    }
 
     // Hide all animations
     for (const child of this.container.children) {
-      if (child instanceof PIXI.Container) {
+      if (child !== this.shadow && child instanceof PIXI.Container) {
         child.visible = false;
       }
     }
 
     // Update current animation
-    this.#animationContainer = this.container.children.find((child) => child.name === animations[this.type === 'panther' ? 'dog' : this.type][animation].name) as PIXI.Container;
-    this.#animationSymbol = animations[this.type === 'panther' ? 'dog' : this.type][animation];
+    this.#animationContainer = this.container.children
+      .find(
+        (child) => child.name === ANIMATIONS[this.#animationType][this.animation]?.name
+      ) as PIXI.Container;
+    this.#animationSymbol = ANIMATIONS[this.#animationType][this.animation];
 
     // Show current animation
     this.#animationContainer.visible = true;
 
     // Reset frame
-    this.#frame = 0;
-    this.#frameCount = this.#animationSymbol.frames?.length ?? 0;
+    this.#frame = frame;
+    this.#frameCount = this.#animationSymbol?.frames?.length ?? 0;
     this.#timer = 0;
     this.#playing = true;
 
@@ -406,7 +856,7 @@ class Fighter {
     frame: FramePart[] = [],
   ) => {
     frame.forEach((framePart, i) => {
-      const symbol = parts?.find(p => p.name === framePart.name);
+      const symbol = parts?.find((p) => p.name === framePart.name);
 
       if (!symbol) {
         throw new Error(`Part ${framePart.name} not found in symbol ${symbolContainer.name}`);
@@ -414,7 +864,7 @@ class Fighter {
 
       // SVG
       if (symbol.type === 'svg') {
-        const existingSvg = svgsToLoad.find(s => s.svg.name === symbol.name);
+        const existingSvg = svgsToLoad.find((s) => s.svg.name === symbol.name);
         if (existingSvg) {
           existingSvg.count++;
         } else {
@@ -439,47 +889,60 @@ class Fighter {
 
         // If symbol has partIdx, only load the corresponding frame
         if (symbol.partIdx) {
-          const partValue = this.#parts[symbol.partIdx];
+          const partValue = this.#parts[symbol.partIdx.substring(1)];
 
           if (partValue === undefined) {
-            throw new Error(`Part ${symbol.partIdx} not found in fighter config`);
+            throw new Error(`Part ${symbol.partIdx.substring(1)} not found in fighter config`);
           }
 
           framesToLoad = [partValue];
         } else if (symbol.name === WEAPON_SYMBOL) {
           // Load all weapon frames
-          framesToLoad = weaponFrames.map((_, i) => i);
+          framesToLoad = WEAPON_FRAMES.map((_, index) => index);
+        } else if (symbol.name === 'Symbol526') {
+          // Special case for whip animation
+          framesToLoad = [16];
         } else {
           // Load only the first frame
           framesToLoad = [0];
         }
 
         // For each frame, load the corresponding SVGs
-        const svgs: SvgsToLoad = [];
         for (const frameIdx of framesToLoad) {
-          const frame = symbol.frames?.[frameIdx];
-          if (!frame) {
+          const currentFrame = symbol.frames?.[frameIdx];
+          if (!currentFrame) {
             continue;
           }
 
-          this.#initializeContainersAndGetSvgsToLoad(svgsToLoad, container, symbol.parts, frame);
+          this.#initializeContainersAndGetSvgsToLoad(
+            svgsToLoad,
+            container,
+            symbol.parts,
+            currentFrame,
+          );
         }
       }
     });
-  }
+  };
 
   #loadSvgs = (svgsToLoad: SvgsToLoad) => {
     for (const svgToLoad of svgsToLoad) {
-      const svg = svgToLoad.svg;
+      const { svg } = svgToLoad;
 
       for (let i = 0; i < svgToLoad.count; i++) {
         // Custom scale
         let customScale = svg.scale ?? 1;
-        const size = SCALE * (this.type === 'panther' ? 1.5 : 1);
+        const size = SCALE * this.#scale;
 
-        const svgSprite = new PIXI.Sprite(Texture.from(svg.svg, {
-          resourceOptions: { scale: size * customScale }
-        }));
+        // Increase loading scale for better resolution in some cases
+        if (this.type === 'boss') {
+          customScale = 2;
+        }
+
+        const svgSprite = new PIXI.Sprite(Texture.from(
+          `${svg.svg}<!-- ${size * customScale} -->`,
+          { resourceOptions: { scale: size * customScale } },
+        ));
         svgSprite.name = svg.name;
         svgSprite.scale.set(1 / customScale);
         svgSprite.visible = false;
@@ -494,25 +957,31 @@ class Fighter {
         this.svgs.push(svgSprite);
       }
     }
-  }
+  };
 
   #displayFrame = (
-    symbolContainer: PIXI.Container,
-    symbol: Symbol | Svg,
+    symbolContainer: PIXI.Container | null,
+    symbol: Symbol | Svg | null,
     colorIdx?: string,
     zIndex?: number,
     svgMaskedBy?: number,
   ) => {
+    if (!symbolContainer || !symbol) return;
+
     if (symbol.type === 'svg') {
-      const sprite = this.svgs.filter(s => s.name === symbol.name)[this.#usedSvgs[symbol.name] ?? 0];
-  
+      const sprite = this.svgs
+        .filter((s) => s.name === symbol.name)[this.#usedSvgs[symbol.name] ?? 0];
+
       if (!sprite) {
         throw new Error(`Sprite ${symbol.name} not found`);
       }
-  
+
       // Hide shield if needed
-      if (sprite.name === SHIELD_SYMBOL[this.type]) {
+      if (sprite.name === SHIELD_SYMBOL[this.#animationType]) {
         sprite.visible = this.shield;
+      } else if (!this.weapon) {
+        // Hide 39 if no weapon
+        sprite.visible = sprite.name !== 'Symbol39';
       } else {
         sprite.visible = true;
       }
@@ -527,77 +996,86 @@ class Fighter {
 
         sprite.mask = maskSprite;
       }
-  
+
       // Apply color
       if (colorIdx) {
-        const color = this.#colors[colorIdx];
+        const color = this.#colors[colorIdx.substring(1)];
         if (!color) {
           throw new Error(`Color ${colorIdx} not found`);
         }
-  
+
         sprite.tint = parseInt(color.replace('#', ''), 16);
       }
-  
+
       // Add to current container
       sprite.zIndex = zIndex ?? 0;
       symbolContainer.addChild(sprite);
-  
+
       // Increment used count
-      if (this.#usedSvgs[symbol.name]) {
-        this.#usedSvgs[symbol.name]++;
+      const usedCount = this.#usedSvgs[symbol.name];
+      if (usedCount) {
+        this.#usedSvgs[symbol.name] = usedCount + 1;
       } else {
         this.#usedSvgs[symbol.name] = 1;
       }
     } else {
       const usedSymbols: string[] = [];
-  
-      // Get frame to load
-      let frameToLoad: number;
 
       // Check if symbol has an offset
       if (symbol.offset) {
-        symbolContainer.x = symbol.offset.x ?? 0;
-        symbolContainer.y = symbol.offset.y ?? 0;
+        // eslint-disable-next-line no-param-reassign
+        symbolContainer.x = this.#scale * SCALE * (symbol.offset.x ?? 0);
+        // eslint-disable-next-line no-param-reassign
+        symbolContainer.y = this.#scale * SCALE * (symbol.offset.y ?? 0);
       }
-  
+
+      // Get frame to load
+      let frameToLoad: number;
+
       // If symbol has partIdx, only load the corresponding frame
       if (symbol.partIdx) {
-        const partValue = this.#parts[symbol.partIdx];
-  
+        const partValue = this.#parts[symbol.partIdx.substring(1)];
+
         if (partValue === undefined) {
           throw new Error(`Part ${symbol.partIdx} not found in fighter config`);
         }
-  
+
         frameToLoad = partValue;
       } else if (symbol.name === WEAPON_SYMBOL) {
         // Load current weapon frame
-        frameToLoad = weaponFrames.indexOf(this.weapon);
-      } else {
+        frameToLoad = WEAPON_FRAMES.indexOf(this.weapon);
+      } else if (symbol.name === 'Symbol526') {
+        // Special case for whip animation
+        frameToLoad = 16;
+      } else if (ANIMATION_SYMBOL_NAMES[this.#animationType].includes(symbol.name)) {
         // If the symbol is an animation, load the current frame
-        if (animationSymbolNames[this.type === 'panther' ? 'dog' : this.type].includes(symbol.name)) {
-          frameToLoad = this.#frame;
-        } else {
-          // Else load the first frame
-          frameToLoad = 0;
-        }
+        frameToLoad = this.#frame;
+      } else {
+        // Else load the first frame
+        frameToLoad = 0;
       }
-  
+
       const frameParts = symbol.frames?.[frameToLoad] ?? [];
       const usedContainers: Record<string, number> = {};
-  
+
       for (let i = 0; i < frameParts.length; i++) {
         const framePart = frameParts[i];
-  
+
+        if (!framePart) {
+          throw new Error(`Part ${i} not found in frame ${frameToLoad}`);
+        }
+
         // Count identic symbols already used
-        const identicSymbolsCount = usedSymbols.filter(s => s === framePart.name).length;
-  
+        const identicSymbolsCount = usedSymbols.filter((s) => s === framePart.name).length;
+
         // Get corresponding symbol
-        const framePartSymbol = symbol.parts?.filter(p => p.name === framePart.name)[identicSymbolsCount];
-  
+        const framePartSymbol = symbol.parts
+          ?.filter((p) => p.name === framePart.name)[identicSymbolsCount];
+
         if (!framePartSymbol) {
           throw new Error(`Part ${framePart.name} not found in symbol ${symbol.name}`);
         }
-  
+
         if (framePartSymbol.type === 'svg') {
           this.#displayFrame(
             symbolContainer,
@@ -608,29 +1086,30 @@ class Fighter {
           );
           continue;
         }
-  
+
         // Get corresponding container
         const sameParts = symbolContainer.children.filter(
           (child) => child instanceof PIXI.Container
             && child.name === framePart.name
         ).length;
         const framePartContainer = symbolContainer.children
-          .filter((child) => child instanceof PIXI.Container && child.name === framePart.name)
-        [sameParts - (usedContainers[framePart.name] ?? 0) - 1] as PIXI.Container | undefined;
-  
+          .filter(
+            (child) => child instanceof PIXI.Container && child.name === framePart.name
+          )[sameParts - (usedContainers[framePart.name] ?? 0) - 1] as PIXI.Container | undefined;
+
         if (!framePartContainer) {
           throw new Error(`Container ${framePart.name} not found`);
         }
-  
+
         // Apply transform
         if (framePart.transform) {
-          const size = SCALE * (this.type === 'panther' ? 1.5 : 1);
-          framePartContainer.transform.setFromMatrix(PixiHelper.matrixFromObject(framePart.transform, size));
+          const size = SCALE * this.#scale;
+          framePartContainer.transform.setFromMatrix(matrixFromObject(framePart.transform, size));
         }
-  
+
         // Apply color offset
         if (framePart.colorOffset) {
-          if (this.type === 'panther') {
+          if (this.type === 'pet' && this.name === 'panther') {
             framePartContainer.filters = [new Filter(undefined, ColorOffsetShader, {
               offset: new Float32Array([-82, -97, -82]),
               mult: new Float32Array([1, 1, 1])
@@ -646,12 +1125,12 @@ class Fighter {
             })];
           }
         }
-  
+
         // Apply alpha
         if (framePart.alpha) {
           framePartContainer.alpha = framePart.alpha;
         }
-  
+
         // Apply masking
         if (framePart.maskedBy) {
           // Get mask sprite
@@ -662,65 +1141,148 @@ class Fighter {
 
           framePartContainer.mask = maskSprite;
         }
-  
+
         // Apply visibility
         framePartContainer.visible = true;
-        if (usedContainers[framePart.name]) {
-          usedContainers[framePart.name]++;
+        const usedCount = usedContainers[framePart.name];
+        if (usedCount) {
+          usedContainers[framePart.name] = usedCount + 1;
         } else {
           usedContainers[framePart.name] = 1;
         }
-  
+
         // Handle children
-        this.#displayFrame(framePartContainer, framePartSymbol, framePartSymbol.colorIdx ?? colorIdx);
+        this.#displayFrame(
+          framePartContainer,
+          framePartSymbol,
+          framePartSymbol.colorIdx ?? colorIdx,
+        );
       }
     }
-  }
+  };
 
-  once = (event: string, callback: (event: string) => void) => {
+  once = (event: string, callback: (e: string) => void) => {
     if (!this.onceEvents[event]) {
       this.onceEvents[event] = [];
     }
 
-    this.onceEvents[event].push(callback);
-  }
+    (this.onceEvents[event] ?? []).push(callback);
+  };
 
-  on = (event: string, callback: (event: string) => void) => {
+  on = (event: string, callback: (e: string) => void) => {
     if (!this.events[event]) {
       this.events[event] = [];
     }
 
-    this.events[event].push(callback);
-  }
+    (this.events[event] ?? []).push(callback);
+  };
 
   play = () => {
     this.#playing = true;
-  }
+  };
 
   pause = () => {
     this.#playing = false;
-  }
+  };
+
+  waitForEvent = async (event: string) => new Promise<void>((resolve) => {
+    this.once(event, () => {
+      resolve();
+    });
+  });
+
+  // Stop / restart actualizing zIndex
+  setAirborn = (airborn: boolean) => {
+    if (!airborn) {
+      this.shadow.alpha = 1;
+      this.shadow.y = 0;
+      this.shadow.scale.set(1, 1);
+      this.container.zIndex = this.container.y;
+    }
+    this.#isAirborn = airborn;
+  };
+
+  destroy = () => {
+    this.pause();
+    this.container.destroy();
+  };
 }
 
-type BruteState = {
-  animation: string;
-  frame: number;
-  type: 'male' | 'female' | 'dog' | 'bear' | 'panther';
-  shield: boolean;
+type FighterState = {
+  fighter: FighterData;
+  animation: Animation;
   weapon: string | null;
-  colors: Record<string, string>;
-  parts: Record<string, number>;
 };
 
-const fighter = new Fighter({
+const speedRef: MutableRefObject<number> = { current: 1 };
+
+export const male: FighterState = {
+  fighter: {
+    type: 'brute',
+    name: 'test-brute',
+    gender: 'male',
+    team: 'L',
+    colors: '03030301010101010803151401191418',
+    body: '01013100611',
+    skills: [],
+    shield: false,
+  },
   animation: 'hit-0',
-  frame: 0,
-  type: 'male',
-  shield: false,
   weapon: 'sword',
-  colors: readColorString('male', '03030301010101010803151401191418'),
-  parts: readBodyString('01013100611'),
-}, 200, 200);
+};
+export const female: FighterState = {
+  fighter: {
+    type: 'brute',
+    name: 'test-brute',
+    gender: 'female',
+    team: 'L',
+    colors: '01010103030303030701021915180706',
+    body: '00100100610',
+    skills: [],
+    shield: false,
+  },
+  animation: 'hit',
+  weapon: 'sword',
+};
+export const dog: FighterState = {
+  fighter: {
+    type: 'pet',
+    name: 'dog',
+    team: 'L',
+    skills: [],
+    shield: false,
+  },
+  animation: 'attack',
+  weapon: null,
+};
+export const bear: FighterState = {
+  fighter: {
+    type: 'pet',
+    name: 'bear',
+    team: 'L',
+    skills: [],
+    shield: false,
+  },
+  animation: 'attack',
+  weapon: null,
+};
+
+const selected = bear;
+
+const fighter = new FighterHolder(
+  app,
+  selected.fighter,
+  speedRef,
+  2,
+);
+
+// Set initial position
+fighter.container.x = 200;
+fighter.container.y = 200;
+
+// Set initial animation
+fighter.setAnimation(selected.animation);
+fighter.weapon = selected.weapon;
 
 console.log(`SVG count: ${fighter.svgs.length}`);
 
@@ -743,6 +1305,6 @@ fighter.on('arrive:start', () => {
 viewport.addChild(fighter.container);
 
 declare global {
-  interface Window { fighter: Fighter; }
+  interface Window { fighter: FighterHolder; }
 }
 window.fighter = fighter;
