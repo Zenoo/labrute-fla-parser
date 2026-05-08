@@ -1142,6 +1142,9 @@ export default class FighterHolder {
           framePartContainer.mask = maskSprite;
         }
 
+        // Apply zIndex
+        framePartContainer.zIndex = frameParts.length - i;
+
         // Apply visibility
         framePartContainer.visible = true;
         const usedCount = usedContainers[framePart.name];
@@ -1241,7 +1244,7 @@ export const female: FighterState = {
     skills: [],
     shield: false,
   },
-  animation: 'hit',
+  animation: 'idle',
   weapon: 'sword',
 };
 export const dog: FighterState = {
@@ -1263,11 +1266,11 @@ export const bear: FighterState = {
     skills: [],
     shield: false,
   },
-  animation: 'attack',
+  animation: 'idle',
   weapon: null,
 };
 
-const selected = bear;
+const selected = female;
 
 const fighter = new FighterHolder(
   app,
