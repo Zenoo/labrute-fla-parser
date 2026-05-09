@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.14](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.13...v1.0.14) (2026-05-09)
+
+
+### Bug Fixes
+
+* Easier switch between different fighter types while testing ([130f7f2](https://github.com/Zenoo/labrute-fla-parser/commit/130f7f239b480f2a6172d159a39bcf6a35390a18))
+* Misplaced pet limbs ([e8f9cf4](https://github.com/Zenoo/labrute-fla-parser/commit/e8f9cf4d9e2299e8a0c2586106dbe40912c9de77))
+
 ## [1.0.13](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.12...v1.0.13) (2024-11-24)
 
 
