@@ -1,6 +1,6 @@
 {
   "name": "labrute-pixi-fighter",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "PixiJS fighter animations and FLA symbol data for LaBrute.",
   "main": "dist/Symbols.js",
   "module": "dist/Symbols.mjs",

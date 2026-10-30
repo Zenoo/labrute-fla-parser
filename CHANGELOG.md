@@ -7,6 +7,17 @@
 * Add conditional exports, format-specific TypeScript declarations, and packaging
   and browser regressions while retaining the legacy CommonJS entry point.
 
+## [1.0.14](https://github.com/Zenoo/labrute-pixi-fighter/compare/v1.0.13...v1.0.14) (2026-10-30)
+
+
+### Bug Fixes
+
+* Easier switch between different fighter types while testing ([130f7f2](https://github.com/Zenoo/labrute-pixi-fighter/commit/130f7f239b480f2a6172d159a39bcf6a35390a18))
+* Export CJS + ESM ([0c31523](https://github.com/Zenoo/labrute-pixi-fighter/commit/0c315230537976eabbb2b38e0a63b3a14ab0558e))
+* Export FighterHolder directly + new test view ([7366fa7](https://github.com/Zenoo/labrute-pixi-fighter/commit/7366fa7ffe48fff4c1bd4b04262b5887b5803765))
+* Misplaced pet limbs ([e8f9cf4](https://github.com/Zenoo/labrute-pixi-fighter/commit/e8f9cf4d9e2299e8a0c2586106dbe40912c9de77))
+* Update GH package name ([58b0e5d](https://github.com/Zenoo/labrute-pixi-fighter/commit/58b0e5d97a58f21cb00b4ad68d3ea061de1f7d7d))
+
 ## [1.0.13](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.12...v1.0.13) (2024-11-24)
 
 
