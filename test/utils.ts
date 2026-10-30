@@ -2,14 +2,7 @@ type Gender = 'male' | 'female';
 
 const colors = {
   male: {
-    skin: [
-      '#996600',
-      '#eccd57',
-      '#cb841b',
-      '#d79b75',
-      '#fbe6c8',
-      '#f8d198',
-    ],
+    skin: ['#996600', '#eccd57', '#cb841b', '#d79b75', '#fbe6c8', '#f8d198'],
     hair: [
       '#784129',
       '#fff9ae',
@@ -46,14 +39,7 @@ const colors = {
     ],
   },
   female: {
-    skin: [
-      '#996600',
-      '#f8cdc2',
-      '#cb841b',
-      '#eaaca6',
-      '#fbe6c8',
-      '#f8d198',
-    ],
+    skin: ['#996600', '#f8cdc2', '#cb841b', '#eaaca6', '#fbe6c8', '#f8d198'],
     hair: [
       '#fff9ae',
       '#b85f1d',
@@ -88,9 +74,7 @@ const colors = {
       '#fff2df',
     ],
   },
-  special: [
-    '#000000',
-  ],
+  special: ['#000000'],
 };
 
 export const getColor = (gender: Gender, part: string, color: number) => {
@@ -123,10 +107,7 @@ export const readBodyString = (bodyString: string) => ({
   p8: parseInt(bodyString[10] || '0', 16),
 });
 
-export const readColorString = (
-  gender: Gender,
-  colorsString: string
-) => ({
+export const readColorString = (gender: Gender, colorsString: string) => ({
   col0: getColor(gender, 'col0', +colorsString.slice(0, 2)),
   col0a: getColor(gender, 'col0a', +colorsString.slice(2, 4)),
   col0c: getColor(gender, 'col0c', +colorsString.slice(4, 6)),

@@ -1,28 +1,17 @@
 /* eslint-disable prefer-named-capture-group */
 const path = require('path');
-const webpack = require('webpack');
-const dotenv = require('dotenv');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
-dotenv.config();
 
 module.exports = (env, argv) => {
   const dev = argv.mode === 'development';
 
   const plugins = [
-    new HtmlWebpackPlugin(),
-    new webpack.DefinePlugin({
-      'process.env': JSON.stringify(process.env)
-    })
+    new HtmlWebpackPlugin({ template: './test/index.html' })
   ];
-
-  if (dev) {
-    plugins.push(new webpack.HotModuleReplacementPlugin());
-  }
 
   return {
     entry: './test/index.ts',
-    devtool: dev ? 'source-map' : 'none',
+    devtool: dev ? 'source-map' : false,
     mode: 'development',
     module: {
       rules: [
@@ -41,6 +30,9 @@ module.exports = (env, argv) => {
     },
     devServer: {
       port: 3000,
+      static: false,
+      hot: false,
+      liveReload: true,
     },
     plugins
   };

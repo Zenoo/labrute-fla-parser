@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fighter playground · LaBrute</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font:
+        15px/1.5 system-ui,
+        sans-serif;
+      color: #253340;
+      background: #f4f5f7;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    header,
+    main {
+      max-width: 1440px;
+      margin: auto;
+      padding: 24px 32px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 27px;
+      letter-spacing: -0.8px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 17px;
+    }
+
+    p {
+      margin: 4px 0 0;
+      color: #657281;
+    }
+
+    .badge {
+      background: #e1f1ec;
+      color: #24644f;
+      border-radius: 30px;
+      padding: 6px 12px;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 320px minmax(0, 1fr);
+      gap: 24px;
+      padding-top: 0;
+      align-items: start;
+    }
+
+    .panel {
+      background: white;
+      border: 1px solid #dee3e9;
+      border-radius: 14px;
+      overflow: hidden;
+    }
+
+    .section {
+      padding: 20px;
+      border-bottom: 1px solid #e9edf1;
+    }
+
+    .section:last-child {
+      border-bottom: 0;
+    }
+
+    .fields {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px 12px;
+      margin-top: 16px;
+    }
+
+    label {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .wide {
+      grid-column: 1 / -1;
+    }
+
+    select,
+    input[type='text'],
+    button {
+      font: inherit;
+      border: 1px solid #cdd5de;
+      border-radius: 7px;
+      padding: 9px 10px;
+      color: #253340;
+      background: white;
+      width: 100%;
+    }
+
+    select {
+      cursor: pointer;
+    }
+
+    button {
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    button:hover {
+      background: #f0f5f4;
+      border-color: #789b91;
+    }
+
+    button.primary {
+      background: #226752;
+      border-color: #226752;
+      color: white;
+    }
+
+    button:disabled {
+      opacity: 0.5;
+      cursor: default;
+    }
+
+    :focus-visible {
+      outline: 3px solid #84b8ff;
+      outline-offset: 3px;
+    }
+
+    .check {
+      flex-direction: row;
+      align-items: center;
+      gap: 8px;
+      min-height: 35px;
+    }
+
+    input[type='checkbox'] {
+      accent-color: #226752;
+      width: 17px;
+      height: 17px;
+    }
+
+    input[type='range'] {
+      width: 100%;
+      accent-color: #226752;
+    }
+
+    input[type='color'] {
+      width: 100%;
+      height: 36px;
+      padding: 3px;
+      border: 1px solid #cdd5de;
+      border-radius: 6px;
+      background: white;
+      cursor: pointer;
+    }
+
+    summary {
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .help {
+      font-size: 12px;
+      margin-top: 10px;
+    }
+
+    .stage-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 22px;
+      gap: 12px;
+      border-bottom: 1px solid #e9edf1;
+    }
+
+    #preview {
+      width: 100%;
+      height: 520px;
+      position: relative;
+      background-color: #faf9f6;
+      overflow: hidden;
+    }
+
+    #preview.grid {
+      background-image: linear-gradient(#dce1e680 1px, transparent 1px),
+        linear-gradient(90deg, #dce1e680 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+
+    canvas {
+      display: block;
+    }
+
+    #status {
+      font-size: 13px;
+      color: #657281;
+    }
+
+    #status[data-state='error'] {
+      color: #b42318;
+    }
+
+    .playback {
+      padding: 18px 22px;
+      border-top: 1px solid #e9edf1;
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .toolbar button {
+      width: auto;
+      min-width: 90px;
+    }
+
+    .toolbar label {
+      margin-left: auto;
+    }
+
+    .timeline {
+      margin-top: 18px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .timeline label {
+      flex: 1;
+    }
+
+    output {
+      font-variant-numeric: tabular-nums;
+      font-size: 13px;
+      white-space: nowrap;
+      color: #657281;
+    }
+
+    .footnote {
+      font-size: 13px;
+      margin: 14px 4px;
+    }
+
+    #appearance-controls[hidden] {
+      display: none;
+    }
+
+    @media (max-width: 800px) {
+
+      header,
+      main {
+        padding: 18px;
+      }
+
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      .preview-column {
+        grid-row: 1;
+      }
+
+      #preview {
+        height: 380px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>Fighter playground</h1>
+      <p>Explore appearances and animations. Changes update the preview automatically.</p>
+    </div>
+    <span class="badge">LaBrute · Pixi Fighter</span>
+  </header>
+  <main>
+    <aside class="panel" aria-label="Fighter settings">
+      <section class="section">
+        <h2>Fighter</h2>
+        <div class="fields">
+          <label class="wide">
+            Model
+            <select id="model">
+              <option value="female">Female brute</option>
+              <option value="male">Male brute</option>
+              <option value="dog">Dog</option>
+              <option value="bear">Bear</option>
+              <option value="panther">Panther</option>
+            </select>
+          </label>
+          <label>
+            Facing
+            <select id="team">
+              <option value="L">Right →</option>
+              <option value="R">← Left</option>
+            </select>
+          </label>
+          <label>
+            Scale
+            <select id="scale">
+              <option value="1">1×</option>
+              <option value="1.5">1.5×</option>
+              <option value="2" selected>2×</option>
+              <option value="3">3×</option>
+              <option value="4">4×</option>
+            </select>
+          </label>
+          <label class="wide">Animation<select id="animation"></select></label>
+          <label class="wide">Weapon<select id="weapon"></select></label>
+          <label class="check wide"><input id="shield" type="checkbox" /> Show shield</label>
+        </div>
+      </section>
+      <div id="appearance-controls">
+        <details class="section" open>
+          <summary>Body parts</summary>
+          <p class="help">Choose a variation for each part of the model.</p>
+          <div class="fields" id="body-fields"></div>
+        </details>
+        <details class="section">
+          <summary>Colors</summary>
+          <p class="help">
+            Colors update live. Animation pauses while a color picker has focus; click outside it
+            to resume.
+          </p>
+          <div class="fields" id="color-fields"></div>
+        </details>
+        <details class="section">
+          <summary>Import appearance</summary>
+          <div class="fields">
+            <label class="wide">Body string<input id="body-string" type="text" spellcheck="false" maxlength="11"
+                aria-describedby="body-help" /></label>
+            <p id="body-help" class="help wide">
+              11 hexadecimal digits. Enter a valid string to apply it.
+            </p>
+            <label class="wide">Color string<input id="color-string" type="text" spellcheck="false" maxlength="32"
+                aria-describedby="color-help" /></label>
+            <p id="color-help" class="help wide">
+              32 digits, matching the production appearance format. Custom color pickers can be
+              used afterward.
+            </p>
+          </div>
+        </details>
+      </div>
+      <div class="section"><button id="reset" type="button">Reset fighter</button></div>
+    </aside>
+    <div class="preview-column">
+      <section class="panel" aria-label="Animated fighter preview">
+        <div class="stage-heading">
+          <h2>Live preview</h2>
+          <span id="status" role="status" aria-live="polite">Starting renderer…</span>
+        </div>
+        <div id="preview" class="grid" aria-label="Fighter animation canvas"></div>
+        <div class="playback">
+          <div class="toolbar">
+            <button id="play" type="button" class="primary" disabled>Pause</button>
+            <button id="restart" type="button" disabled>Restart</button>
+            <label>
+              Speed
+              <select id="speed">
+                <option value="0.25">0.25×</option>
+                <option value="0.5">0.5×</option>
+                <option value="1" selected>1×</option>
+                <option value="2">2×</option>
+                <option value="4">4×</option>
+              </select>
+            </label>
+            <label class="check"><input id="grid" type="checkbox" checked /> Grid</label>
+          </div>
+          <div class="timeline">
+            <label for="frame">Frame<input id="frame" type="range" min="0" max="0" value="0" disabled /></label><output
+              id="frame-count" for="frame">0 / 0</output>
+          </div>
+          <p class="help">
+            Drag the frame slider to pause and inspect a pose. Press Play to continue.
+          </p>
+        </div>
+      </section>
+      <p class="footnote">
+        Body and color controls apply to brutes. Equipment is available in supported brute
+        animations.
+      </p>
+    </div>
+  </main>
+</body>
+
+</html>
