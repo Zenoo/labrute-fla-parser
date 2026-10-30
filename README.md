@@ -22,6 +22,35 @@ import { Symbol475 } from 'labrute-pixi-fighter';
 console.log(Symbol475);
 ```
 
+CommonJS consumers use the same named API:
+
+```js
+const { FighterHolder, Symbol475 } = require('labrute-pixi-fighter');
+```
+
+The package root selects a genuine ESM renderer for `import` and a CommonJS
+renderer for `require`. Both are compiled from the same FighterHolder source.
+The ESM renderer imports `pixi.js` directly, so Vite and other ESM applications
+share their Pixi `Container` class and `Assets` cache with the fighter. CommonJS
+applications share their own CommonJS Pixi runtime. Keep your application's Pixi
+imports in the same module format as the renderer it loads.
+
+The symbol/SVG object graph is published once in `dist/symbol-data.cjs`, without
+Pixi or rendering dependencies. Both entry points reference this file; the ESM
+entry does not wrap the CommonJS renderer. A browser bundler must support
+CommonJS dependencies (as Vite and Webpack do). Symbol data is shared even when
+both entry points are loaded in Node, while renderer classes and their private
+texture caches are separate for each format. The shared data module limits
+per-symbol tree shaking; selecting one symbol can still include the dataset.
+
+`main` remains `dist/Symbols.js` for legacy CommonJS consumers, and `module` now
+points to `dist/Symbols.mjs`. The existing `labrute-pixi-fighter/dist/Symbols.js`
+path remains available for compatibility. Prefer the package root so conditional
+exports select the appropriate renderer. Other internal paths are not public.
+TypeScript Node16/NodeNext resolution selects `.d.cts` or `.d.mts` declarations;
+legacy resolution uses `types` and `dist/Symbols.d.ts`. The package itself keeps
+its existing CommonJS `.js` convention.
+
 ## Fighter animations
 
 `FighterHolder` owns the Pixi animation timelines, SVG textures, sprite pools,
@@ -75,8 +104,28 @@ remain available to subclasses and callers.
 ## Development
 
 `npm run build` regenerates the published JavaScript and declarations.
-`npm run test:unit` tests the built package using real Pixi scene objects with
-GPU filters and rasterization stubbed.
+Rollup builds the data module separately and marks it external in both renderer
+builds, preventing two embedded copies. Named symbol exports are generated from
+`src/symbols/index.ts`; add new exports there rather than editing build output.
+Pixi remains an external peer dependency and is installed as a development
+dependency for local checks.
+
+After building, `npm run test:unit` runs the existing behavior suite against both
+formats with real Pixi scene objects and filters, substituting SVG rasterization
+and GPU probing in Node. It also checks public export parity, object identity,
+consumer Pixi classes/cache, TypeScript NodeNext entry resolution, the packed
+file list, and a browser bundle's module graph. The browser bundle must contain
+only Pixi's ESM implementation. `npm run test:packaging` runs just the packaging
+checks. `npm pack --dry-run` inspects the publishable artifact without publishing.
+
+`npm run test:browser` additionally launches an installed Chromium browser
+(or the executable in `BROWSER_BIN`) using headless WebGL with SwiftShader. It
+constructs and renders male, female, dog, and bear fighters with real SVG assets,
+checks colored output pixels, shadow texture generation, consumer Pixi identity,
+and texture/cache reuse. Temporary bundle and result files live under the ignored
+`.packaging-test` directory. This smoke check does not replace visual review of
+animation frames in the playground. Restricted environments that cannot start
+Chromium's sandbox can explicitly set `BROWSER_NO_SANDBOX=1` for this local test.
 
 Run `npm install` after pulling dependency changes, then `npm test` and open
 http://localhost:3000. The playground uses the exported renderer and refreshes

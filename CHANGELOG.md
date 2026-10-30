@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+* Publish genuine CommonJS and ESM FighterHolder builds that use the consumer's
+  matching Pixi runtime, with one shared symbol/SVG data module.
+* Add conditional exports, format-specific TypeScript declarations, and packaging
+  and browser regressions while retaining the legacy CommonJS entry point.
+
 ## [1.0.13](https://github.com/Zenoo/labrute-fla-parser/compare/v1.0.12...v1.0.13) (2024-11-24)
 
 

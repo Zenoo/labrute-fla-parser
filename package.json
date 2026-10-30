@@ -3,15 +3,17 @@
   "version": "1.0.13",
   "description": "PixiJS fighter animations and FLA symbol data for LaBrute.",
   "main": "dist/Symbols.js",
-  "module": "dist/Symbols.js",
+  "module": "dist/Symbols.mjs",
   "types": "dist/Symbols.d.ts",
   "scripts": {
     "build": "rollup --config && rollup --config rollup-declarations.config.mjs && node -e \"require('fs').rmSync('dist/src', { recursive: true, force: true })\"",
     "test": "webpack serve --mode development",
     "deploy": "npm publish",
     "export-xml": "ts-node ./src/exportXmlAsJson.ts",
-    "test:unit": "node --test test/FighterHolder.test.cjs",
-    "prepublishOnly": "npm run build && npm run test:unit"
+    "test:unit": "node --test test/*.test.cjs test/*.test.mjs",
+    "prepublishOnly": "npm run build && npm run test:unit",
+    "test:packaging": "node --test test/packaging.test.cjs",
+    "test:browser": "node test/browser.cjs"
   },
   "repository": {
     "type": "git",
@@ -78,12 +80,32 @@
   },
   "files": [
     "dist/Symbols.js",
+    "dist/Symbols.mjs",
+    "dist/symbol-data.cjs",
     "dist/Symbols.d.ts",
-    "examples/ProductionFighterHolder.ts",
+    "dist/Symbols.d.cts",
+    "dist/Symbols.d.mts",
     "CHANGELOG.md"
   ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/Symbols.d.mts",
+        "default": "./dist/Symbols.mjs"
+      },
+      "require": {
+        "types": "./dist/Symbols.d.cts",
+        "default": "./dist/Symbols.js"
+      }
+    },
+    "./dist/Symbols.js": {
+      "types": "./dist/Symbols.d.cts",
+      "default": "./dist/Symbols.js"
+    },
+    "./package.json": "./package.json"
   }
 }
