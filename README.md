@@ -1,5 +1,7 @@
 # LaBrute Pixi Fighter
 
+![Preview](.github/media/test-preview.png)
+
 PixiJS fighter animations and FLA symbol data for LaBrute. Previously published
 as `labrute-fla-parser`.
 
