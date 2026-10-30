@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zenoo/labrute-fla-parser.git"
+    "url": "git+https://github.com/Zenoo/labrute-pixi-fighter.git"
   },
   "bugs": {
-    "url": "https://github.com/Zenoo/labrute-fla-parser/issues"
+    "url": "https://github.com/Zenoo/labrute-pixi-fighter/issues"
   },
-  "homepage": "https://github.com/Zenoo/labrute-fla-parser#readme",
+  "homepage": "https://github.com/Zenoo/labrute-pixi-fighter#readme",
   "keywords": [
     "twinoid",
     "muxxu",
