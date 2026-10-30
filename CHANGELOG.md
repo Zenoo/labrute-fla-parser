@@ -7,6 +7,13 @@
 * Add conditional exports, format-specific TypeScript declarations, and packaging
   and browser regressions while retaining the legacy CommonJS entry point.
 
+## [1.0.15](https://github.com/Zenoo/labrute-pixi-fighter/compare/v1.0.14...v1.0.15) (2026-10-30)
+
+
+### Bug Fixes
+
+* Use npm trusted publisher ([0a3e4a4](https://github.com/Zenoo/labrute-pixi-fighter/commit/0a3e4a409492bc5dd28d124171fb1ff158f7c300))
+
 ## [1.0.14](https://github.com/Zenoo/labrute-pixi-fighter/compare/v1.0.13...v1.0.14) (2026-10-30)
 
 
