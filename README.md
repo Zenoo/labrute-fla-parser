@@ -144,3 +144,11 @@ At normal speed the preview renders at most 30 times per second, and stops
 rendering when paused, hidden, offscreen, scrolling, or focused on a color picker.
 Live color edits reuse the current fighter through `setColors()`;
 model/body/scale changes recreate it.
+
+## Publishing from CI
+
+`.github/workflows/release-please.yml` publishes to npm when release-please creates
+a release on `main`. It uses GitHub Actions OIDC trusted publishing, without an
+`NPM_TOKEN` secret. Node 24 supplies a compatible npm CLI (11.5.1 or later), and
+`id-token: write` lets npm authenticate the workflow. `npm run deploy` invokes
+`npm publish`; its `prepublishOnly` hook builds the package and runs the tests.
